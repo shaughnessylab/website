@@ -22,21 +22,29 @@
 
     header {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 0.5rem 2rem;
-      background: white;
-      border-bottom: 1px solid #eee;
+      justify-content: space-between;
+      padding: 0.75rem 2rem;
+      background-color: white;
       position: sticky;
       top: 0;
       z-index: 100;
     }
 
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      height: 50px;
+      margin-right: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
     .lab-title {
       font-size: 1.8rem;
       margin: 0;
-      text-align: right;
-      flex-grow: 1;
     }
 
     .lab-title span:first-child {
@@ -51,7 +59,8 @@
 
     nav {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
+      font-family: 'Arial', sans-serif;
     }
 
     nav a {
@@ -68,16 +77,12 @@
       border-bottom: 2px solid var(--primary);
     }
 
-    header img {
-      height: 50px;
-      margin-left: 1rem;
-    }
-
     .slideshow-container {
       max-width: 1000px;
       height: 500px;
       margin: 2rem auto;
       position: relative;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     }
 
     .slideshow-container img {
@@ -111,20 +116,40 @@
     p {
       font-size: 1.2rem;
     }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      padding: 2rem 1rem;
+      background: #f9f9f9;
+      color: var(--gray);
+      border-top: 1px solid #eee;
+    }
+
+    footer img {
+      height: 30px;
+      margin-bottom: 0.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1 class="lab-title">
-      <span>Shaughnessy</span><span>Lab</span>
-    </h1>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Lab Logo" />
+      <h1 class="lab-title">
+        <span>Shaughnessy</span><span>Lab</span>
+      </h1>
+    </div>
     <nav>
       <a href="index.html" class="active">Home</a>
       <a href="people.html">Lab Members</a>
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
     </nav>
-    <img src="images/logo.png" alt="Lab Logo" />
   </header>
 
   <div class="slideshow-container">
@@ -140,6 +165,12 @@
     <p>Integrative Physiology & Evolutionary Endocrinology</p>
     <p>Exploring ion transport, thermal tolerance, and evolutionary mechanisms in aquatic vertebrates</p>
   </div>
+
+  <footer>
+    <img src="images/logo.png" alt="Mini Logo">
+    <p>Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</p>
+    <p>&copy; 2025 Shaughnessy Lab. All rights reserved.</p>
+  </footer>
 
   <script>
     const slides = document.querySelectorAll('.slideshow-container img');
