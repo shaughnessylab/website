@@ -6,70 +6,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Shaughnessy Lab</title>
   <style>
+    :root {
+      --primary: #fe5c00;
+      --bg: #ffffff;
+      --text: #222222;
+      --muted: #f5f5f5;
+      --shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+      --radius: 10px;
+    }
     body {
       margin: 0;
       font-family: 'Georgia', serif;
-      background: #fff;
-      color: #222;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
     }
     header {
-      background: #fe5c00;
+      background: var(--primary);
       color: white;
-      padding: 2rem;
+      padding: 3rem 1rem;
       text-align: center;
     }
     header h1 {
       margin: 0;
       font-size: 3rem;
+      font-weight: 400;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
     }
     section {
-      padding: 3rem 1.5rem;
-      max-width: 900px;
+      padding: 4rem 1.5rem;
+      max-width: 960px;
       margin: auto;
     }
     h2 {
       font-size: 2rem;
-      border-bottom: 2px solid #fe5c00;
+      border-bottom: 2px solid var(--primary);
       margin-bottom: 1rem;
       padding-bottom: 0.25rem;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin-top: 1.5rem;
     }
     .card {
-      background: #f9f9f9;
+      background: var(--muted);
       padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
     }
     .card img {
       width: 100%;
-      border-radius: 4px;
-      margin-bottom: 0.5rem;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
     }
     .profile {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
-      gap: 1rem;
+      gap: 1.5rem;
     }
     .profile img {
-      width: 100px;
-      height: 100px;
+      width: 110px;
+      height: 110px;
       border-radius: 50%;
       object-fit: cover;
+      flex-shrink: 0;
     }
     footer {
       background: #eee;
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
       font-size: 0.9rem;
       color: #555;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .profile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
@@ -83,7 +112,7 @@
 <section>
   <h2>About the PI</h2>
   <div class="profile">
-    <img src="https://via.placeholder.com/100" alt="PI Photo"/>
+    <img src="https://via.placeholder.com/110" alt="PI Photo"/>
     <div>
       <p><strong>Dr. Ciaran Shaughnessy</strong></p>
       <p>Assistant Professor, Department of Integrative Biology, Oklahoma State University</p>
@@ -97,17 +126,17 @@
   <h2>Research Areas</h2>
   <div class="grid">
     <div class="card">
-      <img src="https://via.placeholder.com/300x150" alt="Comparative Physiology">
+      <img src="https://via.placeholder.com/300x160" alt="Comparative Physiology">
       <strong>Comparative Physiology</strong>
       <p>Studying physiological adaptations across fish and amphibians in varied environments.</p>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/300x150" alt="CFTR and Ion Transport">
+      <img src="https://via.placeholder.com/300x160" alt="CFTR and Ion Transport">
       <strong>CFTR & Ion Transport</strong>
       <p>Mechanisms of chloride transport and endocrine regulation in health and disease models.</p>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/300x150" alt="Thermal Tolerance">
+      <img src="https://via.placeholder.com/300x160" alt="Thermal Tolerance">
       <strong>Thermal Tolerance</strong>
       <p>Understanding thermal stress and resilience in aquatic species under climate change.</p>
     </div>
