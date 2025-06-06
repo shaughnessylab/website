@@ -8,60 +8,106 @@
   <style>
     :root {
       --primary: #fe5c00;
-      --bg: #ffffff;
       --text: #1a1a1a;
+      --gray: #333;
+      --bg: #ffffff;
     }
+
     body {
       margin: 0;
       font-family: 'Georgia', serif;
       background-color: var(--bg);
       color: var(--text);
     }
+
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
+      padding: 0.5rem 2rem;
       background: white;
       border-bottom: 1px solid #eee;
       position: sticky;
       top: 0;
       z-index: 100;
     }
-    header img {
-      height: 50px;
+
+    .lab-title {
+      font-size: 1.8rem;
+      margin: 0;
+      text-align: right;
+      flex-grow: 1;
     }
-    nav a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: var(--text);
+
+    .lab-title span:first-child {
+      color: var(--primary);
+      font-weight: normal;
+    }
+
+    .lab-title span:last-child {
+      color: var(--gray);
       font-weight: bold;
     }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: normal;
+      padding-bottom: 2px;
+      border-bottom: 2px solid transparent;
+    }
+
+    nav a.active,
     nav a:hover {
       color: var(--primary);
+      border-bottom: 2px solid var(--primary);
     }
+
+    header img {
+      height: 50px;
+      margin-left: 1rem;
+    }
+
     .slideshow-container {
       max-width: 1000px;
+      height: 500px;
       margin: 2rem auto;
-      text-align: center;
+      position: relative;
     }
+
     .slideshow-container img {
+      position: absolute;
+      top: 0; left: 0;
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
       border-radius: 10px;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      opacity: 0;
       transition: opacity 1s ease-in-out;
     }
+
+    .slideshow-container img.active {
+      opacity: 1;
+      z-index: 1;
+    }
+
     .content {
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
       text-align: center;
     }
+
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
+
     p {
       font-size: 1.2rem;
     }
@@ -69,17 +115,24 @@
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Lab Logo" />
+    <h1 class="lab-title">
+      <span>Shaughnessy</span><span>Lab</span>
+    </h1>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="people.html">Lab Members</a>
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
     </nav>
+    <img src="images/logo.png" alt="Lab Logo" />
   </header>
 
   <div class="slideshow-container">
-    <img id="slideshow-image" src="images/home/slide1.jpg" alt="Lab Image Slideshow" />
+    <img class="active" src="images/home/slide1.jpg" />
+    <img src="images/home/slide2.jpg" />
+    <img src="images/home/slide3.jpg" />
+    <img src="images/home/slide4.jpg" />
+    <img src="images/home/slide5.jpg" />
   </div>
 
   <div class="content">
@@ -89,24 +142,14 @@
   </div>
 
   <script>
-    const imagePaths = [
-      "images/home/slide1.jpg",
-      "images/home/slide2.jpg",
-      "images/home/slide3.jpg",
-      "images/home/slide4.jpg",
-      "images/home/slide5.jpg"
-    ];
-    let index = 0;
-    const slideshow = document.getElementById("slideshow-image");
+    const slides = document.querySelectorAll('.slideshow-container img');
+    let current = 0;
 
     setInterval(() => {
-      index = (index + 1) % imagePaths.length;
-      slideshow.style.opacity = 0;
-      setTimeout(() => {
-        slideshow.src = imagePaths[index];
-        slideshow.style.opacity = 1;
-      }, 500);
-    }, 5000);
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 10000);
   </script>
 </body>
 </html>
