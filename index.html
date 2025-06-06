@@ -1,92 +1,163 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Shaughnessy Lab</title>
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #fe5c00;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      border-bottom: 2px solid #fe5c00;
+      margin-bottom: 1rem;
+      padding-bottom: 0.25rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
-<body class="is-preload">
-  <div id="wrapper" class="fade-in">
-    <!-- Intro -->
-    <div id="intro">
-      <h1 style="font-size:3em; margin:0;">
-        <font color="#FE5C00">Shaughnessy</font> Lab
-      </h1>
-      <p1 style="font-size:1.5em;">Integrative Physiology & Evolutionary Endocrinology</p1>
-      <ul class="actions">
-        <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-      </ul>
-    </div>
+<body>
 
-    <!-- Header -->
-    <header id="header">
-      <a href="index.html" class="logo">Shaughnessy Lab</a>
-    </header>
+<header>
+  <h1>Shaughnessy Lab</h1>
+  <p>Integrative Physiology and Evolutionary Endocrinology</p>
+</header>
 
-    <!-- Nav -->
-    <nav id="nav">
-      <ul class="links">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="people.html">People</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="https://scholar.google.ca/citations?hl=en&user=CN5EMFoAAAAJ">Google Scholar</a></li>
-      </ul>
-    </nav>
-
-    <!-- Main -->
-    <div id="main">
-      <article class="post featured">
-        <span class="image right">
-          <img src="images/lab_intro.jpg" alt="Lab Overview" />
-        </span>
-        <p style="text-align: justify;">
-          The <b>Shaughnessy Lab</b> at Oklahoma State University investigates physiological and evolutionary mechanisms that shape ion transport, endocrine signaling, and thermal tolerance in fishes and amphibians. We integrate approaches from comparative physiology, molecular biology, and evolutionary endocrinology to understand how organisms respond and adapt to environmental challenges.
-        </p>
-        <span class="image fit">
-          <img src="images/fish_fieldwork.jpg" alt="Field research" />
-        </span>
-      </article>
-    </div>
-
-    <!-- Footer -->
-    <footer id="footer">
-      <section class="split contact">
-        <section class="alt">
-          <h3>Address</h3>
-          <p>Department of Integrative Biology<br />
-             Oklahoma State University<br />
-             Stillwater, OK 74078</p>
-        </section>
-        <section>
-          <h3>Email</h3>
-          <p><a href="mailto:ciaran.shaughnessy@okstate.edu">ciaran.shaughnessy@okstate.edu</a></p>
-        </section>
-        <section>
-          <h3>Social</h3>
-          <ul class="icons alt">
-            <li><a href="https://github.com/shaughnessylab" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="https://scholar.google.ca/citations?hl=en&user=CN5EMFoAAAAJ" class="icon brands alt fa-google"><span class="label">Google Scholar</span></a></li>
-          </ul>
-        </section>
-      </section>
-    </footer>
-
-    <div id="copyright">
-      <ul><li>&copy; Shaughnessy Lab</li><li>Design adapted from <a href="https://html5up.net">HTML5 UP</a></li></ul>
+<section>
+  <h2>About the PI</h2>
+  <div class="profile">
+    <img src="https://via.placeholder.com/100" alt="PI Photo"/>
+    <div>
+      <p><strong>Dr. Ciaran Shaughnessy</strong></p>
+      <p>Assistant Professor, Department of Integrative Biology, Oklahoma State University</p>
+      <p>Email: ciaran.shaughnessy@okstate.edu</p>
+      <p><a href="https://scholar.google.ca/citations?hl=en&user=CN5EMFoAAAAJ" target="_blank">Google Scholar</a></p>
     </div>
   </div>
+</section>
 
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
+<section>
+  <h2>Research Areas</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="Comparative Physiology">
+      <strong>Comparative Physiology</strong>
+      <p>Studying physiological adaptations across fish and amphibians in varied environments.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="CFTR and Ion Transport">
+      <strong>CFTR & Ion Transport</strong>
+      <p>Mechanisms of chloride transport and endocrine regulation in health and disease models.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150" alt="Thermal Tolerance">
+      <strong>Thermal Tolerance</strong>
+      <p>Understanding thermal stress and resilience in aquatic species under climate change.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Recent Publications</h2>
+  <ul>
+    <li><strong>Smith, J., <u>Shaughnessy, C.</u> et al.</strong> (2024). Ion regulation in amphibious fish. <em>J. Exp. Biol.</em></li>
+    <li><strong><u>Shaughnessy, C.</u>, et al.</strong> (2023). Evolution of CFTR function in fishes. <em>Comp. Biochem. Physiol.</em></li>
+    <li><strong>Doe, A., <u>Shaughnessy, C.</u> et al.</strong> (2022). Endocrine disruption and osmoregulation. <em>Gen. Comp. Endocrinol.</em></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Team Members</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/150" alt="Savannah">
+      <strong>Savannah Caldwell</strong><br>
+      Undergraduate Researcher<br>
+      Focus: Cell culture & hormone assays
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150" alt="Alex">
+      <strong>Alex Johnson</strong><br>
+      MS Student<br>
+      Focus: Gill physiology & gene expression
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Lab News</h2>
+  <ul>
+    <li><strong>May 2025:</strong> Awarded ODWC grant to study salinity tolerance in Great Salt Plains Lake.</li>
+    <li><strong>April 2025:</strong> Savannah Caldwell presented at the OSU Undergraduate Research Symposium.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Department of Integrative Biology<br>Oklahoma State University<br>Stillwater, OK 74078</p>
+  <p>Email: ciaran.shaughnessy@okstate.edu</p>
+</section>
+
+<footer>
+  &copy; 2025 Shaughnessy Lab — Built with 💻 and 🍃
+</footer>
+
 </body>
 </html>
