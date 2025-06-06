@@ -4,72 +4,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome - Shaughnessy Lab</title>
+  <title>Shaughnessy Lab</title>
   <style>
     :root {
       --primary: #fe5c00;
-      --bg: #ffffff;
-      --text: #222222;
+      --light-bg: #ffffff;
+      --text: #222;
+      --gray: #f4f4f4;
     }
+
     body {
       margin: 0;
       font-family: 'Georgia', serif;
-      background: var(--bg);
+      background-color: var(--light-bg);
       color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
+
     header {
-      background: var(--primary);
-      color: white;
-      padding: 2rem 1rem 1rem;
       text-align: center;
+      padding: 2rem 1rem;
+      background-color: var(--light-bg);
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: var(--primary);
+      font-weight: 400;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.25rem;
+      color: #444;
+    }
+
     nav {
-      background: #fff5f0;
       display: flex;
       justify-content: center;
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
       gap: 2rem;
-      padding: 1rem;
-      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
+
     nav a {
       color: var(--primary);
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 500;
+      transition: color 0.3s;
     }
+
     nav a:hover {
-      text-decoration: underline;
+      color: #d94800;
     }
-    section {
-      padding: 4rem 1.5rem;
+
+    main {
+      flex: 1;
+      padding: 2rem 1.5rem;
       max-width: 960px;
-      margin: auto;
+      margin: 0 auto;
+      animation: fadeIn 1s ease;
     }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    .card {
+      background: var(--gray);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
     footer {
-      background: #eee;
       text-align: center;
       padding: 2rem 1rem;
+      background: #fafafa;
       font-size: 0.9rem;
-      color: #555;
+      color: #777;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      nav { flex-direction: column; gap: 0.5rem; }
     }
   </style>
 </head>
 <body>
+
 <header>
   <h1>Shaughnessy Lab</h1>
-  <p>Integrative Physiology and Evolutionary Endocrinology</p>
+  <p>Integrative Physiology & Endocrine Evolution</p>
 </header>
+
 <nav>
   <a href="index.html">Home</a>
   <a href="people.html">Lab Members</a>
   <a href="research.html">Research</a>
   <a href="publications.html">Publications</a>
 </nav>
-<section>
-  <h2>Welcome</h2>
-  <p>This is the homepage of the Shaughnessy Lab at Oklahoma State University.</p>
-</section>
+
+<main>
+  <section>
+    <h2>Welcome</h2>
+    <div class="card">
+      <p>Welcome to the Shaughnessy Lab at Oklahoma State University. Our work explores the integrative physiology and endocrine regulation of aquatic vertebrates, with a special focus on ion transport and evolutionary adaptation.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recent News</h2>
+    <div class="card">
+      <strong>May 2025:</strong> Awarded ODWC grant to study salinity tolerance in Great Salt Plains Lake fishes.
+    </div>
+    <div class="card">
+      <strong>April 2025:</strong> Savannah Caldwell presented at the OSU Undergraduate Research Symposium.
+    </div>
+  </section>
+</main>
+
 <footer>
-  &copy; 2025 Shaughnessy Lab — Built with 💻 and 🍃
+  &copy; 2025 Shaughnessy Lab — Oklahoma State University
 </footer>
+
 </body>
 </html>
