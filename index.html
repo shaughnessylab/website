@@ -8,149 +8,103 @@
   <style>
     :root {
       --primary: #fe5c00;
-      --light-bg: #ffffff;
-      --text: #222;
-      --gray: #f4f4f4;
+      --bg: #ffffff;
+      --text: #1a1a1a;
     }
-
     body {
       margin: 0;
       font-family: 'Georgia', serif;
-      background-color: var(--light-bg);
+      background-color: var(--bg);
       color: var(--text);
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
     }
-
     header {
-      text-align: center;
-      padding: 2rem 1rem;
-      background-color: var(--light-bg);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 3rem;
-      color: var(--primary);
-      font-weight: 400;
-    }
-
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.25rem;
-      color: #444;
-    }
-
-    nav {
       display: flex;
-      justify-content: center;
-      background-color: #fff;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: white;
       border-bottom: 1px solid #eee;
-      gap: 2rem;
-      padding: 1rem 0;
       position: sticky;
       top: 0;
       z-index: 100;
     }
-
+    header img {
+      height: 50px;
+    }
     nav a {
-      color: var(--primary);
+      margin-left: 1rem;
       text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s;
+      color: var(--text);
+      font-weight: bold;
     }
-
     nav a:hover {
-      color: #d94800;
-    }
-
-    main {
-      flex: 1;
-      padding: 2rem 1.5rem;
-      max-width: 960px;
-      margin: 0 auto;
-      animation: fadeIn 1s ease;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      font-size: 1.75rem;
-      margin-bottom: 1rem;
       color: var(--primary);
     }
-
-    .card {
-      background: var(--gray);
-      padding: 1.5rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.04);
-      transition: transform 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-    }
-
-    footer {
+    .slideshow-container {
+      max-width: 1000px;
+      margin: 2rem auto;
       text-align: center;
-      padding: 2rem 1rem;
-      background: #fafafa;
-      font-size: 0.9rem;
-      color: #777;
     }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+    .slideshow-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: opacity 1s ease-in-out;
     }
-
-    @media (max-width: 600px) {
-      header h1 { font-size: 2rem; }
-      nav { flex-direction: column; gap: 0.5rem; }
+    .content {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <img src="images/logo.png" alt="Lab Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="people.html">Lab Members</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>Shaughnessy Lab</h1>
-  <p>Integrative Physiology & Endocrine Evolution</p>
-</header>
+  <div class="slideshow-container">
+    <img id="slideshow-image" src="images/home/slide1.jpg" alt="Lab Image Slideshow" />
+  </div>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="people.html">Lab Members</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
-</nav>
+  <div class="content">
+    <h1>Welcome to the Shaughnessy Lab</h1>
+    <p>Integrative Physiology & Evolutionary Endocrinology</p>
+    <p>Exploring ion transport, thermal tolerance, and evolutionary mechanisms in aquatic vertebrates</p>
+  </div>
 
-<main>
-  <section>
-    <h2>Welcome</h2>
-    <div class="card">
-      <p>Welcome to the Shaughnessy Lab at Oklahoma State University. Our work explores the integrative physiology and endocrine regulation of aquatic vertebrates, with a special focus on ion transport and evolutionary adaptation.</p>
-    </div>
-  </section>
+  <script>
+    const imagePaths = [
+      "images/home/slide1.jpg",
+      "images/home/slide2.jpg",
+      "images/home/slide3.jpg"
+    ];
+    let index = 0;
+    const slideshow = document.getElementById("slideshow-image");
 
-  <section>
-    <h2>Recent News</h2>
-    <div class="card">
-      <strong>May 2025:</strong> Awarded ODWC grant to study salinity tolerance in Great Salt Plains Lake fishes.
-    </div>
-    <div class="card">
-      <strong>April 2025:</strong> Savannah Caldwell presented at the OSU Undergraduate Research Symposium.
-    </div>
-  </section>
-</main>
-
-<footer>
-  &copy; 2025 Shaughnessy Lab — Oklahoma State University
-</footer>
-
+    setInterval(() => {
+      index = (index + 1) % imagePaths.length;
+      slideshow.style.opacity = 0;
+      setTimeout(() => {
+        slideshow.src = imagePaths[index];
+        slideshow.style.opacity = 1;
+      }, 500);
+    }, 5000);
+  </script>
 </body>
 </html>
