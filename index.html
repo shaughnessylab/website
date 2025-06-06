@@ -1,173 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <title>Shaughnessy Lab</title>
-  <style>
-    :root {
-      --primary: #fe5c00;
-      --primary-muted: #ffa97a;
-      --bg: #ffffff;
-      --text: #1a1a1a;
-      --gray: #f9f9f9;
-      --dark-gray: #444;
-      --accent: #333;
-      --transition: all 0.3s ease;
-    }
-    body {
-      font-family: 'Georgia', serif;
-      margin: 0;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.75;
-      scroll-behavior: smooth;
-    }
-    header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.95);
-      border-bottom: 1px solid var(--gray);
-      z-index: 1000;
-      padding: 1rem 2rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      margin: 0 1rem;
-      font-weight: bold;
-      transition: var(--transition);
-    }
-    nav a:hover {
-      color: var(--primary);
-    }
-    section {
-      padding: 6rem 2rem 4rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .hero {
-      background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),
-                  url('https://images.unsplash.com/photo-1609921212029-0a3c11874858?fit=crop&w=1400&q=80') center/cover;
-      color: white;
-      text-align: center;
-      padding: 14rem 2rem 10rem;
-    }
-    .hero h1 {
-      font-size: 3.8rem;
-      font-family: 'Georgia', serif;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      max-width: 700px;
-      margin: auto;
-    }
-    h2 {
-      font-family: 'Georgia', serif;
-      font-size: 2.25rem;
-      border-bottom: 2px solid var(--primary);
-      padding-bottom: 0.5rem;
-      margin-bottom: 2.5rem;
-    }
-    .card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 2rem;
-    }
-    .card {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.07);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .card img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .card-content {
-      padding: 1.5rem;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 20px rgba(0,0,0,0.1);
-    }
-    .profile-img {
-      width: 130px;
-      height: 130px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .edit-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 0.5rem 1rem;
-      background: var(--primary);
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 9999;
-      font-family: sans-serif;
-    }
-    [contenteditable="true"] {
-      outline: 2px dashed var(--primary);
-      padding: 0.2rem;
-    }
-    footer {
-      background: var(--gray);
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--dark-gray);
-      border-top: 1px solid #ddd;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
-  <header>
-    <nav>
-      <div><strong>Shaughnessy Lab</strong></div>
-      <div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#team">Team</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-      </div>
+<body class="is-preload">
+  <div id="wrapper" class="fade-in">
+    <!-- Intro -->
+    <div id="intro">
+      <h1 style="font-size:3em; margin:0;">
+        <font color="#FE5C00">Shaughnessy</font> Lab
+      </h1>
+      <p1 style="font-size:1.5em;">Integrative Physiology & Evolutionary Endocrinology</p1>
+      <ul class="actions">
+        <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+      </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="logo">Shaughnessy Lab</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="https://scholar.google.ca/citations?hl=en&user=CN5EMFoAAAAJ">Google Scholar</a></li>
+      </ul>
     </nav>
-  </header>
 
-  <section id="home" class="hero">
-    <h1 contenteditable="true">The Shaughnessy Lab</h1>
-    <p contenteditable="true">Integrative Physiology & Evolutionary Endocrinology | Oklahoma State University</p>
-    <p contenteditable="true">Exploring ion transport, thermal tolerance, and evolutionary mechanisms in aquatic vertebrates</p>
-  </section>
+    <!-- Main -->
+    <div id="main">
+      <article class="post featured">
+        <span class="image right">
+          <img src="images/lab_intro.jpg" alt="Lab Overview" />
+        </span>
+        <p style="text-align: justify;">
+          The <b>Shaughnessy Lab</b> at Oklahoma State University investigates physiological and evolutionary mechanisms that shape ion transport, endocrine signaling, and thermal tolerance in fishes and amphibians. We integrate approaches from comparative physiology, molecular biology, and evolutionary endocrinology to understand how organisms respond and adapt to environmental challenges.
+        </p>
+        <span class="image fit">
+          <img src="images/fish_fieldwork.jpg" alt="Field research" />
+        </span>
+      </article>
+    </div>
 
-  <!-- ... rest of your body content remains unchanged ... -->
+    <!-- Footer -->
+    <footer id="footer">
+      <section class="split contact">
+        <section class="alt">
+          <h3>Address</h3>
+          <p>Department of Integrative Biology<br />
+             Oklahoma State University<br />
+             Stillwater, OK 74078</p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="mailto:ciaran.shaughnessy@okstate.edu">ciaran.shaughnessy@okstate.edu</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icons alt">
+            <li><a href="https://github.com/shaughnessylab" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://scholar.google.ca/citations?hl=en&user=CN5EMFoAAAAJ" class="icon brands alt fa-google"><span class="label">Google Scholar</span></a></li>
+          </ul>
+        </section>
+      </section>
+    </footer>
 
-  <footer>
-    &copy; <span id="year"></span> Shaughnessy Lab | Oklahoma State University · Built with ❤️ and HTML
-  </footer>
+    <div id="copyright">
+      <ul><li>&copy; Shaughnessy Lab</li><li>Design adapted from <a href="https://html5up.net">HTML5 UP</a></li></ul>
+    </div>
+  </div>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
