@@ -60,17 +60,25 @@
       margin-left: 1rem;
       color: var(--text);
       transition: var(--transition);
+      font-family: sans-serif;
     }
     nav a:hover, nav a.active {
       color: var(--primary);
     }
     .hero {
       margin-top: 80px;
-      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 60vh;
+    }
+    .hero-container {
+      position: relative;
+      width: 66%;
+      height: 100%;
       overflow: hidden;
     }
-    .hero img {
+    .hero-container img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -80,7 +88,7 @@
       opacity: 0;
       transition: opacity 2s ease-in-out;
     }
-    .hero img.active {
+    .hero-container img.active {
       opacity: 1;
     }
     footer {
@@ -126,11 +134,13 @@
   </header>
 
   <section class="hero">
-    <img src="images/home/slide1.jpg" class="active" />
-    <img src="images/home/slide2.jpg" />
-    <img src="images/home/slide3.jpg" />
-    <img src="images/home/slide4.jpg" />
-    <img src="images/home/slide5.jpg" />
+    <div class="hero-container">
+      <img src="images/home/slide1.jpg" class="active" />
+      <img src="images/home/slide2.jpg" />
+      <img src="images/home/slide3.jpg" />
+      <img src="images/home/slide4.jpg" />
+      <img src="images/home/slide5.jpg" />
+    </div>
   </section>
 
   <footer>
@@ -140,7 +150,7 @@
   </footer>
 
   <script>
-    const slides = document.querySelectorAll(".hero img");
+    const slides = document.querySelectorAll(".hero-container img");
     let current = 0;
     setInterval(() => {
       slides[current].classList.remove("active");
