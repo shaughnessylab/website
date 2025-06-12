@@ -3,73 +3,150 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lab Members - Shaughnessy Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>People - Shaughnessy Lab</title>
   <style>
-    :root {
-      --primary: #fe5c00;
-      --bg: #ffffff;
-      --text: #222222;
-    }
     body {
+      font-family: sans-serif;
       margin: 0;
-      font-family: 'Georgia', serif;
-      background: var(--bg);
-      color: var(--text);
+      padding: 0;
+      background: white;
+      color: #333;
     }
     header {
-      background: var(--primary);
-      color: white;
-      padding: 2rem 1rem 1rem;
-      text-align: center;
-    }
-    nav {
-      background: #fff5f0;
+      padding: 1rem 2rem;
       display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      border-bottom: 1px solid #ddd;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+    }
+    .logo {
+      font-family: serif;
+      font-size: 1.5rem;
+    }
+    .logo span:first-child {
+      color: #fe5c00;
+      font-weight: normal;
+    }
+    .logo span:last-child {
+      color: #333;
+      font-weight: 600;
     }
     nav a {
-      color: var(--primary);
+      margin-left: 1rem;
       text-decoration: none;
-      font-weight: bold;
+      color: #333;
+      font-weight: normal;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 4rem 1.5rem;
-      max-width: 960px;
+    .container {
+      max-width: 1000px;
       margin: auto;
+      padding: 2rem;
     }
-    footer {
-      background: #eee;
+    h2 {
+      font-family: serif;
+      font-size: 1.75rem;
+      color: #fe5c00;
+      border-bottom: 2px solid #fe5c00;
+      padding-bottom: 0.25rem;
+      margin-top: 2rem;
+    }
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 1rem;
+    }
+    .card-content {
+      flex: 1;
+    }
+    .card-content h3 {
+      margin: 0 0 0.5rem;
+    }
+    .card-content p {
+      margin: 0.25rem 0;
+    }
+    .former-member {
+      margin: 0.5rem 0;
+    }
+    .footer {
+      font-size: 0.8rem;
       text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      color: #555;
+      padding: 1rem;
+      border-top: 1px solid #eee;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-<header>
-  <h1>Shaughnessy Lab</h1>
-  <p>Integrative Physiology and Evolutionary Endocrinology</p>
-</header>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="people.html">Lab Members</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
-</nav>
-<section>
-  <h2>Lab Members</h2>
-  <p>Meet our team of undergraduate researchers, graduate students, and collaborators.</p>
-</section>
-<footer>
-  &copy; 2025 Shaughnessy Lab — Built with 💻 and 🍃
-</footer>
+  <header>
+    <div class="logo"><span>Shaughnessy</span><span>Lab</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html" style="color: #fe5c00;">People</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Principal Investigator</h2>
+    <div class="card">
+      <img src="images/people/ciaran.jpg" alt="Dr. Ciaran Shaughnessy">
+      <div class="card-content">
+        <h3>Dr. Ciaran A. Shaughnessy (he/him)</h3>
+        <p>Dr. Shaughnessy is an Assistant Professor of Integrative Biology at Oklahoma State University. His research integrates molecular, physiological, and evolutionary approaches to understand ion transport, endocrinology, and environmental adaptation in aquatic vertebrates.</p>
+        <p><strong>Email:</strong> ciaran.shaughnessy@okstate.edu</p>
+        <p><a href="#">Personal Website</a> | <a href="#">CV</a></p>
+      </div>
+    </div>
+
+    <h2>Graduate Students</h2>
+    <div class="card">
+      <img src="images/people/grad1.jpg" alt="Graduate Student">
+      <div class="card-content">
+        <h3>Firstname Lastname (they/them)</h3>
+        <p>Short paragraph bio about the student’s background, research interests, and goals.</p>
+        <p><strong>Email:</strong> grad1@email.com</p>
+        <p><a href="#">Website</a> | <a href="#">CV</a></p>
+      </div>
+    </div>
+
+    <h2>Undergraduate Students</h2>
+    <div class="card">
+      <img src="images/people/ug1.jpg" alt="Undergraduate Student">
+      <div class="card-content">
+        <h3>Firstname Lastname (she/her)</h3>
+        <p>Short paragraph bio about the student’s academic interests and work in the lab.</p>
+        <p><strong>Email:</strong> ug1@email.com</p>
+      </div>
+    </div>
+
+    <h2>Former Lab Members</h2>
+    <div class="former-member">
+      <strong>Jill B. K. Leonard</strong> – Professor, Northern Michigan University
+    </div>
+    <div class="former-member">
+      <strong>Joseph D. Zydlewski</strong> – Research Fish Biologist, USGS / Professor, University of Maine
+    </div>
+    <div class="former-member">
+      <strong>Savannah Caldwell</strong> – Medical Laboratory Scientist, OU Health
+    </div>
+  </div>
+
+  <div class="footer">
+    Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074 &nbsp; | &nbsp; © 2025 Ciaran A. Shaughnessy
+  </div>
 </body>
 </html>
