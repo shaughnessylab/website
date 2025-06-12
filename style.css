@@ -182,3 +182,41 @@
 .person-info p {
   margin: 0.3rem 0;
 }
+
+
+/* People card styles */
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 1.5rem;
+}
+.card-content {
+  flex: 1;
+}
+.card-content h3 {
+  margin: 0 0 0.25rem;
+}
+.pronouns {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0 0 0.5rem;
+}
+.card-content p {
+  margin: 0.25rem 0;
+}
+.former-subsection {
+  margin-top: 1.5rem;
+}
+.former-subsection h4 {
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
