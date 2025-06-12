@@ -1,62 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shaughnessy Lab</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="logo-container">
-      <img src="images/logo.png" alt="Lab Logo" />
-      <div class="lab-name">
-        <span>Shaughnessy</span><span>Lab</span>
-      </div>
-    </div>
-    <nav>
-      <a href="#" class="active">Home</a>
-      <a href="people.html">People</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="blog.html">Blog</a>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <div class="hero-container">
-      <img src="images/home/slide1.jpg" class="active" />
-      <img src="images/home/slide2.jpg" />
-      <img src="images/home/slide3.jpg" />
-      <img src="images/home/slide4.jpg" />
-      <img src="images/home/slide5.jpg" />
-    </div>
-  </section>
-
-<section style="padding: 2rem; max-width: 960px; margin: auto;">
-  <h2>Lab Updates</h2>
-  <ul>
-    <li><strong>June 2025:</strong> New website redesign launched!</li>
-    <li><strong>May 2025:</strong> Congrats to our graduates and new lab members!</li>
-    <li><strong>April 2025:</strong> Our latest paper was accepted in JEB.</li>
-  </ul>
-</section>
-
-  <div style='padding-top: 2rem;'></div>
-  <footer>
-    <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
-    
-    <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
-  </footer>
-
-  <script>
-    const slides = document.querySelectorAll(".hero-container img");
-    let current = 0;
-    setInterval(() => {
-      slides[current].classList.remove("active");
-      current = (current + 1) % slides.length;
-      slides[current].classList.add("active");
-    }, 10000);
-  </script>
-</body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Shaughnessy Lab</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
+         <div class="logo-container">
+            <img src="images/logo.png" alt="Lab Logo" />
+            <div class="lab-name">
+               <span>Shaughnessy</span><span>Lab</span>
+            </div>
+         </div>
+         <nav>
+            <a href="#" class="active">Home</a>
+            <a href="people.html">People</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="blog.html">Blog</a>
+         </nav>
+      </header>
+      <section class="hero">
+         <div class="hero-container">
+            <img src="images/home/slide1.jpg" class="active" />
+            <img src="images/home/slide2.jpg" />
+            <img src="images/home/slide3.jpg" />
+            <img src="images/home/slide4.jpg" />
+            <img src="images/home/slide5.jpg" />
+         </div>
+      </section>
+      <section style="padding: 2rem; max-width: 960px; margin: auto;">
+         <h2>Lab Updates</h2>
+         <ul>
+            <li><strong>June 2025:</strong> New website redesign launched!</li>
+            <li><strong>May 2025:</strong> Congrats to our graduates and new lab members!</li>
+            <li><strong>April 2025:</strong> Our latest paper was accepted in JEB.</li>
+         </ul>
+      </section>
+      <div style='padding-top: 2rem;'></div>
+      <footer>
+         <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+         <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
+      </footer>
+      <script>
+         const slides = document.querySelectorAll(".hero-container img");
+         let current = 0;
+         setInterval(() => {
+           slides[current].classList.remove("active");
+           current = (current + 1) % slides.length;
+           slides[current].classList.add("active");
+         }, 10000);
+      </script>
+   </body>
 </html>
