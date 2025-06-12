@@ -220,3 +220,35 @@
   font-weight: bold;
   color: #333;
 }
+
+
+/* Header and section title styles */
+
+/* ShaughnessyLab header and section title styling */
+.lab-logo {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+}
+.lab-logo .highlight {
+  color: #fe5c00;
+  font-weight: bold;
+}
+.lab-logo .secondary {
+  color: #444;
+  font-weight: normal;
+}
+
+/* Section headers for people page */
+.section-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.section-title .highlight {
+  color: #fe5c00;
+  font-weight: bold;
+}
+.section-title .secondary {
+  color: #444;
+  font-weight: normal;
+}
