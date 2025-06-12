@@ -1,11 +1,12 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>People - Shaughnessy Lab</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>People - Shaughnessy Lab</title>
+<style>
     body {
       font-family: sans-serif;
       margin: 0;
@@ -18,7 +19,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border-bottom: 1px solid #eee;
     }
     .logo {
       font-family: serif;
@@ -51,33 +51,39 @@
       padding-bottom: 0.25rem;
       margin-top: 2rem;
     }
+    .merged-heading span:first-child {
+      font-weight: bold;
+      color: #fe5c00;
+    }
+    .merged-heading span:last-child {
+      font-weight: normal;
+      color: #333;
+    }
     .card {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
-      border: 1px solid #eee;
-      border-radius: 8px;
-      padding: 1rem;
-      margin: 1rem 0;
+      padding: 1.5rem 0;
     }
     .card img {
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
-      border-radius: 8px;
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
     .card-content {
       flex: 1;
     }
     .card-content h3 {
+      margin: 0 0 0.25rem;
+    }
+    .pronouns {
+      font-size: 0.8rem;
+      color: #666;
       margin: 0 0 0.5rem;
     }
     .card-content p {
       margin: 0.25rem 0;
-    }
-    .former-member {
-      margin: 0.5rem 0;
     }
     .footer {
       font-size: 0.8rem;
@@ -86,67 +92,78 @@
       border-top: 1px solid #eee;
       margin-top: 2rem;
     }
+    .former-subsection {
+      margin-top: 1.5rem;
+    }
+    .former-subsection h4 {
+      margin: 1rem 0 0.5rem;
+      font-weight: bold;
+      color: #333;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo"><span>Shaughnessy</span><span>Lab</span></div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="people.html" style="color: #fe5c00;">People</a>
-      <a href="blog.html">Blog</a>
-    </nav>
-  </header>
-
-  <div class="container">
-    <h2>Principal Investigator</h2>
-    <div class="card">
-      <img src="images/people/shaughnessy.jpg" alt="Dr. Ciaran Shaughnessy">
-      <div class="card-content">
-        <h3>Dr. Ciaran A. Shaughnessy (he/him)</h3>
-        <p>Dr. Shaughnessy is an Assistant Professor of Integrative Biology at Oklahoma State University. His research integrates molecular, physiological, and evolutionary approaches to understand ion transport, endocrinology, and environmental adaptation in aquatic vertebrates.</p>
-        <p><strong>Email:</strong> ciaran.shaughnessy@okstate.edu</p>
-        <p><a href="#">Personal Website</a> | <a href="#">CV</a></p>
-      </div>
-    </div>
-
-    <h2>Graduate Students</h2>
-    <div class="card">
-      <img src="images/people/grad1.jpg" alt="Graduate Student">
-      <div class="card-content">
-        <h3>Firstname Lastname (they/them)</h3>
-        <p>Short paragraph bio about the student’s background, research interests, and goals.</p>
-        <p><strong>Email:</strong> grad1@email.com</p>
-        <p><a href="#">Website</a> | <a href="#">CV</a></p>
-      </div>
-    </div>
-
-    <h2>Undergraduate Students</h2>
-    <div class="card">
-      <img src="images/people/ug1.jpg" alt="Undergraduate Student">
-      <div class="card-content">
-        <h3>Firstname Lastname (she/her)</h3>
-        <p>Short paragraph bio about the student’s academic interests and work in the lab.</p>
-        <p><strong>Email:</strong> ug1@email.com</p>
-      </div>
-    </div>
-
-    <h2>Former Lab Members</h2>
-    <div class="former-member">
-      <strong>Jill B. K. Leonard</strong> – Professor, Northern Michigan University
-    </div>
-    <div class="former-member">
-      <strong>Joseph D. Zydlewski</strong> – Research Fish Biologist, USGS / Professor, University of Maine
-    </div>
-    <div class="former-member">
-      <strong>Savannah Caldwell</strong> – Medical Laboratory Scientist, OU Health
-    </div>
-  </div>
-
-  <div class="footer">
-    Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074 &nbsp; | &nbsp; © 2025 Ciaran A. Shaughnessy
-  </div>
+<header>
+<div class="logo-container">
+<img alt="Lab Logo" src="images/logo.png"/>
+<div class="lab-name">
+<span>Shaughnessy</span><span>Lab</span>
+</div>
+</div>
+<nav>
+<a class="active" href="#">Home</a>
+<a href="people.html" style="color: #fe5c00;">People</a>
+<a href="research.html">Research</a>
+<a href="publications.html">Publications</a>
+<a href="blog.html">Blog</a>
+</nav>
+</header>
+<div class="container">
+<h2 class="merged-heading"><span>Principal</span><span>Investigator</span></h2>
+<div class="card">
+<img alt="Dr. Ciaran Shaughnessy" src="images/people/shaughnessy.jpg"/>
+<div class="card-content">
+<h3>Dr. Ciaran A. Shaughnessy</h3>
+<div class="pronouns">(he/him)</div>
+<p>Dr. Shaughnessy is an Assistant Professor of Integrative Biology at Oklahoma State University. His research integrates molecular, physiological, and evolutionary approaches to understand ion transport, endocrinology, and environmental adaptation in aquatic vertebrates.</p>
+<p><strong>Email:</strong> ciaran.shaughnessy@okstate.edu</p>
+<p><a href="#">Personal Website</a> | <a href="#">CV</a></p>
+</div>
+</div>
+<h2 class="merged-heading"><span>Graduate</span><span>Students</span></h2>
+<div class="card">
+<img alt="Graduate Student" src="images/people/grad1.jpg"/>
+<div class="card-content">
+<h3>Firstname Lastname</h3>
+<div class="pronouns">(they/them)</div>
+<p>Short paragraph bio about the student’s background, research interests, and goals.</p>
+<p><strong>Email:</strong> grad1@email.com</p>
+<p><a href="#">Website</a> | <a href="#">CV</a></p>
+</div>
+</div>
+<div class="former-subsection">
+<h4>Former Graduate Students</h4>
+<p><strong>Jill B. K. Leonard</strong> – Professor, Northern Michigan University</p>
+<p><strong>Joseph D. Zydlewski</strong> – Research Fish Biologist, USGS / Professor, University of Maine</p>
+</div>
+<h2 class="merged-heading"><span>Undergraduate</span><span>Students</span></h2>
+<div class="card">
+<img alt="Undergraduate Student" src="images/people/ug1.jpg"/>
+<div class="card-content">
+<h3>Firstname Lastname</h3>
+<div class="pronouns">(she/her)</div>
+<p>Short paragraph bio about the student’s academic interests and work in the lab.</p>
+<p><strong>Email:</strong> ug1@email.com</p>
+</div>
+</div>
+<div class="former-subsection">
+<h4>Former Undergraduate Students</h4>
+<p><strong>Savannah Caldwell</strong> – Medical Laboratory Scientist, OU Health</p>
+</div>
+</div>
+<footer>
+<div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+<div class="right">© 2025 Ciaran A. Shaughnessy</div>
+</footer>
 </body>
 </html>
