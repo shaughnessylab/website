@@ -1,169 +1,168 @@
-
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>People - Shaughnessy Lab</title>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>People | Shaughnessy Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --orange: #fe5c00;
+      --gray: #f3f3f3;
+      --text: #222;
+    }
     body {
-      font-family: sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
       background: white;
-      color: #333;
     }
     header {
-      padding: 1rem 2rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 1.2rem 2rem;
     }
     .logo {
-      font-family: serif;
-      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
     }
-    .logo span:first-child {
-      color: #fe5c00;
-      font-weight: normal;
+    .logo img {
+      height: 40px;
+      margin-right: 0.5rem;
     }
-    .logo span:last-child {
+    .logo-text {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.75rem;
+    }
+    .logo-text span:first-child {
+      font-weight: bold;
+      color: #000;
+    }
+    .logo-text span:last-child {
+      font-weight: 400;
       color: #333;
-      font-weight: 600;
     }
     nav a {
-      margin-left: 1rem;
       text-decoration: none;
-      color: #333;
-      font-weight: normal;
+      color: #000;
+      margin-left: 1.5rem;
+      font-weight: 400;
+      font-size: 1rem;
     }
-    .container {
+    nav a.active {
+      color: var(--orange);
+    }
+    nav {
+      font-family: 'Inter', sans-serif;
+    }
+    main {
       max-width: 1000px;
       margin: auto;
       padding: 2rem;
     }
     h2 {
-      font-family: serif;
-      font-size: 1.75rem;
-      color: #fe5c00;
-      border-bottom: 2px solid #fe5c00;
-      padding-bottom: 0.25rem;
-      margin-top: 2rem;
-    }
-    .merged-heading span:first-child {
-      font-weight: bold;
-      color: #fe5c00;
-    }
-    .merged-heading span:last-child {
-      font-weight: normal;
-      color: #333;
+      font-family: 'EB Garamond', serif;
+      font-size: 2rem;
+      border-bottom: 2px solid var(--orange);
+      padding-bottom: 0.3rem;
+      margin-top: 3rem;
     }
     .card {
       display: flex;
-      flex-wrap: wrap;
       align-items: flex-start;
-      padding: 1.5rem 0;
+      margin-top: 1.5rem;
+      gap: 1.5rem;
     }
     .card img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-right: 1.5rem;
+      width: 160px;
+      height: auto;
     }
     .card-content {
       flex: 1;
     }
-    .card-content h3 {
-      margin: 0 0 0.25rem;
+    .name {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0;
     }
     .pronouns {
       font-size: 0.8rem;
       color: #666;
-      margin: 0 0 0.5rem;
+      margin: 0.25rem 0 0.5rem;
     }
-    .card-content p {
-      margin: 0.25rem 0;
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      padding: 1rem 2rem;
+      margin-top: 4rem;
+      border-top: 1px solid #ddd;
     }
-    .footer {
-      font-size: 0.8rem;
-      text-align: center;
-      padding: 1rem;
-      border-top: 1px solid #eee;
-      margin-top: 2rem;
-    }
-    .former-subsection {
-      margin-top: 1.5rem;
-    }
-    .former-subsection h4 {
-      margin: 1rem 0 0.5rem;
-      font-weight: bold;
-      color: #333;
+    @media (max-width: 768px) {
+      header, footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+      .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .card img {
+        width: 120px;
+      }
+      .card-content {
+        align-items: center;
+      }
     }
   </style>
 </head>
 <body>
-<header>
-<div class="logo-container">
-<img alt="Lab Logo" src="images/logo.png"/>
-<div class="lab-name">
-<span>Shaughnessy</span><span>Lab</span>
-</div>
-</div>
-<nav>
-<a class="active" href="#">Home</a>
-<a href="people.html" style="color: #fe5c00;">People</a>
-<a href="research.html">Research</a>
-<a href="publications.html">Publications</a>
-<a href="blog.html">Blog</a>
-</nav>
-</header>
-<div class="container">
-<h2 class="merged-heading"><span>Principal</span><span>Investigator</span></h2>
-<div class="card">
-<img alt="Dr. Ciaran Shaughnessy" src="images/people/shaughnessy.jpg"/>
-<div class="card-content">
-<h3>Dr. Ciaran A. Shaughnessy</h3>
-<div class="pronouns">(he/him)</div>
-<p>Dr. Shaughnessy is an Assistant Professor of Integrative Biology at Oklahoma State University. His research integrates molecular, physiological, and evolutionary approaches to understand ion transport, endocrinology, and environmental adaptation in aquatic vertebrates.</p>
-<p><strong>Email:</strong> ciaran.shaughnessy@okstate.edu</p>
-<p><a href="#">Personal Website</a> | <a href="#">CV</a></p>
-</div>
-</div>
-<h2 class="merged-heading"><span>Graduate</span><span>Students</span></h2>
-<div class="card">
-<img alt="Graduate Student" src="images/people/grad1.jpg"/>
-<div class="card-content">
-<h3>Firstname Lastname</h3>
-<div class="pronouns">(they/them)</div>
-<p>Short paragraph bio about the student’s background, research interests, and goals.</p>
-<p><strong>Email:</strong> grad1@email.com</p>
-<p><a href="#">Website</a> | <a href="#">CV</a></p>
-</div>
-</div>
-<div class="former-subsection">
-<h4>Former Graduate Students</h4>
-<p><strong>Jill B. K. Leonard</strong> – Professor, Northern Michigan University</p>
-<p><strong>Joseph D. Zydlewski</strong> – Research Fish Biologist, USGS / Professor, University of Maine</p>
-</div>
-<h2 class="merged-heading"><span>Undergraduate</span><span>Students</span></h2>
-<div class="card">
-<img alt="Undergraduate Student" src="images/people/ug1.jpg"/>
-<div class="card-content">
-<h3>Firstname Lastname</h3>
-<div class="pronouns">(she/her)</div>
-<p>Short paragraph bio about the student’s academic interests and work in the lab.</p>
-<p><strong>Email:</strong> ug1@email.com</p>
-</div>
-</div>
-<div class="former-subsection">
-<h4>Former Undergraduate Students</h4>
-<p><strong>Savannah Caldwell</strong> – Medical Laboratory Scientist, OU Health</p>
-</div>
-</div>
-<footer>
-<div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
-<div class="right">© 2025 Ciaran A. Shaughnessy</div>
-</footer>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Lab Logo" />
+      <div class="logo-text">
+        <span>Shaughnessy</span><span>Lab</span>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="people.html" class="active">People</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2><strong>Principal</strong>Investigator</h2>
+    <div class="card">
+      <img src="images/people/shaughnessy.jpg" alt="Ciaran Shaughnessy" />
+      <div class="card-content">
+        <p class="name">Ciaran Shaughnessy</p>
+        <p class="pronouns">(he/him)</p>
+        <p>Assistant Professor of Integrative Biology at Oklahoma State University. My research investigates ion transport, endocrine control, and the evolution of physiological systems in fishes and amphibians.</p>
+        <p>Email: <a href="mailto:ciaran.shaughnessy@okstate.edu">ciaran.shaughnessy@okstate.edu</a></p>
+        <p><a href="https://scholar.google.ca/citations?user=CN5EMFoAAAAJ">Google Scholar</a></p>
+      </div>
+    </div>
+
+    <h2><strong>Graduate</strong>Students</h2>
+    <!-- Add grad student cards here -->
+
+    <h2><strong>Undergraduate</strong>Students</h2>
+    <!-- Add undergrad student cards here -->
+
+  </main>
+
+  <footer>
+    <div>Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+    <div>© 2025 Ciaran A. Shaughnessy</div>
+  </footer>
+
 </body>
 </html>
