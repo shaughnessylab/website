@@ -3,158 +3,121 @@
 
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shaughnessy Lab</title>
-  <style>
-    :root {
-      --primary: #fe5c00;
-      --primary-muted: #ffa97a;
-      --bg: #ffffff;
-      --text: #1a1a1a;
-      --gray: #f9f9f9;
-      --dark-gray: #444;
-      --accent: #333;
-      --transition: all 0.3s ease;
-    }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>People - Shaughnessy Lab</title>
+<style>
     body {
-      font-family: 'Georgia', serif;
+      font-family: sans-serif;
       margin: 0;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.75;
-      scroll-behavior: smooth;
+      padding: 0;
+      background: white;
+      color: #333;
     }
     header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.95);
-      border-bottom: 1px solid var(--gray);
-      z-index: 1000;
       padding: 1rem 2rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    nav {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
+      justify-content: space-between;
+    }
+    .logo {
+      font-family: serif;
+      font-size: 1.5rem;
+    }
+    .logo span:first-child {
+      color: #fe5c00;
+      font-weight: normal;
+    }
+    .logo span:last-child {
+      color: #333;
+      font-weight: 600;
     }
     nav a {
+      margin-left: 1rem;
       text-decoration: none;
-      color: var(--text);
-      margin: 0 1rem;
-      font-weight: bold;
-      transition: var(--transition);
+      color: #333;
+      font-weight: normal;
     }
-    nav a:hover {
-      color: var(--primary);
-    }
-    section {
-      padding: 6rem 2rem 4rem;
-      max-width: 1200px;
+    .container {
+      max-width: 1000px;
       margin: auto;
-    }
-    .hero {
-      background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),
-                  url('https://images.unsplash.com/photo-1609921212029-0a3c11874858?fit=crop&w=1400&q=80') center/cover;
-      color: white;
-      text-align: center;
-      padding: 14rem 2rem 10rem;
-    }
-    .hero h1 {
-      font-size: 3.8rem;
-      font-family: 'Georgia', serif;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      max-width: 700px;
-      margin: auto;
+      padding: 2rem;
     }
     h2 {
-      font-family: 'Georgia', serif;
-      font-size: 2.25rem;
-      border-bottom: 2px solid var(--primary);
-      padding-bottom: 0.5rem;
-      margin-bottom: 2.5rem;
+      font-family: serif;
+      font-size: 1.75rem;
+      color: #fe5c00;
+      border-bottom: 2px solid #fe5c00;
+      padding-bottom: 0.25rem;
+      margin-top: 2rem;
     }
-    .card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 2rem;
+    .merged-heading span:first-child {
+      font-weight: bold;
+      color: #fe5c00;
+    }
+    .merged-heading span:last-child {
+      font-weight: normal;
+      color: #333;
     }
     .card {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.07);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding: 1.5rem 0;
     }
     .card img {
-      width: 100%;
-      height: auto;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
+      margin-right: 1.5rem;
     }
     .card-content {
-      padding: 1.5rem;
+      flex: 1;
     }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    .card-content h3 {
+      margin: 0 0 0.25rem;
     }
-    .profile-img {
-      width: 130px;
-      height: 130px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    .pronouns {
+      font-size: 0.8rem;
+      color: #666;
+      margin: 0 0 0.5rem;
     }
-    .edit-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 0.5rem 1rem;
-      background: var(--primary);
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 9999;
-      font-family: sans-serif;
+    .card-content p {
+      margin: 0.25rem 0;
     }
-    [contenteditable="true"] {
-      outline: 2px dashed var(--primary);
-      padding: 0.2rem;
-    }
-    footer {
-      background: var(--gray);
-      padding: 2rem;
+    .footer {
+      font-size: 0.8rem;
       text-align: center;
-      font-size: 0.9rem;
-      color: var(--dark-gray);
-      border-top: 1px solid #ddd;
+      padding: 1rem;
+      border-top: 1px solid #eee;
+      margin-top: 2rem;
+    }
+    .former-subsection {
+      margin-top: 1.5rem;
+    }
+    .former-subsection h4 {
+      margin: 1rem 0 0.5rem;
+      font-weight: bold;
+      color: #333;
     }
   </style>
 </head>
 <body>
 <header>
-    <nav>
-      <div><strong>Shaughnessy Lab</strong></div>
-      <div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#team">Team</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+<div class="logo-container">
+<img alt="Lab Logo" src="images/logo.png" style="height: 40px; vertical-align: middle;"/>
+<div class="lab-name">
+<span>Shaughnessy</span><span>Lab</span>
+</div>
+</div>
+<nav>
+<a class="active" href="index.html">Home</a>
+<a href="people.html" style="color: #fe5c00;">People</a>
+<a href="research.html">Research</a>
+<a href="publications.html">Publications</a>
+<a href="blog.html">Blog</a>
+</nav>
+</header>
 <div class="container">
 <h2 class="merged-heading"><span>Principal</span><span>Investigator</span></h2>
 <div class="card">
@@ -199,7 +162,8 @@
 </div>
 </div>
 <footer>
-    &copy; <span id="year"></span> Shaughnessy Lab | Oklahoma State University · Built with ❤️ and HTML
-  </footer>
+<div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+<div class="right">© 2025 Ciaran A. Shaughnessy</div>
+</footer>
 </body>
 </html>
