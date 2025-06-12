@@ -97,7 +97,7 @@
       align-items: center;
       padding: 1rem 2rem;
       font-size: 0.8rem;
-      background: var(--gray);
+      background: white;
       border-top: 1px solid #ddd;
       font-family: sans-serif;
       flex-wrap: wrap;
@@ -115,7 +115,38 @@
     footer img {
       height: 30px;
     }
-  </style>
+  
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+      flex-wrap: wrap;
+      max-width: 100%;
+      overflow-x: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-top: 0.5rem;
+      }
+      nav a {
+        margin: 0.5rem 1rem 0.5rem 0;
+      }
+      .hero-container {
+        width: 100%;
+      }
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+      footer .left, footer .center, footer .right {
+        text-align: center;
+        margin: 0.3rem 0;
+      }
+    }
+
+</style>
 </head>
 <body>
   <header>
@@ -145,7 +176,7 @@
 
   <footer>
     <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
-    <div class="center"><img src="images/logo.png" alt="Logo" /></div>
+    
     <div class="right">&copy; 2025 Shaughnessy Lab</div>
   </footer>
 
