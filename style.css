@@ -383,3 +383,395 @@ nav {
   right: 2rem;
   z-index: 1100;
 }
+
+:root {
+  --primary: #fe5c00;
+  --primary-muted: #ffa97a;
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --gray: #f9f9f9;
+  --dark-gray: #444;
+  --accent: #333;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  flex-wrap: wrap;
+  overflow-x: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.lab-name {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+}
+
+.lab-name span:first-child {
+  color: var(--primary);
+  font-weight: normal;
+}
+
+.lab-name span:last-child {
+  color: var(--dark-gray);
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: var(--text);
+  transition: var(--transition);
+  font-family: sans-serif;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--primary);
+}
+
+.hero {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.hero-container img.active {
+  opacity: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  z-index: 1000;
+  box-shadow: none;
+}
+
+footer .left,
+footer .center,
+footer .right {
+  flex: 1;
+  text-align: center;
+}
+
+footer .left {
+  text-align: left;
+}
+
+footer .right {
+  text-align: right;
+}
+
+footer img {
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .left,
+  footer .center,
+  footer .right {
+    text-align: center;
+    margin: 0.3rem 0;
+  }
+}
+
+  nav {
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  nav a {
+    margin: 0.5rem 1rem 0.5rem 0;
+  }
+
+  .hero-container {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .left,
+  footer .center,
+  footer .right {
+    text-align: center;
+    margin: 0.3rem 0;
+  }
+}
+
+.people-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.person-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.person-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.person-info h4 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+
+.person-info .pronouns {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.person-info p {
+  margin: 0.3rem 0;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 1.5rem;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h3 {
+  margin: 0 0 0.25rem;
+}
+
+.pronouns {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0 0 0.5rem;
+}
+
+.card-content p {
+  margin: 0.25rem 0;
+}
+
+.former-subsection {
+  margin-top: 1.5rem;
+}
+
+.former-subsection h4 {
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.lab-logo {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+}
+
+.lab-logo .highlight {
+  color: #fe5c00;
+  font-weight: bold;
+}
+
+.lab-logo .secondary {
+  color: #444;
+  font-weight: normal;
+}
+
+.section-title {
+  display: block;
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  position: relative;
+}
+
+.section-title .highlight {
+  color: #fe5c00;
+  font-weight: bold;
+}
+
+.section-title .secondary {
+  color: #444;
+  font-weight: normal;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fe5c00;
+  margin-top: 0.3rem;
+}
+
+.main-content {
+  padding: 80px 2rem 100px 2rem; /* desktop: top, right, bottom, left */
+  max-width: 960px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem 2rem;
+    box-shadow: none;
+    position: static;
+  }
+
+  .mobile-menu.active {
+    display: flex;
+  }
+
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--primary); /* orange */
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1100;
+}
+
+.menu-toggle:focus {
+  outline: none;
+}
+.hero {
+  height: auto;
+}
+
+.hero-container {
+  height: auto;
+}
+
+.hero-container img {
+  position: relative;
+  height: 60vh;
+  object-fit: cover;
+}
+}
+
+/* Mobile nav toggle */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem 2rem;
+    box-shadow: none;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+ .menu-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--primary); /* orange */
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1100;
+}
+
+.menu-toggle:focus {
+  outline: none;
+}
+}
