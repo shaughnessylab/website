@@ -18,9 +18,6 @@ body {
   scroll-behavior: smooth;
 }
 
-main {
-  margin-top: 400px; /* or adjust if header height changes */
-}
 
 header {
   flex-wrap: wrap;
@@ -60,6 +57,10 @@ header {
 .lab-name span:last-child {
   color: var(--dark-gray);
   font-weight: bold;
+}
+
+.header-spacer {
+  height: 100px; /* Match your header height */
 }
 
 nav a {
