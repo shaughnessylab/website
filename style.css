@@ -63,13 +63,15 @@ header {
 
 
 
+nav a,
 nav a:visited {
   color: inherit;
   text-decoration: none;
 }
+
 nav a:hover,
 nav a.active {
-  color: var(--primary);
+  color: var(--primary); /* orange */
   text-decoration: none;
 }
 
