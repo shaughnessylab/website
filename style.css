@@ -309,23 +309,23 @@ footer img {
 }
 
 @media (max-width: 768px) {
-  .main-content {
-    padding: 140px 1rem 120px 1rem; /* mobile: extra space for stacked header and footer */
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: static;
   }
-}
 
-/* Hamburger menu base */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: var(--primary); /* orange lines */
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  z-index: 1100; /* higher than header */
+  .mobile-menu.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
 
 /* Mobile nav toggle */
