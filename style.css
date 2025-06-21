@@ -231,13 +231,17 @@ footer img {
 }
 
 .card-content h3 {
-  margin: 0 0 0.1rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
 }
 
 .pronouns {
   font-size: 0.8rem;
   color: #666;
   margin: 0;
+  padding: 0;
+  line-height: 1.1;
 }
 
 .card-content p {
