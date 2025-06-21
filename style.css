@@ -18,6 +18,10 @@ body {
   scroll-behavior: smooth;
 }
 
+main {
+  margin-top: 100px; /* or adjust if header height changes */
+}
+
 header {
   flex-wrap: wrap;
   overflow-x: auto;
@@ -172,7 +176,7 @@ footer img {
 }
 
 .people-content {
-  padding: 16rem 2rem 2rem 2rem; /* top, right, bottom, left */
+  padding: 2rem 2rem 2rem 2rem; /* top, right, bottom, left */
   max-width: 1000px;
   margin: auto;
 }
