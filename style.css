@@ -292,7 +292,7 @@ footer img {
 }
 
 .main-content {
-  padding: 2rem;
+  padding: 80px 2rem 2rem 2rem;
   max-width: 960px;
   margin: auto;
 }
