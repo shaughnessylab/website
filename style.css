@@ -303,7 +303,13 @@ footer img {
 }
 
 .main-content {
-  padding: 80px 2rem 100px 2rem; /* top, right, bottom, left */
+  padding: 80px 2rem 100px 2rem; /* desktop: top, right, bottom, left */
   max-width: 960px;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 140px 1rem 120px 1rem; /* mobile: extra space for stacked header and footer */
+  }
 }
