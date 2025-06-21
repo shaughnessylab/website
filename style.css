@@ -52,12 +52,12 @@ header {
 
 .lab-name span:first-child {
   color: var(--primary);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .lab-name span:last-child {
   color: var(--dark-gray);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 
