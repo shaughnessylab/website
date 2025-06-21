@@ -172,7 +172,7 @@ footer img {
 }
 
 .people-content {
-  padding: 8rem 2rem 2rem 2rem; /* top, right, bottom, left */
+  padding: 16rem 2rem 2rem 2rem; /* top, right, bottom, left */
   max-width: 1000px;
   margin: auto;
 }
