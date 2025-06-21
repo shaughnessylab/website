@@ -192,7 +192,7 @@ footer img {
   width: 140px;
   height: 140px;
   object-fit: cover;
-  border-radius: 0;
+  border-radius: 50%;
 }
 
 .person-info h4 {
@@ -223,6 +223,7 @@ footer img {
   height: 150px;
   object-fit: cover;
   margin-right: 1.5rem;
+  border-radius: 50%;
 }
 
 .card-content {
@@ -230,7 +231,7 @@ footer img {
 }
 
 .card-content h3 {
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.1rem;
 }
 
 .pronouns {
