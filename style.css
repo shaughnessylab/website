@@ -321,7 +321,11 @@ footer img {
   border: none;
   font-size: 2rem;
   cursor: pointer;
-  color: var(--text);
+  color: var(--primary); /* orange lines */
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1100; /* higher than header */
 }
 
 /* Mobile nav toggle */
