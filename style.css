@@ -57,7 +57,7 @@ header {
 
 .lab-name span:last-child {
   color: var(--dark-gray);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 
