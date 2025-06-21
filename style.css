@@ -59,10 +59,6 @@ header {
   font-weight: bold;
 }
 
-.header-spacer {
-  height: 50px; /* Match your header height */
-}
-
 nav a {
   text-decoration: none;
   margin-left: 1rem;
@@ -174,12 +170,6 @@ footer img {
     text-align: center;
     margin: 0.3rem 0;
   }
-}
-
-.people-content {
-  padding: 2rem 2rem 2rem 2rem; /* top, right, bottom, left */
-  max-width: 1000px;
-  margin: auto;
 }
 
 .people-section {
@@ -299,4 +289,10 @@ footer img {
   height: 2px;
   background-color: #fe5c00;
   margin-top: 0.3rem;
+}
+
+.main-content {
+  padding: 2rem;
+  max-width: 960px;
+  margin: auto;
 }
