@@ -60,7 +60,7 @@ header {
 }
 
 .header-spacer {
-  height: 100px; /* Match your header height */
+  height: 50px; /* Match your header height */
 }
 
 nav a {
