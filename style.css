@@ -83,7 +83,9 @@ nav a.active {
 
 .hero-container {
   position: relative;
-  width: 66%;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   height: 100%;
   overflow: hidden;
 }
@@ -323,9 +325,34 @@ footer img {
     display: flex;
   }
 
-  .menu-toggle {
-    display: block;
-  }
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--primary); /* orange */
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1100;
+}
+
+.menu-toggle:focus {
+  outline: none;
+}
+.hero {
+  height: auto;
+}
+
+.hero-container {
+  height: auto;
+}
+
+.hero-container img {
+  position: relative;
+  height: 60vh;
+  object-fit: cover;
+}
 }
 
 /* Mobile nav toggle */
@@ -346,7 +373,19 @@ footer img {
     display: flex;
   }
 
-  .menu-toggle {
-    display: block;
-  }
+ .menu-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--primary); /* orange */
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1100;
+}
+
+.menu-toggle:focus {
+  outline: none;
+}
 }
