@@ -424,17 +424,11 @@ footer {
 
 }
 
-.contact-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-.contact-buttons .contact-button {
+.contact-buttons a.contact-button {
   display: inline-block;
   padding: 0.3rem 0.75rem;
   border: 1px solid var(--primary);
+  background-color: #ffffff;
   color: var(--primary);
   font-weight: bold;
   text-decoration: none;
@@ -443,14 +437,14 @@ footer {
   font-size: 0.95rem;
 }
 
-.contact-buttons .contact-button:hover {
+.contact-buttons a.contact-button:hover {
   color: #ffffff;
   background-color: var(--primary);
   border: 1px solid var(--primary);
   text-decoration: none;
 }
 
-.contact-buttons .contact-button:visited {
+.contact-buttons a.contact-button:visited {
   color: var(--primary);
   text-decoration: none;
 }
