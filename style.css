@@ -445,6 +445,10 @@ footer .right {
   margin: auto;
 }
 
+.featured-photo .main-content {
+  padding-top: 0;
+}
+
 .featured-photo-container img {
   width: 100%;
   max-width: 800px;
