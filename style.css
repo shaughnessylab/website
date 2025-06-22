@@ -431,7 +431,7 @@ footer {
   margin-top: 0.5rem;
 }
 
-.contact-button {
+.contact-buttons .contact-button {
   display: inline-block;
   padding: 0.3rem 0.75rem;
   border: 1px solid var(--primary);
@@ -443,13 +443,14 @@ footer {
   font-size: 0.95rem;
 }
 
-.contact-button:hover {
+.contact-buttons .contact-button:hover {
   color: #ffffff;
   background-color: var(--primary);
+  border: 1px solid var(--primary);
   text-decoration: none;
 }
 
-.contact-button:visited {
+.contact-buttons .contact-button:visited {
   color: var(--primary);
   text-decoration: none;
 }
