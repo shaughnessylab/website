@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Publications - Shaughnessy Lab</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<header>
-  <div class="logo-container">
-    <img src="images/logo.png" alt="Lab Logo" />
-    <div class="lab-name">
-      <span>Shaughnessy</span><span>Lab</span>
-    </div>
-  </div>
-  <button class="menu-toggle" onclick="toggleMenu()">&#8801;</button>
-  <nav id="mobile-nav" class="mobile-menu">
-    <a href="index.html">Home</a>
-    <a href="people.html">People</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-  </nav>
-</header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Publications - Shaughnessy Lab</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Lab Logo" />
+                <div class="lab-name"><span>Shaughnessy</span><span>Lab</span></div>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">&#8801;</button>
+            <nav id="mobile-nav" class="mobile-menu">
+                <a href="index.html">Home</a>
+                <a href="people.html">People</a>
+                <a href="research.html">Research</a>
+                <a href="publications.html">Publications</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </header>
 
-<main class="main-content">
-  <div class="container">
-    <h2 class="section-title">
-      <span class="highlight">Published</span><span class="secondary">Papers</span>
-    </h2>
-    <div class="card publication-card">
-      <a href="images/publications/01.pdf" target="_blank" rel="noopener noreferrer">
-        <img src="images/publications/01.jpg" alt="Publication Thumbnail" />
-      </a>
-      <div class="card-content">
-        <h3>Interaction of osmoregulatory and acid-base compensation in white sturgeon (Acipenser transmontanus) during exposure to aquatic hypercarbia and elevated salinity</h3>
-        <div class="journal-name"><em>J Exp Biol</em></div>
-        <p>Shaughnessy CA, Baker DW, Brauner CJ, Morgan JD, Bystriansky JS</p>
-        <div class="contact-buttons">
-          <a class="contact-button" href="images/publications/01.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
-          <a class="contact-button" href="https://doi.org/10.1242/jeb.125567" target="_blank" rel="noopener noreferrer">Web</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-<footer>
-  <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
-  <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
-</footer>
-<script>
-  function toggleMenu() {
-    document.getElementById('mobile-nav').classList.toggle('active');
-  }
-</script>
-</body>
+        <main class="main-content">
+            <div class="container">
+                <h2 class="section-title"><span class="highlight">Published</span><span class="secondary">Papers</span></h2>
+
+                <div class="card publication-card">
+                    <a href="images/publications/02.pdf" target="_blank" rel="noopener noreferrer">
+                        <img src="images/publications/02.jpg" alt="Publication Thumbnail" />
+                    </a>
+                    <div class="card-content">
+                        <h3>Survival and osmoregulation of the purple marsh crab (<em>Sesarma reticulatum</em>) at varying salinity and pH</h3>
+                        <div class="journal-name"><em>Can J Zool</em></div>
+                        <p><strong>Shaughnessy CA</strong>, Anderson EC, Kasparian M, LaMontagne JM, Bystriansky JS</p>
+                        <div class="contact-buttons">
+                            <a class="contact-button" href="images/publications/02.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                            <a class="contact-button" href="https://doi.org/10.1139/cjz-2016-0199" target="_blank" rel="noopener noreferrer">Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card publication-card">
+                    <a href="images/publications/01.pdf" target="_blank" rel="noopener noreferrer">
+                        <img src="images/publications/01.jpg" alt="Publication Thumbnail" />
+                    </a>
+                    <div class="card-content">
+                        <h3>Interaction of osmoregulatory and acid-base compensation in white sturgeon (<em>Acipenser transmontanus</em>) during exposure to aquatic hypercarbia and elevated salinity</h3>
+                        <div class="journal-name"><em>J Exp Biol</em></div>
+                        <p><strong>Shaughnessy CA</strong>, Baker DW, Brauner CJ, Morgan JD, Bystriansky JS</p>
+                        <div class="contact-buttons">
+                            <a class="contact-button" href="images/publications/01.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+                            <a class="contact-button" href="https://doi.org/10.1242/jeb.125567" target="_blank" rel="noopener noreferrer">Web</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+            <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
+        </footer>
+        <script>
+            function toggleMenu() {
+                document.getElementById("mobile-nav").classList.toggle("active");
+            }
+        </script>
+    </body>
 </html>
