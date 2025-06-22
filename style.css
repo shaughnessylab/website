@@ -441,7 +441,7 @@ footer .right {
 }
 
 .featured-photo {
-  padding: 1rem 2rem 2rem 2rem; /* top, right, bottom, left */
+  padding: 0rem 2rem 2rem 2rem; /* top, right, bottom, left */
   max-width: 960px;
   margin: auto;
 }
