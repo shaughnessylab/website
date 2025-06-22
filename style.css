@@ -447,11 +447,12 @@ footer {
 }
 
 .publication-card {
+  display: flex;
   align-items: center;
+  min-height: 213px; /* match image height */
 }
 
 .publication-card .card-content {
-  height: 213px;
   display: flex;
   flex-direction: column;
   justify-content: center;
