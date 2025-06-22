@@ -394,7 +394,8 @@ footer {
   font-size: 0.95rem;
 }
 
-.contact-buttons a.contact-button:hover {
+.contact-buttons a.contact-button:hover,
+.contact-buttons a.contact-button:focus {
   color: #ffffff;
   background-color: var(--primary);
   border: 1px solid var(--primary);
