@@ -432,3 +432,16 @@ footer {
   border: 1px solid var(--primary);
   text-decoration: none;
 }
+
+.journal-name {
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0.4rem 0;
+}
+
+.publication-card img {
+  width: 160px;
+  height: 213px; /* maintains 3:4 ratio like 8.5x11 paper */
+  object-fit: cover;
+  border-radius: 0;
+}
