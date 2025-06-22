@@ -255,14 +255,14 @@ footer img {
 
   .contact-buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5rem;
     margin-top: 1rem;
   }
 
   .contact-buttons a.contact-button {
-    width: auto;
+    white-space: nowrap;
     padding: 0.4rem 1rem;
     text-align: center;
   }
