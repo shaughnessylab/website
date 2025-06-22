@@ -422,35 +422,34 @@ footer {
     display: flex;
   }
 
-  .contact-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-  }
+}
 
-  .contact-button {
-    display: inline-block;
-    padding: 0.3rem 0.75rem;
-    border: 1px solid #fe5c00;
-    background-color: #fff0e6;
-    color: inherit;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 0;
-    transition: var(--transition);
-    font-size: 0.95rem;
-  }
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
 
-  .contact-button:hover {
-    color: #fe5c00;
-    background-color: transparent;
-    text-decoration: none;
-  }
+.contact-button {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--primary);
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0;
+  transition: var(--transition);
+  font-size: 0.95rem;
+}
 
-  .contact-button:visited {
-    color: inherit;
-    text-decoration: none;
-  }
+.contact-button:hover {
+  color: var(--primary);
+  background-color: transparent;
+  text-decoration: none;
+}
 
+.contact-button:visited {
+  color: inherit;
+  text-decoration: none;
 }
