@@ -48,13 +48,15 @@
          <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
       </footer>
       <script>
-         const slides = document.querySelectorAll(".hero-container img");
-         let current = 0;
-         setInterval(() => {
-           slides[current].classList.remove("active");
-           current = (current + 1) % slides.length;
-           slides[current].classList.add("active");
-         }, 10000);
+        window.onload = function () {
+          const slides = document.querySelectorAll(".hero-container img");
+          let current = 0;
+          setInterval(() => {
+            slides[current].classList.remove("active");
+            current = (current + 1) % slides.length;
+            slides[current].classList.add("active");
+          }, 10000);
+        };
       </script>
 <script>
   function toggleMenu() {
