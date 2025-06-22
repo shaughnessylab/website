@@ -48,23 +48,28 @@
          <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
       </footer>
       <script>
-        window.onload = function () {
+        document.addEventListener("DOMContentLoaded", function () {
           const slides = document.querySelectorAll(".hero-container img");
           let current = 0;
 
-          // Ensure only the first image is active at load
-          slides.forEach((img, idx) => {
-            img.classList.remove("active");
-            if (idx === 0) img.classList.add("active");
+          // Initial setup
+          slides.forEach((img, i) => {
+            img.style.opacity = "0";
+            img.style.zIndex = "0";
           });
+          slides[0].style.opacity = "1";
+          slides[0].style.zIndex = "1";
 
-          // Cycle through slides
           setInterval(() => {
-            slides[current].classList.remove("active");
+            slides[current].style.opacity = "0";
+            slides[current].style.zIndex = "0";
+
             current = (current + 1) % slides.length;
-            slides[current].classList.add("active");
-          }, 5000); // 5 seconds for testing; adjust as needed
-        };
+
+            slides[current].style.opacity = "1";
+            slides[current].style.zIndex = "1";
+          }, 5000); // Change interval as needed
+        });
       </script>
 <script>
   function toggleMenu() {
