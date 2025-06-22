@@ -228,6 +228,10 @@ footer img {
   padding: 1.5rem 0;
 }
 
+.publication-card {
+  align-items: center;
+}
+
 .card img {
   width: 150px;
   height: 150px;
@@ -447,7 +451,7 @@ footer {
 }
 
 .publication-card .card-content > * {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.45rem;
 }
 
 .publication-card .card-content > *:last-child {
