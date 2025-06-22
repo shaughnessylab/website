@@ -262,8 +262,8 @@ footer img {
   }
 
   .contact-buttons a.contact-button {
-    width: 100%;
-    max-width: 240px;
+    width: auto;
+    padding: 0.4rem 1rem;
     text-align: center;
   }
 }
