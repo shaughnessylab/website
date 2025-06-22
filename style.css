@@ -331,10 +331,9 @@ footer img {
   object-fit: cover;
 }
 
-/* Mobile nav toggle */
-
-
-
+.menu-toggle {
+  display: none;
+}
 
 @media (max-width: 768px) {
 footer {
