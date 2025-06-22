@@ -366,10 +366,11 @@ footer .right {
     margin: 0.4rem 0;
 }
 .publication-card img {
-    width: 160px;
-    height: 213px; /* 3:4 aspect ratio */
-    object-fit: cover;
-    border-radius: 0;
+  width: 160px;
+  height: 213px; /* 3:4 aspect ratio */
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* subtle shadow */
 }
 .publication-card {
     display: flex;
