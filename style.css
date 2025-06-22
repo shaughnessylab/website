@@ -75,6 +75,17 @@ nav a.active {
   text-decoration: none;
 }
 
+.card-content a,
+.card-content a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-content a:hover {
+  color: var(--primary); /* orange */
+  text-decoration: none;
+}
+
 .hero {
   margin-top: 80px;
   display: flex;
