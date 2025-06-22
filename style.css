@@ -348,6 +348,7 @@ footer {
     text-align: center;
     margin: 0.3rem 0;
   }
+
 .mobile-menu {
     display: none;
     flex-direction: column;
@@ -367,6 +368,7 @@ footer {
   }
 
   .menu-toggle {
+    display: block;
     background: none;
     border: none;
     font-size: 2rem;
@@ -376,7 +378,6 @@ footer {
     top: 1rem;
     right: 2rem;
     z-index: 1100;
-    display: none;
   }
 }
 
