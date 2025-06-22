@@ -396,13 +396,13 @@ footer {
 
 .contact-buttons a.contact-button:hover,
 .contact-buttons a.contact-button:focus {
-  color: #ffffff;
+  color: #ffffff !important;
   background-color: var(--primary);
   border: 1px solid var(--primary);
   text-decoration: none;
 }
 
 .contact-buttons a.contact-button:visited {
-  color: var(--primary);
+  color: var(--primary) !important;
   text-decoration: none;
 }
