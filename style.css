@@ -445,3 +445,11 @@ footer {
   object-fit: cover;
   border-radius: 0;
 }
+
+.publication-card .card-content > * {
+  margin-bottom: 0.6rem;
+}
+
+.publication-card .card-content > *:last-child {
+  margin-bottom: 0;
+}
