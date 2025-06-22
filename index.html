@@ -23,15 +23,15 @@
     <a href="blog.html">Blog</a>
   </nav>
 </header>
-      <section class="hero">
-         <div class="hero-container">
-           <img src="images/home/slide1.jpg" alt="Slide 1" class="active" style="border: 3px solid red;" />
-           <img src="images/home/slide2.jpg" alt="Slide 2" style="border: 3px solid green;" />
-           <img src="images/home/slide3.jpg" alt="Slide 3" style="border: 3px solid blue;" />
-           <img src="images/home/slide4.jpg" alt="Slide 4" style="border: 3px solid orange;" />
-           <img src="images/home/slide5.jpg" alt="Slide 5" style="border: 3px solid purple;" />
-         </div>
-      </section>
+<section class="hero">
+  <div class="hero-container">
+    <img src="images/home/slide1.jpg" class="active" />
+    <img src="images/home/slide2.jpg" />
+    <img src="images/home/slide3.jpg" />
+    <img src="images/home/slide4.jpg" />
+    <img src="images/home/slide5.jpg" />
+  </div>
+</section>
       <section style="padding: 2rem; max-width: 960px; margin: auto;">
         <h2 class="section-title"><span class="highlight">Latest</span><span class="secondary">Updates</span></h2>
         <ul class="updates-list">
@@ -52,13 +52,18 @@
           const slides = document.querySelectorAll(".hero-container img");
           let current = 0;
 
-          // Initial setup
+          // Hide all slides except the first
           slides.forEach((img, i) => {
-            img.style.opacity = "0";
-            img.style.zIndex = "0";
+            img.style.opacity = i === 0 ? "1" : "0";
+            img.style.zIndex = i === 0 ? "1" : "0";
+            img.style.transition = "opacity 2s ease-in-out";
+            img.style.position = "absolute";
+            img.style.top = "0";
+            img.style.left = "0";
+            img.style.width = "100%";
+            img.style.height = "100%";
+            img.style.objectFit = "cover";
           });
-          slides[0].style.opacity = "1";
-          slides[0].style.zIndex = "1";
 
           setInterval(() => {
             slides[current].style.opacity = "0";
@@ -68,7 +73,7 @@
 
             slides[current].style.opacity = "1";
             slides[current].style.zIndex = "1";
-          }, 5000); // Change interval as needed
+          }, 5000);
         });
       </script>
 <script>
