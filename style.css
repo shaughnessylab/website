@@ -302,11 +302,7 @@ footer .right {
 .hero-container {
     height: 60vh;
 }
-.hero-container img {
-    position: relative;
-    height: 60vh;
-    object-fit: cover;
-}
+
 .menu-toggle {
     display: none;
 }
