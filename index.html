@@ -51,11 +51,19 @@
         window.onload = function () {
           const slides = document.querySelectorAll(".hero-container img");
           let current = 0;
+
+          // Ensure only the first image is active at load
+          slides.forEach((img, idx) => {
+            img.classList.remove("active");
+            if (idx === 0) img.classList.add("active");
+          });
+
+          // Cycle through slides
           setInterval(() => {
             slides[current].classList.remove("active");
             current = (current + 1) % slides.length;
             slides[current].classList.add("active");
-          }, 10000);
+          }, 5000); // 5 seconds for testing; adjust as needed
         };
       </script>
 <script>
