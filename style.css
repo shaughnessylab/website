@@ -449,6 +449,12 @@ footer .right {
   padding-top: 0;
 }
 
+.featured-photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers image and caption horizontally */
+}
+
 .featured-photo-container img {
   width: 100%;
   max-width: 800px;
