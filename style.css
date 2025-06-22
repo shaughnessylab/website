@@ -441,7 +441,7 @@ footer {
 
 .publication-card img {
   width: 160px;
-  height: 213px; /* maintains 3:4 ratio like 8.5x11 paper */
+  height: 213px; /* 3:4 aspect ratio */
   object-fit: cover;
   border-radius: 0;
 }
