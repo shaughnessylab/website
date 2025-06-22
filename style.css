@@ -228,10 +228,6 @@ footer img {
   padding: 1.5rem 0;
 }
 
-.publication-card {
-  align-items: center;
-}
-
 .card img {
   width: 150px;
   height: 150px;
@@ -448,6 +444,17 @@ footer {
   height: 213px; /* 3:4 aspect ratio */
   object-fit: cover;
   border-radius: 0;
+}
+
+.publication-card {
+  align-items: center;
+}
+
+.publication-card .card-content {
+  height: 213px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .publication-card .card-content > * {
