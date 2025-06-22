@@ -433,6 +433,7 @@ footer {
     display: inline-block;
     padding: 0.3rem 0.75rem;
     border: 1px solid #fe5c00;
+    background-color: #fff0e6;
     color: inherit;
     font-weight: bold;
     text-decoration: none;
