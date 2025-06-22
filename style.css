@@ -432,7 +432,7 @@ footer {
   .contact-button {
     display: inline-block;
     padding: 0.3rem 0.75rem;
-    border: 1px solid var(--primary);
+    border: 1px solid #fe5c00;
     color: inherit;
     font-weight: bold;
     text-decoration: none;
@@ -442,7 +442,7 @@ footer {
   }
 
   .contact-button:hover {
-    color: var(--primary);
+    color: #fe5c00;
     background-color: transparent;
     text-decoration: none;
   }
