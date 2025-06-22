@@ -184,7 +184,6 @@ footer img {
     text-align: center;
     margin: 0.3rem 0;
   }
-}
 
 .people-section {
   display: flex;
@@ -363,40 +362,11 @@ footer {
     display: flex;
   }
 
-
-    flex-direction: column;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 1rem 2rem;
-    box-shadow: none;
-  }
-
   nav.active {
     display: flex;
   }
 
- .menu-toggle {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: var(--primary); /* orange */
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  z-index: 1100;
-}
-/* Responsive hamburger and mobile nav */
-.menu-toggle {
-  display: none;
-}
-
-@media (max-width: 768px) {
   .menu-toggle {
-    display: block;
     background: none;
     border: none;
     font-size: 2rem;
@@ -406,21 +376,8 @@ footer {
     top: 1rem;
     right: 2rem;
     z-index: 1100;
-  }
-
-  .mobile-menu {
     display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 1rem 2rem;
-    box-shadow: none;
   }
-
-  .mobile-menu.active {
-    display: flex;
-  }
-
 }
 
 .contact-buttons a.contact-button {
