@@ -435,7 +435,7 @@ footer {
   display: inline-block;
   padding: 0.3rem 0.75rem;
   border: 1px solid var(--primary);
-  color: inherit;
+  color: var(--primary);
   font-weight: bold;
   text-decoration: none;
   border-radius: 0;
@@ -444,12 +444,12 @@ footer {
 }
 
 .contact-button:hover {
-  color: var(--primary);
-  background-color: transparent;
+  color: #ffffff;
+  background-color: var(--primary)
   text-decoration: none;
 }
 
 .contact-button:visited {
-  color: inherit;
+  color: var(--primary);
   text-decoration: none;
 }
