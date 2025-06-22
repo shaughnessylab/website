@@ -16,6 +16,15 @@ body {
     line-height: 1.75;
     scroll-behavior: smooth;
 }
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
     flex-wrap: wrap;
     overflow-x: auto;
@@ -405,6 +414,20 @@ footer .right {
 
 .updates-list li:last-child {
   border-bottom: none;
+}
+
+.updates-list li a {
+  display: block;
+  padding: 0.6rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.updates-list li a:hover {
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  background-color: #fff5ef;
 }
 
 .update-date {
