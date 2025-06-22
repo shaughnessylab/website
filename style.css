@@ -382,7 +382,7 @@ footer {
 
 .contact-buttons a.contact-button {
   display: inline-block;
-  padding: 0.3rem 0.75rem;
+  padding: 0.2rem 0.5rem;
   border: 1px solid var(--primary);
   background-color: #ffffff;
   color: var(--primary) !important;
@@ -390,7 +390,7 @@ footer {
   text-decoration: none;
   border-radius: 0;
   transition: var(--transition);
-  font-size: 0.95rem;
+  font-size: 0.75rem;
 }
 
 .contact-buttons a.contact-button:visited {
