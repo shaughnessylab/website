@@ -25,7 +25,7 @@
 </header>
 <section class="hero">
   <div class="hero-container">
-    <img src="images/home/slide1.jpg" class="active" />
+    <img src="images/home/slide1.jpg" />
     <img src="images/home/slide2.jpg" />
     <img src="images/home/slide3.jpg" />
     <img src="images/home/slide4.jpg" />
@@ -48,32 +48,17 @@
          <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
       </footer>
       <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const slides = document.querySelectorAll(".hero-container img");
+        document.addEventListener('DOMContentLoaded', () => {
+          const slides = document.querySelectorAll('.hero-container img');
           let current = 0;
 
-          // Hide all slides except the first
-          slides.forEach((img, i) => {
-            img.style.opacity = i === 0 ? "1" : "0";
-            img.style.zIndex = i === 0 ? "1" : "0";
-            img.style.transition = "opacity 2s ease-in-out";
-            img.style.position = "absolute";
-            img.style.top = "0";
-            img.style.left = "0";
-            img.style.width = "100%";
-            img.style.height = "100%";
-            img.style.objectFit = "cover";
-          });
+          slides[current].classList.add('visible');
 
           setInterval(() => {
-            slides[current].style.opacity = "0";
-            slides[current].style.zIndex = "0";
-
+            slides[current].classList.remove('visible');
             current = (current + 1) % slides.length;
-
-            slides[current].style.opacity = "1";
-            slides[current].style.zIndex = "1";
-          }, 5000);
+            slides[current].classList.add('visible');
+          }, 8000); // rotate every 8 seconds
         });
       </script>
 <script>
