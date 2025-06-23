@@ -350,16 +350,28 @@ footer .right {
         z-index: 1100;
     }
     .hero {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      min-height: auto;
+      padding-top: 44px;
+      padding-bottom: 0;
+      min-height: 200px;
+      height: 200px;
       position: relative;
-      height: auto;
     }
-
     .hero-container {
+      height: 200px;
+      min-height: 200px;
+      position: relative;
+    }
+    .hero-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
       height: auto;
-      min-height: unset;
+      object-fit: contain;
+      margin: auto;
+      inset: 0;
     }
 
     .nav-dot {
