@@ -303,6 +303,7 @@ footer .right {
 }
 .hero {
     height: 60vh;
+    padding: 0rem 2rem 2rem 0rem; /* top, right, bottom, left */
 }
 .hero-container {
     height: 60vh;
@@ -405,7 +406,7 @@ footer .right {
 
 .highlights-list {
   list-style: none;
-  padding: 0;
+  padding: 0rem 2rem 2rem 0rem; /* top, right, bottom, left */
   margin-top: 1rem;
   margin-bottom: 0;
 }
@@ -441,7 +442,7 @@ footer .right {
 }
 
 .featured-photo {
-  padding: 0rem 2rem 2rem 2rem; /* top, right, bottom, left */
+  padding: 0rem 2rem 2rem 0rem; /* top, right, bottom, left */
   max-width: 960px;
   margin: auto;
 }
