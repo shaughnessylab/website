@@ -350,15 +350,23 @@ footer .right {
         z-index: 1100;
     }
     .hero {
-      padding-top: 44px;
-      padding-bottom: 1rem;
-      min-height: 200px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      min-height: 180px;
       position: relative;
     }
 
     .hero-container {
       min-height: 200px;\
     }
+
+    .nav-dot {
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.nav-dot.active {
+  background-color: var(--primary);
+}
     .card {
         flex-direction: column;
         align-items: center;
