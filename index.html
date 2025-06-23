@@ -34,13 +34,13 @@
   </div>
 
   <div class="slider-nav">
-  <span class="nav-dot" onclick="showSlide(0)"></span>
-  <span class="nav-dot" onclick="showSlide(1)"></span>
-  <span class="nav-dot" onclick="showSlide(2)"></span>
-  <span class="nav-dot" onclick="showSlide(3)"></span>
-  <span class="nav-dot" onclick="showSlide(4)"></span>
-  <span class="nav-dot" onclick="showSlide(5)"></span>
-</div>
+    <span class="nav-dot" onclick="showSlide(0)"></span>
+    <span class="nav-dot" onclick="showSlide(1)"></span>
+    <span class="nav-dot" onclick="showSlide(2)"></span>
+    <span class="nav-dot" onclick="showSlide(3)"></span>
+    <span class="nav-dot" onclick="showSlide(4)"></span>
+    <span class="nav-dot" onclick="showSlide(5)"></span>
+  </div>
 
 </section>
 <section style="padding: 1rem 2rem; max-width: 960px; margin: auto;">
@@ -78,12 +78,13 @@
          <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
          <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
       </footer>
+
+
       <script>
         document.addEventListener('DOMContentLoaded', () => {
           const slides = document.querySelectorAll('.hero-container img');
           const dots = document.querySelectorAll('.nav-dot');
           let current = 0;
-          let interval = setInterval(nextSlide, 8000);
 
           function showSlide(index) {
             slides[current].classList.remove('visible');
@@ -94,20 +95,26 @@
           }
 
           function nextSlide() {
-            showSlide((current + 1) % slides.length);
+            let next = (current + 1) % slides.length;
+            showSlide(next);
           }
 
-          showSlide(0); // initialize
+          // Initialize
+          showSlide(0);
+          let interval = setInterval(nextSlide, 8000);
 
+          // Allow manual dot clicks
           dots.forEach((dot, index) => {
             dot.addEventListener('click', () => {
-              clearInterval(interval); // stop auto-advance on manual click
+              clearInterval(interval);
               showSlide(index);
-              interval = setInterval(nextSlide, 8000); // resume auto after click
+              interval = setInterval(nextSlide, 8000);
             });
           });
         });
       </script>
+
+
 <script>
   function toggleMenu() {
     document.getElementById('mobile-nav').classList.toggle('active');
