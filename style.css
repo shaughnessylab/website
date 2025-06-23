@@ -403,23 +403,23 @@ footer .right {
     margin-bottom: 0;
 }
 
-.updates-list {
+.highlights-list {
   list-style: none;
   padding: 0;
   margin-top: 1rem;
   margin-bottom: 0;
 }
 
-.updates-list li {
+.highlights-list li {
   padding: 0.4rem 0;
   border-bottom: 1px solid #ddd;
 }
 
-.updates-list li:last-child {
+.highlights-list li:last-child {
   border-bottom: none;
 }
 
-.updates-list li a {
+.highlights-list li a {
   display: block;
   padding: 0.3rem 0.6rem;
   line-height: 1.4;
@@ -428,13 +428,13 @@ footer .right {
   transition: border 0.3s ease, background-color 0.3s ease;
 }
 
-.updates-list li a:hover {
+.highlights-list li a:hover {
   border: 1px solid var(--primary);
   border-radius: 4px;
   background-color: #fff5ef;
 }
 
-.update-date {
+.highlights-date {
   font-weight: bold;
   color: var(--primary);
   margin-right: 0.5rem;
