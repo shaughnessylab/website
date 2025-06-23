@@ -86,7 +86,7 @@ nav a.active {
 }
 .hero {
   margin-top: 0;
-  padding-top: 50px;
+  padding-top: 44px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -463,6 +463,46 @@ footer .right {
   font-weight: bold;
   color: var(--primary);
   margin-right: 0.5rem;
+}
+
+.featured-paper-highlights-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  max-width: 960px;
+  margin: auto;
+  gap: 2rem;
+}
+
+.featured-paper-column {
+  flex: 0 0 260px;
+}
+
+.highlights-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.featured-paper-column .publication-card {
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.featured-paper-column .publication-card img {
+  width: 100%;
+  height: auto;
+  max-width: 160px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.featured-paper-column .card-content {
+  padding-top: 0.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .featured-photo {
