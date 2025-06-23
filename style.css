@@ -116,6 +116,29 @@ nav a.active {
   z-index: 1;
 }
 
+.slider-nav {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.nav-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-dot.active {
+  background-color: var(--primary);
+}
+
 footer {
     position: fixed;
     bottom: 0;
