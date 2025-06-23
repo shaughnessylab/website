@@ -350,14 +350,16 @@ footer .right {
         z-index: 1100;
     }
     .hero {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      min-height: 180px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      min-height: auto;
       position: relative;
+      height: auto;
     }
 
     .hero-container {
-      min-height: 200px;\
+      height: auto;
+      min-height: unset;
     }
 
     .nav-dot {
