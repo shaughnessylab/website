@@ -85,11 +85,13 @@ nav a.active {
     text-decoration: none;
 }
 .hero {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
+  margin-top: 0;
+  padding-top: 80px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 .hero-container {
     position: relative;
@@ -320,9 +322,9 @@ footer .right {
     margin-top: 0.3rem;
 }
 .main-content {
-    padding: 80px 2rem 100px 2rem; /* desktop: top, right, bottom, left */
-    max-width: 960px;
-    margin: auto;
+  padding: 80px 2rem 120px 2rem;
+  max-width: 960px;
+  margin: auto;
 }
 .hero {
     height: 60vh;
