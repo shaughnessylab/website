@@ -300,6 +300,17 @@ footer .right {
     background-color: #fe5c00;
     margin-top: 0.3rem;
 }
+
+.subsection-title {
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--dark-gray);
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+}
 .main-content {
   padding: 80px 2rem 120px 2rem;
   max-width: 960px;
@@ -442,7 +453,10 @@ footer .right {
   order: 1;
 }
 
-
+.publication-grid .publication-card {
+  flex: 1 1 100%;
+  max-width: 100%;
+}
 
 .lightbox-content {
   max-width: 100%;
@@ -512,6 +526,18 @@ footer .right {
 }
 .publication-card .card-content > *:last-child {
     margin-bottom: 0;
+}
+
+.publication-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.publication-grid .publication-card {
+  flex: 1 1 calc(33.333% - 1rem);
+  max-width: calc(33.333% - 1rem);
 }
 
 .highlights-list {
