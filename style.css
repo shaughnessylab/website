@@ -9,7 +9,7 @@
     --transition: all 0.3s ease;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     background-color: var(--bg);
     color: var(--text);
@@ -49,7 +49,7 @@ header {
     margin-right: 10px;
 }
 .lab-name {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
 }
 .lab-name span:first-child {
@@ -156,7 +156,7 @@ footer {
     align-items: center;
     padding: 1rem 2rem;
     font-size: 0.8rem;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     flex-wrap: wrap;
     z-index: 1000;
     box-shadow: none;
@@ -219,7 +219,7 @@ footer .right {
     border-radius: 50%;
 }
 .person-info h4 {
-    font-family: "EB Garamond", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     margin: 0 0 0.25rem;
 }
@@ -267,7 +267,7 @@ footer .right {
     margin-top: 1.5rem;
 }
 .lab-logo {
-    font-family: "Georgia", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
 }
 .lab-logo .highlight {
@@ -281,7 +281,7 @@ footer .right {
 .section-title {
     display: block;
     font-size: 1.8rem;
-    font-family: "Georgia", serif;
+    font-family: 'Playfair Display', serif;
     position: relative;
 }
 .section-title .highlight {
@@ -302,13 +302,35 @@ footer .right {
 }
 
 .subsection-title {
-  font-family: Georgia, serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: normal;
+  color: inherit;
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
-  color: var(--accent); /* #333 */
+  line-height: 1.3;
+  display: block;
   border: none;
+  position: relative;
+}
+
+.subsection-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fe5c00;
+  margin-top: 0.3rem;
+}
+
+.subsection-title .highlight {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.subsection-title .secondary {
+  color: var(--dark-gray);
+  font-weight: normal;
 }
 
 .main-content {
