@@ -1,130 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <title>People | Shaughnessy Lab</title>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <div class="logo-container">
-                <img src="images/logo.png" alt="Lab Logo" />
-                <div class="lab-name"><span>Shaughnessy</span><span>Lab</span></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>People | Shaughnessy Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="images/logo.png" alt="Lab Logo" />
+        <div class="lab-name">
+          <span>Shaughnessy</span><span>Lab</span>
+        </div>
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">&#8801;</button>
+      <nav id="mobile-nav" class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="people.html" class="active">People</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="container">
+        <h2 class="merged-heading section-title">
+          <span class="highlight">Principal</span><span class="secondary">Investigator</span>
+        </h2>
+        <div class="card">
+          <img alt="Dr. Ciaran Shaughnessy" src="images/people/shaughnessy.jpg" />
+          <div class="card-content">
+            <h3>Ciaran A. Shaughnessy, Ph.D.</h3>
+            <div class="pronouns">he/him</div>
+            <p>
+              Dr. Shaughnessy is an Assistant Professor of Integrative Biology at Oklahoma State University. His research integrates molecular, physiological, and evolutionary approaches to understand ion transport,
+              endocrinology, and environmental adaptation in aquatic vertebrates.
+            </p>
+            <div class="contact-buttons">
+              <a class="contact-button" href="mailto:ciaran.shaughnessy@okstate.edu">Email</a>
+              <a class="contact-button" href="images/people/CV_CiaranShaughnessy.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+              <a href="https://scholar.google.com/citations?user=CN5EMFoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="contact-button">Google Scholar</a>
             </div>
-            <button class="menu-toggle" onclick="toggleMenu()">&#8801;</button>
-            <nav id="mobile-nav" class="mobile-menu">
-                <a href="index.html">Home</a>
-                <a href="people.html" class="active">People</a>
-                <a href="research.html">Research</a>
-                <a href="publications.html">Publications</a>
-                <a href="blog.html">Blog</a>
-            </nav>
-        </header>
-        <main class="main-content">
-            <div class="container">
-                <h2 class="merged-heading section-title"><span class="highlight">Principal</span><span class="secondary">Investigator</span></h2>
-                <div class="card">
-                    <img alt="Dr. Ciaran Shaughnessy" src="images/people/shaughnessy.jpg" />
-                    <div class="card-content">
-                        <h3>Ciaran A. Shaughnessy, Ph.D.</h3>
-                        <div class="pronouns">he/him</div>
-                        <p>
-                            Dr. Shaughnessy is an Assistant Professor of Integrative Biology at Oklahoma State University. His research integrates molecular, physiological, and evolutionary approaches to understand ion transport,
-                            endocrinology, and environmental adaptation in aquatic vertebrates.
-                        </p>
-                        <div class="contact-buttons">
-                            <a class="contact-button" href="mailto:ciaran.shaughnessy@okstate.edu">Email</a>
-                            <a class="contact-button" href="images/people/CV_CiaranShaughnessy.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-                            <a href="https://scholar.google.com/citations?user=CN5EMFoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="contact-button">Google Scholar</a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
 
-                <h2 class="merged-heading section-title"><span class="highlight">Graduate</span><span class="secondary">Students</span></h2>
-                <div class="card">
-                    <img alt="Ava Cannizzaro" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Ava Cannizzaro</h3>
-                        <div class="pronouns">she/her</div>
-                        <p>M.S. student in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img alt="Allison DeLoache" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Allison DeLoache, M.S.</h3>
-                        <div class="pronouns">she/her</div>
-                        <p>Ph.D. student in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img alt="Dillon Flowers" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Dillon Flowers, M.S.</h3>
-                        <div class="pronouns">he/him</div>
-                        <p>Ph.D. student in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img alt="Susanne Hahs" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Susanne Hahs</h3>
-                        <div class="pronouns">she/her</div>
-                        <p>M.S. student in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img alt="Madison Merideth" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Madison Merideth</h3>
-                        <div class="pronouns">she/her</div>
-                        <p>M.S. student in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
+        <h2 class="merged-heading section-title">
+          <span class="highlight">Graduate</span><span class="secondary">Students</span>
+        </h2>
+        <div class="card">
+          <img alt="Ava Cannizzaro" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Ava Cannizzaro</h3>
+            <div class="pronouns">she/her</div>
+            <p>M.S. student in the Shaughnessy Lab.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img alt="Allison DeLoache" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Allison DeLoache, M.S.</h3>
+            <div class="pronouns">she/her</div>
+            <p>Ph.D. student in the Shaughnessy Lab.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img alt="Dillon Flowers" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Dillon Flowers, M.S.</h3>
+            <div class="pronouns">he/him</div>
+            <p>Ph.D. student in the Shaughnessy Lab.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img alt="Susanne Hahs" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Susanne Hahs</h3>
+            <div class="pronouns">she/her</div>
+            <p>M.S. student in the Shaughnessy Lab.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img alt="Madison Merideth" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Madison Merideth</h3>
+            <div class="pronouns">she/her</div>
+            <p>M.S. student in the Shaughnessy Lab.</p>
+          </div>
+        </div>
 
-                <h2 class="merged-heading section-title"><span class="highlight">Undergraduate</span><span class="secondary">Students</span></h2>
-                <div class="card">
-                    <img alt="Kristine Branch" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Kristine Branch</h3>
-                        <div class="pronouns">she/her</div>
-                        <p>Undergraduate student researcher in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img alt="Conner Brown" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Conner Brown</h3>
-                        <div class="pronouns">he/him</div>
-                        <p>Undergraduate student researcher in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img alt="Samantha Kennedy" src="images/people/placeholder.jpg" />
-                    <div class="card-content">
-                        <h3>Samantha Kennedy</h3>
-                        <div class="pronouns">she/her</div>
-                        <p>Undergraduate student researcher in the Shaughnessy Lab.</p>
-                    </div>
-                </div>
+        <h2 class="merged-heading section-title">
+          <span class="highlight">Undergraduate</span><span class="secondary">Students</span>
+        </h2>
+        <div class="card">
+          <img alt="Kristine Branch" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Kristine Branch</h3>
+            <div class="pronouns">she/her</div>
+            <p>Undergraduate student researcher in the Shaughnessy Lab.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img alt="Conner Brown" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Conner Brown</h3>
+            <div class="pronouns">he/him</div>
+            <p>Undergraduate student researcher in the Shaughnessy Lab.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img alt="Samantha Kennedy" src="images/people/placeholder.jpg" />
+          <div class="card-content">
+            <h3>Samantha Kennedy</h3>
+            <div class="pronouns">she/her</div>
+            <p>Undergraduate student researcher in the Shaughnessy Lab.</p>
+          </div>
+        </div>
 
-                <h2 class="merged-heading section-title"><span class="highlight">Former</span><span class="secondary">Students</span></h2>
-                <div class="former-subsection">
-                    <p><strong>Savannah Caldwell</strong> – Medical Laboratory Scientist, OU Health</p>
-                    <p><strong>Madelyne Hurst</strong> – Undergraduate researcher, now pursuing a career in conservation</p>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
-            <div class="right">© 2025 Ciaran A. Shaughnessy</div>
-        </footer>
-        <script>
-            function toggleMenu() {
-                document.getElementById("mobile-nav").classList.toggle("active");
-            }
-        </script>
-    </body>
+        <h2 class="merged-heading section-title">
+          <span class="highlight">Former</span><span class="secondary">Students</span>
+        </h2>
+        <div class="former-subsection">
+          <p><strong>Savannah Caldwell</strong> – Medical Laboratory Scientist, OU Health</p>
+          <p><strong>Madelyne Hurst</strong> – Undergraduate researcher, now pursuing a career in conservation</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+      <div class="right">© 2025 Ciaran A. Shaughnessy</div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        document.getElementById("mobile-nav").classList.toggle("active");
+      }
+    </script>
+  </body>
 </html>

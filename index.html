@@ -1,170 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Shaughnessy Lab</title>
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-<header>
-<div class="logo-container">
-  <img src="images/logo.png" alt="Lab Logo" />
-  <div class="lab-name">
-    <span>Shaughnessy</span><span>Lab</span>
-  </div>
-</div>
-<button class="menu-toggle" onclick="toggleMenu()">&#8801;</button>
-<nav id="mobile-nav" class="mobile-menu">
-    <a href="index.html" class="active">Home</a>
-    <a href="people.html">People</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="blog.html">Blog</a>
-  </nav>
-</header>
-<main class="main-content">
-<section class="hero">
-  <div class="hero-container">
-    <img src="images/home/slide1.jpg" />
-    <img src="images/home/slide2.jpg" />
-    <img src="images/home/slide3.jpg" />
-    <img src="images/home/slide4.jpg" />
-    <img src="images/home/slide5.jpg" />
-    <img src="images/home/slide6.jpg" />
-
-  <div class="slider-nav">
-    <span class="nav-dot" onclick="showSlide(0)"></span>
-    <span class="nav-dot" onclick="showSlide(1)"></span>
-    <span class="nav-dot" onclick="showSlide(2)"></span>
-    <span class="nav-dot" onclick="showSlide(3)"></span>
-    <span class="nav-dot" onclick="showSlide(4)"></span>
-    <span class="nav-dot" onclick="showSlide(5)"></span>
-  </div>
-
-  </div>
-
-</section>
-<section class="featured-paper-highlights-row">
-  <div class="featured-paper-column">
-    <h2 class="section-title">
-      <span class="secondary">Featured</span><span class="highlight">Paper</span>
-    </h2>
-    <div class="card publication-card">
-      <a href="images/publications/26.pdf" target="_blank" rel="noopener noreferrer">
-        <img src="images/publications/26.jpg" alt="Functional characterization of melanocortin 2 receptor (Mc2r) from a lobe-finned fish (Protopterus annectens)" />
-      </a>
-      <div class="card-content">
-        <h3>Functional characterization of melanocortin 2 receptor (Mc2r) from a lobe-finned fish (<em>Protopterus annectens</em>) and insights into the molecular evolution of melanocortin receptors</h3>
-        <div class="journal-name"><em>Gen Comp Endocrinol</em></div>
-        <p><strong>Shaughnessy CA</strong>, Le K, Myhre VD, Dores RM</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaughnessy Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="images/logo.png" alt="Lab Logo" />
+        <div class="lab-name">
+          <span>Shaughnessy</span><span>Lab</span>
+        </div>
       </div>
-    </div>
-  </div>
+      <button class="menu-toggle" onclick="toggleMenu()">&#8801;</button>
+      <nav id="mobile-nav" class="mobile-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="people.html">People</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero-container">
+          <img src="images/home/slide1.jpg" />
+          <img src="images/home/slide2.jpg" />
+          <img src="images/home/slide3.jpg" />
+          <img src="images/home/slide4.jpg" />
+          <img src="images/home/slide5.jpg" />
+          <img src="images/home/slide6.jpg" />
 
-  <div class="highlights-column">
-    <h2 class="section-title"><span class="secondary">Recent</span><span class="highlight">Highlights</span></h2>
-    <ul class="highlights-list">
-      <li><a href="blog.html"><span class="highlights-date">June 2025:</span>Allison and Ciaran present at NASCE in Quebec City, Canada.</a></li>
-      <li><a href="people.html"><span class="highlights-date">May 2025:</span>Welcome to our new M.S. student, Susanne Hahs, from Boston University!</a></li>
-      <li><a href="people.html"><span class="highlights-date">April 2025:</span>Welcome to our new M.S. student, Madison Merideth, from Oklahoma State University!</a></li>
-      <li><a href="publications.html"><span class="highlights-date">March 2025:</span>Two new lamprey papers published in <em>J Exp Biol</em> and <em>J Mol Endocrinol</em>.</a></li>
-      <li><a href="people.html"><span class="highlights-date">Jan 2025:</span>Welcome to our new M.S. student, Ava Cannizzaro, from the University of Denver!</a></li>
-    </ul>
-  </div>
-</section>
+          <div class="slider-nav">
+            <span class="nav-dot" onclick="showSlide(0)"></span>
+            <span class="nav-dot" onclick="showSlide(1)"></span>
+            <span class="nav-dot" onclick="showSlide(2)"></span>
+            <span class="nav-dot" onclick="showSlide(3)"></span>
+            <span class="nav-dot" onclick="showSlide(4)"></span>
+            <span class="nav-dot" onclick="showSlide(5)"></span>
+          </div>
+        </div>
+      </section>
 
-<section class="calendar-photo-row">
-  <div class="calendar-column">
-    <h2 class="section-title"><span class="secondary">Upcoming</span><span class="highlight">Calendar</span></h2>
-    <ul class="highlights-list">
-      <li><a href="https://icce19.com/"><span class="highlights-date">July 2025:</span>Ciaran will be presenting a State-of-the-Art talk on HPI axis evolution and chairing a session at ICCE in Sendai, Japan.</a></li>
-      <li><a href="research.html"><span class="highlights-date">September 2025:</span>Animal collections begin for our black bass project funded by a grant through the Oklahoma Department of Wildlife Conservation.</a></li>
-      <li><a href="https://units.fisheries.org/physiology/"><span class="highlights-date">Summer 2026:</span>We will be taking a large group to Vancouver, Canada for the 16th International Congress on the Biology of Fish!</a></li>
-    </ul>
-  </div>
+      <section class="featured-paper-highlights-row">
+        <div class="featured-paper-column">
+          <h2 class="section-title">
+            <span class="secondary">Featured</span><span class="highlight">Paper</span>
+          </h2>
+          <div class="card publication-card">
+            <a href="images/publications/30.pdf" target="_blank" rel="noopener noreferrer">
+              <img src="images/publications/30.jpg" alt="A Cftr-independent, Ano1-rich seawater-adaptive ionocyte in sea lamprey gills" />
+            </a>
+            <div class="card-content">
+              <h3>A Cftr-independent, Ano1-rich seawater-adaptive ionocyte in sea lamprey gills</h3>
+              <div class="journal-name"><em>J Exp Biol</em></div>
+              <p><strong>Shaughnessy CA</strong>, Hall DJ, Norstog JL, Ferreira-Martins D, Barany A, Regish AM, Breves JP, Komoroske LM, McCormick SD</p>
+              <div class="contact-buttons">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="highlights-column">
+          <h2 class="section-title"><span class="secondary">Recent</span><span class="highlight">Highlights</span></h2>
+          <ul class="highlights-list">
+            <li><a href="blog.html"><span class="highlights-date">June 2025:</span>Allison and Ciaran present at NASCE in Quebec City, Canada.</a></li>
+            <li><a href="people.html"><span class="highlights-date">May 2025:</span>Welcome to our new M.S. student, Susanne Hahs, from Boston University!</a></li>
+            <li><a href="people.html"><span class="highlights-date">April 2025:</span>Welcome to our new M.S. student, Madison Merideth, from Oklahoma State University!</a></li>
+            <li><a href="publications.html"><span class="highlights-date">March 2025:</span>Two new lamprey papers published in <em>J Exp Biol</em> and <em>J Mol Endocrinol</em>.</a></li>
+            <li><a href="people.html"><span class="highlights-date">Jan 2025:</span>Welcome to our new M.S. student, Ava Cannizzaro, from the University of Denver!</a></li>
+          </ul>
+        </div>
+      </section>
 
-  <div class="featured-photo-column">
-    <h2 class="section-title">
-      <span class="secondary">Featured</span><span class="highlight">Photo</span>
-    </h2>
-    <div class="featured-photo-container">
-      <img id="featured-photo" src="images/home/featured.jpg" alt="Featured Photo of the Shaughnessy Lab" />
-      <p class="caption">New sea lamprey arrive to the Shaughnessy Lab from the Connecticut River and Great Lakes. [Photo Credit: Dillon Flowers]</p>
-    </div>
-
-    <!-- Lightbox Overlay -->
-    <div id="photo-lightbox" class="lightbox hidden">
-      <div class="lightbox-content">
-        <img src="images/home/featured.jpg" alt="Featured Photo of the Shaughnessy Lab" />
-        <p class="caption">New sea lamprey arrive to the Shaughnessy Lab from the Connecticut River and Great Lakes. [Photo Credit: Dillon Flowers]</p>
-      </div>
-    </div>
-  </div>
-</section>
+      <section class="calendar-photo-row">
+        <div class="calendar-column">
+          <h2 class="section-title"><span class="secondary">Upcoming</span><span class="highlight">Calendar</span></h2>
+          <ul class="highlights-list">
+            <li><a href="https://icce19.com/"><span class="highlights-date">July 2025:</span>Ciaran will be presenting a State-of-the-Art talk on HPI axis evolution and chairing a session at ICCE in Sendai, Japan.</a></li>
+            <li><a href="research.html"><span class="highlights-date">September 2025:</span>Animal collections begin for our black bass project funded by a grant through the Oklahoma Department of Wildlife Conservation.</a></li>
+            <li><a href="https://units.fisheries.org/physiology/"><span class="highlights-date">Summer 2026:</span>We will be taking a large group to Vancouver, Canada for the 16th International Congress on the Biology of Fish!</a></li>
+          </ul>
+        </div>
+        <div class="featured-photo-column">
+          <h2 class="section-title">
+            <span class="secondary">Featured</span><span class="highlight">Photo</span>
+          </h2>
+          <div class="featured-photo-container">
+            <img id="featured-photo" src="images/home/featured.jpg" alt="Featured Photo of the Shaughnessy Lab" />
+            <p class="caption">New sea lamprey arrive to the Shaughnessy Lab from the Connecticut River and Great Lakes. [Photo Credit: Dillon Flowers]</p>
+          </div>
+          <!-- Lightbox Overlay -->
+          <div id="photo-lightbox" class="lightbox hidden">
+            <div class="lightbox-content">
+              <img src="images/home/featured.jpg" alt="Featured Photo of the Shaughnessy Lab" />
+              <p class="caption">New sea lamprey arrive to the Shaughnessy Lab from the Connecticut River and Great Lakes. [Photo Credit: Dillon Flowers]</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div style='padding-top: 2rem;'></div>
+    </main>
+    <footer>
+      <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
+      <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
+    </footer>
 
-      </main>
-      <footer>
-         <div class="left">Department of Biology, 307 Life Sciences West, Oklahoma State University, Stillwater, OK, 74074</div>
-         <div class="right">&copy; 2025 Ciaran A. Shaughnessy</div>
-      </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const slides = document.querySelectorAll('.hero-container img');
+        const dots = document.querySelectorAll('.nav-dot');
+        let current = 0;
 
+        function showSlide(index) {
+          slides[current].classList.remove('visible');
+          dots[current].classList.remove('active');
+          current = index;
+          slides[current].classList.add('visible');
+          dots[current].classList.add('active');
+        }
 
-      <script>
-        document.addEventListener('DOMContentLoaded', () => {
-          const slides = document.querySelectorAll('.hero-container img');
-          const dots = document.querySelectorAll('.nav-dot');
-          let current = 0;
+        function nextSlide() {
+          let next = (current + 1) % slides.length;
+          showSlide(next);
+        }
 
-          function showSlide(index) {
-            slides[current].classList.remove('visible');
-            dots[current].classList.remove('active');
-            current = index;
-            slides[current].classList.add('visible');
-            dots[current].classList.add('active');
-          }
+        // Initialize
+        showSlide(0);
+        let interval = setInterval(nextSlide, 8000);
 
-          function nextSlide() {
-            let next = (current + 1) % slides.length;
-            showSlide(next);
-          }
-
-          // Initialize
-          showSlide(0);
-          let interval = setInterval(nextSlide, 8000);
-
-          // Allow manual dot clicks
-          dots.forEach((dot, index) => {
-            dot.addEventListener('click', () => {
-              clearInterval(interval);
-              showSlide(index);
-              interval = setInterval(nextSlide, 8000);
-            });
+        // Allow manual dot clicks
+        dots.forEach((dot, index) => {
+          dot.addEventListener('click', () => {
+            clearInterval(interval);
+            showSlide(index);
+            interval = setInterval(nextSlide, 8000);
           });
         });
-      </script>
+      });
+    </script>
 
+    <script>
+      function toggleMenu() {
+        document.getElementById('mobile-nav').classList.toggle('active');
+      }
+    </script>
 
-<script>
-  function toggleMenu() {
-    document.getElementById('mobile-nav').classList.toggle('active');
-  }
-</script>
+    <script>
+      const featuredImg = document.getElementById('featured-photo');
+      const lightbox = document.getElementById('photo-lightbox');
 
-<script>
-  const featuredImg = document.getElementById('featured-photo');
-  const lightbox = document.getElementById('photo-lightbox');
+      featuredImg.addEventListener('click', () => {
+        lightbox.classList.remove('hidden');
+      });
 
-  featuredImg.addEventListener('click', () => {
-    lightbox.classList.remove('hidden');
-  });
-
-  lightbox.addEventListener('click', () => {
-    lightbox.classList.add('hidden');
-  });
-</script>
-   </body>
+      lightbox.addEventListener('click', () => {
+        lightbox.classList.add('hidden');
+      });
+    </script>
+  </body>
 </html>

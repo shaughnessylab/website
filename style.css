@@ -1,3 +1,6 @@
+/* =========================
+   Root Variables
+   ========================= */
 :root {
     --primary: #fe5c00;
     --primary-muted: #ffa97a;
@@ -8,6 +11,10 @@
     --accent: #333;
     --transition: all 0.3s ease;
 }
+
+/* =========================
+   Base Styles
+   ========================= */
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
@@ -25,6 +32,9 @@ a:active {
   text-decoration: none;
 }
 
+/* =========================
+   Header & Navigation
+   ========================= */
 header {
     flex-wrap: wrap;
     overflow-x: auto;
@@ -69,7 +79,6 @@ nav a:hover {
   color: var(--primary);
   text-decoration: none;
 }
-
 nav a.active {
   color: var(--primary);
   font-weight: bold;
@@ -84,6 +93,10 @@ nav a.active {
     color: var(--primary); /* orange */
     text-decoration: none;
 }
+
+/* =========================
+   Hero Section
+   ========================= */
 .hero {
   margin-top: 0;
   padding-top: 44px;
@@ -117,12 +130,10 @@ nav a.active {
   transition: opacity 1s ease-in-out;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
-
 .hero-container img.visible {
   opacity: 1;
   z-index: 1;
 }
-
 .slider-nav {
   position: absolute;
   bottom: 1rem;
@@ -132,7 +143,6 @@ nav a.active {
   gap: 0.5rem;
   z-index: 10;
 }
-
 .nav-dot {
   width: 12px;
   height: 12px;
@@ -141,11 +151,13 @@ nav a.active {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 .nav-dot.active {
   background-color: var(--primary);
 }
 
+/* =========================
+   Footer
+   ========================= */
 footer {
     position: fixed;
     bottom: 0;
@@ -201,6 +213,10 @@ footer .right {
     text-align: center;
     margin: 0.3rem 0;
 }
+
+/* =========================
+   People & Cards
+   ========================= */
 .people-section {
     display: flex;
     flex-direction: column;
@@ -244,7 +260,6 @@ footer .right {
     margin-right: 1.5rem;
     border-radius: 50%;
 }
-
 .card-content {
     flex: 1;
 }
@@ -266,6 +281,10 @@ footer .right {
 .former-subsection {
     margin-top: 1.5rem;
 }
+
+/* =========================
+   Lab Logo & Section Titles
+   ========================= */
 .lab-logo {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -300,7 +319,6 @@ footer .right {
     background-color: #fe5c00;
     margin-top: 0.3rem;
 }
-
 .subsection-title {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
@@ -313,7 +331,6 @@ footer .right {
   border: none;
   position: relative;
 }
-
 .subsection-title::after {
   content: "";
   display: block;
@@ -322,23 +339,46 @@ footer .right {
   background-color: #fe5c00;
   margin-top: 0.3rem;
 }
-
 .subsection-title .highlight {
   color: var(--primary);
   font-weight: bold;
 }
-
 .subsection-title .secondary {
   color: var(--dark-gray);
   font-weight: normal;
 }
+.project-label {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.15rem;
+  text-decoration: underline;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
 
+.year-label {
+  font-family: 'Source Sans Pro', serif;
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: var(--primary);
+  text-decoration: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+/* =========================
+   Main Content
+   ========================= */
 .main-content {
   padding: 80px 2rem 120px 2rem;
   max-width: 960px;
   margin: auto;
 }
 
+/* =========================
+   Responsive Styles
+   ========================= */
 .menu-toggle {
     display: none;
 }
@@ -459,44 +499,47 @@ footer .right {
     }
 
     .calendar-photo-row {
-  flex-direction: column;
+      flex-direction: column;
+    }
+
+    .calendar-column,
+    .featured-photo-column {
+      width: 100%;
+    }
+
+    .featured-photo-column {
+      order: 0;
+    }
+
+    .calendar-column {
+      order: 1;
+    }
+
+    .publication-grid .publication-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    .lightbox-content {
+      max-width: 100%;
+      width: 100%;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .lightbox-content img {
+      width: 100%;
+      height: auto;
+      max-height: 50vh;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
 }
 
-.calendar-column,
-.featured-photo-column {
-  width: 100%;
-}
-
-.featured-photo-column {
-  order: 0;
-}
-
-.calendar-column {
-  order: 1;
-}
-
-.publication-grid .publication-card {
-  flex: 1 1 100%;
-  max-width: 100%;
-}
-
-.lightbox-content {
-  max-width: 100%;
-  width: 100%;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
-.lightbox-content img {
-  width: 100%;
-  height: auto;
-  max-height: 50vh;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 1rem auto;
-}
-
-}
+/* =========================
+   Contact Buttons
+   ========================= */
 .contact-buttons a.contact-button {
     display: inline-block;
     padding: 0.2rem 0.5rem;
@@ -521,6 +564,10 @@ footer .right {
     border: 1px solid var(--primary);
     text-decoration: none;
 }
+
+/* =========================
+   Publications & Highlights
+   ========================= */
 .journal-name {
     font-style: italic;
     font-size: 1rem;
@@ -549,14 +596,12 @@ footer .right {
 .publication-card .card-content > *:last-child {
     margin-bottom: 0;
 }
-
 .publication-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 1rem;
 }
-
 .publication-grid .publication-card {
   flex: 1 1 calc(33.333% - 2rem);
   max-width: calc(33.333% - 2rem);
@@ -564,7 +609,6 @@ footer .right {
   display: flex;
   align-items: flex-start;
 }
-
 .publication-grid .publication-card img {
   width: 100%;
   height: auto;
@@ -572,46 +616,38 @@ footer .right {
   border-radius: 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
-
 .publication-grid .publication-card .card-content {
   display: block;
   padding-top: 0.5rem;
 }
-
 .publication-grid .publication-card .card-content h4 {
   font-size: 1rem;
   font-weight: bold;
   margin: 0.25rem 0;
 }
-
 .publication-grid .publication-card .journal-name {
   font-style: italic;
   font-size: 0.9rem;
   margin: 0.25rem 0;
 }
-
 .publication-grid .publication-card .card-content p {
   font-size: 0.9rem;
   color: #555;
   margin: 0;
 }
-
 .highlights-list {
   list-style: none;
   padding: 0rem 2rem 2rem 0rem; /* top, right, bottom, left */
   margin-top: 1rem;
   margin-bottom: 0;
 }
-
 .highlights-list li {
   padding: 0.4rem 0;
   border-bottom: 1px solid #ddd;
 }
-
 .highlights-list li:last-child {
   border-bottom: none;
 }
-
 .highlights-list li a {
   display: block;
   padding: 0.3rem 0.6rem;
@@ -620,19 +656,16 @@ footer .right {
   text-decoration: none;
   transition: border 0.3s ease, background-color 0.3s ease;
 }
-
 .highlights-list li a:hover {
   border: 1px solid var(--primary);
   border-radius: 4px;
   background-color: #fff5ef;
 }
-
 .highlights-date {
   font-weight: bold;
   color: var(--primary);
   margin-right: 0.5rem;
 }
-
 .featured-paper-highlights-row {
   display: flex;
   flex-wrap: wrap;
@@ -641,35 +674,29 @@ footer .right {
   margin: auto;
   gap: 2rem;
 }
-
 .featured-paper-column {
   flex: 0 0 260px;
 }
-
 .featured-paper-column .card-content h3 {
   font-size: 1rem;
   line-height: 1.4;
   margin-bottom: 0.4rem;
 }
-
 .highlights-column {
   flex: 1;
   min-width: 0;
 }
-
 .featured-paper-column .publication-card {
   flex-direction: column;
   align-items: center;
   text-align: left;
 }
-
 .featured-paper-column .publication-card img {
   width: 100%;
   height: auto;
   max-width: 160px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
-
 .featured-paper-column .card-content {
   padding-top: 0.5rem;
   height: auto;
@@ -679,6 +706,9 @@ footer .right {
   align-items: flex-start;
 }
 
+/* =========================
+   Calendar & Featured Photo
+   ========================= */
 .calendar-photo-row {
   display: flex;
   flex-wrap: wrap;
@@ -687,16 +717,13 @@ footer .right {
   margin: auto;
   gap: 2rem;
 }
-
 .calendar-column {
   flex: 1;
   min-width: 0;
 }
-
 .featured-photo-column {
   flex: 0 0 260px;
 }
-
 .featured-photo-column .featured-photo-container img {
   width: 100%;
   max-width: 100%;
@@ -704,13 +731,15 @@ footer .right {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   margin-bottom: 0.5rem;
 }
-
 .featured-photo-column .caption {
   font-style: italic;
   font-size: 0.95rem;
   color: var(--dark-gray);
 }
 
+/* =========================
+   Lightbox
+   ========================= */
 .lightbox {
   position: fixed;
   top: 0;
@@ -725,17 +754,14 @@ footer .right {
   padding: 2rem;
   transition: opacity 0.3s ease;
 }
-
 .lightbox.hidden {
   display: none;
 }
-
 .lightbox-content {
   max-width: 90%;
   max-height: 90%;
   text-align: center;
 }
-
 .lightbox-content img {
   width: 100%;
   height: auto;
@@ -745,9 +771,33 @@ footer .right {
   margin-bottom: 1rem;
   border-radius: 0;
 }
-
 .lightbox-content .caption {
   color: white;
   font-style: italic;
   font-size: 1rem;
+}
+
+/* =========================
+   Utility Classes
+   ========================= */
+.uppercase {
+  text-transform: uppercase;
+}
+.sans {
+  font-family: 'Source Sans Pro', sans-serif
+}
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+.primary {
+  color: var(--primary);
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
 }
