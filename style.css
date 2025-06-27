@@ -228,11 +228,12 @@ footer .right {
     gap: 1.5rem;
     align-items: flex-start;
 }
-.person-card img {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 1.5rem;
+  border-radius: 50%;
 }
 .person-info h4 {
     font-family: 'Playfair Display', serif;
@@ -253,13 +254,7 @@ footer .right {
     align-items: flex-start;
     padding: 1.5rem 0;
 }
-.card img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 1.5rem;
-    border-radius: 50%;
-}
+
 .card-content {
     flex: 1;
 }
@@ -520,21 +515,27 @@ footer .right {
       max-width: 100%;
     }
 
-    .lightbox-content {
-      max-width: 100%;
-      width: 100%;
-      padding: 1rem;
-      box-sizing: border-box;
-    }
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto; /* center horizontally */
+    text-align: center;
+  }
 
-    .lightbox-content img {
-      width: 100%;
-      height: auto;
-      max-height: 50vh;
-      object-fit: contain;
-      display: block;
-      margin: 0 auto 1rem auto;
-    }
+  .lightbox-content img,
+  .lightbox-content video {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .lightbox-content .caption {
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+}
 }
 
 /* =========================
@@ -584,6 +585,7 @@ footer .right {
     display: flex;
     align-items: center;
     min-height: 213px; /* match image height */
+    gap: 1.5rem; /* add this if not already set */
 }
 .publication-card .card-content {
     display: flex;
@@ -752,7 +754,7 @@ footer .right {
   justify-content: center;
   z-index: 2000;
   padding: 2rem;
-  transition: opacity 0.3s ease;
+  box-sizing: border-box;
 }
 .lightbox.hidden {
   display: none;
@@ -775,6 +777,30 @@ footer .right {
   color: white;
   font-style: italic;
   font-size: 1rem;
+}
+
+/* Reinforce contact button appearance */
+a.contact-button,
+a.contact-button:visited {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--primary);
+  background-color: #ffffff;
+  color: var(--primary) !important;
+  font-weight: bold;
+  text-decoration: none !important;
+  border-radius: 0;
+  transition: var(--transition);
+  font-size: 0.75rem;
+}
+
+a.contact-button:hover,
+a.contact-button:focus,
+a.contact-button:active {
+  color: #ffffff !important;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  text-decoration: none !important;
 }
 
 /* =========================
@@ -800,4 +826,103 @@ footer .right {
 }
 .underline {
   text-decoration: underline;
+}
+
+/* =========================
+   Blog Styles
+   ========================= */
+
+.blog-post {
+  display: block;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+.blog-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.blog-text {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.blog-media {
+  display: block;
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+}
+
+.blog-image-container {
+  max-width: 360px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.blog-caption {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  margin-top: 0.5rem;
+}
+
+.blog-publication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.blog-publication img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+  margin-bottom: 0.5rem;
+}
+
+.blog-publication .card-content {
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.blog-publication-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.blog-publication-journal {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+}
+
+.blog-publication-authors {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+.blog-publication-links {
+  margin-top: 0.5rem;
 }
