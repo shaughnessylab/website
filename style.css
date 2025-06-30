@@ -843,6 +843,15 @@ a.contact-button:active {
 /* =========================
    Utility Classes
    ========================= */
+.small-text {
+  font-size: 75%;
+}
+.xsmall-text {
+  font-size: 50%;
+}
+.not-bold {
+  font-weight: normal;
+}
 .uppercase {
   text-transform: uppercase;
 }
