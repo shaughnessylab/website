@@ -645,10 +645,11 @@ footer .right {
   max-width: calc(33.333% - 2rem);
   flex-direction: column;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .publication-grid .publication-card img {
   width: 100%;
+  max-width: 160px;
   height: auto;
   object-fit: cover;
   border-radius: 0;
