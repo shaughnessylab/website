@@ -342,6 +342,7 @@ footer .right {
   color: var(--dark-gray);
   font-weight: normal;
 }
+.teaching-label,
 .project-label {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
@@ -984,4 +985,46 @@ a.contact-button:active {
 
 .blog-post .blog-text:first-of-type {
   padding-top: 0.5rem;
+}
+
+/* =========================
+   Teaching Styles
+   ========================= */
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.student-quote-rotator {
+  text-align: left;
+  min-height: 160px; /* prevents layout shift */
+}
+
+.student-quote {
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  border-left: 4px solid #ccc;
+  margin: 2em 10%;
+  padding: 0.75em 1.25em;
+  background-color: #f9f9f9;
+  animation: slideInRight 0.6s ease;
+}
+
+.student-quote p {
+  margin: 0 0 0.5em 0;
+}
+
+.student-quote cite {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  color: #555;
 }
