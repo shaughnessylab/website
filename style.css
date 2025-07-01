@@ -6,8 +6,8 @@
     --primary-muted: #ffa97a;
     --bg: #ffffff;
     --text: #1a1a1a;
-    --gray: #f9f9f9;
-    --dark-gray: #444;
+    --gray: #dddddd;
+    --dark-gray: #757575;
     --accent: #333;
     --transition: all 0.3s ease;
 }
