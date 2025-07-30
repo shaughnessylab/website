@@ -32,6 +32,10 @@ a:active {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* =========================
    Header & Navigation
    ========================= */
@@ -217,6 +221,9 @@ footer .right {
 /* =========================
    People & Cards
    ========================= */
+.people-page .card-content ul {
+  font-size: 0.9rem;
+}
 .people-section {
     display: flex;
     flex-direction: column;
@@ -1014,7 +1021,7 @@ a.contact-button:active {
 
 .student-quote-rotator {
   text-align: left;
-  min-height: 160px; /* prevents layout shift */
+  min-height: 160px;
 }
 
 .student-quote {
