@@ -1,0 +1,54 @@
+[
+  {
+    "title": "A Busy End to the Semester and Start of Summer",
+    "date": "2025-06-30",
+    "author": "Ciaran Shaughnessy",
+    "type": "update",
+    "summary": "Quarterly update covering undergraduate research successes, lab dinner, NASCE conference, and welcoming Susanne.",
+    "content": "<p class='blog-text'><span class='bold'>Undergraduate Research Sucesses | </span>Another year has come to a close...</p><p class='blog-text'>All of my undergraduate researchers have done a fantastic job this year!</p><p class='blog-text'><span class='bold'>Welcoming Susanne | </span>Susanne Hahs is joining us for an M.S. after recently graduating from Boston College...</p><p class='blog-text'><span class='bold'>A Full Lab this Summer | </span>This summer, the Shaughnessy Lab has 6 people working in the lab on research assistantships...</p><p class='blog-text'><span class='bold'>NASCE | </span>Allison and I traveled to Qu\u00e9bec City for the North American Society of Comparative Endocrinologists (NASCE)...</p>",
+    "image": "images/blog/kls_kristine.jpg",
+    "imageCaption": "Kristine presenting her research at the Karen L. Smith Undergraduate Research Symposium.",
+    "pdf": "",
+    "pdfThumb": "",
+    "doi": ""
+  },
+  {
+    "title": "Functionally divergent melanocortin receptor subtypes and the HPI axis in sea lamprey",
+    "date": "2025-04-28",
+    "author": "Ciaran Shaughnessy",
+    "type": "publication",
+    "summary": "New paper in J Mol Endocrinol examining melanocortin receptor divergence in sea lamprey.",
+    "content": "<p class='blog-text'>New Paper in <span class='italic'>J Mol Endocrinol</span>! This was my first time putting our work in this journal...</p>",
+    "image": "images/publications/31.jpg",
+    "imageCaption": "J Mol Endocrinol lamprey HPI axis paper",
+    "pdf": "images/publications/31.pdf",
+    "pdfThumb": "images/publications/31.jpg",
+    "doi": "https://doi.org/10.1530/JME-24-0126"
+  },
+  {
+    "title": "A Cftr-independent, Ano1-rich seawater-adaptive ionocyte in sea lamprey gills",
+    "date": "2025-04-02",
+    "author": "Ciaran Shaughnessy",
+    "type": "publication",
+    "summary": "Paper in JEB reporting absence of CFTR in SW ionocyte in lamprey.",
+    "content": "<p class='blog-text'>I cannot describe how relieved I am to have this work out there finally...</p>",
+    "image": "images/publications/30.jpg",
+    "imageCaption": "JEB lamprey ion secretion paper",
+    "pdf": "images/publications/30.pdf",
+    "pdfThumb": "images/publications/30.jpg",
+    "doi": "https://doi.org/10.1242/jeb.250110"
+  },
+  {
+    "title": "Physiological and morphological traits affect contemporary range expansion in an amphibian species",
+    "date": "2025-02-15",
+    "author": "Ciaran Shaughnessy",
+    "type": "publication",
+    "summary": "Co-authored paper in J Anim Ecol exploring traits driving frog range expansion.",
+    "content": "<p class='blog-text'>I was happy to play a minor part of this manuscript of Owen's...</p>",
+    "image": "images/publications/29.jpg",
+    "imageCaption": "Frog range expansion paper",
+    "pdf": "images/publications/29.pdf",
+    "pdfThumb": "images/publications/29.jpg",
+    "doi": "https://doi.org/10.1111/1365-2656.14212"
+  }
+]
