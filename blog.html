@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,15 +58,15 @@
                 </div>
                 <h3 class="blog-title">${post.title}</h3>
                 ${post.summary ? `<p class="blog-text">${post.summary}</p>` : ''}
-                ${post.content}
-                ${post.image ? `
+                ${post.image && (!post.pdfThumb || post.type !== 'publication') ? `
                   <div class="blog-image-container">
                     <a href="${post.image}" class="lightbox-trigger" data-caption="${post.imageCaption || ''}">
                       <img src="${post.image}" alt="${post.title}" class="blog-media" />
                     </a>
                     <p class="blog-caption">${post.imageCaption || ''}</p>
                   </div>` : ''}
-                ${post.pdf ? `
+                ${post.content}
+                ${post.pdf && !post.content.includes('blog-publication') ? `
                   <div class="blog-publication">
                     <a href="${post.pdf}" target="_blank">
                       <img src="${post.pdfThumb}" alt="${post.title}" class="blog-media" />
