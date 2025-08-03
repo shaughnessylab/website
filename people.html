@@ -7,6 +7,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
   </head>
+
+  <svg style="display: none;">
+  <symbol id="icon-carrot" viewBox="0 0 100 86" xmlns="http://www.w3.org/2000/svg">
+    <polyline 
+      points="10,20 50,66 90,20"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="10"
+      stroke-linecap="round"
+      stroke-linejoin="round" />
+  </symbol>
+</svg>
+
   <body class="people-page">
     <header>
       <a href="index.html" class="logo-container" style="text-decoration: none;">
@@ -91,9 +104,17 @@
 
         <!-- =================== GRADUATE STUDENTS =================== -->
 
-        <h2 class="merged-heading section-title">
-          <span class="highlight">Graduate</span><span class="secondary">Students</span>
-        </h2>
+     <div id="graduate-section" class="collapsible-container">
+<div class="collapsible-header section-title">
+  <span>
+    <span class="highlight">Graduate</span><span class="secondary">Students</span>
+  </span>
+  <svg class="carrot">
+    <use href="#icon-carrot" />
+  </svg>
+
+</div>
+      <div class="collapsible-content">
 
         <!-- ------------------- AVA CANNIZZARO ---------------------- -->
 
@@ -208,11 +229,22 @@
           </div>
         </div>
 
+                  </div>
+        </div>
+
         <!-- ================= UNDERGRADUATE STUDENTS ================ -->
 
-        <h2 class="merged-heading section-title">
-          <span class="highlight">Undergraduate</span><span class="secondary">Students</span>
-        </h2>
+     <div id="undergraduate-section" class="collapsible-container">
+<div class="collapsible-header section-title">
+  <span>
+    <span class="highlight">Undergraduate</span><span class="secondary">Students</span>
+  </span>
+  <svg class="carrot">
+    <use href="#icon-carrot" />
+  </svg>
+
+</div>
+      <div class="collapsible-content">
 
         <!-- ------------------- KRISTINE BRANCH --------------------- -->
 
@@ -252,18 +284,31 @@
             <p style="margin-bottom: 0rem;"><span class="bold">Research Interests</span> | In addition to her Zoology major with a focus in Ecology and Conservation Biology, Samantha is also working toward a Geographic Information Systems Certificate. Her future plans are to pursue an M.S. in Integrative Biology before continuing on to earn a Ph.D.. She intends to develop a career as an aquatic biologist. Her research interests include aquatic and marine biology, endocrinology, and evolution. </p>
           </div>
         </div>
+          </div>
+        </div>
 
         <!-- =================== FORMER STUDENTS ===================== -->
 
-        <h2 class="merged-heading section-title">
-          <span class="highlight">Former</span><span class="secondary">Students</span> <span class="xsmall-text not-bold">(and current positions)</span>
-        </h2>
+     <div id="former-section" class="collapsible-container">
+<div class="collapsible-header section-title">
+  <span>
+    <span class="highlight">Former</span><span class="secondary">Students</span>
+  </span>
+  <svg class="carrot">
+    <use href="#icon-carrot" />
+  </svg>
+
+</div>
+      <div class="collapsible-content">
 
         <!-- ------------------- FORMER STUDENTS LIST ---------------- -->
 
         <div class="former-subsection">
           <p style="margin-top: 0rem; margin-bottom: 0rem;"><span class="bold">Savannah Caldwell</span> | B.S. Biology; Wentz Reseach Scholar (Pursing a career in wildlife conservation)</p>
           <p style="margin-top: 0rem; margin-bottom: 0rem;"><span class="bold">Madelyne Hurst</span> | B.S. Microbiology; Undergraduate Researcher (Clinical Laboratory Sciences Program, OSU Center for Health Sciences)</p>
+        </div>
+
+                  </div>
         </div>
 
       </div>
@@ -276,6 +321,17 @@
       function toggleMenu() {
         document.getElementById("mobile-nav").classList.toggle("active");
       }
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.collapsible-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const isActive = content.classList.toggle('active');
+      header.classList.toggle('collapsed', isActive);
+    });
+  });
+});
+
     </script>
   </body>
 </html>
