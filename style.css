@@ -980,6 +980,13 @@ a.contact-button:active {
   display: block;
 }
 
+.collapsible-container a,
+.collapsible-container a:visited,
+.collapsible-container a:hover,
+.collapsible-container a:active {
+  color: var(--primary);
+  text-decoration: underline;
+}
 
 /* =========================
    Blog Styles
