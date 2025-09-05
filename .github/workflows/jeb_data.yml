@@ -1,0 +1,53 @@
+# ===============================
+# File: .github/workflows/jeb_data.yml
+# Purpose: Nightly job to fetch/update JEB metadata and build /data/jeb.json
+# ===============================
+name: Build JEB Explorer Data
+
+
+on:
+workflow_dispatch: {}
+schedule:
+- cron: '17 5 * * *' # daily at 05:17 UTC
+
+
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout repo
+uses: actions/checkout@v4
+
+
+- name: Set up Python
+uses: actions/setup-python@v5
+with:
+python-version: '3.11'
+
+
+- name: Install deps
+run: |
+python -m pip install --upgrade pip
+pip install requests backoff python-dateutil
+
+
+- name: Fetch JEB data
+env:
+MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}
+OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+run: |
+python scripts/fetch_jeb.py
+
+
+- name: Commit data if changed
+run: |
+git config user.name "github-actions"
+git config user.email "actions@users.noreply.github.com"
+git add data/jeb.json data/jeb-meta.json || true
+if git diff --cached --quiet; then
+echo "No changes to commit."
+else
+git commit -m "ci: update JEB data"
+git push
+fi
