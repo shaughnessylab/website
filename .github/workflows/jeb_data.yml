@@ -6,12 +6,17 @@ on:
   schedule:
     - cron: '17 5 * * *'  # daily at 05:17 UTC
 
+permissions:
+  contents: write  # needed to push updated JSON back to the repo
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # allow commits/push
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,11 +28,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests backoff python-dateutil
 
-      - name: Fetch JEB data
+      # Optional: confirm the secret reaches this step (prints only presence/length)
+      - name: Diagnose env
         run: |
-          python scripts/fetch_jeb.py
+          python - << 'PY'
+          import os
+          v = os.getenv("CROSSREF_MAILTO", "")
+          print("CROSSREF_MAILTO present:", bool(v), "len:", len(v))
+          PY
         env:
-          MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+
+      - name: Build JEB JSON
+        run: python scripts/fetch_jeb.py
+        env:
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
           UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
 
