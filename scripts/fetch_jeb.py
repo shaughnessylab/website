@@ -76,18 +76,16 @@ def doi_to_path_part(doi: str) -> str:
 # -------------------------
 # HTTP with backoff
 # -------------------------
-@backoff.on_exception(backoff.expo, (requests.RequestException,), max_time=90)
+# only retry on connection/timeout errors, not HTTP 4xx
+@backoff.on_exception(backoff.expo, (requests.exceptions.ConnectionError, requests.exceptions.Timeout), max_time=90)
 def http_get(url: str, params: Optional[Dict[str, Any]] = None, headers: Optional[Dict[str, str]] = None):
-    # Safe logging
     sp = dict(params or {})
     if "mailto" in sp: sp["mailto"] = "[redacted]"
     if "email"  in sp: sp["email"]  = "[redacted]"
     print("GET", url, sp)
+
     r = SESSION.get(url, params=params, headers=headers, timeout=45)
-    # If an API returns 400, raise with body (don’t retry forever)
-    if r.status_code == 400:
-        raise requests.HTTPError(f"400: {r.text}", response=r)
-    r.raise_for_status()
+    r.raise_for_status()  # 4xx/5xx will raise immediately (no retry)
     return r
 
 # -------------------------
@@ -140,7 +138,7 @@ def fetch_crossref_all() -> List[Dict[str, Any]]:
     cursor = "*"
     all_items: List[Dict[str, Any]] = []
     page = 0
-    filt = f"issn:{ISSNS[0]},{ISSNS[1]}"
+    filt = f"issn:{ISSNS[0]},issn:{ISSNS[1]}"
 
     while True:
         page += 1
