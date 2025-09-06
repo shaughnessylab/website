@@ -24,12 +24,12 @@ jobs:
           pip install requests backoff python-dateutil
 
       - name: Fetch JEB data
+        run: |
+          python scripts/fetch_jeb.py
         env:
           MAILTO: ${{ secrets.CROSSREF_MAILTO }}
           UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
-        run: |
-          python scripts/fetch_jeb.py
 
       - name: Commit data if changed
         run: |
