@@ -1,240 +1,268 @@
-# ===============================
-# File: scripts/fetch_jeb.py
-# Purpose: Build /data/jeb.json and /data/jeb-meta.json by querying Crossref (+ Unpaywall, PubMed, OpenAlex)
-# ===============================
+#!/usr/bin/env python3
+"""
+Fetch recent/complete works from Journal of Experimental Biology (JEB)
+via Crossref and write a compact JSON file for the website.
 
-import os, sys, json, time, re
-from datetime import datetime, timezone
-from urllib.parse import urlencode, quote
+Features:
+- Validates and requires a contact email (via env or settings.json)
+- Sets a polite User-Agent including the contact email
+- Uses Crossref cursor pagination to retrieve all records
+- Retries transient network errors with exponential backoff
+- Avoids logging the raw email address
+- Writes results to 'jeb.json' by default (override with --out)
+
+Usage (GitHub Actions friendly):
+  env CROSSREF_MAILTO=ciaran.shaughnessy@okstate.edu python scripts/fetch_jeb.py --out jeb.json
+
+Optional settings file (repo root):
+  settings.json
+  {
+    "crossref_mailto": "ciaran.shaughnessy@okstate.edu",
+    "crossref_user_agent_prefix": "shaughnessylab-website/1.0"
+  }
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import sys
+from dataclasses import dataclass
+from typing import Any, Dict, Iterable, List, Optional, Tuple
+
 import requests
-import backoff
-
-DATA_DIR = os.path.join("data")
-OUT_JSON = os.path.join(DATA_DIR, "jeb.json")
-META_JSON = os.path.join(DATA_DIR, "jeb-meta.json")
-CACHE_JSON = os.path.join(DATA_DIR, "jeb-cache.json")  # DOI -> enriched record
-
-ISSNS = ["0022-0949", "1477-9145"]  # JEB print & online
-CROSSREF_MAILTO = os.getenv("MAILTO", "your_email@okstate.edu")
-UNPAYWALL_EMAIL = os.getenv("UNPAYWALL_EMAIL", "your_email@okstate.edu")
-OPENALEX_MAILTO = os.getenv("OPENALEX_MAILTO", "your_email@okstate.edu")
-
-# Re-enrich recent items each run
-FULL_REFRESH_YEARS = 2
-
-os.makedirs(DATA_DIR, exist_ok=True)
-
-# ---------- helpers ----------
-def save_json(path, obj):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+from backoff import on_exception, expo
 
 
-def load_json(path, default):
-    if os.path.exists(path):
+# -------------------------
+# Config
+# -------------------------
+
+CROSSREF_API_URL = "https://api.crossref.org/works"
+# Journal of Experimental Biology print + electronic ISSNs:
+JEB_ISSNS = ["0022-0949", "1477-9145"]
+
+# We limit to the fields we actually need to keep payloads smaller.
+CROSSREF_SELECT = ",".join(
+    [
+        "DOI",
+        "title",
+        "author",
+        "issued",
+        "type",
+        "URL",
+        "volume",
+        "issue",
+        "page",
+        "container-title",
+    ]
+)
+
+# How many records per page (Crossref allows up to 1000)
+ROWS = 1000
+
+
+# -------------------------
+# Utilities
+# -------------------------
+
+def _valid_email(s: str) -> bool:
+    """Basic sanity check for an email string."""
+    return bool(s and re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", s))
+
+
+def _load_settings(path: str = "settings.json") -> Dict[str, Any]:
+    try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
-    return default
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        print(f"Warning: could not read {path}: {e}", file=sys.stderr)
+        return {}
 
 
-@backoff.on_exception(backoff.expo, (requests.RequestException,), max_tries=5)
-def http_get(url, params=None, headers=None):
-    if params:
-        url = url + ("&" if "?" in url else "?") + urlencode(params)
-    r = requests.get(
-        url,
-        headers=headers or {"User-Agent": f"JEB-Explorer/1.0 (mailto:{CROSSREF_MAILTO})"},
-        timeout=30,
-    )
+def _get_mailto(settings: Dict[str, Any]) -> str:
+    """
+    Prefer env var CROSSREF_MAILTO (so we never commit emails),
+    else fallback to settings['crossref_mailto'].
+    """
+    env_email = (os.getenv("CROSSREF_MAILTO") or "").strip()
+    cfg_email = (settings.get("crossref_mailto") or "").strip()
+    mailto = env_email or cfg_email
+    if not _valid_email(mailto):
+        raise SystemExit(
+            "Crossref requires a valid contact email.\n"
+            "Set environment variable CROSSREF_MAILTO or define 'crossref_mailto' in settings.json."
+        )
+    return mailto
+
+
+def _get_user_agent(settings: Dict[str, Any], mailto: str) -> str:
+    """
+    Build a polite User-Agent string, optionally prefixed by settings.
+    Example: shaughnessylab-website/1.0 (+mailto:you@uni.edu)
+    """
+    prefix = (settings.get("crossref_user_agent_prefix") or "shaughnessylab-website/1.0").strip()
+    return f"{prefix} (+mailto:{mailto})"
+
+
+SESSION = requests.Session()
+
+
+@on_exception(expo, (requests.exceptions.RequestException,), max_time=90)
+def _http_get(url: str, params: Dict[str, Any], headers: Dict[str, str]) -> requests.Response:
+    """
+    GET with retries on transient network errors.
+    If Crossref returns 400, we raise immediately with response text to make debugging easier.
+    """
+    # Safe logging (do not leak the email)
+    safe_params = dict(params)
+    if "mailto" in safe_params:
+        safe_params["mailto"] = "[redacted]"
+    print(f"GET {url} {safe_params}")
+
+    r = SESSION.get(url, params=params, headers=headers, timeout=45)
+    if r.status_code == 400:
+        # Bubble up useful error details without retrying
+        raise requests.HTTPError(f"400 from Crossref: {r.text}", response=r)
     r.raise_for_status()
     return r
 
 
-# ---------- Crossref (primary) ----------
-def fetch_crossref_all():
-    """Fetch all JEB records via Crossref using cursor pagination."""
-    base = "https://api.crossref.org/works"
-    filt = f"issn:{','.join(ISSNS)}"
-    rows = 1000
+def _normalize_record(item: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Normalize a Crossref 'work' to a compact structure for the site.
+    Keep this stable so the site JSON consumer remains happy.
+    """
+    # Titles can be lists in Crossref
+    title = ""
+    if isinstance(item.get("title"), list) and item["title"]:
+        title = item["title"][0]
+    elif isinstance(item.get("title"), str):
+        title = item["title"]
+
+    container = ""
+    if isinstance(item.get("container-title"), list) and item["container-title"]:
+        container = item["container-title"][0]
+    elif isinstance(item.get("container-title"), str):
+        container = item["container-title"]
+
+    # 'issued' is typically like {"date-parts": [[YYYY, MM, DD]]}
+    issued_year = None
+    issued_parts = item.get("issued", {}).get("date-parts", [])
+    if issued_parts and isinstance(issued_parts[0], list) and issued_parts[0]:
+        issued_year = issued_parts[0][0]
+
+    authors = []
+    for a in item.get("author", []) or []:
+        given = a.get("given") or ""
+        family = a.get("family") or ""
+        name = " ".join([given, family]).strip() or (a.get("name") or "").strip()
+        if name:
+            authors.append(name)
+
+    return {
+        "DOI": item.get("DOI", ""),
+        "title": title,
+        "authors": authors,
+        "year": issued_year,
+        "type": item.get("type", ""),
+        "URL": item.get("URL", ""),
+        "volume": item.get("volume", ""),
+        "issue": item.get("issue", ""),
+        "page": item.get("page", ""),
+        "journal": container,
+    }
+
+
+def fetch_crossref_all(mailto: str, user_agent: str) -> List[Dict[str, Any]]:
+    """
+    Fetch all JEB records using Crossref cursor pagination.
+    Returns a list of normalized records.
+    """
+    headers = {"User-Agent": user_agent}
     cursor = "*"
-    items = []
-    total = None
+    results: List[Dict[str, Any]] = []
+    page = 0
+
+    # Crossref allows multiple filters separated by commas (logical OR).
+    filter_str = f"issn:{JEB_ISSNS[0]},{JEB_ISSNS[1]}"
 
     while True:
+        page += 1
         params = {
-            "filter": filt,
-            "rows": rows,
-            "mailto": CROSSREF_MAILTO,
+            "filter": filter_str,
+            "rows": ROWS,
             "cursor": cursor,
-            "select": "DOI,title,author,issued,type,URL,volume,issue,page,container-title",
+            "select": CROSSREF_SELECT,
+            "mailto": mailto,
+            # Sorting can be added if you need deterministic page ordering, but it's not
+            # required for cursor-based pagination.
+            # "sort": "issued",
+            # "order": "desc",
         }
-        r = http_get(base, params=params).json()
-        if total is None:
-            total = r.get("message", {}).get("total-results")
-            print(f"Crossref total-results: {total}")
-        chunk = r.get("message", {}).get("items", []) or []
-        items.extend(chunk)
-        next_cursor = r.get("message", {}).get("next-cursor")
-        print(f"Fetched {len(items)} / {total} ...")
-        if not chunk or not next_cursor or next_cursor == cursor:
+
+        resp = _http_get(CROSSREF_API_URL, params=params, headers=headers)
+        data = resp.json()
+
+        message = data.get("message", {})
+        items = message.get("items", []) or []
+        next_cursor = message.get("next-cursor")
+
+        # Normalize and append
+        for it in items:
+            results.append(_normalize_record(it))
+
+        print(f"Page {page}: fetched {len(items)} items; total so far: {len(results)}")
+
+        # Stop when no more items or cursor isn't advancing
+        if not items or not next_cursor or next_cursor == cursor:
             break
         cursor = next_cursor
-        time.sleep(1)
 
-    # normalize
-    out = []
-    for it in items:
-        doi = it.get("DOI")
-        year = None
-        issued = it.get("issued", {})
-        if "date-parts" in issued and issued["date-parts"]:
-            year = issued["date-parts"][0][0]
-        title = (it.get("title") or [""])[0]
-        journal = (it.get("container-title") or ["Journal of Experimental Biology"])[0]
-        authors = []
-        for a in it.get("author", []) or []:
-            name = ", ".join(filter(None, [a.get("family"), a.get("given")]))
-            if name:
-                authors.append(name)
-        out.append(
-            {
-                "doi": doi,
-                "title": title,
-                "published_year": year,
-                "journal": journal,
-                "type": it.get("type"),
-                "authors": authors,
-                "url": it.get("URL"),
-                "volume": it.get("volume"),
-                "issue": it.get("issue"),
-                "pages": it.get("page"),
-            }
-        )
-    return out
+    return results
 
 
-# ---------- Unpaywall (OA) ----------
-def enrich_unpaywall(rec):
-    doi = rec.get("doi")
-    if not doi:
-        return rec
-    url = f"https://api.unpaywall.org/v2/{quote(doi)}"
-    try:
-        data = http_get(url, params={"email": UNPAYWALL_EMAIL}).json()
-        rec["oa"] = {
-            "is_oa": bool(data.get("is_oa")),
-            "license": data.get("license"),
-            "oa_url": (data.get("best_oa_location") or {}).get("url"),
-        }
-    except Exception:
-        rec["oa"] = {"is_oa": False}
-    time.sleep(0.15)
-    return rec
+def write_json(path: str, payload: Any) -> None:
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {path} ({len(payload) if isinstance(payload, list) else 'object'} records)")
 
 
-# ---------- PubMed / MeSH ----------
-def doi_to_pmid(doi):
-    term = f"{doi}[DOI]"
-    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-    params = {"db": "pubmed", "term": term, "retmode": "json"}
-    try:
-        js = http_get(url, params=params).json()
-        ids = js.get("esearchresult", {}).get("idlist", []) or []
-        return ids[0] if ids else None
-    except Exception:
-        return None
-
-
-def fetch_pubmed_summary(pmid):
-    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
-    params = {"db": "pubmed", "id": pmid, "retmode": "xml"}
-    try:
-        xml = http_get(url, params=params).text
-        abstract = " ".join(re.findall(r"<AbstractText.*?>(.*?)</AbstractText>", xml, flags=re.S))
-        mesh = re.findall(r"<DescriptorName[^>]*?>(.*?)</DescriptorName>", xml)
-        mesh = sorted(list({m.strip() for m in mesh if m.strip()}))[:50]
-        return abstract.strip(), mesh
-    except Exception:
-        return None, []
-
-
-# ---------- OpenAlex (citations) ----------
-def enrich_openalex(rec):
-    doi = rec.get("doi")
-    if not doi:
-        return rec
-    url = f"https://api.openalex.org/works/doi:{quote(doi)}"
-    try:
-        js = http_get(url, params={"mailto": OPENALEX_MAILTO}).json()
-        rec["citations"] = {"count": js.get("cited_by_count")}
-    except Exception:
-        pass
-    time.sleep(0.15)
-    return rec
-
-
-# ---------- Build pipeline ----------
-def main():
-    cache = load_json(CACHE_JSON, {})
-
-    # 1) fetch all base metadata
-    base = fetch_crossref_all()
-
-    # 2) decide which records need full refresh
-    this_year = datetime.now(timezone.utc).year
-    must_refresh = {
-        r["doi"]
-        for r in base
-        if r.get("published_year") and r["published_year"] >= this_year - FULL_REFRESH_YEARS
-    }
-
-    results = []
-    for i, rec in enumerate(base, 1):
-        doi = rec.get("doi")
-        cached = cache.get(doi)
-        use_cache = cached and doi not in must_refresh
-        if use_cache:
-            results.append(cached)
-            continue
-
-        # Enrich OA
-        rec = enrich_unpaywall(rec)
-
-        # Link PubMed + MeSH
-        pmid = doi_to_pmid(doi)
-        if pmid:
-            rec.setdefault("ids", {})["pmid"] = pmid
-            abstract, mesh = fetch_pubmed_summary(pmid)
-            if abstract:
-                rec["abstract"] = abstract
-            if mesh:
-                rec["mesh"] = mesh
-
-        # Citations (optional)
-        rec = enrich_openalex(rec)
-
-        cache[doi] = rec
-        results.append(rec)
-        if i % 50 == 0:
-            print(f"Enriched {i}/{len(base)}")
-
-    # 3) Save outputs
-    results.sort(
-        key=lambda r: (r.get("published_year") or 0, r.get("title") or ""),
-        reverse=True,
+def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Fetch JEB records from Crossref and write jeb.json.")
+    p.add_argument("--out", default="jeb.json", help="Output JSON path (default: jeb.json)")
+    p.add_argument(
+        "--settings",
+        default="settings.json",
+        help="Path to settings.json (default: settings.json)",
     )
-    payload = {
-        "journal": "Journal of Experimental Biology",
-        "issn": ISSNS,
-        "last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "count": len(results),
-        "items": results,
-    }
+    return p.parse_args(argv)
 
-    save_json(OUT_JSON, payload)
-    save_json(META_JSON, {"last_updated": payload["last_updated"], "count": payload["count"]})
-    save_json(CACHE_JSON, cache)
-    print(f"Wrote {OUT_JSON} with {len(results)} items")
+
+def main(argv: Optional[List[str]] = None) -> int:
+    args = parse_args(argv)
+    settings = _load_settings(args.settings)
+    mailto = _get_mailto(settings)
+    user_agent = _get_user_agent(settings, mailto)
+
+    print("Using User-Agent:", _get_user_agent(settings, "[redacted]"))
+    print("Fetching Crossref records for JEB…")
+
+    try:
+        records = fetch_crossref_all(mailto=mailto, user_agent=user_agent)
+    except requests.HTTPError as e:
+        # Surface Crossref error body for 400s and similar
+        print(f"HTTP error: {e}", file=sys.stderr)
+        return 1
+
+    # Optional: sort by year desc, then title
+    records.sort(key=lambda r: (r.get("year") or 0, r.get("title") or ""), reverse=True)
+
+    write_json(args.out, records)
     return 0
 
 
