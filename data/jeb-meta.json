@@ -1,0 +1,15 @@
+{
+  "journal": "Journal of Experimental Biology",
+  "issn": [
+    "0022-0949",
+    "1477-9145"
+  ],
+  "last_updated": "2025-09-18T05:26:48.730913+00:00",
+  "count": 2000,
+  "sources": {
+    "crossref": true,
+    "unpaywall": true,
+    "openalex": true,
+    "pubmed": true
+  }
+}
