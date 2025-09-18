@@ -17,6 +17,19 @@
     </script>
     
   </head>
+
+<svg style="display: none;">
+  <symbol id="icon-carrot" viewBox="0 0 100 86" xmlns="http://www.w3.org/2000/svg">
+    <polyline 
+      points="10,20 50,66 90,20"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="10"
+      stroke-linecap="round"
+      stroke-linejoin="round" />
+  </symbol>
+</svg>
+
   <body>
     <header>
       <a href="index.html" class="logo-container" style="text-decoration: none;">
@@ -48,7 +61,17 @@
 
       <!-- =================== TEACHING PHILOSOPHY =================== -->
 
-      <h2 class="section-title"><span class="secondary">Teaching</span><span class="highlight">Philosophy</span></h2>
+       <div class="collapsible-container">
+<div class="collapsible-header subsection-title">
+  <span>
+    <span class="secondary">Teaching</span><span class="highlight">Philosophy</span>
+  </span>
+  <svg class="carrot">
+    <use href="#icon-carrot" />
+  </svg>
+
+</div>
+      <div class="collapsible-content">
       <p>
         <span class="bold">I am committed to my roles as an educator and mentor, and I see both of these roles as a part of a collaborative relationship with my students and trainees.</span> In these roles, I try to foster mutual respect and a shared investment in the success of my students and trainees. To do this, I view my role more as a facilitator of learning and development, not just a source of information or grades. Importantly, I also recognize that students come from a wide range of backgrounds and bring different learning needs, so I aim to create a classroom environment that is inclusive, equitable, and actively supportive of all students.
       </p>
@@ -70,6 +93,9 @@
         <span class="bold">I treat teaching as a discipline in its own right and stay current with developments in education science, particularly in college-level physiology.</span> I regularly engage with journals such as <em>Advances in Physiology Education</em> (American Physiological Society), participate in workshops and training seminars, and apply evidence-based strategies in my courses. I actively seek feedback from students and colleagues and use it to refine and enhance my teaching practices, aiming to create an environment that is both effective and inspiring.
       </p>
 
+      </div>
+</div>
+
       <!-- =================== CURRENT COURSES =================== -->
 
       <h2 class="section-title"><span class="secondary">Current</span><span class="highlight">Courses</span></h2>
@@ -79,9 +105,17 @@
 
       <!-- ------------------- BIOL 3204 PHYSIOLOGY ------------------- -->
 
-      <h3 class="subsection-title">
-        <span class="secondary">BIOL 3204, "</span><span class="highlight">Physiology</span><span class="secondary">"</span>
-      </h3>
+       <div class="collapsible-container">
+<div class="collapsible-header subsection-title">
+  <span>
+    <span class="secondary">BIOL3204</span><span class="highlight">Physiology</span>
+  </span>
+  <svg class="carrot">
+    <use href="#icon-carrot" />
+  </svg>
+
+</div>
+      <div class="collapsible-content">
       <p>
         <span class="bold">This is a 4-credit hour course (lecture and laboratory) that introduces students to principles of vertebrate physiological processes and their underlying anatomical, cellular, molecular features, with a primary focus on human systems.</span> The lecture component emphasizes systems-level understanding, critical thinking, and practice-based learning through in-class iClicker questions, take-home assignments, and review opportunities. The lab is designed to reinforce lecture content with hands-on investigation and small-group collaboration. Students collect and interpret physiological data and engage in guided scientific inquiry throughout the semester.
       </p>
@@ -131,11 +165,22 @@
         </blockquote>
       </div>
 
+    </div>
+</div>
+
       <!-- =================== RESEARCH CREDITS =================== -->
 
-      <h3 class="subsection-title">
-        <span class="highlight">Research</span><span class="secondary">Credits</span>
-      </h3>
+ <div class="collapsible-container">
+<div class="collapsible-header subsection-title">
+  <span>
+    <span class="highlight">Research</span><span class="secondary">Credits</span>
+  </span>
+  <svg class="carrot">
+    <use href="#icon-carrot" />
+  </svg>
+
+</div>
+      <div class="collapsible-content">
       <p>
         <span class="bold">An important part of my teaching duties includes mentoring undergraduate and graduate students in individual and group research projects.</span> Expectations of time and productivity are mutually established a the beginning of each semester, and students are expected to meet regularly with me and/or graduate students in the lab to discuss their progress.
       </p>
@@ -280,6 +325,23 @@
 
       showNextQuote(); // Initial load
       setInterval(showNextQuote, 8000); // Rotate every 8 seconds
+    </script>
+
+        <script>
+      function toggleMenu() {
+        document.getElementById('mobile-nav').classList.toggle('active');
+      }
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.collapsible-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const isActive = content.classList.toggle('active');
+      header.classList.toggle('collapsed', isActive);
+    });
+  });
+});
+
     </script>
 
   </body>
