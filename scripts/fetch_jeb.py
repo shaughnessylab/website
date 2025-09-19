@@ -313,7 +313,27 @@ def main() -> int:
     enriched_records.sort(key=lambda r: (r.get("year") or 0, r.get("title") or ""), reverse=True)
 
     # Write outputs
-    save_json(OUT_JSON, enriched_records)
+    payload = {
+    "last_updated": datetime.now(timezone.utc).isoformat(),
+    "items": [
+        {
+            "title": r.get("title"),
+            "authors": r.get("authors") or [],
+            "published_year": r.get("year"),
+            "type": r.get("type"),
+            "doi": r.get("DOI"),
+            "url": r.get("URL") or (("https://doi.org/" + r["DOI"]) if r.get("DOI") else None),
+            "abstract": r.get("abstract") or "",
+            "oa": {
+                "is_oa": r.get("is_oa"),
+                "status": r.get("oa_status"),
+                "url": r.get("oa_url"),
+            }
+        }
+        for r in enriched_records
+    ]
+}
+save_json(OUT_JSON, payload)
     meta = {
         "journal": "Journal of Experimental Biology",
         "issn": ISSNS,

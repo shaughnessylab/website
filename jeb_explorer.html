@@ -171,230 +171,200 @@
     <div class="right">© 2025 Ciaran A. Shaughnessy</div>
   </footer>
 
-  <script>
-    function toggleMenu(){ document.getElementById('mobile-nav').classList.toggle('active'); }
+<script>
+  // ---------- globals & element refs ----------
+  let minYear = 1900, maxYear = 3000;
+  const els = {
+    q: document.getElementById('q'),
+    ymin: document.getElementById('ymin'),
+    ymax: document.getElementById('ymax'),
+    type: document.getElementById('type'),
+    oa: document.getElementById('oa'),
+    sort: document.getElementById('sort'),
+    reset: document.getElementById('reset'),
+    count: document.getElementById('count'),
+    results: document.getElementById('results'),
+    empty: document.getElementById('noResults'),
+    lastUpdated: document.getElementById('lastUpdated'),
+  };
 
-    // ========= App scaffold (wired to /data/jeb.json) =========
-    // Global state
-    window.JEB_DATA = [];
-    let minYear = 1900, maxYear = 3000;
+  // ---------- filters & helpers ----------
+  function currentFilters(){
+    const q = (els.q.value||'').trim().toLowerCase();
+    const ymin = parseInt(els.ymin.value)||minYear;
+    const ymax = parseInt(els.ymax.value)||maxYear;
+    const type = els.type.value;
+    const oa = els.oa.checked;
+    const sort = els.sort.value;
+    return { q, ymin, ymax, type, oa, sort };
+  }
 
-    const els = {
-      q: document.getElementById('q'), ymin: document.getElementById('ymin'), ymax: document.getElementById('ymax'),
-      type: document.getElementById('type'), oa: document.getElementById('oa'), sort: document.getElementById('sort'), reset: document.getElementById('reset'),
-      count: document.getElementById('count'), results: document.getElementById('results'), empty: document.getElementById('noResults'),
-      exportCsv: document.getElementById('exportCsv'), copyLink: document.getElementById('copyLink'), lastUpdated: document.getElementById('lastUpdated'),
-      chartYear: document.getElementById('chartYear'), chartAuthors: document.getElementById('chartAuthors'), chartHeat: document.getElementById('chartHeat'), graphAuthors: document.getElementById('graphAuthors'),
-    };
+  function applyFilters(rows, f){
+    const out = rows.filter(r => {
+      const y = r.published_year ?? 0;
+      if (y && (y < f.ymin || y > f.ymax)) return false;
+      if (f.type && r.type !== f.type) return false;
 
-    // URL params → filters (will set years after data loads)
-    const params = new URLSearchParams(location.search);
-    if(params.get('q')) els.q.value = params.get('q');
-    if(params.get('type')) els.type.value = params.get('type');
-    if(params.get('oa') === '1') els.oa.checked = true;
-    if(params.get('sort')) els.sort.value = params.get('sort');
+      // OA filter: handle both boolean and "true"
+      const isOA = !!(r.oa && (r.oa.is_oa === true || r.oa.is_oa === 'true' || r.oa.is_oa === 1 || r.oa.is_oa === '1'));
+      if (f.oa && !isOA) return false;
 
-    // events
-    [els.q, els.ymin, els.ymax, els.type, els.oa, els.sort].forEach(el => el.addEventListener('input', render));
-    els.reset.addEventListener('click', () => { history.replaceState({}, '', location.pathname); location.reload(); });
-    els.exportCsv.addEventListener('click', exportCsv);
-    els.copyLink.addEventListener('click', copySharableLink);
+      if (f.q){
+        const hay = [
+          r.title || '',
+          (r.abstract || ''),
+          (r.authors || []).join(' '),
+          r.doi || ''
+        ].join(' ').toLowerCase();
+        if (!hay.includes(f.q)) return false;
+      }
+      return true;
+    }).sort((a,b)=>{
+      switch(f.sort){
+        case 'oldest': return (a.published_year||0) - (b.published_year||0);
+        case 'title-asc': return (a.title||'').localeCompare(b.title||'');
+        case 'title-desc': return (b.title||'').localeCompare(a.title||'');
+        case 'cited-desc': return (b.citations?.count||0) - (a.citations?.count||0);
+        case 'newest':
+        default: return (b.published_year||0) - (a.published_year||0);
+      }
+    });
+    return out;
+  }
 
-    function currentFilters(){
-      const q = (els.q.value||'').trim().toLowerCase();
-      const ymin = parseInt(els.ymin.value)||minYear;
-      const ymax = parseInt(els.ymax.value)||maxYear;
-      const type = els.type.value;
-      const oa = els.oa.checked;
-      const sort = els.sort.value;
-      return { q, ymin, ymax, type, oa, sort };
+  // ---------- RENDER (this is where the OA badge code lives) ----------
+  function render(){
+    const f = currentFilters();
+    const out = applyFilters(window.JEB_DATA || [], f);
+    els.count.textContent = out.length;
+    els.results.innerHTML = '';
+    els.empty.hidden = out.length !== 0;
+
+    out.forEach(r => {
+      const card = document.createElement('article');
+      card.className = 'result-card';
+      card.setAttribute('role','listitem');
+
+      const h = document.createElement('h4');
+      const a = document.createElement('a');
+      a.href = r.url || (r.doi ? `https://doi.org/${r.doi}` : '#');
+      a.target = '_blank'; a.rel='noopener noreferrer';
+      a.textContent = r.title || '(untitled)';
+      h.appendChild(a);
+
+      const meta = document.createElement('div');
+      meta.className = 'result-meta';
+      meta.textContent = `${r.published_year || '—'} • ${(r.type || '').replace('-', ' ')}`;
+
+      const authors = document.createElement('div');
+      authors.className = 'result-authors';
+      authors.textContent = (r.authors || []).join(', ');
+
+      const badges = document.createElement('div');
+      badges.className = 'badges';
+
+      // >>>>> OA BADGE — your snippet goes right here <<<<<
+      const isOA = (r.oa && (r.oa.is_oa === true || r.oa.is_oa === 'true')) ? true : false;
+      if (isOA) {
+        const b = document.createElement('span');
+        b.className = 'badge';
+        b.textContent = 'Open Access';
+        badges.appendChild(b);
+      }
+      // <<<<< end OA badge >>>>>
+
+      card.appendChild(h);
+      card.appendChild(meta);
+      card.appendChild(authors);
+      card.appendChild(badges);
+      els.results.appendChild(card);
+    });
+
+    // Update URL params (shareable link)
+    const p = new URLSearchParams();
+    if (f.q) p.set('q', f.q);
+    if (f.ymin !== minYear) p.set('ymin', f.ymin);
+    if (f.ymax !== maxYear) p.set('ymax', f.ymax);
+    if (f.type) p.set('type', f.type);
+    if (f.oa) p.set('oa', '1');
+    if (f.sort && f.sort !== 'newest') p.set('sort', f.sort);
+    const newUrl = `${location.pathname}?${p.toString()}`;
+    history.replaceState({}, '', newUrl);
+  }
+
+  // ---------- event wiring ----------
+  [els.q, els.ymin, els.ymax, els.type, els.oa, els.sort].forEach(el => {
+    if (el) el.addEventListener('input', render);
+  });
+  if (els.reset) els.reset.addEventListener('click', () => {
+    history.replaceState({}, '', location.pathname);
+    location.reload();
+  });
+
+  // ---------- robust loader (keeps your version) ----------
+  async function loadData(){
+    const res = await fetch('data/jeb.json?v=' + Date.now());
+    if (!res.ok) throw new Error('Failed to load data/jeb.json: ' + res.status);
+    const raw = await res.json();
+
+    // array OR {items:[]}
+    const items = Array.isArray(raw) ? raw : (raw.items || []);
+
+    // normalize fields to what render() expects
+    const norm = items.map(r => {
+      const doi = r.DOI || r.doi || '';
+      const url = r.URL || r.url || (doi ? `https://doi.org/${doi}` : '');
+      return {
+        title: r.title || '',
+        authors: Array.isArray(r.authors) ? r.authors : [],
+        published_year: Number(r.year) || Number(r.published_year) || null,
+        type: r.type || '',
+        doi, url,
+        abstract: r.abstract || '',
+        citations: r.citations || null,
+        oa: r.oa || { is_oa: (r.is_oa ?? null), status: r.oa_status ?? null, url: r.oa_url ?? null },
+      };
+    });
+
+    // meta timestamp (optional)
+    try {
+      const metaRes = await fetch('data/jeb-meta.json?v=' + Date.now());
+      if (metaRes.ok) {
+        const meta = await metaRes.json();
+        els.lastUpdated.textContent = meta.last_updated || '—';
+      } else {
+        els.lastUpdated.textContent = '—';
+      }
+    } catch {
+      els.lastUpdated.textContent = '—';
     }
 
-    function applyFilters(rows, f){
-      const out = rows.filter(r => {
-        const y = r.published_year ?? 0;
-        if(y < f.ymin || y > f.ymax) return false;
-        if(f.type && r.type !== f.type) return false;
-        if(f.oa && !(r.oa && r.oa.is_oa)) return false;
-        if(f.q){
-          const hay = `${r.title||''} ${(r.abstract||'')} ${(r.authors||[]).join(' ')}`.toLowerCase();
-          if(!hay.includes(f.q)) return false;
-        }
-        return true;
-      }).sort((a,b)=>{
-        switch(f.sort){
-          case 'oldest': return (a.published_year||0) - (b.published_year||0);
-          case 'title-asc': return (a.title||'').localeCompare(b.title||'');
-          case 'title-desc': return (b.title||'').localeCompare(a.title||'');
-          case 'cited-desc': return (b.citations?.count||0) - (a.citations?.count||0);
-          case 'newest':
-          default: return (b.published_year||0) - (a.published_year||0);
-        }
-      });
-      return out;
+    return norm;
+  }
+
+  // ---------- boot ----------
+  (async function boot(){
+    try {
+      const DATA = await loadData();
+      window.JEB_DATA = DATA;
+
+      // init years
+      const years = DATA.map(x => x.published_year).filter(y => typeof y === 'number');
+      if (years.length){
+        minYear = Math.min(...years);
+        maxYear = Math.max(...years);
+        const params = new URLSearchParams(location.search);
+        els.ymin.value = params.get('ymin') ? +params.get('ymin') : minYear;
+        els.ymax.value = params.get('ymax') ? +params.get('ymax') : maxYear;
+      }
+
+      render();
+    } catch (e) {
+      console.error(e);
+      els.lastUpdated.textContent = 'Failed to load data';
+      render();
     }
-
-    function render(){
-      const f = currentFilters();
-      const out = applyFilters(window.JEB_DATA || [], f);
-      els.count.textContent = out.length;
-      els.results.innerHTML = '';
-      els.empty.hidden = out.length !== 0;
-
-      out.forEach(r => {
-        const card = document.createElement('article');
-        card.className = 'result-card';
-        card.setAttribute('role','listitem');
-        const h = document.createElement('h4');
-        const a = document.createElement('a'); a.href = r.url || (r.doi ? `https://doi.org/${r.doi}` : '#'); a.target = '_blank'; a.rel='noopener noreferrer'; a.textContent = r.title || '(untitled)'; h.appendChild(a);
-        const meta = document.createElement('div'); meta.className = 'result-meta'; meta.textContent = `${r.published_year||'—'} • ${(r.type||'').replace('-', ' ')}`;
-        const authors = document.createElement('div'); authors.className = 'result-authors'; authors.textContent = (r.authors||[]).join(', ');
-        const badges = document.createElement('div'); badges.className = 'badges';
-        if(r.oa?.is_oa){ const b=document.createElement('span'); b.className='badge'; b.textContent='Open Access'; badges.appendChild(b); }
-
-        card.appendChild(h); card.appendChild(meta); card.appendChild(authors); card.appendChild(badges);
-        els.results.appendChild(card);
-      });
-
-      // Update URL params for shareable link
-      const p = new URLSearchParams();
-      const f2 = currentFilters();
-      if(f2.q) p.set('q', f2.q);
-      if(f2.ymin !== minYear) p.set('ymin', f2.ymin);
-      if(f2.ymax !== maxYear) p.set('ymax', f2.ymax);
-      if(f2.type) p.set('type', f2.type);
-      if(f2.oa) p.set('oa', '1');
-      if(f2.sort && f2.sort !== 'newest') p.set('sort', f2.sort);
-      const newUrl = `${location.pathname}?${p.toString()}`;
-      history.replaceState({}, '', newUrl);
-
-      // Charts
-      afterRender(out);
-    }
-
-    // ------ Mini charts wired to current results ------
-    function afterRender(rows){
-      try { drawYearChart(rows); } catch(e){ console.warn('Year chart error', e); }
-      try { drawTopAuthors(rows); } catch(e){ console.warn('Top authors error', e); }
-      try { drawHeatmap(rows); } catch(e){ console.warn('Heatmap error', e); }
-    }
-
-    function clear(el){ while(el.firstChild) el.removeChild(el.firstChild); }
-    function svgEl(tag, attrs){ const el = document.createElementNS('http://www.w3.org/2000/svg', tag); for(const k in attrs){ el.setAttribute(k, attrs[k]); } return el; }
-
-    function drawYearChart(rows){
-      const host = els.chartYear; clear(host);
-      if(!rows.length) return;
-      const byYear = new Map();
-      rows.forEach(r=>{ const y=r.published_year||0; if(!y) return; byYear.set(y, (byYear.get(y)||0)+1); });
-      const years = Array.from(byYear.keys()).sort((a,b)=>a-b);
-      const counts = years.map(y=>byYear.get(y));
-      const pad = {l:32, r:8, t:8, b:22};
-      const W = host.clientWidth || 520, H = host.clientHeight || 200;
-      const svg = svgEl('svg', {viewBox:`0 0 ${W} ${H}`, width:'100%', height:'100%'});
-      const maxC = Math.max(...counts, 1);
-      const barW = Math.max(2, (W - pad.l - pad.r) / Math.max(1, years.length) - 2);
-      years.forEach((y,i)=>{
-        const x = pad.l + i * (barW + 2);
-        const h = ((counts[i]/maxC) * (H - pad.t - pad.b));
-        const y0 = H - pad.b - h;
-        svg.appendChild(svgEl('rect', {x:x, y:y0, width:barW, height:h, rx:2}));
-      });
-      svg.appendChild(svgEl('text', {x:4, y:12, 'font-size':'10'})).textContent = maxC;
-      const labels = [years[0], years[Math.floor(years.length/2)], years[years.length-1]].filter(Boolean);
-      labels.forEach(yy=>{
-        const i = years.indexOf(yy); if(i<0) return;
-        const x = pad.l + i * (barW + 2) + barW/2;
-        const t = svgEl('text', {x:x, y:H-6, 'text-anchor':'middle', 'font-size':'10'});
-        t.textContent = yy; svg.appendChild(t);
-      });
-      host.appendChild(svg);
-    }
-
-    function drawTopAuthors(rows){
-      const host = els.chartAuthors; clear(host);
-      if(!rows.length) return;
-      const counts = new Map();
-      rows.forEach(r=> (r.authors||[]).forEach(a=> counts.set(a, (counts.get(a)||0)+1)) );
-      const top = Array.from(counts.entries()).sort((a,b)=> b[1]-a[1]).slice(0,10);
-      if(!top.length) return;
-      const pad = {l:120, r:8, t:8, b:22};
-      const W = host.clientWidth || 520, H = host.clientHeight || 200;
-      const svg = svgEl('svg', {viewBox:`0 0 ${W} ${H}`, width:'100%', height:'100%'});
-      const maxV = Math.max(...top.map(d=>d[1]), 1);
-      const rowH = (H - pad.t - pad.b) / top.length;
-      top.forEach((d,i)=>{
-        const y = pad.t + i*rowH + 4;
-        const w = ((d[1]/maxV) * (W - pad.l - pad.r));
-        svg.appendChild(svgEl('rect', {x:pad.l, y:y, width:w, height:Math.max(10,rowH-8), rx:2}));
-        svg.appendChild(svgEl('text', {x:pad.l-6, y:y+Math.max(10,rowH-8)-2, 'text-anchor':'end', 'font-size':'10'})).textContent = d[0];
-        svg.appendChild(svgEl('text', {x:pad.l + w + 4, y:y+Math.max(10,rowH-8)-2, 'font-size':'10'})).textContent = d[1];
-      });
-      host.appendChild(svg);
-    }
-
-    function drawHeatmap(rows){
-      const host = els.chartHeat; clear(host);
-      if(!rows.length) return;
-      const stop = new Set(['the','and','of','in','to','a','for','on','with','by','an','as','at','from','this','that','into','using','study','journal','experimental','biology','are','our','was','were','have']);
-      const freq = new Map(); // term -> Map(year -> count)
-      rows.forEach(r=>{
-        const y = r.published_year||0; if(!y) return;
-        const text = `${r.title||''} ${(r.abstract||'')}`.toLowerCase().replace(/[^a-z0-9\s]/g,' ');
-        const tokens = Array.from(new Set(text.split(/\s+/).filter(t=> t && t.length>3 && !stop.has(t)))).slice(0,40);
-        tokens.forEach(t=>{ if(!freq.has(t)) freq.set(t, new Map()); const m=freq.get(t); m.set(y, (m.get(y)||0)+1); });
-      });
-      const topTerms = Array.from(freq.entries()).map(([k,v])=>[k, Array.from(v.values()).reduce((a,b)=>a+b,0)])
-        .sort((a,b)=>b[1]-a[1]).slice(0,12).map(d=>d[0]);
-      if(!topTerms.length) return;
-      const years = Array.from(new Set(rows.map(r=>r.published_year).filter(Boolean))).sort((a,b)=>a-b);
-      const pad = {l:120, r:8, t:16, b:22};
-      const W = host.clientWidth || 900, H = host.clientHeight || 260;
-      const svg = svgEl('svg', {viewBox:`0 0 ${W} ${H}`, width:'100%', height:'100%'});
-      const cellW = Math.max(6, (W - pad.l - pad.r) / Math.max(years.length,1));
-      const cellH = Math.max(10, (H - pad.t - pad.b) / topTerms.length);
-      let maxC = 1; topTerms.forEach(t=> years.forEach(y=> { const c = (freq.get(t)?.get(y)||0); if(c>maxC) maxC=c; }));
-      topTerms.forEach((t,i)=>{
-        const y = pad.t + i*cellH + cellH*0.7;
-        const tl = svgEl('text', {x: pad.l-6, y: y, 'text-anchor':'end', 'font-size':'10'}); tl.textContent = t; svg.appendChild(tl);
-      });
-      const xKeys = [years[0], years[Math.floor(years.length/2)], years[years.length-1]].filter(Boolean);
-      xKeys.forEach(yy=>{
-        const i = years.indexOf(yy); if(i<0) return;
-        const x = pad.l + i*cellW + cellW/2;
-        const tx = svgEl('text', {x:x, y:H-6, 'text-anchor':'middle', 'font-size':'10'}); tx.textContent = yy; svg.appendChild(tx);
-      });
-      topTerms.forEach((t,ri)=>{
-        years.forEach((y,ci)=>{
-          const c = (freq.get(t)?.get(y)||0);
-          const a = c ? (0.15 + 0.85*(c/Math.max(1,maxC))) : 0.06;
-          const rect = svgEl('rect', {x: pad.l + ci*cellW, y: pad.t + ri*cellH, width: cellW-1, height: cellH-1, fill:`rgba(0,0,0,${a})`, rx:1});
-          svg.appendChild(rect);
-        });
-      });
-      host.appendChild(svg);
-    }
-
-    // ------ Load the real dataset and boot the UI ------
-    fetch('data/jeb.json')
-      .then(res => res.json())
-      .then(DATA => {
-        els.lastUpdated.textContent = DATA.last_updated || '—';
-        window.JEB_DATA = DATA.items || [];
-        const years = window.JEB_DATA.map(x => x.published_year).filter(y => typeof y === 'number');
-        if(years.length){
-          minYear = Math.min(...years);
-          maxYear = Math.max(...years);
-          els.ymin.value = params.get('ymin') ? +params.get('ymin') : minYear;
-          els.ymax.value = params.get('ymax') ? +params.get('ymax') : maxYear;
-        }
-        render();
-      })
-      .catch(err => {
-        console.error('Error loading data/jeb.json', err);
-        els.lastUpdated.textContent = 'Failed to load data';
-        render();
-      });
-  </script>
+  })();
+</script>
 </body>
 </html>
