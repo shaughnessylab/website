@@ -3,7 +3,7 @@
    ========================= */
 :root {
     --primary: #fe5c00;
-    --primary-muted: #ffa97a;
+    --primary-muted: #ff945b;
     --bg: #ffffff;
     --text: #1a1a1a;
     --gray: #dddddd;
@@ -236,6 +236,7 @@ footer .right {
     align-items: flex-start;
 }
 .profile-photo {
+  background-color: var(--primary-muted);
   width: 150px;
   height: 150px;
   object-fit: cover;
