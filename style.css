@@ -10,6 +10,7 @@
     --dark-gray: #757575;
     --accent: #333;
     --transition: all 0.3s ease;
+    --profile-background: #d7d7d7;
 }
 
 /* =========================
@@ -236,7 +237,7 @@ footer .right {
     align-items: flex-start;
 }
 .profile-photo {
-  background-color: var(--primary-muted);
+  background-color: var(--profile-background);
   width: 150px;
   height: 150px;
   object-fit: cover;
