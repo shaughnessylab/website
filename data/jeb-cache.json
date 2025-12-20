@@ -134160,5 +134160,762 @@
       "host_type": null
     }
   },
-  "10.1242/jeb.251423": {}
+  "10.1242/jeb.251423": {},
+  "10.1242/jeb.249258": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://doi.org/10.1242/jeb.249258",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4414640186",
+      "title": "Sensitivity of the mystacial vibrissal system of harbour seals (<i>Phoca vitulina</i>) to size differences of single vortex rings",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41027112",
+      "pmcid": "pmc-id: PMC12517344;"
+    }
+  },
+  "10.1242/jeb.249821": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W7105674886",
+      "title": "Daily energetic expenditure and energy consumption of short-finned pilot whales",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [
+        {
+          "display_name": "Squid",
+          "score": 0.7367160320281982,
+          "level": 2
+        },
+        {
+          "display_name": "Whale",
+          "score": 0.680914580821991,
+          "level": 2
+        },
+        {
+          "display_name": "Foraging",
+          "score": 0.6455956697463989,
+          "level": 2
+        },
+        {
+          "display_name": "Population",
+          "score": 0.5610343813896179,
+          "level": 2
+        },
+        {
+          "display_name": "Environmental science",
+          "score": 0.5507919192314148,
+          "level": 0
+        },
+        {
+          "display_name": "Fishery",
+          "score": 0.527249276638031,
+          "level": 1
+        },
+        {
+          "display_name": "Predation",
+          "score": 0.49368807673454285,
+          "level": 2
+        },
+        {
+          "display_name": "Biology",
+          "score": 0.45321542024612427,
+          "level": 0
+        },
+        {
+          "display_name": "Energy expenditure",
+          "score": 0.44237759709358215,
+          "level": 2
+        },
+        {
+          "display_name": "Oceanography",
+          "score": 0.38627302646636963,
+          "level": 1
+        }
+      ],
+      "open_access": false
+    },
+    "pubmed": {
+      "pmid": "41232179",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251472": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.251472/3672557/jeb251472.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415987774",
+      "title": "Temperature outweighs diet in shaping developmental performance in two cricket species via growth delays and physiological limits",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41200745",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.250392": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4414545123",
+      "title": "Functional diversity and behavioural use of fibre-producing silk glands in <i>Pholcus phalangioides</i>",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": false
+    },
+    "pubmed": {
+      "pmid": "41001922",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251783": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/228/21/jeb251783/3672162/jeb251783.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4416076707",
+      "title": "Sharper, straighter bills give male green hermits the edge in beak arms race",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    }
+  },
+  "10.1242/jeb.251141": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4414296187",
+      "title": "Penguin molt revisited: dive performance following the molt of adult king penguins (<i>Aptenodytes patagonicus</i>) and conflicting physiological demands at sea",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": false
+    },
+    "pubmed": {
+      "pmid": "40958772",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251606": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.251606/3669637/jeb251606.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415267510",
+      "title": "Integrated response of the zebrafish ( <i>Danio rerio</i> ) cardiovascular system to hypoxia acclimation",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41098077",
+      "pmcid": "pmc-id: PMC12669836;"
+    }
+  },
+  "10.1242/jeb.251243": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/228/22/jeb251243/3673227/jeb251243.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W7106343394",
+      "title": "Disruption of the sea turtle magnetic map sense by a magnetic pulse",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [
+        {
+          "display_name": "Compass",
+          "score": 0.6322775483131409,
+          "level": 2
+        },
+        {
+          "display_name": "Magnetoreception",
+          "score": 0.6282224059104919,
+          "level": 4
+        },
+        {
+          "display_name": "Magnetic dipole",
+          "score": 0.5903749465942383,
+          "level": 3
+        },
+        {
+          "display_name": "Magnetic moment",
+          "score": 0.45921558141708374,
+          "level": 2
+        },
+        {
+          "display_name": "Magnetometer",
+          "score": 0.4436667561531067,
+          "level": 3
+        },
+        {
+          "display_name": "Nuclear magnetic resonance",
+          "score": 0.43660297989845276,
+          "level": 1
+        },
+        {
+          "display_name": "Magnetic survey",
+          "score": 0.4220238924026489,
+          "level": 3
+        },
+        {
+          "display_name": "Magnetic anomaly",
+          "score": 0.4121929407119751,
+          "level": 2
+        },
+        {
+          "display_name": "Physics",
+          "score": 0.397002637386322,
+          "level": 0
+        },
+        {
+          "display_name": "Pulse (music)",
+          "score": 0.38630297780036926,
+          "level": 3
+        }
+      ],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41265039",
+      "pmcid": "pmc-id: PMC12669835;"
+    }
+  },
+  "10.1242/jeb.250443": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415503446",
+      "title": "Artificial light at night enhances defensive behaviour in aquatic shredders under predation risk",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": false
+    },
+    "pubmed": {
+      "pmid": "41133383",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251902": {
+    "unpaywall": {
+      "oa_status": "bronze",
+      "is_oa": true,
+      "license": null,
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/228/23/jeb251902/3675517/jeb251902.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4416941798",
+      "title": "Dehydration impacts lizard speed, but not as much as heat ",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    }
+  },
+  "10.1242/jeb.251167": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/228/21/jeb251167/3671662/jeb251167.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415976441",
+      "title": "Neuromuscular coordination of movement and breathing forges a hammer-like mechanism for woodpecker drilling",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41200933",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251713": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.251713/3675183/jeb251713.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4416782073",
+      "title": "Energy availability influences the dynamics of thermal phenotypic plasticity",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41312621",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251575": {
+    "unpaywall": {
+      "oa_status": "bronze",
+      "is_oa": true,
+      "license": null,
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/228/20/jeb251575/3670457/jeb251575.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415506310",
+      "title": "ECR Spotlight – Paula Iturralde-Pólit",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    }
+  },
+  "10.1242/jeb.251750": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by-sa",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/228/22/jeb251750/3674404/jeb251750.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4416600996",
+      "title": "Generating extra body heat helped mammals conquer the globe",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    }
+  },
+  "10.1242/jeb.251188": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4416136010",
+      "title": "Socially responsive yolk steroids correlate with gene expression in early extra-embryonic membranes",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": false
+    },
+    "pubmed": {
+      "pmid": "41221731",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.251474": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.251474/3672086/jeb251474.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415847722",
+      "title": "Heat increment of feeding in the common bottlenose dolphin ( <i>Tursiops truncatus</i> ) contributes moderately to field metabolic rate estimates",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41185930",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.250956": {
+    "unpaywall": {
+      "oa_status": "hybrid",
+      "is_oa": true,
+      "license": "cc-by",
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.250956/3672566/jeb250956.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W4415986534",
+      "title": "Effects of hypoxia and hyperoxia on exercise-induced metabolomic and transcriptomic profiles in equine skeletal muscle",
+      "host_venue": null,
+      "publication_year": 2025,
+      "concepts": [],
+      "open_access": true
+    },
+    "pubmed": {
+      "pmid": "41199666",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.00628": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W2050147551",
+      "title": "COPEPODS STAR IN 3-D BLOCKBUSTER",
+      "host_venue": null,
+      "publication_year": 2003,
+      "concepts": [
+        {
+          "display_name": "Creatures",
+          "score": 0.723527193069458,
+          "level": 3
+        },
+        {
+          "display_name": "Crustacean",
+          "score": 0.6713213920593262,
+          "level": 2
+        },
+        {
+          "display_name": "Holography",
+          "score": 0.6365066766738892,
+          "level": 2
+        },
+        {
+          "display_name": "Neutral buoyancy",
+          "score": 0.5049625039100647,
+          "level": 2
+        },
+        {
+          "display_name": "Diel vertical migration",
+          "score": 0.4743422567844391,
+          "level": 2
+        },
+        {
+          "display_name": "Oceanography",
+          "score": 0.46125614643096924,
+          "level": 1
+        },
+        {
+          "display_name": "Copepod",
+          "score": 0.45351970195770264,
+          "level": 3
+        },
+        {
+          "display_name": "Plankton",
+          "score": 0.44225701689720154,
+          "level": 2
+        },
+        {
+          "display_name": "Geology",
+          "score": 0.3786650598049164,
+          "level": 0
+        },
+        {
+          "display_name": "Artificial intelligence",
+          "score": 0.36207395792007446,
+          "level": 1
+        }
+      ],
+      "open_access": false
+    }
+  },
+  "10.1242/jeb.112235": {
+    "unpaywall": {
+      "oa_status": "bronze",
+      "is_oa": true,
+      "license": null,
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/218/11/1618/1886624/jeb112235.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W2298460027",
+      "title": "Bubbles create cosy environment for developing embryos",
+      "host_venue": null,
+      "publication_year": 2015,
+      "concepts": [
+        {
+          "display_name": "Nest (protein structural motif)",
+          "score": 0.7317003011703491,
+          "level": 2
+        },
+        {
+          "display_name": "Sympatric speciation",
+          "score": 0.6449958682060242,
+          "level": 2
+        },
+        {
+          "display_name": "Biology",
+          "score": 0.5760955810546875,
+          "level": 0
+        },
+        {
+          "display_name": "Predation",
+          "score": 0.5641838312149048,
+          "level": 2
+        },
+        {
+          "display_name": "Ecology",
+          "score": 0.5575987696647644,
+          "level": 1
+        },
+        {
+          "display_name": "Habitat",
+          "score": 0.5276471376419067,
+          "level": 2
+        },
+        {
+          "display_name": "Desiccation",
+          "score": 0.5189892649650574,
+          "level": 2
+        },
+        {
+          "display_name": "Breed",
+          "score": 0.5026154518127441,
+          "level": 2
+        },
+        {
+          "display_name": "Range (aeronautics)",
+          "score": 0.4875001609325409,
+          "level": 2
+        },
+        {
+          "display_name": "Zoology",
+          "score": 0.35320574045181274,
+          "level": 1
+        }
+      ],
+      "open_access": true
+    }
+  },
+  "10.1242/jeb.205.22.3519": {
+    "unpaywall": {
+      "oa_status": "closed",
+      "is_oa": false,
+      "license": null,
+      "oa_url": null,
+      "host_type": null
+    },
+    "openalex": {
+      "id": "https://openalex.org/W2099183271",
+      "title": "Enzyme activities of pharyngeal jaw musculature in the cichlid<i>Tramitichromis intermedius</i>: implications for sound production in cichlid fishes",
+      "host_venue": null,
+      "publication_year": 2002,
+      "concepts": [
+        {
+          "display_name": "Cichlid",
+          "score": 0.9603610634803772,
+          "level": 3
+        },
+        {
+          "display_name": "Biology",
+          "score": 0.7947341203689575,
+          "level": 0
+        },
+        {
+          "display_name": "Context (archaeology)",
+          "score": 0.5672924518585205,
+          "level": 2
+        },
+        {
+          "display_name": "Anatomy",
+          "score": 0.5245062112808228,
+          "level": 1
+        },
+        {
+          "display_name": "Fish <Actinopterygii>",
+          "score": 0.39997047185897827,
+          "level": 2
+        },
+        {
+          "display_name": "Zoology",
+          "score": 0.3582228422164917,
+          "level": 1
+        },
+        {
+          "display_name": "Fishery",
+          "score": 0.15067479014396667,
+          "level": 1
+        },
+        {
+          "display_name": "Paleontology",
+          "score": 0.0,
+          "level": 1
+        }
+      ],
+      "open_access": false
+    },
+    "pubmed": {
+      "pmid": "12364404",
+      "pmcid": null
+    }
+  },
+  "10.1242/jeb.095109": {
+    "unpaywall": {
+      "oa_status": "bronze",
+      "is_oa": true,
+      "license": null,
+      "oa_url": "https://journals.biologists.com/jeb/article-pdf/217/21/3771/1887417/os3770-3772.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W2318145029",
+      "title": "Anthropogenic pollutants disturb moth navigation",
+      "host_venue": null,
+      "publication_year": 2014,
+      "concepts": [
+        {
+          "display_name": "Odor",
+          "score": 0.8505004644393921,
+          "level": 2
+        },
+        {
+          "display_name": "Nectar",
+          "score": 0.5855715274810791,
+          "level": 3
+        },
+        {
+          "display_name": "Datura",
+          "score": 0.478181391954422,
+          "level": 2
+        },
+        {
+          "display_name": "Pollinator",
+          "score": 0.46961480379104614,
+          "level": 4
+        },
+        {
+          "display_name": "Biology",
+          "score": 0.4087934195995331,
+          "level": 0
+        },
+        {
+          "display_name": "Environmental science",
+          "score": 0.37578389048576355,
+          "level": 0
+        },
+        {
+          "display_name": "Botany",
+          "score": 0.31932783126831055,
+          "level": 1
+        },
+        {
+          "display_name": "Pollination",
+          "score": 0.2861172556877136,
+          "level": 3
+        },
+        {
+          "display_name": "Pollen",
+          "score": 0.21693450212478638,
+          "level": 2
+        },
+        {
+          "display_name": "Neuroscience",
+          "score": 0.0,
+          "level": 1
+        }
+      ],
+      "open_access": true
+    }
+  },
+  "10.1242/jeb.077917": {
+    "unpaywall": {
+      "oa_status": "bronze",
+      "is_oa": true,
+      "license": null,
+      "oa_url": "https://jeb.biologists.org/content/jexbio/216/12/v.1.full.pdf",
+      "host_type": "publisher"
+    },
+    "openalex": {
+      "id": "https://openalex.org/W2038233387",
+      "title": "AHEAD OF THE GAME: HOW KNOCKED INSECTS STICK",
+      "host_venue": null,
+      "publication_year": 2013,
+      "concepts": [
+        {
+          "display_name": "Communication",
+          "score": 0.410929411649704,
+          "level": 1
+        },
+        {
+          "display_name": "Advertising",
+          "score": 0.38337433338165283,
+          "level": 1
+        },
+        {
+          "display_name": "Zoology",
+          "score": 0.38097935914993286,
+          "level": 1
+        },
+        {
+          "display_name": "Biology",
+          "score": 0.3450617492198944,
+          "level": 0
+        },
+        {
+          "display_name": "Psychology",
+          "score": 0.28477486968040466,
+          "level": 0
+        },
+        {
+          "display_name": "Business",
+          "score": 0.28126561641693115,
+          "level": 0
+        }
+      ],
+      "open_access": true
+    }
+  }
 }
