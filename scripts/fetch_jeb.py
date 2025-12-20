@@ -314,26 +314,27 @@ def main() -> int:
 
     # Write outputs
     payload = {
-    "last_updated": datetime.now(timezone.utc).isoformat(),
-    "items": [
-        {
-            "title": r.get("title"),
-            "authors": r.get("authors") or [],
-            "published_year": r.get("year"),
-            "type": r.get("type"),
-            "doi": r.get("DOI"),
-            "url": r.get("URL") or (("https://doi.org/" + r["DOI"]) if r.get("DOI") else None),
-            "abstract": r.get("abstract") or "",
-            "oa": {
-                "is_oa": r.get("is_oa"),
-                "status": r.get("oa_status"),
-                "url": r.get("oa_url"),
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "items": [
+            {
+                "title": r.get("title"),
+                "authors": r.get("authors") or [],
+                "published_year": r.get("year"),
+                "type": r.get("type"),
+                "doi": r.get("DOI"),
+                "url": r.get("URL") or (("https://doi.org/" + r["DOI"]) if r.get("DOI") else None),
+                "abstract": r.get("abstract") or "",
+                "oa": {
+                    "is_oa": r.get("is_oa"),
+                    "status": r.get("oa_status"),
+                    "url": r.get("oa_url"),
+                },
             }
-        }
-        for r in enriched_records
-    ]
-}
-save_json(OUT_JSON, payload)
+            for r in enriched_records
+        ],
+    }
+    save_json(OUT_JSON, payload)
+
     meta = {
         "journal": "Journal of Experimental Biology",
         "issn": ISSNS,
@@ -348,6 +349,7 @@ save_json(OUT_JSON, payload)
     }
     save_json(META_JSON, meta)
     save_json(CACHE_JSON, updated_cache)
+
 
     print(f"Wrote {len(enriched_records)} records to {OUT_JSON}")
     print(f"Wrote meta to {META_JSON} and cache to {CACHE_JSON}")
