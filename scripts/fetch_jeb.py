@@ -131,7 +131,7 @@ def normalize_crossref_item(item: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 # -------------------------
-# Crossref fetching
+# Crossref
 # -------------------------
 def fetch_crossref_all() -> List[Dict[str, Any]]:
     url = "https://api.crossref.org/works"
@@ -167,7 +167,8 @@ def fetch_crossref_all() -> List[Dict[str, Any]]:
                     seen_dois.add(doi)
                 all_items.append(rec)
 
-            if not items or not next_cursor or next_cursor == cursor:
+            # Crossref cursor paging: stop when fewer than ROWS returned (last page)
+            if not next_cursor or len(items) < ROWS:
                 break
             cursor = next_cursor
             sleep_secs(0.2)
