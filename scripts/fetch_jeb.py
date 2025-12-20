@@ -135,33 +135,42 @@ def normalize_crossref_item(item: Dict[str, Any]) -> Dict[str, Any]:
 # -------------------------
 def fetch_crossref_all() -> List[Dict[str, Any]]:
     url = "https://api.crossref.org/works"
-    cursor = "*"
     all_items: List[Dict[str, Any]] = []
-    page = 0
-    filt = f"issn:{ISSNS[0]},issn:{ISSNS[1]}"
+    seen_dois = set()
 
-    while True:
-        page += 1
-        params = {
-            "filter": filt,
-            "rows": ROWS,
-            "cursor": cursor,
-            "select": "DOI,title,author,issued,type,URL,volume,issue,page,container-title",
-            "mailto": CROSSREF_MAILTO,
-        }
-        r = http_get(url, params=params, headers={"User-Agent": user_agent()})
-        data = r.json().get("message", {})
-        items = data.get("items", []) or []
-        next_cursor = data.get("next-cursor")
-        print(f"Crossref page {page}: {len(items)} items")
+    for issn in ISSNS:
+        cursor = "*"
+        page = 0
+        filt = f"issn:{issn}"
 
-        for it in items:
-            all_items.append(normalize_crossref_item(it))
+        while True:
+            page += 1
+            params = {
+                "filter": filt,
+                "rows": ROWS,
+                "cursor": cursor,
+                "select": "DOI,title,author,issued,type,URL,volume,issue,page,container-title",
+                "mailto": CROSSREF_MAILTO,
+            }
+            r = http_get(url, params=params, headers={"User-Agent": user_agent()})
+            data = r.json().get("message", {})
+            items = data.get("items", []) or []
+            next_cursor = data.get("next-cursor")
+            print(f"Crossref {issn} page {page}: {len(items)} items")
 
-        if not items or not next_cursor or next_cursor == cursor:
-            break
-        cursor = next_cursor
-        sleep_secs(0.2)
+            for it in items:
+                rec = normalize_crossref_item(it)
+                doi = (rec.get("DOI") or "").lower().strip()
+                if doi and doi in seen_dois:
+                    continue
+                if doi:
+                    seen_dois.add(doi)
+                all_items.append(rec)
+
+            if not items or not next_cursor or next_cursor == cursor:
+                break
+            cursor = next_cursor
+            sleep_secs(0.2)
 
     return all_items
 
