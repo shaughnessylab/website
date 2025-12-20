@@ -33,6 +33,17 @@
     .badge { font-size:.7rem; border:1px solid #e5e5e5; background:#f8f8f8; padding:.1rem .4rem; border-radius:999px; }
     .empty { text-align:center; padding:2rem; border:2px dashed #eee; border-radius:12px; }
 
+    .barlist { display:flex; flex-direction:column; gap:.35rem; }
+    .barrow { display:grid; grid-template-columns: 1fr 140px 42px; gap:.5rem; align-items:center; }
+    .barlabel { font-size:.85rem; color: var(--muted); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .bartrack { height: 10px; background:#f2f2f2; border-radius:999px; overflow:hidden; }
+    .barfill { height: 10px; background: var(--primary); border-radius:999px; }
+    .barval { font-size:.85rem; color: var(--muted); text-align:right; }
+
+    .heatgrid { display:flex; flex-wrap:wrap; gap:.35rem; }
+    .heatcell { display:inline-flex; gap:.35rem; align-items:center; padding:.25rem .45rem; border-radius:999px; color:#111; font-size:.85rem; border: 1px solid rgba(0,0,0,.06); }
+    .heatn { font-size:.75rem; color:#111; opacity:.85; }
+
     .viz { display:grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin-top:1rem; }
     .viz .panel { min-height: 220px; }
 
@@ -130,9 +141,6 @@
             </div>
           </div>
 
-          <div id="results" class="results" role="list"></div>
-          <div id="noResults" class="empty" hidden>Nothing matches your filters. Try clearing the search or widening the year range.</div>
-
           <!-- Visualizations -->
           <div class="viz">
             <div class="panel" aria-label="Publications by year">
@@ -154,6 +162,11 @@
               </div>
             </div>
           </div>
+
+          <div id="results" class="results" role="list"></div>
+          <div id="noResults" class="empty" hidden>Nothing matches your filters. Try clearing the search or widening the year range.</div>
+
+
         </section>
       </section>
 
@@ -186,6 +199,9 @@
     results: document.getElementById('results'),
     empty: document.getElementById('noResults'),
     lastUpdated: document.getElementById('lastUpdated'),
+    chartYear: document.getElementById('chartYear'),
+    chartAuthors: document.getElementById('chartAuthors'),
+    chartHeat: document.getElementById('chartHeat'),
   };
 
   // ---------- filters & helpers ----------
@@ -232,6 +248,127 @@
     return out;
   }
 
+   // ---------- simple viz renderers (no external libraries) ----------
+  function escapeHtml(s){
+    return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function renderBarList(container, rows, opts){
+    const { title = '', maxItems = 12 } = opts || {};
+    if (!container) return;
+
+    if (!rows.length){
+      container.innerHTML = `<div class="muted small"><em>No data for current view.</em></div>`;
+      return;
+    }
+
+    const maxVal = Math.max(...rows.map(r => r.value));
+    const items = rows.slice(0, maxItems);
+
+    container.innerHTML = `
+      <div class="barlist">
+        ${title ? `<div class="muted small" style="margin-bottom:.4rem">${escapeHtml(title)}</div>` : ``}
+        ${items.map(r => {
+          const pct = maxVal ? Math.round((r.value / maxVal) * 100) : 0;
+          return `
+            <div class="barrow">
+              <div class="barlabel">${escapeHtml(r.label)}</div>
+              <div class="bartrack"><div class="barfill" style="width:${pct}%"></div></div>
+              <div class="barval">${r.value}</div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderYearChart(viewRows){
+    // Count by year
+    const counts = new Map();
+    for (const r of viewRows){
+      const y = r.published_year;
+      if (!y) continue;
+      counts.set(y, (counts.get(y) || 0) + 1);
+    }
+    const years = Array.from(counts.keys()).sort((a,b)=>a-b);
+
+    // Limit for display: last 30 years with data (keeps it readable)
+    const tail = years.slice(-30);
+    const series = tail.map(y => ({ label: String(y), value: counts.get(y) }));
+
+    renderBarList(els.chartYear, series, { title: 'Last 30 years in current view', maxItems: 30 });
+  }
+
+  function renderTopAuthors(viewRows){
+    const counts = new Map();
+    for (const r of viewRows){
+      const authors = Array.isArray(r.authors) ? r.authors : [];
+      for (const a of authors){
+        const name = (a || '').trim();
+        if (!name) continue;
+        counts.set(name, (counts.get(name) || 0) + 1);
+      }
+    }
+    const sorted = Array.from(counts.entries())
+      .map(([label, value]) => ({ label, value }))
+      .sort((a,b)=>b.value-a.value);
+
+    renderBarList(els.chartAuthors, sorted, { title: 'Top 12 authors in filtered results', maxItems: 12 });
+  }
+
+  function renderKeywordHeat(viewRows){
+    // Lightweight tokenization of titles+abstracts for the current view
+    // Goal: show frequent terms; not a true "heatmap", but a useful term-frequency grid.
+    const stop = new Set([
+      'the','and','or','of','to','in','a','an','for','with','on','by','from','at','as',
+      'is','are','was','were','be','been','being','that','this','these','those','it','its',
+      'we','our','their','they','them','but','not','into','during','using','use','used',
+      'study','effects','effect','results','result','methods','method','analysis','role'
+    ]);
+
+    const counts = new Map();
+    const textOf = (r) => `${r.title || ''} ${(r.abstract || '')}`.toLowerCase();
+
+    for (const r of viewRows){
+      const txt = textOf(r);
+      const tokens = txt.match(/[a-z0-9]+/g) || [];
+      for (const t of tokens){
+        if (t.length < 4) continue;
+        if (stop.has(t)) continue;
+        counts.set(t, (counts.get(t) || 0) + 1);
+      }
+    }
+
+    const sorted = Array.from(counts.entries())
+      .map(([term, n]) => ({ term, n }))
+      .sort((a,b)=>b.n-a.n)
+      .slice(0, 40);
+
+    if (!els.chartHeat) return;
+
+    if (!sorted.length){
+      els.chartHeat.innerHTML = `<div class="muted small"><em>No keywords for current view.</em></div>`;
+      return;
+    }
+
+    const maxN = Math.max(...sorted.map(x=>x.n));
+    els.chartHeat.innerHTML = `
+      <div class="heatgrid">
+        ${sorted.map(x => {
+          const alpha = maxN ? (0.15 + 0.75*(x.n/maxN)) : 0.25;
+          return `<span class="heatcell" style="background: rgba(254,92,0,${alpha.toFixed(3)})" title="${escapeHtml(x.term)} (${x.n})">${escapeHtml(x.term)} <span class="heatn">${x.n}</span></span>`;
+        }).join('')}
+      </div>
+      <div class="muted small" style="margin-top:.5rem">Top terms in titles/abstracts for the filtered results (simple frequency, stopword-filtered).</div>
+    `;
+  }
+
+  function renderViz(viewRows){
+    renderYearChart(viewRows);
+    renderTopAuthors(viewRows);
+    renderKeywordHeat(viewRows);
+  }
+
   // ---------- RENDER (this is where the OA badge code lives) ----------
   function render(){
     const f = currentFilters();
@@ -239,6 +376,8 @@
     els.count.textContent = out.length;
     els.results.innerHTML = '';
     els.empty.hidden = out.length !== 0;
+
+    renderViz(out);
 
     out.forEach(r => {
       const card = document.createElement('article');
