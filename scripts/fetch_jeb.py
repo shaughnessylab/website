@@ -131,7 +131,7 @@ def normalize_crossref_item(item: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 # -------------------------
-# Crossref
+# Crossrefs fetching
 # -------------------------
 def fetch_crossref_all() -> List[Dict[str, Any]]:
     url = "https://api.crossref.org/works"
