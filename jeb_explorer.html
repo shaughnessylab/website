@@ -34,11 +34,13 @@
     .empty { text-align:center; padding:2rem; border:2px dashed #eee; border-radius:12px; }
 
     .barlist { display:flex; flex-direction:column; gap:.35rem; }
-    .barrow { display:grid; grid-template-columns: 1fr 140px 42px; gap:.5rem; align-items:center; }
+    .barrow { display:grid; grid-template-columns: 1fr 95px 42px; gap:.5rem; align-items:center; }
     .barlabel { font-size:.85rem; color: var(--muted); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
     .bartrack { height: 10px; background:#f2f2f2; border-radius:999px; overflow:hidden; }
     .barfill { height: 10px; background: var(--primary); border-radius:999px; }
     .barval { font-size:.85rem; color: var(--muted); text-align:right; }
+
+    .chart-scroll {overflow-y: auto; padding-bottom: 10px; } /* prevents last row from looking clipped */
 
     .heatgrid { display:flex; flex-wrap:wrap; gap:.35rem; }
     .heatcell { display:inline-flex; gap:.35rem; align-items:center; padding:.25rem .45rem; border-radius:999px; color:#111; font-size:.85rem; border: 1px solid rgba(0,0,0,.06); }
@@ -145,15 +147,15 @@
           <div class="viz">
             <div class="panel" aria-label="Publications by year">
               <h3>Publications by Year</h3>
-              <div id="chartYear" style="height: 200px;"></div>
+              <div id="chartYear" class="chart-scroll" style="height: 200px;"></div>
             </div>
             <div class="panel" aria-label="Top authors">
               <h3>Top Authors (current view)</h3>
-              <div id="chartAuthors" style="height: 200px;"></div>
+              <div id="chartAuthors" class="chart-scroll" style="height: 200px;"></div>
             </div>
             <div class="panel" aria-label="Keyword/method heatmap" style="grid-column: 1 / -1;">
               <h3>Keyword / Method Heatmap</h3>
-              <div id="chartHeat" style="height: 260px;"></div>
+              <div id="chartHeat" class="chart-scroll" style="height: 260px;"></div>
             </div>
             <div class="panel" aria-label="Author network" style="grid-column: 1 / -1;">
               <h3>Author Co‑authorship Network</h3>
@@ -299,14 +301,54 @@
     renderBarList(els.chartYear, series, { title: 'Last 30 years in current view', maxItems: 30 });
   }
 
+  function formatAuthorShort(nameRaw){
+    const name = (nameRaw || '').trim();
+    if (!name) return '';
+
+    // Remove obvious trailing punctuation
+    const cleaned = name.replace(/\s+/g, ' ').replace(/\.$/, '');
+
+    let last = '';
+    let rest = '';
+
+    if (cleaned.includes(',')){
+      // Already "Last, First Middle"
+      const parts = cleaned.split(',');
+      last = (parts[0] || '').trim();
+      rest = (parts.slice(1).join(' ') || '').trim();
+    } else {
+      // "First Middle Last"
+      const parts = cleaned.split(' ').filter(Boolean);
+      if (parts.length === 1) return parts[0];
+      last = parts[parts.length - 1];
+      rest = parts.slice(0, -1).join(' ');
+    }
+
+    // Build initials from first/middle tokens (ignore common suffixes)
+    const suffixes = new Set(['jr','sr','ii','iii','iv','phd','md']);
+    const tokens = rest
+      .replace(/[()]/g, ' ')
+      .split(' ')
+      .map(t => t.trim())
+      .filter(t => t && !suffixes.has(t.toLowerCase().replace(/\./g,'')));
+
+    const initials = tokens
+      .map(t => t[0])
+      .filter(ch => /[a-z]/i.test(ch))
+      .join('')
+      .toUpperCase();
+
+    return initials ? `${last}, ${initials}` : `${last}`;
+  }
+
   function renderTopAuthors(viewRows){
     const counts = new Map();
     for (const r of viewRows){
       const authors = Array.isArray(r.authors) ? r.authors : [];
       for (const a of authors){
-        const name = (a || '').trim();
-        if (!name) continue;
-        counts.set(name, (counts.get(name) || 0) + 1);
+        const short = formatAuthorShort(a);
+        if (!short) continue;
+        counts.set(short, (counts.get(short) || 0) + 1);
       }
     }
     const sorted = Array.from(counts.entries())
@@ -320,10 +362,21 @@
     // Lightweight tokenization of titles+abstracts for the current view
     // Goal: show frequent terms; not a true "heatmap", but a useful term-frequency grid.
     const stop = new Set([
+      // Articles, conjunctions, prepositions, pronouns
       'the','and','or','of','to','in','a','an','for','with','on','by','from','at','as',
       'is','are','was','were','be','been','being','that','this','these','those','it','its',
-      'we','our','their','they','them','but','not','into','during','using','use','used',
-      'study','effects','effect','results','result','methods','method','analysis','role'
+      'we','our','their','they','them','but','not','into','during','within','without','across',
+      'between','among','after','before','through','via','over','under',
+
+      // Generic paper boilerplate
+      'species','body','high','low','study','studies','effects','effect','results','result','methods','method','analysis','role',
+      'using','use','used','show','shows','shown','demonstrate','demonstrates','demonstrated',
+      'data','model','models','approach','approaches','based','including','include','included',
+      'evidence','following','activity','activities','changes','change',
+
+      // Common non-content biology/physiology terms that often swamp the cloud
+      'analysis','response','responses','regulation','regulate','regulated','regulatory',
+      'function','functional','properties','property','rate','system','expression','level','levels'
     ]);
 
     const counts = new Map();
@@ -332,9 +385,30 @@
     for (const r of viewRows){
       const txt = textOf(r);
       const tokens = txt.match(/[a-z0-9]+/g) || [];
-      for (const t of tokens){
+      for (let t of tokens){
+        if (!t) continue;
+
+        // Drop pure numbers (years, sample sizes, etc.)
+        if (/^\d+$/.test(t)) continue;
+
+        // Optional: drop tokens that are mostly digits (e.g., "2r", "3d") if they appear as noise
+        // If you want to keep things like "3d" (3D), delete this line.
+        if (/\d/.test(t)) continue;
+
         if (t.length < 4) continue;
+        // Very conservative normalization to reduce duplicates
+        if (
+          t.endsWith('s') &&
+          t.length > 5 &&
+          !t.endsWith('is') &&   // analysis, basis
+          !t.endsWith('us') &&   // octopus, nucleus
+          !t.endsWith('ss') &&   // stress
+          !t.endsWith('ies')     // species
+        ) {
+          t = t.slice(0, -1);
+        }
         if (stop.has(t)) continue;
+
         counts.set(t, (counts.get(t) || 0) + 1);
       }
     }
