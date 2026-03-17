@@ -633,10 +633,11 @@ footer .right {
 }
 .publication-card img {
   width: 160px;
-  height: 213px; /* 3:4 aspect ratio */
-  object-fit: cover;
+  aspect-ratio: 1275 / 1650;
+  height: auto;
+  display: block;
   border-radius: 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* subtle shadow */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 .publication-card {
     display: flex;
