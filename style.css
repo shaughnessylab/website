@@ -244,6 +244,14 @@ footer .right {
   margin-right: 1.5rem;
   border-radius: 50%;
 }
+.profile-photo-former {
+  background-color: var(--profile-background);
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+}
 .person-info h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
