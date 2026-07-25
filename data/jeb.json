@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T06:11:53.500235+00:00",
+  "last_updated": "2026-07-25T06:06:44.221648+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -741,6 +741,25 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251837",
       "url": "https://doi.org/10.1242/jeb.251837",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Thermal fluctuations affect embryonic physiology in a tropical agamid lizard",
+      "authors": [
+        "Amanda Ben",
+        "Debarpita Das",
+        "Nubla BM",
+        "Maria Thaker"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252800",
+      "url": "https://doi.org/10.1242/jeb.252800",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -3029,6 +3048,22 @@
       }
     },
     {
+      "title": "Japanese house bat's mothering instinct changes over time",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253124",
+      "url": "https://doi.org/10.1242/jeb.253124",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Is thermal radiation a visual color for pitvipers? A review of crotalid ecology, neurophysiology, behavior and image processing",
       "authors": [
         "George S. Bakken"
@@ -3600,6 +3635,27 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252597",
       "url": "https://doi.org/10.1242/jeb.252597",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Heron Island Research Station: six decades of experimental biology on a remote coral reef",
+      "authors": [
+        "Chris M. Roelfsema",
+        "Caitlin A. Lawson",
+        "Heather Middleton",
+        "Davina Gifford",
+        "Stuart Kininmonth",
+        "Karen Cheney"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252417",
+      "url": "https://doi.org/10.1242/jeb.252417",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -4866,6 +4922,20 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Shizuki Nara",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253046",
+      "url": "https://doi.org/10.1242/jeb.253046",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
