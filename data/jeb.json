@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T06:29:42.319340+00:00",
+  "last_updated": "2026-07-28T06:11:49.821288+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -4254,6 +4254,23 @@
       }
     },
     {
+      "title": "Experimental evidence for a suction-biting performance tradeoff in mesoamerican cichlids",
+      "authors": [
+        "Khalil T. Russell",
+        "Peter C. Wainwright"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252347",
+      "url": "https://doi.org/10.1242/jeb.252347",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Expanding endurance exercise physiology research: insights from animal migration",
       "authors": [
         "Hailey A. Parry",
@@ -6185,6 +6202,30 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.253045",
       "url": "https://doi.org/10.1242/jeb.253045",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Correction: Dynamic soaring decouples dynamic body acceleration and energetics in albatrosses",
+      "authors": [
+        "Melinda G. Conners",
+        "Jonathan A. Green",
+        "Richard A. Phillips",
+        "Rachael A. Orben",
+        "Chen Cui",
+        "Petar M. Djurić",
+        "Eleanor Heywood",
+        "Alexei L. Vyssotski",
+        "Lesley H. Thorne"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253130",
+      "url": "https://doi.org/10.1242/jeb.253130",
       "abstract": "",
       "oa": {
         "is_oa": null,
