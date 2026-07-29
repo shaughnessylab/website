@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T06:11:49.821288+00:00",
+  "last_updated": "2026-07-29T06:14:31.576201+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -2098,6 +2098,26 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.250706",
       "url": "https://doi.org/10.1242/jeb.250706",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Plasticity and evolved changes in mitochondrial physiology across skeletal muscles of high-altitude deer mice (\n                    <i>Peromyscus maniculatus</i>\n                    )",
+      "authors": [
+        "Ranim Saleem",
+        "Samuel G. Robichaud",
+        "Simon G. Lamarre",
+        "Jay F. Storz",
+        "Graham R. Scott"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252523",
+      "url": "https://doi.org/10.1242/jeb.252523",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -4282,6 +4302,25 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251152",
       "url": "https://doi.org/10.1242/jeb.251152",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Exogenous evening melatonin mitigates the negative impact of night-time light pollution on sleep and metabolism in both sexes of diurnal zebra finches",
+      "authors": [
+        "Amaan Buniyaadi",
+        "Ashwani Kumar",
+        "Sanjay Kumar Bhardwaj",
+        "Vinod Kumar"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252506",
+      "url": "https://doi.org/10.1242/jeb.252506",
       "abstract": "",
       "oa": {
         "is_oa": null,
