@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:14:31.576201+00:00",
+  "last_updated": "2026-07-30T06:10:48.653490+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -760,6 +760,24 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252800",
       "url": "https://doi.org/10.1242/jeb.252800",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Thermal buffering in a sessile insect herbivore",
+      "authors": [
+        "Austin R. Cruz",
+        "Judith L. Bronstein",
+        "Goggy Davidowitz"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252214",
+      "url": "https://doi.org/10.1242/jeb.252214",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -1793,6 +1811,26 @@
       }
     },
     {
+      "title": "Salinity-induced metabolic reorganization in a long-lived marine osmoconformer\n                    <i>Arctica islandica</i>\n                    : Insights from contrasting arctic environments",
+      "authors": [
+        "Larisa Basova",
+        "Stefan Timm",
+        "Eugene P. Sokolov",
+        "Inna M. Sokolova",
+        "Alexey Sukhotin"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252324",
+      "url": "https://doi.org/10.1242/jeb.252324",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Robust and diverse multidimensional statistical moments in dual-band entomological lidar for improved real-time insect monitoring",
       "authors": [
         "David Dreyer",
@@ -2517,6 +2555,28 @@
       }
     },
     {
+      "title": "Muscle diffraction at the life science X-ray scattering beamline",
+      "authors": [
+        "Khoi D. Nguyen",
+        "Anthony L. Hessel",
+        "Rachel L. Sadler",
+        "Nichlas M. Engels",
+        "Christine E. Delligatti",
+        "Samantha P. Harris",
+        "Lin Yang"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252250",
+      "url": "https://doi.org/10.1242/jeb.252250",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Multi-transmitter characteristics and functional specialization of oxytocin neuron subpopulations in zebrafish",
       "authors": [
         "Sian-Tai Liu",
@@ -2778,6 +2838,29 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251237",
       "url": "https://doi.org/10.1242/jeb.251237",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Maternal swimming exercise training improves survival and the heritability of thermal tolerance and length in brown trout offspring",
+      "authors": [
+        "Luca Pettinau",
+        "Tytti-Maria Uurasmaa",
+        "Eila Seppänen",
+        "Asko Sikanen",
+        "Miika Raitakivi",
+        "Jenni M. Prokkola",
+        "Amelie Crespel",
+        "Katja Anttila"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252530",
+      "url": "https://doi.org/10.1242/jeb.252530",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -3181,6 +3264,23 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251351",
       "url": "https://doi.org/10.1242/jeb.251351",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Interval timing and animal communication",
+      "authors": [
+        "Carlos A. Rodriguez-Saltos",
+        "Jadyn E. Scott"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.251731",
+      "url": "https://doi.org/10.1242/jeb.251731",
       "abstract": "",
       "oa": {
         "is_oa": null,
