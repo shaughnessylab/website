@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T06:23:04.476812+00:00",
+  "last_updated": "2026-08-01T06:14:49.281106+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -1811,6 +1811,25 @@
       }
     },
     {
+      "title": "Seasonal variation in resting metabolic rate, thyroid hormones, and cortisol in the bottlenose dolphin (\n                    <i>Tursiops truncatus</i>\n                    )",
+      "authors": [
+        "Angelo J. Incitti",
+        "Cassondra L. Williams",
+        "Dorian S. Houser",
+        "Daniel E. Crocker"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.251558",
+      "url": "https://doi.org/10.1242/jeb.251558",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Salinity-induced metabolic reorganization in a long-lived marine osmoconformer\n                    <i>Arctica islandica</i>\n                    : Insights from contrasting arctic environments",
       "authors": [
         "Larisa Basova",
@@ -3309,7 +3328,7 @@
       }
     },
     {
-      "title": "Interaction between dynamic reinforcement learning and working memory of pigeon: A comparative modeling study",
+      "title": "Interaction between dynamic reinforcement learning and working memory of pigeon: a comparative modeling study",
       "authors": [
         "Zhigang Shang",
         "Yinghui Wang",
@@ -5326,6 +5345,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.253034",
       "url": "https://doi.org/10.1242/jeb.253034",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Luca Braun",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253139",
+      "url": "https://doi.org/10.1242/jeb.253139",
       "abstract": "",
       "oa": {
         "is_oa": null,
