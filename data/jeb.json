@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T06:28:39.447149+00:00",
+  "last_updated": "2026-08-04T06:13:09.088314+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -6476,6 +6476,26 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.249846",
       "url": "https://doi.org/10.1242/jeb.249846",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Continuous sampling of cerebrospinal fluid from the 3rd ventricle of the hypothalamus to identify accumulating or depleting metabolites during hibernation",
+      "authors": [
+        "Fredrik A. F. Markussen",
+        "Fernando Cázarez-Márquez",
+        "Iva Pitelkova",
+        "David G. Hazlerigg",
+        "Shona H. Wood"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.251702",
+      "url": "https://doi.org/10.1242/jeb.251702",
       "abstract": "",
       "oa": {
         "is_oa": null,
