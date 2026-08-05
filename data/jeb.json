@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T06:13:09.088314+00:00",
+  "last_updated": "2026-08-05T06:11:17.901443+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -5143,6 +5143,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Rose Upton and Anne Ibbotson",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253154",
+      "url": "https://doi.org/10.1242/jeb.253154",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Reshma Menon",
       "authors": [],
       "published_year": 2026,
@@ -6644,23 +6658,39 @@
       }
     },
     {
-      "title": "Chytridiomycosis infection and heat compromises sperm quality in a threatened frog",
+      "title": "Chytridiomycosis infection and heat compromise sperm quality in a threatened frog",
       "authors": [
         "Rose Upton",
         "Anne Ibbotson",
-        "Kaya Klop-toker",
+        "Kaya Klop-Toker",
         "Lachlan Campbell",
         "Nadine Nolan",
         "Phillip Jobling",
         "Michael Mahony",
         "John Clulow",
-        "Natalie Calatayud",
+        "Natalie E. Calatayud",
         "Alex Callen"
       ],
       "published_year": 2026,
       "type": "journal-article",
       "doi": "10.1242/jeb.252760",
       "url": "https://doi.org/10.1242/jeb.252760",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Chytridiomycosis disinfection reduces green and golden bell frog fertility",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253187",
+      "url": "https://doi.org/10.1242/jeb.253187",
       "abstract": "",
       "oa": {
         "is_oa": null,
