@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T06:11:17.901443+00:00",
+  "last_updated": "2026-08-06T07:57:28.054377+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -5167,6 +5167,20 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Renata Goncalves",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253125",
+      "url": "https://doi.org/10.1242/jeb.253125",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
