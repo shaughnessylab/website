@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T07:57:28.054377+00:00",
+  "last_updated": "2026-08-07T06:35:14.078221+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -474,7 +474,7 @@
       }
     },
     {
-      "title": "Unpredictable prey motion shapes behavior across timescales",
+      "title": "Unpredictable prey motion shapes behavior across time scales",
       "authors": [
         "Sean C. Cadigan",
         "Nathon A. Smith",
@@ -2119,6 +2119,24 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251867",
       "url": "https://doi.org/10.1242/jeb.251867",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Pollen release during buzz pollination depends on vibration amplitude and floral vibration transmission, but not on spectral composition",
+      "authors": [
+        "Mario Vallejo-Marin",
+        "Alexie Magitteri",
+        "Noah Jafferis"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253005",
+      "url": "https://doi.org/10.1242/jeb.253005",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -5493,6 +5511,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Kazuki Harada",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253162",
+      "url": "https://doi.org/10.1242/jeb.253162",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Katherine Malinski and Olivia Madalone",
       "authors": [],
       "published_year": 2026,
@@ -6850,6 +6882,26 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252754",
       "url": "https://doi.org/10.1242/jeb.252754",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Body mass of streaked shearwaters affects wingbeat during ascending and sea-surface flight",
+      "authors": [
+        "Kazuki Harada",
+        "Leo Uesaka",
+        "Masaru Naruoka",
+        "Katsufumi Sato",
+        "Kentaro Q. Sakamoto"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.251989",
+      "url": "https://doi.org/10.1242/jeb.251989",
       "abstract": "",
       "oa": {
         "is_oa": null,
