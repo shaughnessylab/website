@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T06:35:14.078221+00:00",
+  "last_updated": "2026-08-08T05:59:57.866929+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -4393,6 +4393,25 @@
       }
     },
     {
+      "title": "Exploring the role of barbule density on feather water repellency: Insights from 3D modeling and a comparative analysis",
+      "authors": [
+        "Frank M. S. Muzio",
+        "Metehan Çam",
+        "Anna Tarakanova",
+        "Margaret A. Rubega"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252368",
+      "url": "https://doi.org/10.1242/jeb.252368",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Exploring epigenetic inheritance: alternative models and experimental approaches",
       "authors": [
         "Christina R. Steadman",
@@ -5651,6 +5670,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Imogen Bellinger",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253189",
+      "url": "https://doi.org/10.1242/jeb.253189",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Hailey Parry",
       "authors": [],
       "published_year": 2026,
@@ -6526,7 +6559,7 @@
       }
     },
     {
-      "title": "Control of High-speed Jumps: Removing rotation from the jumps of locusts (\n                    <i>Schistocerca gregaria</i>\n                    )",
+      "title": "Control of high-speed jumps: removing rotation from the jumps of locusts (\n                    <i>Schistocerca gregaria</i>\n                    )",
       "authors": [
         "Chloe K. Goode",
         "Scott Dixon",
