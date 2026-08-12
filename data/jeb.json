@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T06:06:52.387767+00:00",
+  "last_updated": "2026-08-12T06:45:23.658646+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -4093,11 +4093,11 @@
       }
     },
     {
-      "title": "Food dependent activation of one carbon metabolism during heat shock in\n                    <i>Mytilus californianus</i>",
+      "title": "Food-dependent activation of one-carbon metabolism during heat shock in\n                    <i>Mytilus californianus</i>",
       "authors": [
-        "R. F. Fabela",
-        "M. A. May",
-        "L. Tomanek"
+        "R. Frank Fabela",
+        "Melissa A. May",
+        "Lars Tomanek"
       ],
       "published_year": 2026,
       "type": "journal-article",
@@ -5726,6 +5726,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Frank Fabela",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253163",
+      "url": "https://doi.org/10.1242/jeb.253163",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Francis Grover",
       "authors": [],
       "published_year": 2026,
@@ -7037,6 +7051,25 @@
       }
     },
     {
+      "title": "Bill morphology and species identity predict heat loss at high air temperatures among tidal marsh sparrows in saline environments",
+      "authors": [
+        "Mackenzie R. Roeder",
+        "Adrienne I. Kovach",
+        "Danielle L. Levesque",
+        "Brian J. Olsen"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252510",
+      "url": "https://doi.org/10.1242/jeb.252510",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Big eyes help ragworms find each other and dance in the dark",
       "authors": [
         "Jarren Kay"
@@ -7401,6 +7434,22 @@
         "is_oa": true,
         "status": "hybrid",
         "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.251673/3675285/jeb251673.pdf"
+      }
+    },
+    {
+      "title": "Against expectations, more oxygen doesn't help swimming trout handle the heat",
+      "authors": [
+        "Jarren Kay"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253243",
+      "url": "https://doi.org/10.1242/jeb.253243",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
       }
     },
     {
