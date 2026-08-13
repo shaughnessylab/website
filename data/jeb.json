@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T06:45:23.658646+00:00",
+  "last_updated": "2026-08-13T06:49:39.263233+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -2694,9 +2694,9 @@
       }
     },
     {
-      "title": "Molecular mechanisms and energetic costs of recovery from freezing in the polyextremophile midge,\n                    <i>Belgica antarctica</i>\n                    Jacobs",
+      "title": "Molecular mechanisms and energetic costs of recovery from freezing in the polyextremophile midge\n                    <i>Belgica antarctica</i>",
       "authors": [
-        "Cleverson de Sousa Lima",
+        "Cleverson Lima",
         "Melise C. Lecheta",
         "Samuel Cecconi",
         "Scott Hotaling",
@@ -2705,7 +2705,7 @@
         "Scott A. L. Hayward",
         "J. D. Gantz",
         "Yuta Kawarasaki",
-        "Jeramiah Smith",
+        "Jeramiah J. Smith",
         "Nicholas M. Teets"
       ],
       "published_year": 2026,
@@ -5914,6 +5914,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252747",
       "url": "https://doi.org/10.1242/jeb.252747",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Cleverson Lima",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253108",
+      "url": "https://doi.org/10.1242/jeb.253108",
       "abstract": "",
       "oa": {
         "is_oa": null,
