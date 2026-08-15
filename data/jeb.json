@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T06:45:34.188859+00:00",
+  "last_updated": "2026-08-15T05:44:40.366159+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -2618,7 +2618,7 @@
       "authors": [
         "Sian-Tai Liu",
         "Bo-Kai Liao",
-        "Meng-Shin Shaio",
+        "Meng-Shin Shiao",
         "Yen-Lin Chen",
         "Yu-Fan Huang",
         "Ming-Yi Chou"
@@ -3126,6 +3126,28 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251599",
       "url": "https://doi.org/10.1242/jeb.251599",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Kinematics of Gray Whale (\n                    <i>Eschrichtius robustus</i>\n                    ) Foraging on Infaunal Ghost Shrimp (\n                    <i>Neotrypnea californiensis</i>\n                    )",
+      "authors": [
+        "H. M. Clayton",
+        "D. E. Cade",
+        "J. A. Fahlbusch",
+        "J. Kendall-Bar",
+        "J. Calambokidis",
+        "N. Pyenson",
+        "J. A. Goldbogen"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252034",
+      "url": "https://doi.org/10.1242/jeb.252034",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -3724,6 +3746,27 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252864",
       "url": "https://doi.org/10.1242/jeb.252864",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Hoverfly responses to looming stimuli depend on elevation and speed",
+      "authors": [
+        "Aika H. Young",
+        "Jaxon Mitchell",
+        "Katja Sporar Klinge",
+        "Andrew B. Barron",
+        "Yuri Ogawa",
+        "Karin Nordström"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252884",
+      "url": "https://doi.org/10.1242/jeb.252884",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -4341,6 +4384,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252071",
       "url": "https://doi.org/10.1242/jeb.252071",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Extraordinary creatures: American alligators",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253188",
+      "url": "https://doi.org/10.1242/jeb.253188",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -6474,6 +6531,27 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252195",
       "url": "https://doi.org/10.1242/jeb.252195",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Correction: Multi-transmitter characteristics and functional specialization of oxytocin neuron subpopulations in zebrafish",
+      "authors": [
+        "Sian-Tai Liu",
+        "Bo-Kai Liao",
+        "Meng-Shin Shiao",
+        "Yen-Lin Chen",
+        "Yu-Fan Huang",
+        "Ming-Yi Chou"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253271",
+      "url": "https://doi.org/10.1242/jeb.253271",
       "abstract": "",
       "oa": {
         "is_oa": null,
