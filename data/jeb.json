@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T05:48:55.620350+00:00",
+  "last_updated": "2026-08-20T05:48:54.874582+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -4935,6 +4935,26 @@
       }
     },
     {
+      "title": "Echolocation converges under shared environmental conditions in wild bats",
+      "authors": [
+        "Astrid Særmark Uebel",
+        "Antoniya Hubancheva",
+        "Kristian Beedholm",
+        "Peter Teglberg Madsen",
+        "Laura Stidsholt"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252231",
+      "url": "https://doi.org/10.1242/jeb.252231",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Early winters could stop the spread of invasive bark beetles",
       "authors": [
         "Jarren Kay"
@@ -7312,6 +7332,24 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Asymmetric metabolic responses of rockweed and herbivores reveal seasonal vulnerabilities to warming and acidification",
+      "authors": [
+        "Tena S. Dhayalan",
+        "Madeleine H. Abbott",
+        "Nyssa J. Silbiger"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252163",
+      "url": "https://doi.org/10.1242/jeb.252163",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
@@ -23256,7 +23294,7 @@
       }
     },
     {
-      "title": "Polarisation vision in the dark: green-sensitive photoreceptors in the nocturnal ball-rolling dung beetle <i>Escarabaeus satyrus</i>",
+      "title": "Polarisation vision in the dark: green-sensitive photoreceptors in the nocturnal ball-rolling dung beetle\n                    <i>Escarabaeus satyrus</i>",
       "authors": [
         "Ayse Yilmaz",
         "Gregor Belušič",
@@ -32059,7 +32097,7 @@
       }
     },
     {
-      "title": "The upper temperature and hypoxia limits of Atlantic salmon (<i>Salmo salar</i>) depend greatly on the method utilized",
+      "title": "The upper temperature and hypoxia limits of Atlantic salmon (\n                    <i>Salmo salar</i>\n                    ) depend greatly on the method utilized",
       "authors": [
         "Rebeccah M. Sandrelli",
         "A. Kurt Gamperl"
@@ -38850,7 +38888,7 @@
       }
     },
     {
-      "title": "Determination of water balance maintenance in <i>Orcinus orca</i> and <i>Tursiops truncatus</i> using oxygen isotopes",
+      "title": "Determination of water balance maintenance in\n                    <i>Orcinus orca</i>\n                    and\n                    <i>Tursiops truncatus</i>\n                    using oxygen isotopes",
       "authors": [
         "Nicolas Séon",
         "Isabelle Brasseur",
@@ -45572,7 +45610,7 @@
       }
     },
     {
-      "title": "Influence of caste and subcaste characteristics on locomotion in the ant <i>Camponotus fellah</i>",
+      "title": "Influence of caste and subcaste characteristics on locomotion in the ant\n                    <i>Camponotus fellah</i>",
       "authors": [
         "Johanna Tross",
         "Harald Wolf",
@@ -78051,7 +78089,7 @@
       }
     },
     {
-      "title": "Phenotypic plasticity in the invasive pest <i>Drosophila suzukii</i>: activity rhythms and gene expression in response to temperature",
+      "title": "Phenotypic plasticity in the invasive pest\n                    <i>Drosophila suzukii</i>\n                    : activity rhythms and gene expression in response to temperature",
       "authors": [
         "C. Plantamp",
         "H. Henri",
@@ -80925,7 +80963,7 @@
       }
     },
     {
-      "title": "High-speed locomotion in the Saharan silver ant, <i>Cataglyphis bombycina</i>",
+      "title": "High-speed locomotion in the Saharan silver ant,\n                    <i>Cataglyphis bombycina</i>",
       "authors": [
         "Sarah Elisabeth Pfeffer",
         "Verena Luisa Wahl",
@@ -90015,7 +90053,7 @@
       }
     },
     {
-      "title": "Phenotypic plasticity of <i>Drosophila suzukii</i> wing to developmental temperature: implications for flight",
+      "title": "Phenotypic plasticity of\n                    <i>Drosophila suzukii</i>\n                    wing to developmental temperature: implications for flight",
       "authors": [
         "Antoine Fraimout",
         "Pauline Jacquemart",
@@ -90057,7 +90095,7 @@
       }
     },
     {
-      "title": "Periodic, moderate water flow reversibly increases hair bundle density and size in <i>Nematostella vectensis</i>",
+      "title": "Periodic, moderate water flow reversibly increases hair bundle density and size in\n                    <i>Nematostella vectensis</i>",
       "authors": [
         "Allison Campbell",
         "Ashlyn Dykes",
@@ -94482,7 +94520,7 @@
       }
     },
     {
-      "title": "Effects of flight activity and age on oxidative damage in the honey bee,<i>Apis mellifera</i>",
+      "title": "Effects of flight activity and age on oxidative damage in the honey bee,\n                    <i>Apis mellifera</i>",
       "authors": [
         "Joseph W. Margotta",
         "Stephen P. Roberts",
@@ -128457,7 +128495,7 @@
       }
     },
     {
-      "title": "Functional development of carbon dioxide detection in the maxillary palp of <i>Anopheles gambiae</i>",
+      "title": "Functional development of carbon dioxide detection in the maxillary palp of\n                    <i>Anopheles gambiae</i>",
       "authors": [
         "Bonaventure Aman Omondi",
         "Shahid Majeed",
@@ -131019,7 +131057,7 @@
       }
     },
     {
-      "title": "Characterization of the target of ivermectin, the glutamate-gated chloride channel, from<i>Anopheles gambiae</i>",
+      "title": "Characterization of the target of ivermectin, the glutamate-gated chloride channel, from\n                    <i>Anopheles gambiae</i>",
       "authors": [
         "Jacob I. Meyers",
         "Meg Gray",
@@ -143899,7 +143937,7 @@
       }
     },
     {
-      "title": "Variation in temperature tolerance among families of Atlantic salmon (<i>Salmo salar</i>) is associated with hypoxia tolerance, ventricle size and myoglobin level",
+      "title": "Variation in temperature tolerance among families of Atlantic salmon (\n                    <i>Salmo salar</i>\n                    ) is associated with hypoxia tolerance, ventricle size and myoglobin level",
       "authors": [
         "Katja Anttila",
         "Rashpal S. Dhillon",
@@ -145097,7 +145135,7 @@
       }
     },
     {
-      "title": "The behavioural effects of predator-induced stress responses in the cricket (<i>Gryllus texensis</i>): the upside of the stress response",
+      "title": "The behavioural effects of predator-induced stress responses in the cricket (\n                    <i>Gryllus texensis</i>\n                    ): the upside of the stress response",
       "authors": [
         "Shelley A. Adamo",
         "Ilya Kovalko",
@@ -148691,7 +148729,7 @@
       }
     },
     {
-      "title": "Multidimensionality in parasite-induced phenotypic alterations: ultimate<i>versus</i>proximate aspects",
+      "title": "Multidimensionality in parasite-induced phenotypic alterations: ultimate\n                    <i>versus</i>\n                    proximate aspects",
       "authors": [
         "Frank Cézilly",
         "Adrien Favrat",
@@ -164186,7 +164224,7 @@
       }
     },
     {
-      "title": "High e-vector acuity in the polarisation vision system of the fiddler crab<i>Uca vomeris</i>",
+      "title": "High e-vector acuity in the polarisation vision system of the fiddler crab\n                    <i>Uca vomeris</i>",
       "authors": [
         "Martin J. How",
         "Vincenzo Pignatelli",
@@ -174000,7 +174038,7 @@
       }
     },
     {
-      "title": "Movement and function of the pectoral fins of the larval zebrafish (<i>Danio rerio</i>) during slow swimming",
+      "title": "Movement and function of the pectoral fins of the larval zebrafish (\n                    <i>Danio rerio</i>\n                    ) during slow swimming",
       "authors": [
         "Matthew H. Green",
         "Robert K. Ho",
@@ -174671,7 +174709,7 @@
       }
     },
     {
-      "title": "Long-term olfactory memories are stabilised <i>via</i> protein synthesis in <i>Camponotus fellah</i> ants",
+      "title": "Long-term olfactory memories are stabilised\n                    <i>via</i>\n                    protein synthesis in\n                    <i>Camponotus fellah</i>\n                    ants",
       "authors": [
         "Fernando J. Guerrieri",
         "Patrizia d'Ettorre",
@@ -180482,7 +180520,7 @@
       }
     },
     {
-      "title": "A numerical study of the effects of bell pulsation dynamics and oral arms on the exchange currents generated by the upside-down jellyfish <i>Cassiopea xamachana</i>",
+      "title": "A numerical study of the effects of bell pulsation dynamics and oral arms on the exchange currents generated by the upside-down jellyfish\n                    <i>Cassiopea xamachana</i>",
       "authors": [
         "Christina Hamlet",
         "Arvind Santhanakrishnan",
@@ -189296,7 +189334,7 @@
       }
     },
     {
-      "title": "Effect of acute and chronic hypoxia on the swimming performance, metabolic capacity and cardiac function of Atlantic cod (<i>Gadus morhua</i>)",
+      "title": "Effect of acute and chronic hypoxia on the swimming performance, metabolic capacity and cardiac function of Atlantic cod (\n                    <i>Gadus morhua</i>\n                    )",
       "authors": [
         "L. H. Petersen",
         "A. K. Gamperl"
@@ -194063,7 +194101,7 @@
       }
     },
     {
-      "title": "The cardiac response of the crab<i>Chasmagnathus granulatus</i>as an index of sensory perception",
+      "title": "The cardiac response of the crab\n                    <i>Chasmagnathus granulatus</i>\n                    as an index of sensory perception",
       "authors": [
         "Ana Burnovicz",
         "Damian Oliva",
@@ -204717,7 +204755,7 @@
       }
     },
     {
-      "title": "The effects of short-term antioxidant supplementation on oxidative stress and flight performance in adult budgerigars <i>Melopsittacus undulatus</i>",
+      "title": "The effects of short-term antioxidant supplementation on oxidative stress and flight performance in adult budgerigars\n                    <i>Melopsittacus undulatus</i>",
       "authors": [
         "S. D. Larcombe",
         "C. A. Tregaskes",
@@ -207159,7 +207197,7 @@
       }
     },
     {
-      "title": "Photosynthetic response of the Mediterranean zooxanthellate coral <i>Cladocora caespitosa</i> to the natural range of light and temperature",
+      "title": "Photosynthetic response of the Mediterranean zooxanthellate coral\n                    <i>Cladocora caespitosa</i>\n                    to the natural range of light and temperature",
       "authors": [
         "Riccardo Rodolfo-Metalpa",
         "Yannick Huot",
@@ -215943,7 +215981,7 @@
       }
     },
     {
-      "title": "Spectral properties of identified polarized-light sensitive interneurons in the brain of the desert locust<i>Schistocerca gregaria</i>",
+      "title": "Spectral properties of identified polarized-light sensitive interneurons in the brain of the desert locust\n                    <i>Schistocerca gregaria</i>",
       "authors": [
         "Michiyo Kinoshita",
         "Keram Pfeiffer",
@@ -217087,7 +217125,7 @@
       }
     },
     {
-      "title": "Prolonged deprivation of sleep-like rest raises metabolic rate in the Pacific beetle cockroach, <i>Diploptera punctata</i> (Eschscholtz)",
+      "title": "Prolonged deprivation of sleep-like rest raises metabolic rate in the Pacific beetle cockroach,\n                    <i>Diploptera punctata</i>\n                    (Eschscholtz)",
       "authors": [
         "Richard Stephenson",
         "Karen M. Chu",
@@ -228352,7 +228390,7 @@
       }
     },
     {
-      "title": "Polarization sensitivity in the red swamp crayfish <i>Procambarus clarkii</i> enhances the detection of moving transparent objects",
+      "title": "Polarization sensitivity in the red swamp crayfish\n                    <i>Procambarus clarkii</i>\n                    enhances the detection of moving transparent objects",
       "authors": [
         "John C. Tuthill",
         "Sönke Johnsen"
@@ -280496,7 +280534,7 @@
       }
     },
     {
-      "title": "EFFECTS OF HIGH INTENSITY EXERCISE TRAINING ON CARDIOVASCULAR FUNCTION,OXYGEN UPTAKE, INTERNAL OXYGEN TRANSPORT AND OSMOTIC BALANCE IN CHINOOK SALMON(<i>ONCORHYNCHUS TSHAWYTSCHA</i>) DURING CRITICAL SPEED SWIMMING",
+      "title": "EFFECTS OF HIGH INTENSITY EXERCISE TRAINING ON CARDIOVASCULAR FUNCTION,OXYGEN UPTAKE, INTERNAL OXYGEN TRANSPORT AND OSMOTIC BALANCE IN CHINOOK SALMON(\n                    <i>ONCORHYNCHUS TSHAWYTSCHA</i>\n                    ) DURING CRITICAL SPEED SWIMMING",
       "authors": [
         "P. E. GALLAUGHER",
         "H. THORARENSEN",
@@ -283940,7 +283978,7 @@
       }
     },
     {
-      "title": "Skin Darkening, A Potential Social Signal in Subordinate Arctic Charr (<i>Salvelinus Alpinus</i>): The Regulatory Role of Brain Monoamines and Pro-Opiomelanocortin-Derived Peptides",
+      "title": "Skin Darkening, A Potential Social Signal in Subordinate Arctic Charr (\n                    <i>Salvelinus Alpinus</i>\n                    ): The Regulatory Role of Brain Monoamines and Pro-Opiomelanocortin-Derived Peptides",
       "authors": [
         "Erik Höglund",
         "Paul H. M. Balm",
@@ -288622,7 +288660,7 @@
       }
     },
     {
-      "title": "Vocal tract length and acoustics of vocalization in the domestic dog (<i>Canis familiaris</i>)",
+      "title": "Vocal tract length and acoustics of vocalization in the domestic dog (\n                    <i>Canis familiaris</i>\n                    )",
       "authors": [
         "Tobias Riede",
         "Tecumseh Fitch"
@@ -291510,7 +291548,7 @@
       }
     },
     {
-      "title": "Learning walks and landmark guidance in wood ants (<i>Formica rufa</i>)",
+      "title": "Learning walks and landmark guidance in wood ants (\n                    <i>Formica rufa</i>\n                    )",
       "authors": [
         "D. J. Nicholson",
         "S. P. D. Judd",
@@ -294811,7 +294849,7 @@
       }
     },
     {
-      "title": "Underwater punting by an intertidal crab: a novel gait revealed by the kinematics of pedestrian locomotion in air <i>versus</i> water",
+      "title": "Underwater punting by an intertidal crab: a novel gait revealed by the kinematics of pedestrian locomotion in air\n                    <i>versus</i>\n                    water",
       "authors": [
         "Marlene M. Martinez",
         "R. J. Full",
@@ -305813,7 +305851,7 @@
       }
     },
     {
-      "title": "The Variation of Resolution and of Ommatidial Dimensions in the Compound Eyes of the Fiddler Crab <i>Uca Lactea Annulipes</i> (Ocypodidae, Brachyura, Decapoda)",
+      "title": "The Variation of Resolution and of Ommatidial Dimensions in the Compound Eyes of the Fiddler Crab\n                    <i>Uca Lactea Annulipes</i>\n                    (Ocypodidae, Brachyura, Decapoda)",
       "authors": [
         "Jochen Zeil",
         "Maha M. Al-Mutairi"
@@ -308639,7 +308677,7 @@
       }
     },
     {
-      "title": "Functions of Fish Skin: Flexural Stiffness and Steady Swimming of Longnose Gar <i>Lepisosteus Osseus</i>",
+      "title": "Functions of Fish Skin: Flexural Stiffness and Steady Swimming of Longnose Gar\n                    <i>Lepisosteus Osseus</i>",
       "authors": [
         "John H. Long",
         "Melina E. Hale",
@@ -310099,7 +310137,7 @@
       }
     },
     {
-      "title": "Age-Dependent and Task-Related Morphological Changes in the Brain and The Mushroom Bodies of The Ant <i>Camponotus Floridanus</i>",
+      "title": "Age-Dependent and Task-Related Morphological Changes in the Brain and The Mushroom Bodies of The Ant\n                    <i>Camponotus Floridanus</i>",
       "authors": [
         "Wulfila Gronenberg",
         "Silke Heeren",
@@ -312058,7 +312096,7 @@
       }
     },
     {
-      "title": "Protein Synthesis and Degradation in the Flight Muscles of Adult Crickets (<i>Gryllus Bimaculatus</i>)",
+      "title": "Protein Synthesis and Degradation in the Flight Muscles of Adult Crickets (\n                    <i>Gryllus Bimaculatus</i>\n                    )",
       "authors": [
         "Tadashi Gomi",
         "Takashi Okuda",
@@ -315734,7 +315772,7 @@
       }
     },
     {
-      "title": "The Role of Monovalent Cation/Proton Antiporters in Na+-Resistance and pH Homeostasis in <i>Bacillus</i>: An Alkaliphile <i>Versus</i> A Neutralophile",
+      "title": "The Role of Monovalent Cation/Proton Antiporters in Na+-Resistance and pH Homeostasis in\n                    <i>Bacillus</i>\n                    : An Alkaliphile\n                    <i>Versus</i>\n                    A Neutralophile",
       "authors": [
         "Terry Ann Krulwich",
         "Jianbo Cheng",
@@ -369849,7 +369887,7 @@
       }
     },
     {
-      "title": "Respiration and Adaptation to the Terrestrial Habitat in the Land Hermit Crab <i>Coenobita Clypeatus</i>",
+      "title": "Respiration and Adaptation to the Terrestrial Habitat in the Land Hermit Crab\n                    <i>Coenobita Clypeatus</i>",
       "authors": [
         "Brian R. McMahon",
         "Warren W. Burggren"
@@ -390964,7 +391002,7 @@
       }
     },
     {
-      "title": "Power Requirements for Horizontal Flight in the Pigeon <i>Columba Livia</i>",
+      "title": "Power Requirements for Horizontal Flight in the Pigeon\n                    <i>Columba Livia</i>",
       "authors": [
         "C. J. Pennycuick"
       ],
