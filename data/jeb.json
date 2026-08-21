@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T05:48:54.874582+00:00",
+  "last_updated": "2026-08-21T05:50:51.514507+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -1468,6 +1468,30 @@
       }
     },
     {
+      "title": "Spotted lanternfly (\n                    <i>Lycorma delicatula</i>\n                    ) nymphs demonstrate robust jumping and gripping performance following limb loss",
+      "authors": [
+        "Michael C. Granatosky",
+        "Noah D. Chernik",
+        "Anand Kanumuru",
+        "Stratos J. Kantounis",
+        "Pranav Krish",
+        "Ariba Islam",
+        "Jonathan Shadan",
+        "Kyle Dixson",
+        "Melody W. Young"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.251002",
+      "url": "https://doi.org/10.1242/jeb.251002",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Song cultures in colonies of domesticated zebra finches (\n                    <i>Taeniopygia castanotis</i>\n                    ) founded with males experimentally trained to sing the same song",
       "authors": [
         "Lucille Le Maguer",
@@ -2565,6 +2589,24 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.250403",
       "url": "https://doi.org/10.1242/jeb.250403",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Neural substrates and neuroendocrine mechanisms underlying neophobia in vertebrates",
+      "authors": [
+        "Marquise S. Henry",
+        "Michael B. Wilson",
+        "Christine R. Lattin"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252409",
+      "url": "https://doi.org/10.1242/jeb.252409",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -5435,6 +5477,20 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Marquise Henry",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253201",
+      "url": "https://doi.org/10.1242/jeb.253201",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
@@ -8587,7 +8643,7 @@
       }
     },
     {
-      "title": "Using physiology to unravel the implications of heatwaves for big brown bats (<i>Eptesicus fuscus</i>)",
+      "title": "Using physiology to unravel the implications of heatwaves for big brown bats (\n                    <i>Eptesicus fuscus</i>\n                    )",
       "authors": [
         "Ruvinda K. de Mel",
         "Dylan E. Baloun",
@@ -19415,7 +19471,7 @@
       }
     },
     {
-      "title": "Assessing recovery of <i>Drosophila melanogaster</i> photoreceptors with different wavelengths of red and infrared light",
+      "title": "Assessing recovery of\n                    <i>Drosophila melanogaster</i>\n                    photoreceptors with different wavelengths of red and infrared light",
       "authors": [
         "Michael Meece",
         "Shubham Rathore",
@@ -30906,7 +30962,7 @@
       }
     },
     {
-      "title": "A rapid return to normal: temporal gene expression patterns following cold exposure in the bumble bee <i>Bombus impatiens</i>",
+      "title": "A rapid return to normal: temporal gene expression patterns following cold exposure in the bumble bee\n                    <i>Bombus impatiens</i>",
       "authors": [
         "Kelton M. Verble",
         "Ellen C. Keaveny",
@@ -31206,7 +31262,7 @@
       }
     },
     {
-      "title": "<i>Drosophila melanogaster</i> sperm turn more oxidative in the female",
+      "title": "<i>Drosophila melanogaster</i>\n                    sperm turn more oxidative in the female",
       "authors": [
         "Cornelia Wetzker",
         "Christin Froschauer",
@@ -42824,7 +42880,7 @@
       }
     },
     {
-      "title": "Shortened lifespan induced by a high-glucose diet is associated with intestinal immune dysfunction in <i>Drosophila sechellia</i>",
+      "title": "Shortened lifespan induced by a high-glucose diet is associated with intestinal immune dysfunction in\n                    <i>Drosophila sechellia</i>",
       "authors": [
         "Maiko Abe",
         "Takumi Kamiyama",
@@ -59442,7 +59498,7 @@
       }
     },
     {
-      "title": "Cardiorespiratory adjustments to chronic environmental warming improve hypoxia tolerance in European perch (<i>Perca fluviatilis</i>)",
+      "title": "Cardiorespiratory adjustments to chronic environmental warming improve hypoxia tolerance in European perch (\n                    <i>Perca fluviatilis</i>\n                    )",
       "authors": [
         "Andreas Ekström",
         "Erika Sundell",
@@ -70414,7 +70470,7 @@
       }
     },
     {
-      "title": "Diversity in reproductive seasonality in the three-spined stickleback,<i>Gasterosteus aculeatus</i>",
+      "title": "Diversity in reproductive seasonality in the three-spined stickleback,\n                    <i>Gasterosteus aculeatus</i>",
       "authors": [
         "Asano Ishikawa",
         "Jun Kitano"
@@ -80402,7 +80458,7 @@
       }
     },
     {
-      "title": "Implications of the <i>Sap47</i> null mutation for synapsin phosphorylation, longevity, climbing, and behavioural plasticity in adult <i>Drosophila</i>",
+      "title": "Implications of the\n                    <i>Sap47</i>\n                    null mutation for synapsin phosphorylation, longevity, climbing, and behavioural plasticity in adult\n                    <i>Drosophila</i>",
       "authors": [
         "Beatriz Blanco-Redondo",
         "Nidhi Nuwal",
@@ -145868,7 +145924,7 @@
       }
     },
     {
-      "title": "Social regulation of maternal traits in nest-founding bumble bee (<i>Bombus terrestris</i>) queens",
+      "title": "Social regulation of maternal traits in nest-founding bumble bee (\n                    <i>Bombus terrestris</i>\n                    ) queens",
       "authors": [
         "S. Hollis Woodard",
         "Guy Bloch",
@@ -146939,7 +146995,7 @@
       }
     },
     {
-      "title": "Reflectance-based identification of parasitized host eggs and adult <i>Trichogramma specimens</i>",
+      "title": "Reflectance-based identification of parasitized host eggs and adult\n                    <i>Trichogramma specimens</i>",
       "authors": [
         "Christian Nansen",
         "Aloisio Coelho",
@@ -158106,7 +158162,7 @@
       }
     },
     {
-      "title": "Taste preference for amino acids is dependent on internal nutritional state in<i>Drosophila melanogaster</i>",
+      "title": "Taste preference for amino acids is dependent on internal nutritional state in\n                    <i>Drosophila melanogaster</i>",
       "authors": [
         "Naoko Toshima",
         "Teiichi Tanimura"
@@ -196720,7 +196776,7 @@
       }
     },
     {
-      "title": "Novel vocal repertoire and paired swimbladders of the three-spined toadfish,<i>Batrachomoeus trispinosus</i>: insights into the diversity of the Batrachoididae",
+      "title": "Novel vocal repertoire and paired swimbladders of the three-spined toadfish,\n                    <i>Batrachomoeus trispinosus</i>\n                    : insights into the diversity of the Batrachoididae",
       "authors": [
         "Aaron N. Rice",
         "Andrew H. Bass"
@@ -200419,7 +200475,7 @@
       }
     },
     {
-      "title": "Effects of a short period of elevated circulating corticosterone on postnatal growth in free-living Eurasian kestrels<i>Falco tinnunculus</i>",
+      "title": "Effects of a short period of elevated circulating corticosterone on postnatal growth in free-living Eurasian kestrels\n                    <i>Falco tinnunculus</i>",
       "authors": [
         "Claudia Müller",
         "Susanne Jenni-Eiermann",
@@ -202030,7 +202086,7 @@
       }
     },
     {
-      "title": "Bone strength is maintained after 8 months of inactivity in hibernating golden-mantled ground squirrels, <i>Spermophilus lateralis</i>",
+      "title": "Bone strength is maintained after 8 months of inactivity in hibernating golden-mantled ground squirrels,\n                    <i>Spermophilus lateralis</i>",
       "authors": [
         "Jenifer C. Utz",
         "Stacy Nelson",
@@ -216148,7 +216204,7 @@
       }
     },
     {
-      "title": "Sexual dimorphism of extensor carpi radialis muscle size, isometric force, relaxation rate and stamina during the breeding season of the frog<i>Rana temporaria</i>Linnaeus 1758",
+      "title": "Sexual dimorphism of extensor carpi radialis muscle size, isometric force, relaxation rate and stamina during the breeding season of the frog\n                    <i>Rana temporaria</i>\n                    Linnaeus 1758",
       "authors": [
         "Carlos A. Navas",
         "Rob S. James"
@@ -229265,7 +229321,7 @@
       }
     },
     {
-      "title": "Nutrient regulation in relation to diet breadth: a comparison of<i>Heliothis</i>sister species and a hybrid",
+      "title": "Nutrient regulation in relation to diet breadth: a comparison of\n                    <i>Heliothis</i>\n                    sister species and a hybrid",
       "authors": [
         "Kwang Pum Lee",
         "Spencer T. Behmer,",
@@ -230686,7 +230742,7 @@
       }
     },
     {
-      "title": "Isometric contractile properties of sexually dimorphic forelimb muscles in the marine toad <i>Bufo marinus</i> Linnaeus 1758: functional analysis and implications for amplexus",
+      "title": "Isometric contractile properties of sexually dimorphic forelimb muscles in the marine toad\n                    <i>Bufo marinus</i>\n                    Linnaeus 1758: functional analysis and implications for amplexus",
       "authors": [
         "Douglas Lee Clark",
         "Susan E. Peters"
@@ -232742,7 +232798,7 @@
       }
     },
     {
-      "title": "Escape responses in juvenile Atlantic cod <i>Gadus morhua</i> L.: the effects of turbidity and predator speed",
+      "title": "Escape responses in juvenile Atlantic cod\n                    <i>Gadus morhua</i>\n                    L.: the effects of turbidity and predator speed",
       "authors": [
         "Justin J. Meager",
         "Paolo Domenici",
@@ -246057,7 +246113,7 @@
       }
     },
     {
-      "title": "Air sac<i>P</i>O2 and oxygen depletion during dives of emperor penguins",
+      "title": "Air sac\n                    <i>P</i>\n                    O2 and oxygen depletion during dives of emperor penguins",
       "authors": [
         "T. Knower Stockard",
         "J. Heil",
@@ -253199,7 +253255,7 @@
       }
     },
     {
-      "title": "Interspecific and intraspecific views of color signals in the strawberry poison frog<i>Dendrobates pumilio</i>",
+      "title": "Interspecific and intraspecific views of color signals in the strawberry poison frog\n                    <i>Dendrobates pumilio</i>",
       "authors": [
         "Afsheen Siddiqi",
         "Thomas W. Cronin",
@@ -262591,7 +262647,7 @@
       }
     },
     {
-      "title": "Mechanosensory-induced behavioural gregarization in the desert locust<i>Schistocerca gregaria</i>",
+      "title": "Mechanosensory-induced behavioural gregarization in the desert locust\n                    <i>Schistocerca gregaria</i>",
       "authors": [
         "Stephen M. Rogers",
         "Thomas Matheson",
@@ -277404,7 +277460,7 @@
       }
     },
     {
-      "title": "Plasticity of Chemotaxis Revealed by Paired Presentation of A Chemoattractant and Starvation in the Nematode <i>Caenorhabditis Elegans</i>",
+      "title": "Plasticity of Chemotaxis Revealed by Paired Presentation of A Chemoattractant and Starvation in the Nematode\n                    <i>Caenorhabditis Elegans</i>",
       "authors": [
         "Satoshi Saeki",
         "Masayuki Yamamoto",
@@ -292380,7 +292436,7 @@
       }
     },
     {
-      "title": "Flight performance during hunting excursions in Eleonora’s falcon <i>Falco eleonorae</i>",
+      "title": "Flight performance during hunting excursions in Eleonora’s falcon\n                    <i>Falco eleonorae</i>",
       "authors": [
         "Anders Hedenström",
         "Mikael Rosén",
@@ -337388,7 +337444,7 @@
       }
     },
     {
-      "title": "The Relationship Between Diving Activity and Oxygen Storage Capacity in the Tufted Duck (<i>Aythya Fuligula</i>)",
+      "title": "The Relationship Between Diving Activity and Oxygen Storage Capacity in the Tufted Duck (\n                    <i>Aythya Fuligula</i>\n                    )",
       "authors": [
         "R. Stephenson",
         "D. L. Turner",
@@ -341387,7 +341443,7 @@
       }
     },
     {
-      "title": "The Effects of Thermally Induced Activity <i>In Vivo</i> Upon the Levels of Sodium, Chlorine and Potassium in the Epithelia of the Equine Sweat Gland",
+      "title": "The Effects of Thermally Induced Activity\n                    <i>In Vivo</i>\n                    Upon the Levels of Sodium, Chlorine and Potassium in the Epithelia of the Equine Sweat Gland",
       "authors": [
         "Stuart M. Wilson",
         "Hugh Y. Elder",
@@ -362915,7 +362971,7 @@
       }
     },
     {
-      "title": "H+ Excretion in the Marine Teleost <i>Parophrys Vetulus</i>",
+      "title": "H+ Excretion in the Marine Teleost\n                    <i>Parophrys Vetulus</i>",
       "authors": [
         "D. G. McDonald",
         "R. L. Walker",
@@ -386289,7 +386345,7 @@
       }
     },
     {
-      "title": "Acoustic Location of Prey by Barn Owls (<i>Tyto Alba</i>)",
+      "title": "Acoustic Location of Prey by Barn Owls (\n                    <i>Tyto Alba</i>\n                    )",
       "authors": [
         "Roger S. Payne"
       ],
