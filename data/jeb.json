@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T05:50:51.514507+00:00",
+  "last_updated": "2026-08-22T05:45:37.387699+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -101,12 +101,12 @@
       }
     },
     {
-      "title": "Xenohormesis demystified: Consuming heat-acclimated algae improves heat tolerance and longevity of\n                    <i>Daphnia</i>",
+      "title": "Xenohormesis demystified: consuming heat-acclimated algae improves heat tolerance and longevity of\n                    <i>Daphnia magna</i>",
       "authors": [
         "Ashit Kumar Dutta",
         "Dominik Martin-Creuzburg",
         "Christopher Campbell",
-        "Lev Yampolsky"
+        "Lev Y. Yampolsky"
       ],
       "published_year": 2026,
       "type": "journal-article",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "title": "Wind history shapes olfactory search response in free flying\n                    <i>Drosophila melanogaster</i>",
+      "title": "Wind history shapes olfactory search response in free-flying\n                    <i>Drosophila melanogaster</i>",
       "authors": [
         "Jaleesa Houle",
         "Austin P. Lopez",
@@ -2849,7 +2849,7 @@
       }
     },
     {
-      "title": "Migration associated changes in hormones and muscle physiology of migratory redheaded buntings (\n                    <i>Emberiza bruniceps</i>\n                    )",
+      "title": "Migration-associated changes in hormones and muscle physiology of migratory redheaded buntings (\n                    <i>Emberiza bruniceps</i>\n                    )",
       "authors": [
         "Vibha Yadav",
         "Aakansha Sharma",
@@ -4071,6 +4071,22 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251374",
       "url": "https://doi.org/10.1242/jeb.251374",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Fruit flies remember recent wind conditions to track odours",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253232",
+      "url": "https://doi.org/10.1242/jeb.253232",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -6159,6 +6175,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252719",
       "url": "https://doi.org/10.1242/jeb.252719",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Ashit Kumar Dutta",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253229",
+      "url": "https://doi.org/10.1242/jeb.253229",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -11788,7 +11818,7 @@
       }
     },
     {
-      "title": "Optic flow, a rich source of optic information for harbour seals (<i>Phoca vitulina</i>)",
+      "title": "Optic flow, a rich source of optic information for harbour seals (\n                    <i>Phoca vitulina</i>\n                    )",
       "authors": [
         "Laura-Marie Sandow",
         "Ann-Kathrin Thimian",
@@ -19384,7 +19414,7 @@
       }
     },
     {
-      "title": "Beetling the heat – the diurnal Namib Desert beetle <i>Onymacris plana</i> cools by running",
+      "title": "Beetling the heat – the diurnal Namib Desert beetle\n                    <i>Onymacris plana</i>\n                    cools by running",
       "authors": [
         "Carole S. Roberts",
         "Elizabeth L. McClain",
@@ -39005,7 +39035,7 @@
       }
     },
     {
-      "title": "Deep dives and high tissue density increase mean dive costs in California sea lions (<i>Zalophus californianus</i>)",
+      "title": "Deep dives and high tissue density increase mean dive costs in California sea lions (\n                    <i>Zalophus californianus</i>\n                    )",
       "authors": [
         "Mason R. Cole",
         "Colin Ware",
@@ -39344,7 +39374,7 @@
       }
     },
     {
-      "title": "Combined effects of salinity and intermittent hypoxia on mitochondrial capacity and reactive oxygen species efflux in the Pacific oyster, <i>Crassostrea gigas</i>",
+      "title": "Combined effects of salinity and intermittent hypoxia on mitochondrial capacity and reactive oxygen species efflux in the Pacific oyster,\n                    <i>Crassostrea gigas</i>",
       "authors": [
         "Jennifer B. M. Steffen",
         "Eugene P. Sokolov",
@@ -42539,7 +42569,7 @@
       }
     },
     {
-      "title": "Subsets of leg proprioceptors influence leg kinematics but not interleg coordination in <i>Drosophila melanogaster</i> walking",
+      "title": "Subsets of leg proprioceptors influence leg kinematics but not interleg coordination in\n                    <i>Drosophila melanogaster</i>\n                    walking",
       "authors": [
         "Alexander S. Chockley",
         "Gesa F. Dinges",
@@ -43320,7 +43350,7 @@
       }
     },
     {
-      "title": "Risk-taking coping style correlates with <i>SERT</i> SNP290 polymorphisms in free-living great tits",
+      "title": "Risk-taking coping style correlates with\n                    <i>SERT</i>\n                    SNP290 polymorphisms in free-living great tits",
       "authors": [
         "Sepand Riyahi",
         "José G. Carrillo-Ortiz",
@@ -46018,7 +46048,7 @@
       }
     },
     {
-      "title": "How harbour seals (<i>Phoca vitulina</i>) encode goals relative to landmarks",
+      "title": "How harbour seals (\n                    <i>Phoca vitulina</i>\n                    ) encode goals relative to landmarks",
       "authors": [
         "Eric Maaß",
         "Frederike D. Hanke"
@@ -49332,7 +49362,7 @@
       }
     },
     {
-      "title": "Biomechanical energetics of terrestrial locomotion in California sea lions (<i>Zalophus californianus</i>)",
+      "title": "Biomechanical energetics of terrestrial locomotion in California sea lions (\n                    <i>Zalophus californianus</i>\n                    )",
       "authors": [
         "Sarah J. Kerr",
         "Frank E. Fish",
@@ -50471,7 +50501,7 @@
       }
     },
     {
-      "title": "A harbour seal (<i>Phoca vitulina</i>) can learn geometrical relationships between landmarks",
+      "title": "A harbour seal (\n                    <i>Phoca vitulina</i>\n                    ) can learn geometrical relationships between landmarks",
       "authors": [
         "Eric Maaß",
         "Lars Miersch",
@@ -54586,7 +54616,7 @@
       }
     },
     {
-      "title": "Neural and behavioural responses of the pollen-specialist bee<i>Andrena vaga</i>to<i>Salix</i>odours",
+      "title": "Neural and behavioural responses of the pollen-specialist bee\n                    <i>Andrena vaga</i>\n                    to\n                    <i>Salix</i>\n                    odours",
       "authors": [
         "Hannah Burger",
         "Melanie Marquardt",
@@ -93182,7 +93212,7 @@
       }
     },
     {
-      "title": "Hand pressures during arboreal locomotion in captive bonobos (<i>Pan paniscus</i>)",
+      "title": "Hand pressures during arboreal locomotion in captive bonobos (\n                    <i>Pan paniscus</i>\n                    )",
       "authors": [
         "Diana S. Samuel",
         "Sandra Nauwelaerts",
@@ -98387,7 +98417,7 @@
       }
     },
     {
-      "title": "<i>SERT</i> gene polymorphisms are associated with risk-taking behaviour and breeding parameters in wild great tits",
+      "title": "<i>SERT</i>\n                    gene polymorphisms are associated with risk-taking behaviour and breeding parameters in wild great tits",
       "authors": [
         "Killu Timm",
         "Kees van Oers",
@@ -105192,7 +105222,7 @@
       }
     },
     {
-      "title": "Hydrodynamic sensory threshold in harbour seals (<i>Phoca vitulina</i>) for artificial flatfish breathing currents",
+      "title": "Hydrodynamic sensory threshold in harbour seals (\n                    <i>Phoca vitulina</i>\n                    ) for artificial flatfish breathing currents",
       "authors": [
         "Benedikt Niesterok",
         "Guido Dehnhardt",
@@ -119283,7 +119313,7 @@
       }
     },
     {
-      "title": "Cutaneous water collection by a moisture-harvesting lizard, the thorny devil (<i>Moloch horridus</i>)",
+      "title": "Cutaneous water collection by a moisture-harvesting lizard, the thorny devil (\n                    <i>Moloch horridus</i>\n                    )",
       "authors": [
         "Philipp Comanns",
         "Philip C. Withers",
@@ -126758,7 +126788,7 @@
       }
     },
     {
-      "title": "Morphology and burrowing energetics of semi-fossorial skinks (<i>Liopholis</i>)",
+      "title": "Morphology and burrowing energetics of semi-fossorial skinks (\n                    <i>Liopholis</i>\n                    )",
       "authors": [
         "Nicholas C. Wu",
         "Lesley A. Alton",
@@ -136036,7 +136066,7 @@
       }
     },
     {
-      "title": "Physiological basis of starvation resistance in<i>Drosophila leontia</i>: analysis of sexual dimorphism",
+      "title": "Physiological basis of starvation resistance in\n                    <i>Drosophila leontia</i>\n                    : analysis of sexual dimorphism",
       "authors": [
         "Dau Dayal Aggarwal"
       ],
@@ -143940,7 +143970,7 @@
       }
     },
     {
-      "title": "Vibrational long-distance communication in the termites<i>Macrotermes natalensis</i>and<i>Odontotermes</i>sp.",
+      "title": "Vibrational long-distance communication in the termites\n                    <i>Macrotermes natalensis</i>\n                    and\n                    <i>Odontotermes</i>\n                    sp.",
       "authors": [
         "Felix A. Hager",
         "Wolfgang H. Kirchner"
@@ -152562,7 +152592,7 @@
       }
     },
     {
-      "title": "Environmental interaction influences muscle activation strategy during sand-swimming in the sandfish lizard <i>Scincus scincus</i>",
+      "title": "Environmental interaction influences muscle activation strategy during sand-swimming in the sandfish lizard\n                    <i>Scincus scincus</i>",
       "authors": [
         "Sarah S. Sharpe",
         "Yang Ding",
@@ -156125,7 +156155,7 @@
       }
     },
     {
-      "title": "Worker division of labor and endocrine physiology are associated in the harvester ant,<i>Pogonomyrmex californicus</i>",
+      "title": "Worker division of labor and endocrine physiology are associated in the harvester ant,\n                    <i>Pogonomyrmex californicus</i>",
       "authors": [
         "Adam G. Dolezal",
         "Colin S. Brent",
@@ -166449,7 +166479,7 @@
       }
     },
     {
-      "title": "Dietary composition regulates<i>Drosophila</i>mobility and cardiac physiology",
+      "title": "Dietary composition regulates\n                    <i>Drosophila</i>\n                    mobility and cardiac physiology",
       "authors": [
         "Brian Bazzell",
         "Sara Ginzberg",
@@ -179927,7 +179957,7 @@
       }
     },
     {
-      "title": "Associative olfactory learning in the desert locust, <i>Schistocerca gregaria</i>",
+      "title": "Associative olfactory learning in the desert locust,\n                    <i>Schistocerca gregaria</i>",
       "authors": [
         "Patrício Simões",
         "Swidbert R. Ott",
@@ -186715,7 +186745,7 @@
       }
     },
     {
-      "title": "Kinematics of flight and the relationship to the vortex wake of a Pallas' long tongued bat (<i>Glossophaga soricina</i>)",
+      "title": "Kinematics of flight and the relationship to the vortex wake of a Pallas' long tongued bat (\n                    <i>Glossophaga soricina</i>\n                    )",
       "authors": [
         "Marta Wolf",
         "L. Christoffer Johansson",
@@ -214799,7 +214829,7 @@
       }
     },
     {
-      "title": "The urinary bladder as a physiological reservoir that moderates dehydration in a large desert lizard, the Gila monster<i>Heloderma suspectum</i>",
+      "title": "The urinary bladder as a physiological reservoir that moderates dehydration in a large desert lizard, the Gila monster\n                    <i>Heloderma suspectum</i>",
       "authors": [
         "Jon R. Davis",
         "Dale F. DeNardo"
@@ -231393,7 +231423,7 @@
       }
     },
     {
-      "title": "How much stress do researchers inflict on their study animals? A case study using a scincid lizard, <i>Eulamprus heatwolei</i>",
+      "title": "How much stress do researchers inflict on their study animals? A case study using a scincid lizard,\n                    <i>Eulamprus heatwolei</i>",
       "authors": [
         "Tracy Langkilde",
         "Richard Shine"
@@ -235236,7 +235266,7 @@
       }
     },
     {
-      "title": "Balancing the competing requirements of saltatorial and fossorial specialisation: burrowing costs in the spinifex hopping mouse,<i>Notomys alexis</i>",
+      "title": "Balancing the competing requirements of saltatorial and fossorial specialisation: burrowing costs in the spinifex hopping mouse,\n                    <i>Notomys alexis</i>",
       "authors": [
         "Craig R. White",
         "Philip G. D. Matthews",
@@ -252560,7 +252590,7 @@
       }
     },
     {
-      "title": "Macrophage involvement for successful degeneration of apoptotic organs in the colonial urochordate<i>Botryllus schlosseri</i>",
+      "title": "Macrophage involvement for successful degeneration of apoptotic organs in the colonial urochordate\n                    <i>Botryllus schlosseri</i>",
       "authors": [
         "Ayelet Voskoboynik",
         "Baruch Rinkevich",
@@ -262196,7 +262226,7 @@
       }
     },
     {
-      "title": "Mysterious<i>Mystacina</i>: how the New Zealand short-tailed bat(<i>Mystacina tuberculata</i>) locates insect prey",
+      "title": "Mysterious\n                    <i>Mystacina</i>\n                    : how the New Zealand short-tailed bat(\n                    <i>Mystacina tuberculata</i>\n                    ) locates insect prey",
       "authors": [
         "Gareth Jones",
         "Peter I. Webb",
@@ -300158,24 +300188,6 @@
       }
     },
     {
-      "title": "<i>In Vivo</i> Muscle Force–Length Behavior During Steady-Speed Hopping in Tammar Wallabies",
-      "authors": [
-        "Andrew A. Biewener",
-        "David D. Konieczynski",
-        "Russell V. Baudinette"
-      ],
-      "published_year": 1998,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.201.11.1681",
-      "url": "https://doi.org/10.1242/jeb.201.11.1681",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
       "title": "<i>In Vivo</i>\n                    Pectoralis Muscle Force–Length Behavior During Level Flight In Pigeons (\n                    <i>Columba Livia</i>\n                    )",
       "authors": [
         "Andrew A. Biewener",
@@ -300186,6 +300198,24 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.201.24.3293",
       "url": "https://doi.org/10.1242/jeb.201.24.3293",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "<i>In Vivo</i>\n                    Muscle Force–Length Behavior During Steady-Speed Hopping in Tammar Wallabies",
+      "authors": [
+        "Andrew A. Biewener",
+        "David D. Konieczynski",
+        "Russell V. Baudinette"
+      ],
+      "published_year": 1998,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.201.11.1681",
+      "url": "https://doi.org/10.1242/jeb.201.11.1681",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -313412,7 +313442,7 @@
       }
     },
     {
-      "title": "Functional Morphology of the Vanes of the Flight Feathers of the Pigeon <i>Columba Livia</i>",
+      "title": "Functional Morphology of the Vanes of the Flight Feathers of the Pigeon\n                    <i>Columba Livia</i>",
       "authors": [
         "A. Roland Ennos",
         "John R. E. Hickson",
@@ -314890,7 +314920,7 @@
       }
     },
     {
-      "title": "Ammonia and Urea Metabolism in Relation to Gill Function and Acid–Base Balance in A Marine Elasmobranch, the Spiny Dogfish (<i>Squalus Acanthias</i>)",
+      "title": "Ammonia and Urea Metabolism in Relation to Gill Function and Acid–Base Balance in A Marine Elasmobranch, the Spiny Dogfish (\n                    <i>Squalus Acanthias</i>\n                    )",
       "authors": [
         "Chris. M. Wood",
         "Peter Pärt",
@@ -315170,7 +315200,7 @@
       }
     },
     {
-      "title": "<i>In Vivo</i> Muscle Force and Elastic Energy Storage During Steady-Speed Hopping of Tammar Wallabies (<i>Macropus Eugenii</i>)",
+      "title": "<i>In Vivo</i>\n                    Muscle Force and Elastic Energy Storage During Steady-Speed Hopping of Tammar Wallabies (\n                    <i>Macropus Eugenii</i>\n                    )",
       "authors": [
         "Andrew A. Biewener",
         "Russell V. Baudinette"
@@ -321772,7 +321802,7 @@
       }
     },
     {
-      "title": "Power Output and Propulsive Efficiency of Swimming Bottlenose Dolphins (<i>Tursiops Truncatus)</i>",
+      "title": "Power Output and Propulsive Efficiency of Swimming Bottlenose Dolphins (\n                    <i>Tursiops Truncatus)</i>",
       "authors": [
         "Frank E. Fish"
       ],
@@ -326685,7 +326715,7 @@
       }
     },
     {
-      "title": "Locomotor Performance and Energetic Cost of Sidewinding by the Snake <i>Crotalus Cerastes</i>",
+      "title": "Locomotor Performance and Energetic Cost of Sidewinding by the Snake\n                    <i>Crotalus Cerastes</i>",
       "authors": [
         "Stephen M. Secor",
         "Bruce C. Jayne",
@@ -357158,7 +357188,7 @@
       }
     },
     {
-      "title": "Feeding And Excretion In The Scorpion <i>Paruroctonus Mesaensis:</i> Water And Material Balance",
+      "title": "Feeding And Excretion In The Scorpion\n                    <i>Paruroctonus Mesaensis:</i>\n                    Water And Material Balance",
       "authors": [
         "Stanley D.Yokota"
       ],
@@ -378519,7 +378549,7 @@
       }
     },
     {
-      "title": "Behavioural and electrophysiological studies of taste discrimination by the maxillary palps of larvae of <i>Locusta Migratoria</i> (L.)",
+      "title": "Behavioural and electrophysiological studies of taste discrimination by the maxillary palps of larvae of\n                    <i>Locusta Migratoria</i>\n                    (L.)",
       "authors": [
         "W. M. Blaney"
       ],
@@ -380060,7 +380090,7 @@
       }
     },
     {
-      "title": "Electrophysiological Responses of the Terminal Sensilla on the Maxillary Palps Of <i>Locusta Migratoria</i> (L.) To Some Electrolytes and Non-Electrolytes",
+      "title": "Electrophysiological Responses of the Terminal Sensilla on the Maxillary Palps Of\n                    <i>Locusta Migratoria</i>\n                    (L.) To Some Electrolytes and Non-Electrolytes",
       "authors": [
         "W. M. Blaney"
       ],
@@ -381598,7 +381628,7 @@
       }
     },
     {
-      "title": "Phototaxis in <i>Limulus</i> Under Natural Conditions: Evidence For Reception of Near-Ultraviolet Light in the Median Dorsal Ocellus",
+      "title": "Phototaxis in\n                    <i>Limulus</i>\n                    Under Natural Conditions: Evidence For Reception of Near-Ultraviolet Light in the Median Dorsal Ocellus",
       "authors": [
         "Abner B. Lall",
         "Robert M. Chapman"
@@ -382312,7 +382342,7 @@
       }
     },
     {
-      "title": "Cardiovascular and Respiratory Changes During Heat Stress in Rainbow Trout (<i>Salmo Gairdneri</i>)",
+      "title": "Cardiovascular and Respiratory Changes During Heat Stress in Rainbow Trout (\n                    <i>Salmo Gairdneri</i>\n                    )",
       "authors": [
         "Alan G. Heath",
         "G. M. Hughes"
@@ -385662,7 +385692,7 @@
       }
     },
     {
-      "title": "Innervation of Coxal Depressor Muscles in the Cockroach, <i>Periplaneta Americana</i>",
+      "title": "Innervation of Coxal Depressor Muscles in the Cockroach,\n                    <i>Periplaneta Americana</i>",
       "authors": [
         "K. G. Pearson",
         "J. F. Iles"
@@ -387860,7 +387890,7 @@
       }
     },
     {
-      "title": "Discharge Patterns of Coxal Levator and Depressor Motoneurones of the Cockroach, <i>Periplaneta Americana</i>",
+      "title": "Discharge Patterns of Coxal Levator and Depressor Motoneurones of the Cockroach,\n                    <i>Periplaneta Americana</i>",
       "authors": [
         "K. G. Pearson",
         "J. F. Iles"
@@ -392890,7 +392920,7 @@
       }
     },
     {
-      "title": "Impulse Identification and Axon Mapping of the Nine Neurons in the Cardiac Ganglion of the Lobster <i>Homarus Americanus</i>",
+      "title": "Impulse Identification and Axon Mapping of the Nine Neurons in the Cardiac Ganglion of the Lobster\n                    <i>Homarus Americanus</i>",
       "authors": [
         "Daniel K. Hartline"
       ],
