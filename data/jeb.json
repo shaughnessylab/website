@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T05:56:33.775377+00:00",
+  "last_updated": "2026-08-25T05:49:42.330402+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -3605,13 +3605,13 @@
       }
     },
     {
-      "title": "Hydrodynamic effects of spines on zooplankton: How horns and tails alter flow and forces on barnacle nauplii",
+      "title": "Hydrodynamic effects of spines on zooplankton: how horns and tails alter flow and forces on barnacle nauplii",
       "authors": [
         "Will M. Ballentine",
         "Kit Yu Karen Chan",
         "Esther Wong",
         "Jin Yung Wong",
-        "M. A. R. Koehl"
+        "Mimi A. R. Koehl"
       ],
       "published_year": 2026,
       "type": "journal-article",
@@ -4071,6 +4071,24 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251374",
       "url": "https://doi.org/10.1242/jeb.251374",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Fueling thermogenesis: An individual-level thermography assay reveals that sucrose ingestion promotes thermogenesis in honeybees",
+      "authors": [
+        "Saskia Delac",
+        "Christine von Koschitzky",
+        "Markus Thamm"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252296",
+      "url": "https://doi.org/10.1242/jeb.252296",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -5357,6 +5375,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Ranim Saleem",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253230",
+      "url": "https://doi.org/10.1242/jeb.253230",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Pedro Julião Jimenez",
       "authors": [],
       "published_year": 2026,
@@ -6466,6 +6498,22 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.250914",
       "url": "https://doi.org/10.1242/jeb.250914",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Deer mouse mitochondria rise to the high-altitude challenge",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253298",
+      "url": "https://doi.org/10.1242/jeb.253298",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -120759,13 +120807,13 @@
       ],
       "published_year": 2016,
       "type": "journal-article",
-      "doi": "10.1242/jeb.146563",
-      "url": "https://doi.org/10.1242/jeb.146563",
+      "doi": "10.1242/jeb.139733",
+      "url": "https://doi.org/10.1242/jeb.139733",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/219/15/2409.full.pdf"
+        "url": "https://jeb.biologists.org/content/jexbio/219/14/2137.full.pdf"
       }
     },
     {
@@ -120782,13 +120830,13 @@
       ],
       "published_year": 2016,
       "type": "journal-article",
-      "doi": "10.1242/jeb.139733",
-      "url": "https://doi.org/10.1242/jeb.139733",
+      "doi": "10.1242/jeb.146563",
+      "url": "https://doi.org/10.1242/jeb.146563",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/219/14/2137.full.pdf"
+        "url": "https://jeb.biologists.org/content/jexbio/219/15/2409.full.pdf"
       }
     },
     {
@@ -123868,13 +123916,13 @@
       ],
       "published_year": 2015,
       "type": "journal-article",
-      "doi": "10.1242/jeb.119933",
-      "url": "https://doi.org/10.1242/jeb.119933",
+      "doi": "10.1242/jeb.109843",
+      "url": "https://doi.org/10.1242/jeb.109843",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/218/2/167.full.pdf"
       }
     },
     {
@@ -123884,13 +123932,13 @@
       ],
       "published_year": 2015,
       "type": "journal-article",
-      "doi": "10.1242/jeb.109843",
-      "url": "https://doi.org/10.1242/jeb.109843",
+      "doi": "10.1242/jeb.119933",
+      "url": "https://doi.org/10.1242/jeb.119933",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/218/2/167.full.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -124639,13 +124687,13 @@
       ],
       "published_year": 2015,
       "type": "journal-article",
-      "doi": "10.1242/jeb.125575",
-      "url": "https://doi.org/10.1242/jeb.125575",
+      "doi": "10.1242/jeb.120402",
+      "url": "https://doi.org/10.1242/jeb.120402",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/218/11/1796/1886304/jeb125575.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -124658,13 +124706,13 @@
       ],
       "published_year": 2015,
       "type": "journal-article",
-      "doi": "10.1242/jeb.120402",
-      "url": "https://doi.org/10.1242/jeb.120402",
+      "doi": "10.1242/jeb.125575",
+      "url": "https://doi.org/10.1242/jeb.125575",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/218/11/1796/1886304/jeb125575.pdf"
       }
     },
     {
@@ -129361,13 +129409,13 @@
       ],
       "published_year": 2015,
       "type": "journal-article",
-      "doi": "10.1242/jeb.123125",
-      "url": "https://doi.org/10.1242/jeb.123125",
+      "doi": "10.1242/jeb.106310",
+      "url": "https://doi.org/10.1242/jeb.106310",
       "abstract": "",
       "oa": {
         "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/218/8/1273.full.pdf"
+        "status": "green",
+        "url": "http://doi.org/10.1242/jeb.123125"
       }
     },
     {
@@ -129377,13 +129425,13 @@
       ],
       "published_year": 2015,
       "type": "journal-article",
-      "doi": "10.1242/jeb.106310",
-      "url": "https://doi.org/10.1242/jeb.106310",
+      "doi": "10.1242/jeb.123125",
+      "url": "https://doi.org/10.1242/jeb.123125",
       "abstract": "",
       "oa": {
         "is_oa": true,
-        "status": "green",
-        "url": "http://doi.org/10.1242/jeb.123125"
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/218/8/1273.full.pdf"
       }
     },
     {
@@ -132299,32 +132347,6 @@
     {
       "title": "Adhesive pad differentiation in <i>Drosophila melanogaster</i> depends on the Polycomb group gene <i>Su(z)2</i>",
       "authors": [
-        "Mirko Hüsken",
-        "Kim Hufnagel",
-        "Katharina Mende",
-        "Esther Appel",
-        "Heiko Meyer",
-        "Henrik Peisker",
-        "Markus Tögel",
-        "Shuoshuo Wang",
-        "Jonas Wolff",
-        "Stanislav N. Gorb",
-        "Achim Paululat"
-      ],
-      "published_year": 2015,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.125120",
-      "url": "https://doi.org/10.1242/jeb.125120",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/218/10/1613.full.pdf"
-      }
-    },
-    {
-      "title": "Adhesive pad differentiation in <i>Drosophila melanogaster</i> depends on the Polycomb group gene <i>Su(z)2</i>",
-      "authors": [
         "M. Hüsken",
         "K. Hufnagel",
         "K. Mende",
@@ -132346,6 +132368,32 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://jeb.biologists.org/content/jexbio/218/8/1159.full.pdf"
+      }
+    },
+    {
+      "title": "Adhesive pad differentiation in <i>Drosophila melanogaster</i> depends on the Polycomb group gene <i>Su(z)2</i>",
+      "authors": [
+        "Mirko Hüsken",
+        "Kim Hufnagel",
+        "Katharina Mende",
+        "Esther Appel",
+        "Heiko Meyer",
+        "Henrik Peisker",
+        "Markus Tögel",
+        "Shuoshuo Wang",
+        "Jonas Wolff",
+        "Stanislav N. Gorb",
+        "Achim Paululat"
+      ],
+      "published_year": 2015,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.125120",
+      "url": "https://doi.org/10.1242/jeb.125120",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/218/10/1613.full.pdf"
       }
     },
     {
@@ -135665,13 +135713,13 @@
       ],
       "published_year": 2014,
       "type": "journal-article",
-      "doi": "10.1242/jeb.108175",
-      "url": "https://doi.org/10.1242/jeb.108175",
+      "doi": "10.1242/jeb.090092",
+      "url": "https://doi.org/10.1242/jeb.090092",
       "abstract": "",
       "oa": {
         "is_oa": true,
-        "status": "green",
-        "url": "http://doi.org/10.1242/jeb.108175"
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/217/9/1626.full.pdf"
       }
     },
     {
@@ -135686,13 +135734,13 @@
       ],
       "published_year": 2014,
       "type": "journal-article",
-      "doi": "10.1242/jeb.090092",
-      "url": "https://doi.org/10.1242/jeb.090092",
+      "doi": "10.1242/jeb.108175",
+      "url": "https://doi.org/10.1242/jeb.108175",
       "abstract": "",
       "oa": {
         "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/217/9/1626.full.pdf"
+        "status": "green",
+        "url": "http://doi.org/10.1242/jeb.108175"
       }
     },
     {
@@ -144177,13 +144225,13 @@
       ],
       "published_year": 2013,
       "type": "journal-article",
-      "doi": "10.1242/jeb.096123",
-      "url": "https://doi.org/10.1242/jeb.096123",
+      "doi": "10.1242/jeb.082834",
+      "url": "https://doi.org/10.1242/jeb.082834",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/216/10/1819.full.pdf"
       }
     },
     {
@@ -144196,13 +144244,13 @@
       ],
       "published_year": 2013,
       "type": "journal-article",
-      "doi": "10.1242/jeb.082834",
-      "url": "https://doi.org/10.1242/jeb.082834",
+      "doi": "10.1242/jeb.096123",
+      "url": "https://doi.org/10.1242/jeb.096123",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/216/10/1819.full.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -154850,13 +154898,13 @@
       ],
       "published_year": 2013,
       "type": "journal-article",
-      "doi": "10.1242/jeb.087601",
-      "url": "https://doi.org/10.1242/jeb.087601",
+      "doi": "10.1242/jeb.075648",
+      "url": "https://doi.org/10.1242/jeb.075648",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/216/7/1350.full.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -154869,13 +154917,13 @@
       ],
       "published_year": 2013,
       "type": "journal-article",
-      "doi": "10.1242/jeb.075648",
-      "url": "https://doi.org/10.1242/jeb.075648",
+      "doi": "10.1242/jeb.087601",
+      "url": "https://doi.org/10.1242/jeb.087601",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/216/7/1350.full.pdf"
       }
     },
     {
@@ -161760,8 +161808,8 @@
       ],
       "published_year": 2012,
       "type": "journal-article",
-      "doi": "10.1242/jeb.075051",
-      "url": "https://doi.org/10.1242/jeb.075051",
+      "doi": "10.1242/jeb.064527",
+      "url": "https://doi.org/10.1242/jeb.064527",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -161778,8 +161826,8 @@
       ],
       "published_year": 2012,
       "type": "journal-article",
-      "doi": "10.1242/jeb.064527",
-      "url": "https://doi.org/10.1242/jeb.064527",
+      "doi": "10.1242/jeb.075051",
+      "url": "https://doi.org/10.1242/jeb.075051",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -163634,25 +163682,6 @@
     {
       "title": "Integrating dynamic energy budget (DEB) theory with traditional bioenergetic models",
       "authors": [
-        "R. M. Nisbet",
-        "M. Jusup",
-        "T. Klanjscek",
-        "L. Pecquerie"
-      ],
-      "published_year": 2012,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.071845",
-      "url": "https://doi.org/10.1242/jeb.071845",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/215/7/1246/1462684/1246.pdf"
-      }
-    },
-    {
-      "title": "Integrating dynamic energy budget (DEB) theory with traditional bioenergetic models",
-      "authors": [
         "Roger M. Nisbet",
         "Marko Jusup",
         "Tin Klanjscek",
@@ -163667,6 +163696,25 @@
         "is_oa": false,
         "status": "closed",
         "url": null
+      }
+    },
+    {
+      "title": "Integrating dynamic energy budget (DEB) theory with traditional bioenergetic models",
+      "authors": [
+        "R. M. Nisbet",
+        "M. Jusup",
+        "T. Klanjscek",
+        "L. Pecquerie"
+      ],
+      "published_year": 2012,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.071845",
+      "url": "https://doi.org/10.1242/jeb.071845",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/215/7/1246/1462684/1246.pdf"
       }
     },
     {
@@ -164073,13 +164121,13 @@
       ],
       "published_year": 2012,
       "type": "journal-article",
-      "doi": "10.1242/jeb.077347",
-      "url": "https://doi.org/10.1242/jeb.077347",
+      "doi": "10.1242/jeb.069385",
+      "url": "https://doi.org/10.1242/jeb.069385",
       "abstract": "",
       "oa": {
         "is_oa": true,
-        "status": "green",
-        "url": "http://doi.org/10.1242/jeb.077347"
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/215/15/2551.full.pdf"
       }
     },
     {
@@ -164094,13 +164142,13 @@
       ],
       "published_year": 2012,
       "type": "journal-article",
-      "doi": "10.1242/jeb.069385",
-      "url": "https://doi.org/10.1242/jeb.069385",
+      "doi": "10.1242/jeb.077347",
+      "url": "https://doi.org/10.1242/jeb.077347",
       "abstract": "",
       "oa": {
         "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/215/15/2551.full.pdf"
+        "status": "green",
+        "url": "http://doi.org/10.1242/jeb.077347"
       }
     },
     {
@@ -184103,8 +184151,8 @@
       ],
       "published_year": 2010,
       "type": "journal-article",
-      "doi": "10.1242/jeb.042416",
-      "url": "https://doi.org/10.1242/jeb.042416",
+      "doi": "10.1242/jeb.036087",
+      "url": "https://doi.org/10.1242/jeb.036087",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -184122,8 +184170,8 @@
       ],
       "published_year": 2010,
       "type": "journal-article",
-      "doi": "10.1242/jeb.036087",
-      "url": "https://doi.org/10.1242/jeb.036087",
+      "doi": "10.1242/jeb.042416",
+      "url": "https://doi.org/10.1242/jeb.042416",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -191482,8 +191530,8 @@
       ],
       "published_year": 2010,
       "type": "journal-article",
-      "doi": "10.1242/jeb.044610",
-      "url": "https://doi.org/10.1242/jeb.044610",
+      "doi": "10.1242/jeb.038356",
+      "url": "https://doi.org/10.1242/jeb.038356",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -191499,8 +191547,8 @@
       ],
       "published_year": 2010,
       "type": "journal-article",
-      "doi": "10.1242/jeb.038356",
-      "url": "https://doi.org/10.1242/jeb.038356",
+      "doi": "10.1242/jeb.044610",
+      "url": "https://doi.org/10.1242/jeb.044610",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -200038,13 +200086,13 @@
       ],
       "published_year": 2009,
       "type": "journal-article",
-      "doi": "10.1242/jeb.030049",
-      "url": "https://doi.org/10.1242/jeb.030049",
+      "doi": "10.1242/jeb.026377",
+      "url": "https://doi.org/10.1242/jeb.026377",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "green",
+        "url": "https://figshare.utas.edu.au/articles/journal_contribution/Estimating_energy_expenditure_of_animals_using_the_accelerometry_technique_activity_inactivity_and_comparison_with_the_heart-rate_technique/22874816/1/files/40610570.pdf"
       }
     },
     {
@@ -200057,13 +200105,13 @@
       ],
       "published_year": 2009,
       "type": "journal-article",
-      "doi": "10.1242/jeb.026377",
-      "url": "https://doi.org/10.1242/jeb.026377",
+      "doi": "10.1242/jeb.030049",
+      "url": "https://doi.org/10.1242/jeb.030049",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "green",
-        "url": "https://figshare.utas.edu.au/articles/journal_contribution/Estimating_energy_expenditure_of_animals_using_the_accelerometry_technique_activity_inactivity_and_comparison_with_the_heart-rate_technique/22874816/1/files/40610570.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -202664,13 +202712,13 @@
       ],
       "published_year": 2009,
       "type": "journal-article",
-      "doi": "10.1242/jeb.036103",
-      "url": "https://doi.org/10.1242/jeb.036103",
+      "doi": "10.1242/jeb.024851",
+      "url": "https://doi.org/10.1242/jeb.024851",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/212/17/2879/1417301/2879.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -202682,13 +202730,13 @@
       ],
       "published_year": 2009,
       "type": "journal-article",
-      "doi": "10.1242/jeb.024851",
-      "url": "https://doi.org/10.1242/jeb.024851",
+      "doi": "10.1242/jeb.036103",
+      "url": "https://doi.org/10.1242/jeb.036103",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/212/17/2879/1417301/2879.pdf"
       }
     },
     {
@@ -206586,24 +206634,6 @@
     {
       "title": "Reversed functional topology in the antennal lobe of the male European corn borer",
       "authors": [
-        "Z. Kárpáti",
-        "T. Dekker",
-        "B. S. Hansson"
-      ],
-      "published_year": 2008,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.025049",
-      "url": "https://doi.org/10.1242/jeb.025049",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Reversed functional topology in the antennal lobe of the male European corn borer",
-      "authors": [
         "Zsolt Kárpáti",
         "Teun Dekker",
         "Bill S. Hansson"
@@ -206617,6 +206647,24 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/211/17/2841/1403116/2841.pdf"
+      }
+    },
+    {
+      "title": "Reversed functional topology in the antennal lobe of the male European corn borer",
+      "authors": [
+        "Z. Kárpáti",
+        "T. Dekker",
+        "B. S. Hansson"
+      ],
+      "published_year": 2008,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.025049",
+      "url": "https://doi.org/10.1242/jeb.025049",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -208563,22 +208611,6 @@
     {
       "title": "MYONUCLEI ARE NOT LOST DURING MUSCLE ATROPHY",
       "authors": [
-        "J. A. W. Stecyk"
-      ],
-      "published_year": 2008,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.010992",
-      "url": "https://doi.org/10.1242/jeb.010992",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/211/19/iii/1263071/osiii-vi.pdf"
-      }
-    },
-    {
-      "title": "MYONUCLEI ARE NOT LOST DURING MUSCLE ATROPHY",
-      "authors": [
         "Jonathan A. W. Stecyk"
       ],
       "published_year": 2008,
@@ -208590,6 +208622,22 @@
         "is_oa": false,
         "status": "closed",
         "url": null
+      }
+    },
+    {
+      "title": "MYONUCLEI ARE NOT LOST DURING MUSCLE ATROPHY",
+      "authors": [
+        "J. A. W. Stecyk"
+      ],
+      "published_year": 2008,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.010992",
+      "url": "https://doi.org/10.1242/jeb.010992",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/211/19/iii/1263071/osiii-vi.pdf"
       }
     },
     {
@@ -212676,14 +212724,14 @@
     {
       "title": "Biorobotic insights into how animals swim",
       "authors": [
-        "P. R. Bandyopadhyay",
-        "D. N. Beal",
-        "A. Menozzi"
+        "Promode R. Bandyopadhyay",
+        "David N. Beal",
+        "Alberico Menozzi"
       ],
       "published_year": 2008,
       "type": "journal-article",
-      "doi": "10.1242/jeb.016717",
-      "url": "https://doi.org/10.1242/jeb.016717",
+      "doi": "10.1242/jeb.012161",
+      "url": "https://doi.org/10.1242/jeb.012161",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -212694,14 +212742,14 @@
     {
       "title": "Biorobotic insights into how animals swim",
       "authors": [
-        "Promode R. Bandyopadhyay",
-        "David N. Beal",
-        "Alberico Menozzi"
+        "P. R. Bandyopadhyay",
+        "D. N. Beal",
+        "A. Menozzi"
       ],
       "published_year": 2008,
       "type": "journal-article",
-      "doi": "10.1242/jeb.012161",
-      "url": "https://doi.org/10.1242/jeb.012161",
+      "doi": "10.1242/jeb.016717",
+      "url": "https://doi.org/10.1242/jeb.016717",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -218370,13 +218418,13 @@
       ],
       "published_year": 2007,
       "type": "journal-article",
-      "doi": "10.1242/jeb.006999",
-      "url": "https://doi.org/10.1242/jeb.006999",
+      "doi": "10.1242/jeb.005421",
+      "url": "https://doi.org/10.1242/jeb.005421",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "http://jeb.biologists.org/content/210/10/1846.full.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -218386,13 +218434,13 @@
       ],
       "published_year": 2007,
       "type": "journal-article",
-      "doi": "10.1242/jeb.005421",
-      "url": "https://doi.org/10.1242/jeb.005421",
+      "doi": "10.1242/jeb.006999",
+      "url": "https://doi.org/10.1242/jeb.006999",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "http://jeb.biologists.org/content/210/10/1846.full.pdf"
       }
     },
     {
@@ -219877,8 +219925,8 @@
       ],
       "published_year": 2007,
       "type": "journal-article",
-      "doi": "10.1242/jeb.013763",
-      "url": "https://doi.org/10.1242/jeb.013763",
+      "doi": "10.1242/jeb.009092",
+      "url": "https://doi.org/10.1242/jeb.009092",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -219893,8 +219941,8 @@
       ],
       "published_year": 2007,
       "type": "journal-article",
-      "doi": "10.1242/jeb.009092",
-      "url": "https://doi.org/10.1242/jeb.009092",
+      "doi": "10.1242/jeb.013763",
+      "url": "https://doi.org/10.1242/jeb.013763",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -221183,14 +221231,14 @@
     {
       "title": "Fractal landscape method: an alternative approach to measuring area-restricted searching behavior",
       "authors": [
-        "Y. Tremblay",
-        "A. J. Roberts",
-        "D. P. Costa"
+        "Yann Tremblay",
+        "Antony J. Roberts",
+        "Daniel P. Costa"
       ],
       "published_year": 2007,
       "type": "journal-article",
-      "doi": "10.1242/jeb.005462",
-      "url": "https://doi.org/10.1242/jeb.005462",
+      "doi": "10.1242/jeb.02710",
+      "url": "https://doi.org/10.1242/jeb.02710",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -221201,14 +221249,14 @@
     {
       "title": "Fractal landscape method: an alternative approach to measuring area-restricted searching behavior",
       "authors": [
-        "Yann Tremblay",
-        "Antony J. Roberts",
-        "Daniel P. Costa"
+        "Y. Tremblay",
+        "A. J. Roberts",
+        "D. P. Costa"
       ],
       "published_year": 2007,
       "type": "journal-article",
-      "doi": "10.1242/jeb.02710",
-      "url": "https://doi.org/10.1242/jeb.02710",
+      "doi": "10.1242/jeb.005462",
+      "url": "https://doi.org/10.1242/jeb.005462",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -222339,25 +222387,6 @@
         "Veerle Segers",
         "Peter Aerts",
         "Matthieu Lenoir",
-        "Dirk De Clercq"
-      ],
-      "published_year": 2007,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.02760",
-      "url": "https://doi.org/10.1242/jeb.02760",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/210/7/1297/1617530/1297.pdf"
-      }
-    },
-    {
-      "title": "Dynamics of the body centre of mass during actual acceleration across transition speed",
-      "authors": [
-        "Veerle Segers",
-        "Peter Aerts",
-        "Matthieu Lenoir",
         "Dirk De Clerq"
       ],
       "published_year": 2007,
@@ -222369,6 +222398,25 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/210/4/578/1261872/578.pdf"
+      }
+    },
+    {
+      "title": "Dynamics of the body centre of mass during actual acceleration across transition speed",
+      "authors": [
+        "Veerle Segers",
+        "Peter Aerts",
+        "Matthieu Lenoir",
+        "Dirk De Clercq"
+      ],
+      "published_year": 2007,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.02760",
+      "url": "https://doi.org/10.1242/jeb.02760",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/210/7/1297/1617530/1297.pdf"
       }
     },
     {
@@ -226275,23 +226323,6 @@
     {
       "title": "The energetic costs of trunk and distal-limb loading during walking and running in guinea fowl<i>Numida meleagris</i>",
       "authors": [
-        "David J. Ellerby",
-        "Richard L. Marsh"
-      ],
-      "published_year": 2006,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.02227",
-      "url": "https://doi.org/10.1242/jeb.02227",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://jeb.biologists.org/content/jexbio/209/11/2064.full.pdf"
-      }
-    },
-    {
-      "title": "The energetic costs of trunk and distal-limb loading during walking and running in guinea fowl<i>Numida meleagris</i>",
-      "authors": [
         "Richard L. Marsh",
         "David J. Ellerby",
         "Havalee T. Henry",
@@ -226306,6 +226337,23 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/209/11/2050/1256011/2050.pdf"
+      }
+    },
+    {
+      "title": "The energetic costs of trunk and distal-limb loading during walking and running in guinea fowl<i>Numida meleagris</i>",
+      "authors": [
+        "David J. Ellerby",
+        "Richard L. Marsh"
+      ],
+      "published_year": 2006,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.02227",
+      "url": "https://doi.org/10.1242/jeb.02227",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://jeb.biologists.org/content/jexbio/209/11/2064.full.pdf"
       }
     },
     {
@@ -226870,8 +226918,8 @@
       ],
       "published_year": 2006,
       "type": "journal-article",
-      "doi": "10.1242/jeb.02433",
-      "url": "https://doi.org/10.1242/jeb.02433",
+      "doi": "10.1242/jeb.02166",
+      "url": "https://doi.org/10.1242/jeb.02166",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -226888,8 +226936,8 @@
       ],
       "published_year": 2006,
       "type": "journal-article",
-      "doi": "10.1242/jeb.02166",
-      "url": "https://doi.org/10.1242/jeb.02166",
+      "doi": "10.1242/jeb.02433",
+      "url": "https://doi.org/10.1242/jeb.02433",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -240121,20 +240169,6 @@
     },
     {
       "title": "Optical studies of nicotinic acetylcholine receptor subtypes in the guinea-pig enteric nervous system",
-      "authors": [],
-      "published_year": 2005,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.208.16.3219",
-      "url": "https://doi.org/10.1242/jeb.208.16.3219",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Optical studies of nicotinic acetylcholine receptor subtypes in the guinea-pig enteric nervous system",
       "authors": [
         "A. L. Obaid",
         "M. E. Nelson",
@@ -240145,6 +240179,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.01732",
       "url": "https://doi.org/10.1242/jeb.01732",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Optical studies of nicotinic acetylcholine receptor subtypes in the guinea-pig enteric nervous system",
+      "authors": [],
+      "published_year": 2005,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.208.16.3219",
+      "url": "https://doi.org/10.1242/jeb.208.16.3219",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -241774,20 +241822,6 @@
     },
     {
       "title": "Influence of host size on the clutch size and developmental success of the gregarious ectoparasitoid <i>Eulophus pennicornis</i> (Nees)(Hymenoptera: Braconidae) attacking larvae of the tomato moth <i>Lacanobia oleracea</i> (L.) (Lepidoptera: Noctuidae)",
-      "authors": [],
-      "published_year": 2005,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.208.23.4557",
-      "url": "https://doi.org/10.1242/jeb.208.23.4557",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Influence of host size on the clutch size and developmental success of the gregarious ectoparasitoid <i>Eulophus pennicornis</i> (Nees)(Hymenoptera: Braconidae) attacking larvae of the tomato moth <i>Lacanobia oleracea</i> (L.) (Lepidoptera: Noctuidae)",
       "authors": [
         "H. A. Bell",
         "G. C. Marris",
@@ -241803,6 +241837,20 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/208/16/3199/1252279/3199.pdf"
+      }
+    },
+    {
+      "title": "Influence of host size on the clutch size and developmental success of the gregarious ectoparasitoid <i>Eulophus pennicornis</i> (Nees)(Hymenoptera: Braconidae) attacking larvae of the tomato moth <i>Lacanobia oleracea</i> (L.) (Lepidoptera: Noctuidae)",
+      "authors": [],
+      "published_year": 2005,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.208.23.4557",
+      "url": "https://doi.org/10.1242/jeb.208.23.4557",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -252977,20 +253025,6 @@
     },
     {
       "title": "Lactate accumulation, glycogen depletion, and shell composition of hatchling turtles during simulated aquatic hibernation",
-      "authors": [],
-      "published_year": 2004,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.207.17.3123",
-      "url": "https://doi.org/10.1242/jeb.207.17.3123",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Lactate accumulation, glycogen depletion, and shell composition of hatchling turtles during simulated aquatic hibernation",
       "authors": [
         "Scott A. Reese",
         "Gordon R. Ultsch",
@@ -253000,6 +253034,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.01124",
       "url": "https://doi.org/10.1242/jeb.01124",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Lactate accumulation, glycogen depletion, and shell composition of hatchling turtles during simulated aquatic hibernation",
+      "authors": [],
+      "published_year": 2004,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.207.17.3123",
+      "url": "https://doi.org/10.1242/jeb.207.17.3123",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -254803,8 +254851,8 @@
       "authors": [],
       "published_year": 2004,
       "type": "journal-article",
-      "doi": "10.1242/jeb.207.26.4735",
-      "url": "https://doi.org/10.1242/jeb.207.26.4735",
+      "doi": "10.1242/jeb.207.22.4011",
+      "url": "https://doi.org/10.1242/jeb.207.22.4011",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -254817,8 +254865,8 @@
       "authors": [],
       "published_year": 2004,
       "type": "journal-article",
-      "doi": "10.1242/jeb.207.22.4011",
-      "url": "https://doi.org/10.1242/jeb.207.22.4011",
+      "doi": "10.1242/jeb.207.26.4735",
+      "url": "https://doi.org/10.1242/jeb.207.26.4735",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -278655,41 +278703,6 @@
       "title": "Limits to sustained energy intake",
       "authors": [
         "M. S. Johnson",
-        "J. R. Speakman"
-      ],
-      "published_year": 2001,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.204.11.1967",
-      "url": "https://doi.org/10.1242/jeb.204.11.1967",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Limits to sustained energy intake",
-      "authors": [
-        "M. S. Johnson",
-        "S. C. Thomson",
-        "J. R. Speakman"
-      ],
-      "published_year": 2001,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.204.11.1937",
-      "url": "https://doi.org/10.1242/jeb.204.11.1937",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Limits to sustained energy intake",
-      "authors": [
-        "M. S. Johnson",
         "S. C. Thomson",
         "J. R. Speakman"
       ],
@@ -278697,6 +278710,41 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.204.11.1925",
       "url": "https://doi.org/10.1242/jeb.204.11.1925",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Limits to sustained energy intake",
+      "authors": [
+        "M. S. Johnson",
+        "S. C. Thomson",
+        "J. R. Speakman"
+      ],
+      "published_year": 2001,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.204.11.1947",
+      "url": "https://doi.org/10.1242/jeb.204.11.1947",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Limits to sustained energy intake",
+      "authors": [
+        "M. S. Johnson",
+        "J. R. Speakman"
+      ],
+      "published_year": 2001,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.204.11.1967",
+      "url": "https://doi.org/10.1242/jeb.204.11.1967",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -278733,8 +278781,8 @@
       ],
       "published_year": 2001,
       "type": "journal-article",
-      "doi": "10.1242/jeb.204.11.1947",
-      "url": "https://doi.org/10.1242/jeb.204.11.1947",
+      "doi": "10.1242/jeb.204.11.1937",
+      "url": "https://doi.org/10.1242/jeb.204.11.1937",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -335285,8 +335333,8 @@
       "authors": [],
       "published_year": 1990,
       "type": "journal-article",
-      "doi": "10.1242/jeb.148.1.1a",
-      "url": "https://doi.org/10.1242/jeb.148.1.1a",
+      "doi": "10.1242/jeb.149.1.521a",
+      "url": "https://doi.org/10.1242/jeb.149.1.521a",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -335299,8 +335347,8 @@
       "authors": [],
       "published_year": 1990,
       "type": "journal-article",
-      "doi": "10.1242/jeb.149.1.521a",
-      "url": "https://doi.org/10.1242/jeb.149.1.521a",
+      "doi": "10.1242/jeb.148.1.1a",
+      "url": "https://doi.org/10.1242/jeb.148.1.1a",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -339564,8 +339612,8 @@
       ],
       "published_year": 1989,
       "type": "journal-article",
-      "doi": "10.1242/jeb.146.1.1s",
-      "url": "https://doi.org/10.1242/jeb.146.1.1s",
+      "doi": "10.1242/jeb.146.1.1a",
+      "url": "https://doi.org/10.1242/jeb.146.1.1a",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -339580,8 +339628,8 @@
       ],
       "published_year": 1989,
       "type": "journal-article",
-      "doi": "10.1242/jeb.146.1.1a",
-      "url": "https://doi.org/10.1242/jeb.146.1.1a",
+      "doi": "10.1242/jeb.146.1.1s",
+      "url": "https://doi.org/10.1242/jeb.146.1.1s",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -350728,11 +350776,14 @@
     },
     {
       "title": "Erratum",
-      "authors": [],
+      "authors": [
+        "S. F. Perry",
+        "C. M. Wood"
+      ],
       "published_year": 1986,
       "type": "journal-article",
-      "doi": "10.1242/jeb.123.1.216a",
-      "url": "https://doi.org/10.1242/jeb.123.1.216a",
+      "doi": "10.1242/jeb.123.1.216",
+      "url": "https://doi.org/10.1242/jeb.123.1.216",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -350742,14 +350793,11 @@
     },
     {
       "title": "Erratum",
-      "authors": [
-        "S. F. Perry",
-        "C. M. Wood"
-      ],
+      "authors": [],
       "published_year": 1986,
       "type": "journal-article",
-      "doi": "10.1242/jeb.123.1.216",
-      "url": "https://doi.org/10.1242/jeb.123.1.216",
+      "doi": "10.1242/jeb.123.1.216a",
+      "url": "https://doi.org/10.1242/jeb.123.1.216a",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -361605,8 +361653,8 @@
       ],
       "published_year": 1982,
       "type": "journal-article",
-      "doi": "10.1242/jeb.99.1.91",
-      "url": "https://doi.org/10.1242/jeb.99.1.91",
+      "doi": "10.1242/jeb.99.1.61",
+      "url": "https://doi.org/10.1242/jeb.99.1.61",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -361621,8 +361669,8 @@
       ],
       "published_year": 1982,
       "type": "journal-article",
-      "doi": "10.1242/jeb.99.1.61",
-      "url": "https://doi.org/10.1242/jeb.99.1.61",
+      "doi": "10.1242/jeb.99.1.91",
+      "url": "https://doi.org/10.1242/jeb.99.1.91",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -362023,8 +362071,8 @@
       ],
       "published_year": 1982,
       "type": "journal-article",
-      "doi": "10.1242/jeb.96.1.281",
-      "url": "https://doi.org/10.1242/jeb.96.1.281",
+      "doi": "10.1242/jeb.96.1.263",
+      "url": "https://doi.org/10.1242/jeb.96.1.263",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -362040,8 +362088,8 @@
       ],
       "published_year": 1982,
       "type": "journal-article",
-      "doi": "10.1242/jeb.96.1.263",
-      "url": "https://doi.org/10.1242/jeb.96.1.263",
+      "doi": "10.1242/jeb.96.1.281",
+      "url": "https://doi.org/10.1242/jeb.96.1.281",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -364478,12 +364526,13 @@
       "title": "The Exoskeleton and Insect Proprioception",
       "authors": [
         "Sasha N. Zill",
-        "David T. Moran"
+        "David T. Moran",
+        "Francisco G. Varela"
       ],
       "published_year": 1981,
       "type": "journal-article",
-      "doi": "10.1242/jeb.94.1.57",
-      "url": "https://doi.org/10.1242/jeb.94.1.57",
+      "doi": "10.1242/jeb.94.1.43",
+      "url": "https://doi.org/10.1242/jeb.94.1.43",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -364495,13 +364544,12 @@
       "title": "The Exoskeleton and Insect Proprioception",
       "authors": [
         "Sasha N. Zill",
-        "David T. Moran",
-        "Francisco G. Varela"
+        "David T. Moran"
       ],
       "published_year": 1981,
       "type": "journal-article",
-      "doi": "10.1242/jeb.94.1.43",
-      "url": "https://doi.org/10.1242/jeb.94.1.43",
+      "doi": "10.1242/jeb.94.1.57",
+      "url": "https://doi.org/10.1242/jeb.94.1.57",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -367341,8 +367389,8 @@
       ],
       "published_year": 1980,
       "type": "journal-article",
-      "doi": "10.1242/jeb.86.1.225",
-      "url": "https://doi.org/10.1242/jeb.86.1.225",
+      "doi": "10.1242/jeb.86.1.211",
+      "url": "https://doi.org/10.1242/jeb.86.1.211",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -367358,8 +367406,8 @@
       ],
       "published_year": 1980,
       "type": "journal-article",
-      "doi": "10.1242/jeb.86.1.211",
-      "url": "https://doi.org/10.1242/jeb.86.1.211",
+      "doi": "10.1242/jeb.86.1.225",
+      "url": "https://doi.org/10.1242/jeb.86.1.225",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -367540,13 +367588,13 @@
       ],
       "published_year": 1980,
       "type": "journal-article",
-      "doi": "10.1242/jeb.86.1.275",
-      "url": "https://doi.org/10.1242/jeb.86.1.275",
+      "doi": "10.1242/jeb.86.1.305",
+      "url": "https://doi.org/10.1242/jeb.86.1.305",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "hybrid",
+        "url": "https://doi.org/10.1242/jeb.86.1.305"
       }
     },
     {
@@ -367557,13 +367605,13 @@
       ],
       "published_year": 1980,
       "type": "journal-article",
-      "doi": "10.1242/jeb.86.1.305",
-      "url": "https://doi.org/10.1242/jeb.86.1.305",
+      "doi": "10.1242/jeb.86.1.275",
+      "url": "https://doi.org/10.1242/jeb.86.1.275",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "hybrid",
-        "url": "https://doi.org/10.1242/jeb.86.1.305"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -367691,14 +367739,14 @@
     {
       "title": "Physiology of Pupal Ecdysis in the Tobacco Hornworm, <i>Manduca Sexta</i>",
       "authors": [
-        "Paul H. Taghert",
         "James W. Truman",
+        "Paul H. Taghert",
         "Stuart E. Reynolds"
       ],
       "published_year": 1980,
       "type": "journal-article",
-      "doi": "10.1242/jeb.88.1.339",
-      "url": "https://doi.org/10.1242/jeb.88.1.339",
+      "doi": "10.1242/jeb.88.1.327",
+      "url": "https://doi.org/10.1242/jeb.88.1.327",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -367709,14 +367757,14 @@
     {
       "title": "Physiology of Pupal Ecdysis in the Tobacco Hornworm, <i>Manduca Sexta</i>",
       "authors": [
-        "James W. Truman",
         "Paul H. Taghert",
+        "James W. Truman",
         "Stuart E. Reynolds"
       ],
       "published_year": 1980,
       "type": "journal-article",
-      "doi": "10.1242/jeb.88.1.327",
-      "url": "https://doi.org/10.1242/jeb.88.1.327",
+      "doi": "10.1242/jeb.88.1.339",
+      "url": "https://doi.org/10.1242/jeb.88.1.339",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -369388,8 +369436,8 @@
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.78.1.187",
-      "url": "https://doi.org/10.1242/jeb.78.1.187",
+      "doi": "10.1242/jeb.78.1.181",
+      "url": "https://doi.org/10.1242/jeb.78.1.181",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -369404,8 +369452,8 @@
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.78.1.181",
-      "url": "https://doi.org/10.1242/jeb.78.1.181",
+      "doi": "10.1242/jeb.78.1.187",
+      "url": "https://doi.org/10.1242/jeb.78.1.187",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -370128,14 +370176,14 @@
     {
       "title": "Pharmacological Properties of Axonal Sodium Channels in the Cockroach <i>Periplaneta Americana</i> L.",
       "authors": [
+        "D. B. Sattelle",
         "M. Pelhate",
-        "B. Hue",
-        "D. B. Sattelle"
+        "B. Hue"
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.83.1.49",
-      "url": "https://doi.org/10.1242/jeb.83.1.49",
+      "doi": "10.1242/jeb.83.1.41",
+      "url": "https://doi.org/10.1242/jeb.83.1.41",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -370146,14 +370194,14 @@
     {
       "title": "Pharmacological Properties of Axonal Sodium Channels in the Cockroach <i>Periplaneta Americana</i> L.",
       "authors": [
-        "D. B. Sattelle",
         "M. Pelhate",
-        "B. Hue"
+        "B. Hue",
+        "D. B. Sattelle"
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.83.1.41",
-      "url": "https://doi.org/10.1242/jeb.83.1.41",
+      "doi": "10.1242/jeb.83.1.49",
+      "url": "https://doi.org/10.1242/jeb.83.1.49",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -370401,14 +370449,15 @@
     {
       "title": "Metabolic Sources of Heat and Power in Tuna Muscles",
       "authors": [
-        "M. Guppy",
         "W. C. Hulbert",
+        "M. Guppy",
+        "B. Murphy",
         "P. W. Hochachka"
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.82.1.303",
-      "url": "https://doi.org/10.1242/jeb.82.1.303",
+      "doi": "10.1242/jeb.82.1.289",
+      "url": "https://doi.org/10.1242/jeb.82.1.289",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -370419,15 +370468,14 @@
     {
       "title": "Metabolic Sources of Heat and Power in Tuna Muscles",
       "authors": [
-        "W. C. Hulbert",
         "M. Guppy",
-        "B. Murphy",
+        "W. C. Hulbert",
         "P. W. Hochachka"
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.82.1.289",
-      "url": "https://doi.org/10.1242/jeb.82.1.289",
+      "doi": "10.1242/jeb.82.1.303",
+      "url": "https://doi.org/10.1242/jeb.82.1.303",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -371510,8 +371558,8 @@
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.82.1.345",
-      "url": "https://doi.org/10.1242/jeb.82.1.345",
+      "doi": "10.1242/jeb.82.1.357",
+      "url": "https://doi.org/10.1242/jeb.82.1.357",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -371529,8 +371577,8 @@
       ],
       "published_year": 1979,
       "type": "journal-article",
-      "doi": "10.1242/jeb.82.1.357",
-      "url": "https://doi.org/10.1242/jeb.82.1.357",
+      "doi": "10.1242/jeb.82.1.345",
+      "url": "https://doi.org/10.1242/jeb.82.1.345",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -373755,8 +373803,8 @@
       ],
       "published_year": 1977,
       "type": "journal-article",
-      "doi": "10.1242/jeb.71.1.141",
-      "url": "https://doi.org/10.1242/jeb.71.1.141",
+      "doi": "10.1242/jeb.71.1.123",
+      "url": "https://doi.org/10.1242/jeb.71.1.123",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -373771,8 +373819,8 @@
       ],
       "published_year": 1977,
       "type": "journal-article",
-      "doi": "10.1242/jeb.71.1.123",
-      "url": "https://doi.org/10.1242/jeb.71.1.123",
+      "doi": "10.1242/jeb.71.1.141",
+      "url": "https://doi.org/10.1242/jeb.71.1.141",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -374826,8 +374874,8 @@
       ],
       "published_year": 1977,
       "type": "journal-article",
-      "doi": "10.1242/jeb.70.1.183",
-      "url": "https://doi.org/10.1242/jeb.70.1.183",
+      "doi": "10.1242/jeb.70.1.167",
+      "url": "https://doi.org/10.1242/jeb.70.1.167",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -374843,8 +374891,8 @@
       ],
       "published_year": 1977,
       "type": "journal-article",
-      "doi": "10.1242/jeb.70.1.167",
-      "url": "https://doi.org/10.1242/jeb.70.1.167",
+      "doi": "10.1242/jeb.70.1.183",
+      "url": "https://doi.org/10.1242/jeb.70.1.183",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -378913,8 +378961,8 @@
       ],
       "published_year": 1974,
       "type": "journal-article",
-      "doi": "10.1242/jeb.60.2.331",
-      "url": "https://doi.org/10.1242/jeb.60.2.331",
+      "doi": "10.1242/jeb.60.2.321",
+      "url": "https://doi.org/10.1242/jeb.60.2.321",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -378929,8 +378977,8 @@
       ],
       "published_year": 1974,
       "type": "journal-article",
-      "doi": "10.1242/jeb.60.2.321",
-      "url": "https://doi.org/10.1242/jeb.60.2.321",
+      "doi": "10.1242/jeb.60.2.331",
+      "url": "https://doi.org/10.1242/jeb.60.2.331",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -379011,6 +379059,22 @@
       ],
       "published_year": 1974,
       "type": "journal-article",
+      "doi": "10.1242/jeb.60.3.821",
+      "url": "https://doi.org/10.1242/jeb.60.3.821",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Physiology of the Tettigoniid Ear",
+      "authors": [
+        "D. B. Lewis"
+      ],
+      "published_year": 1974,
+      "type": "journal-article",
       "doi": "10.1242/jeb.60.3.853",
       "url": "https://doi.org/10.1242/jeb.60.3.853",
       "abstract": "",
@@ -379029,22 +379093,6 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.60.3.839",
       "url": "https://doi.org/10.1242/jeb.60.3.839",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Physiology of the Tettigoniid Ear",
-      "authors": [
-        "D. B. Lewis"
-      ],
-      "published_year": 1974,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.60.3.821",
-      "url": "https://doi.org/10.1242/jeb.60.3.821",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -379699,6 +379747,23 @@
       ],
       "published_year": 1974,
       "type": "journal-article",
+      "doi": "10.1242/jeb.60.2.453",
+      "url": "https://doi.org/10.1242/jeb.60.2.453",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Neuromuscular Physiology of the Longitudinal Muscle of the Earthworm, <i>Lumbricus Terrestris</i>",
+      "authors": [
+        "C. D. Drewes",
+        "R. A. Pax"
+      ],
+      "published_year": 1974,
+      "type": "journal-article",
       "doi": "10.1242/jeb.60.2.445",
       "url": "https://doi.org/10.1242/jeb.60.2.445",
       "abstract": "",
@@ -379718,23 +379783,6 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.60.2.469",
       "url": "https://doi.org/10.1242/jeb.60.2.469",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Neuromuscular Physiology of the Longitudinal Muscle of the Earthworm, <i>Lumbricus Terrestris</i>",
-      "authors": [
-        "C. D. Drewes",
-        "R. A. Pax"
-      ],
-      "published_year": 1974,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.60.2.453",
-      "url": "https://doi.org/10.1242/jeb.60.2.453",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -380679,8 +380727,8 @@
       ],
       "published_year": 1974,
       "type": "journal-article",
-      "doi": "10.1242/jeb.60.1.41",
-      "url": "https://doi.org/10.1242/jeb.60.1.41",
+      "doi": "10.1242/jeb.60.1.13",
+      "url": "https://doi.org/10.1242/jeb.60.1.13",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -380711,8 +380759,8 @@
       ],
       "published_year": 1974,
       "type": "journal-article",
-      "doi": "10.1242/jeb.60.1.13",
-      "url": "https://doi.org/10.1242/jeb.60.1.13",
+      "doi": "10.1242/jeb.60.1.41",
+      "url": "https://doi.org/10.1242/jeb.60.1.41",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -381022,8 +381070,8 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
-      "doi": "10.1242/jeb.59.1.95",
-      "url": "https://doi.org/10.1242/jeb.59.1.95",
+      "doi": "10.1242/jeb.59.1.121",
+      "url": "https://doi.org/10.1242/jeb.59.1.121",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -381038,8 +381086,8 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
-      "doi": "10.1242/jeb.59.1.121",
-      "url": "https://doi.org/10.1242/jeb.59.1.121",
+      "doi": "10.1242/jeb.59.1.95",
+      "url": "https://doi.org/10.1242/jeb.59.1.95",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -381801,8 +381849,8 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
-      "doi": "10.1242/jeb.59.2.383",
-      "url": "https://doi.org/10.1242/jeb.59.2.383",
+      "doi": "10.1242/jeb.59.2.359",
+      "url": "https://doi.org/10.1242/jeb.59.2.359",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -381818,8 +381866,8 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
-      "doi": "10.1242/jeb.59.2.359",
-      "url": "https://doi.org/10.1242/jeb.59.2.359",
+      "doi": "10.1242/jeb.59.2.383",
+      "url": "https://doi.org/10.1242/jeb.59.2.383",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -381985,6 +382033,23 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
+      "doi": "10.1242/jeb.58.2.537",
+      "url": "https://doi.org/10.1242/jeb.58.2.537",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Ion and Water Balance in the Ixodid Tick <i>Dermacentor Andersoni</i>",
+      "authors": [
+        "W. R. Kaufman",
+        "J. E. Phillips"
+      ],
+      "published_year": 1973,
+      "type": "journal-article",
       "doi": "10.1242/jeb.58.2.523",
       "url": "https://doi.org/10.1242/jeb.58.2.523",
       "abstract": "",
@@ -382004,23 +382069,6 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.58.2.549",
       "url": "https://doi.org/10.1242/jeb.58.2.549",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Ion and Water Balance in the Ixodid Tick <i>Dermacentor Andersoni</i>",
-      "authors": [
-        "W. R. Kaufman",
-        "J. E. Phillips"
-      ],
-      "published_year": 1973,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.58.2.537",
-      "url": "https://doi.org/10.1242/jeb.58.2.537",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -382316,8 +382364,8 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
-      "doi": "10.1242/jeb.59.2.491",
-      "url": "https://doi.org/10.1242/jeb.59.2.491",
+      "doi": "10.1242/jeb.59.2.523",
+      "url": "https://doi.org/10.1242/jeb.59.2.523",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -382332,8 +382380,8 @@
       ],
       "published_year": 1973,
       "type": "journal-article",
-      "doi": "10.1242/jeb.59.2.523",
-      "url": "https://doi.org/10.1242/jeb.59.2.523",
+      "doi": "10.1242/jeb.59.2.491",
+      "url": "https://doi.org/10.1242/jeb.59.2.491",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -383092,8 +383140,8 @@
       ],
       "published_year": 1972,
       "type": "journal-article",
-      "doi": "10.1242/jeb.56.1.215",
-      "url": "https://doi.org/10.1242/jeb.56.1.215",
+      "doi": "10.1242/jeb.56.1.223",
+      "url": "https://doi.org/10.1242/jeb.56.1.223",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -383109,8 +383157,8 @@
       ],
       "published_year": 1972,
       "type": "journal-article",
-      "doi": "10.1242/jeb.56.1.223",
-      "url": "https://doi.org/10.1242/jeb.56.1.223",
+      "doi": "10.1242/jeb.56.1.215",
+      "url": "https://doi.org/10.1242/jeb.56.1.215",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -383876,6 +383924,23 @@
     {
       "title": "Electrophysiology of the Heart of An Isopod Crustacean: <i>Porcellio Dilatatus</i>",
       "authors": [
+        "A. Holley",
+        "J. C. Delaleu"
+      ],
+      "published_year": 1972,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.57.3.589",
+      "url": "https://doi.org/10.1242/jeb.57.3.589",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Electrophysiology of the Heart of An Isopod Crustacean: <i>Porcellio Dilatatus</i>",
+      "authors": [
         "J. C. Delaleu",
         "A. Blondeau",
         "A. Holley"
@@ -383889,23 +383954,6 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/57/3/609/1341485/609.pdf"
-      }
-    },
-    {
-      "title": "Electrophysiology of the Heart of An Isopod Crustacean: <i>Porcellio Dilatatus</i>",
-      "authors": [
-        "A. Holley",
-        "J. C. Delaleu"
-      ],
-      "published_year": 1972,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.57.3.589",
-      "url": "https://doi.org/10.1242/jeb.57.3.589",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
       }
     },
     {
@@ -383931,8 +383979,8 @@
       ],
       "published_year": 1972,
       "type": "journal-article",
-      "doi": "10.1242/jeb.56.2.293",
-      "url": "https://doi.org/10.1242/jeb.56.2.293",
+      "doi": "10.1242/jeb.56.2.273",
+      "url": "https://doi.org/10.1242/jeb.56.2.273",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -383947,8 +383995,8 @@
       ],
       "published_year": 1972,
       "type": "journal-article",
-      "doi": "10.1242/jeb.56.2.273",
-      "url": "https://doi.org/10.1242/jeb.56.2.273",
+      "doi": "10.1242/jeb.56.2.293",
+      "url": "https://doi.org/10.1242/jeb.56.2.293",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -384759,8 +384807,8 @@
       ],
       "published_year": 1971,
       "type": "journal-article",
-      "doi": "10.1242/jeb.55.2.521",
-      "url": "https://doi.org/10.1242/jeb.55.2.521",
+      "doi": "10.1242/jeb.55.2.489",
+      "url": "https://doi.org/10.1242/jeb.55.2.489",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -384775,8 +384823,8 @@
       ],
       "published_year": 1971,
       "type": "journal-article",
-      "doi": "10.1242/jeb.55.2.489",
-      "url": "https://doi.org/10.1242/jeb.55.2.489",
+      "doi": "10.1242/jeb.55.2.521",
+      "url": "https://doi.org/10.1242/jeb.55.2.521",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -385270,8 +385318,8 @@
       ],
       "published_year": 1971,
       "type": "journal-article",
-      "doi": "10.1242/jeb.54.3.599",
-      "url": "https://doi.org/10.1242/jeb.54.3.599",
+      "doi": "10.1242/jeb.54.3.587",
+      "url": "https://doi.org/10.1242/jeb.54.3.587",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -385286,8 +385334,8 @@
       ],
       "published_year": 1971,
       "type": "journal-article",
-      "doi": "10.1242/jeb.54.3.587",
-      "url": "https://doi.org/10.1242/jeb.54.3.587",
+      "doi": "10.1242/jeb.54.3.599",
+      "url": "https://doi.org/10.1242/jeb.54.3.599",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -385370,13 +385418,13 @@
       ],
       "published_year": 1971,
       "type": "journal-article",
-      "doi": "10.1242/jeb.55.2.357",
-      "url": "https://doi.org/10.1242/jeb.55.2.357",
+      "doi": "10.1242/jeb.55.2.345",
+      "url": "https://doi.org/10.1242/jeb.55.2.345",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/55/2/357/1340758/357.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -385386,13 +385434,13 @@
       ],
       "published_year": 1971,
       "type": "journal-article",
-      "doi": "10.1242/jeb.55.2.345",
-      "url": "https://doi.org/10.1242/jeb.55.2.345",
+      "doi": "10.1242/jeb.55.2.357",
+      "url": "https://doi.org/10.1242/jeb.55.2.357",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/55/2/357/1340758/357.pdf"
       }
     },
     {
@@ -385877,6 +385925,20 @@
     },
     {
       "title": "Erratum",
+      "authors": [],
+      "published_year": 1971,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.54.1.1a",
+      "url": "https://doi.org/10.1242/jeb.54.1.1a",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Erratum",
       "authors": [
         "J. Lerner",
         "S. A. Mellen",
@@ -385887,20 +385949,6 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.55.1.1",
       "url": "https://doi.org/10.1242/jeb.55.1.1",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Erratum",
-      "authors": [],
-      "published_year": 1971,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.54.1.1a",
-      "url": "https://doi.org/10.1242/jeb.54.1.1a",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -387822,14 +387870,12 @@
     {
       "title": "Effects of Sub-Lethal High Temperature On an Insect, <i>Rhodnius Prolixus</i> (Stål.)",
       "authors": [
-        "A. Y. K. Okasha",
-        "A. M. M. Hassanein",
-        "A. Z. Farahat"
+        "A. Y. K. Okasha"
       ],
       "published_year": 1970,
       "type": "journal-article",
-      "doi": "10.1242/jeb.53.1.25",
-      "url": "https://doi.org/10.1242/jeb.53.1.25",
+      "doi": "10.1242/jeb.53.1.37",
+      "url": "https://doi.org/10.1242/jeb.53.1.37",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -387840,12 +387886,14 @@
     {
       "title": "Effects of Sub-Lethal High Temperature On an Insect, <i>Rhodnius Prolixus</i> (Stål.)",
       "authors": [
-        "A. Y. K. Okasha"
+        "A. Y. K. Okasha",
+        "A. M. M. Hassanein",
+        "A. Z. Farahat"
       ],
       "published_year": 1970,
       "type": "journal-article",
-      "doi": "10.1242/jeb.53.1.37",
-      "url": "https://doi.org/10.1242/jeb.53.1.37",
+      "doi": "10.1242/jeb.53.1.25",
+      "url": "https://doi.org/10.1242/jeb.53.1.25",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -388013,13 +388061,13 @@
       ],
       "published_year": 1970,
       "type": "journal-article",
-      "doi": "10.1242/jeb.53.1.75",
-      "url": "https://doi.org/10.1242/jeb.53.1.75",
+      "doi": "10.1242/jeb.53.1.93",
+      "url": "https://doi.org/10.1242/jeb.53.1.93",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/53/1/93/1340351/93.pdf"
       }
     },
     {
@@ -388029,13 +388077,13 @@
       ],
       "published_year": 1970,
       "type": "journal-article",
-      "doi": "10.1242/jeb.53.1.93",
-      "url": "https://doi.org/10.1242/jeb.53.1.93",
+      "doi": "10.1242/jeb.53.1.75",
+      "url": "https://doi.org/10.1242/jeb.53.1.75",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/53/1/93/1340351/93.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -388708,38 +388756,6 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.1.1",
-      "url": "https://doi.org/10.1242/jeb.51.1.1",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Physiology of the Antennal Gland of <i>Carcinus Maenas</i> (L.)",
-      "authors": [
-        "R. Binns"
-      ],
-      "published_year": 1969,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.51.1.41",
-      "url": "https://doi.org/10.1242/jeb.51.1.41",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Physiology of the Antennal Gland of <i>Carcinus Maenas</i> (L.)",
-      "authors": [
-        "R. Binns"
-      ],
-      "published_year": 1969,
-      "type": "journal-article",
       "doi": "10.1242/jeb.51.1.11",
       "url": "https://doi.org/10.1242/jeb.51.1.11",
       "abstract": "",
@@ -388756,8 +388772,40 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
+      "doi": "10.1242/jeb.51.1.1",
+      "url": "https://doi.org/10.1242/jeb.51.1.1",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Physiology of the Antennal Gland of <i>Carcinus Maenas</i> (L.)",
+      "authors": [
+        "R. Binns"
+      ],
+      "published_year": 1969,
+      "type": "journal-article",
       "doi": "10.1242/jeb.51.1.29",
       "url": "https://doi.org/10.1242/jeb.51.1.29",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Physiology of the Antennal Gland of <i>Carcinus Maenas</i> (L.)",
+      "authors": [
+        "R. Binns"
+      ],
+      "published_year": 1969,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.51.1.41",
+      "url": "https://doi.org/10.1242/jeb.51.1.41",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -388871,8 +388919,8 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.3.727",
-      "url": "https://doi.org/10.1242/jeb.51.3.727",
+      "doi": "10.1242/jeb.51.3.739",
+      "url": "https://doi.org/10.1242/jeb.51.3.739",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -388887,8 +388935,8 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.3.739",
-      "url": "https://doi.org/10.1242/jeb.51.3.739",
+      "doi": "10.1242/jeb.51.3.727",
+      "url": "https://doi.org/10.1242/jeb.51.3.727",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -389270,18 +389318,17 @@
     {
       "title": "Salt and Water Regulation in the Embryos of Freshwater Pulmonate Molluscs",
       "authors": [
-        "L. C. Beadle",
-        "S. F. Beadle"
+        "L. C. Beadle"
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.50.2.481",
-      "url": "https://doi.org/10.1242/jeb.50.2.481",
+      "doi": "10.1242/jeb.50.2.473",
+      "url": "https://doi.org/10.1242/jeb.50.2.473",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/50/2/473/1340404/473.pdf"
       }
     },
     {
@@ -389303,17 +389350,18 @@
     {
       "title": "Salt and Water Regulation in the Embryos of Freshwater Pulmonate Molluscs",
       "authors": [
-        "L. C. Beadle"
+        "L. C. Beadle",
+        "S. F. Beadle"
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.50.2.473",
-      "url": "https://doi.org/10.1242/jeb.50.2.473",
+      "doi": "10.1242/jeb.50.2.481",
+      "url": "https://doi.org/10.1242/jeb.50.2.481",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/50/2/473/1340404/473.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -389340,8 +389388,8 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.3.565",
-      "url": "https://doi.org/10.1242/jeb.51.3.565",
+      "doi": "10.1242/jeb.51.3.547b",
+      "url": "https://doi.org/10.1242/jeb.51.3.547b",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -389356,8 +389404,8 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.3.547b",
-      "url": "https://doi.org/10.1242/jeb.51.3.547b",
+      "doi": "10.1242/jeb.51.3.565",
+      "url": "https://doi.org/10.1242/jeb.51.3.565",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -389610,13 +389658,13 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.50.2.363",
-      "url": "https://doi.org/10.1242/jeb.50.2.363",
+      "doi": "10.1242/jeb.50.2.349",
+      "url": "https://doi.org/10.1242/jeb.50.2.349",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/50/2/363/1340396/363.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -389642,13 +389690,13 @@
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.50.2.349",
-      "url": "https://doi.org/10.1242/jeb.50.2.349",
+      "doi": "10.1242/jeb.50.2.363",
+      "url": "https://doi.org/10.1242/jeb.50.2.363",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/50/2/363/1340396/363.pdf"
       }
     },
     {
@@ -389870,13 +389918,15 @@
     {
       "title": "Errata",
       "authors": [
-        "A. R. Mead",
-        "J. A. Vaughan"
+        "R. Motais",
+        "J. Isaia",
+        "J. C. Rankin",
+        "J. Maetz"
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.3.547",
-      "url": "https://doi.org/10.1242/jeb.51.3.547",
+      "doi": "10.1242/jeb.51.3.547a",
+      "url": "https://doi.org/10.1242/jeb.51.3.547a",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -389887,15 +389937,13 @@
     {
       "title": "Errata",
       "authors": [
-        "R. Motais",
-        "J. Isaia",
-        "J. C. Rankin",
-        "J. Maetz"
+        "A. R. Mead",
+        "J. A. Vaughan"
       ],
       "published_year": 1969,
       "type": "journal-article",
-      "doi": "10.1242/jeb.51.3.547a",
-      "url": "https://doi.org/10.1242/jeb.51.3.547a",
+      "doi": "10.1242/jeb.51.3.547",
+      "url": "https://doi.org/10.1242/jeb.51.3.547",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -390730,8 +390778,8 @@
       ],
       "published_year": 1968,
       "type": "journal-article",
-      "doi": "10.1242/jeb.49.1.15",
-      "url": "https://doi.org/10.1242/jeb.49.1.15",
+      "doi": "10.1242/jeb.49.1.1",
+      "url": "https://doi.org/10.1242/jeb.49.1.1",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -390746,8 +390794,8 @@
       ],
       "published_year": 1968,
       "type": "journal-article",
-      "doi": "10.1242/jeb.49.1.1",
-      "url": "https://doi.org/10.1242/jeb.49.1.1",
+      "doi": "10.1242/jeb.49.1.15",
+      "url": "https://doi.org/10.1242/jeb.49.1.15",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -391766,24 +391814,6 @@
     {
       "title": "Active Transport by the Cecropia Midgut",
       "authors": [
-        "J. A. Haskell",
-        "W. R. Harvey",
-        "R. M. Clark"
-      ],
-      "published_year": 1968,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.48.1.25",
-      "url": "https://doi.org/10.1242/jeb.48.1.25",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Active Transport by the Cecropia Midgut",
-      "authors": [
         "W. R. Harvey",
         "J. A. Haskell",
         "S. Nedergaard"
@@ -391809,6 +391839,24 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.48.1.13",
       "url": "https://doi.org/10.1242/jeb.48.1.13",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Active Transport by the Cecropia Midgut",
+      "authors": [
+        "J. A. Haskell",
+        "W. R. Harvey",
+        "R. M. Clark"
+      ],
+      "published_year": 1968,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.48.1.25",
+      "url": "https://doi.org/10.1242/jeb.48.1.25",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -392257,13 +392305,13 @@
     {
       "title": "Temperature Acclimation of the Functional Parameters of the Giant Nerve Fibres in <i>Lumbricus Terrestris</i> L",
       "authors": [
-        "Antti Talo",
-        "Kari Y. H. Lagerspetz"
+        "Kari Y. H. Lagerspetz",
+        "Antti Talo"
       ],
       "published_year": 1967,
       "type": "journal-article",
-      "doi": "10.1242/jeb.47.3.481",
-      "url": "https://doi.org/10.1242/jeb.47.3.481",
+      "doi": "10.1242/jeb.47.3.471",
+      "url": "https://doi.org/10.1242/jeb.47.3.471",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -392274,13 +392322,13 @@
     {
       "title": "Temperature Acclimation of the Functional Parameters of the Giant Nerve Fibres in <i>Lumbricus Terrestris</i> L",
       "authors": [
-        "Kari Y. H. Lagerspetz",
-        "Antti Talo"
+        "Antti Talo",
+        "Kari Y. H. Lagerspetz"
       ],
       "published_year": 1967,
       "type": "journal-article",
-      "doi": "10.1242/jeb.47.3.471",
-      "url": "https://doi.org/10.1242/jeb.47.3.471",
+      "doi": "10.1242/jeb.47.3.481",
+      "url": "https://doi.org/10.1242/jeb.47.3.481",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -392411,8 +392459,8 @@
       ],
       "published_year": 1967,
       "type": "journal-article",
-      "doi": "10.1242/jeb.47.3.525",
-      "url": "https://doi.org/10.1242/jeb.47.3.525",
+      "doi": "10.1242/jeb.47.3.513",
+      "url": "https://doi.org/10.1242/jeb.47.3.513",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -392443,8 +392491,8 @@
       ],
       "published_year": 1967,
       "type": "journal-article",
-      "doi": "10.1242/jeb.47.3.513",
-      "url": "https://doi.org/10.1242/jeb.47.3.513",
+      "doi": "10.1242/jeb.47.3.525",
+      "url": "https://doi.org/10.1242/jeb.47.3.525",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -393586,8 +393634,8 @@
       ],
       "published_year": 1966,
       "type": "journal-article",
-      "doi": "10.1242/jeb.45.2.229",
-      "url": "https://doi.org/10.1242/jeb.45.2.229",
+      "doi": "10.1242/jeb.44.1.195",
+      "url": "https://doi.org/10.1242/jeb.44.1.195",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -393602,8 +393650,8 @@
       ],
       "published_year": 1966,
       "type": "journal-article",
-      "doi": "10.1242/jeb.44.1.195",
-      "url": "https://doi.org/10.1242/jeb.44.1.195",
+      "doi": "10.1242/jeb.45.2.229",
+      "url": "https://doi.org/10.1242/jeb.45.2.229",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -393717,8 +393765,8 @@
       ],
       "published_year": 1966,
       "type": "journal-article",
-      "doi": "10.1242/jeb.45.1.51",
-      "url": "https://doi.org/10.1242/jeb.45.1.51",
+      "doi": "10.1242/jeb.45.1.45",
+      "url": "https://doi.org/10.1242/jeb.45.1.45",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -393733,8 +393781,8 @@
       ],
       "published_year": 1966,
       "type": "journal-article",
-      "doi": "10.1242/jeb.45.1.45",
-      "url": "https://doi.org/10.1242/jeb.45.1.45",
+      "doi": "10.1242/jeb.45.1.51",
+      "url": "https://doi.org/10.1242/jeb.45.1.51",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -394267,8 +394315,8 @@
       ],
       "published_year": 1966,
       "type": "journal-article",
-      "doi": "10.1242/jeb.45.2.357",
-      "url": "https://doi.org/10.1242/jeb.45.2.357",
+      "doi": "10.1242/jeb.45.2.343",
+      "url": "https://doi.org/10.1242/jeb.45.2.343",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -394283,8 +394331,8 @@
       ],
       "published_year": 1966,
       "type": "journal-article",
-      "doi": "10.1242/jeb.45.2.343",
-      "url": "https://doi.org/10.1242/jeb.45.2.343",
+      "doi": "10.1242/jeb.45.2.357",
+      "url": "https://doi.org/10.1242/jeb.45.2.357",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -396251,8 +396299,8 @@
       ],
       "published_year": 1964,
       "type": "journal-article",
-      "doi": "10.1242/jeb.41.4.783",
-      "url": "https://doi.org/10.1242/jeb.41.4.783",
+      "doi": "10.1242/jeb.41.4.759",
+      "url": "https://doi.org/10.1242/jeb.41.4.759",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -396283,8 +396331,8 @@
       ],
       "published_year": 1964,
       "type": "journal-article",
-      "doi": "10.1242/jeb.41.4.759",
-      "url": "https://doi.org/10.1242/jeb.41.4.759",
+      "doi": "10.1242/jeb.41.4.783",
+      "url": "https://doi.org/10.1242/jeb.41.4.783",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -396578,24 +396626,8 @@
       ],
       "published_year": 1964,
       "type": "journal-article",
-      "doi": "10.1242/jeb.41.3.553",
-      "url": "https://doi.org/10.1242/jeb.41.3.553",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/41/3/553/1338769/553.pdf"
-      }
-    },
-    {
-      "title": "Nervous Control of Chromatophores in Teleost Fishes",
-      "authors": [
-        "J. D. Pye"
-      ],
-      "published_year": 1964,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.41.3.535",
-      "url": "https://doi.org/10.1242/jeb.41.3.535",
+      "doi": "10.1242/jeb.41.3.525",
+      "url": "https://doi.org/10.1242/jeb.41.3.525",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -396626,13 +396658,29 @@
       ],
       "published_year": 1964,
       "type": "journal-article",
-      "doi": "10.1242/jeb.41.3.525",
-      "url": "https://doi.org/10.1242/jeb.41.3.525",
+      "doi": "10.1242/jeb.41.3.535",
+      "url": "https://doi.org/10.1242/jeb.41.3.535",
       "abstract": "",
       "oa": {
         "is_oa": false,
         "status": "closed",
         "url": null
+      }
+    },
+    {
+      "title": "Nervous Control of Chromatophores in Teleost Fishes",
+      "authors": [
+        "J. D. Pye"
+      ],
+      "published_year": 1964,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.41.3.553",
+      "url": "https://doi.org/10.1242/jeb.41.3.553",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/41/3/553/1338769/553.pdf"
       }
     },
     {
@@ -396900,8 +396948,8 @@
       ],
       "published_year": 1964,
       "type": "journal-article",
-      "doi": "10.1242/jeb.41.4.689",
-      "url": "https://doi.org/10.1242/jeb.41.4.689",
+      "doi": "10.1242/jeb.41.4.701",
+      "url": "https://doi.org/10.1242/jeb.41.4.701",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -396916,8 +396964,8 @@
       ],
       "published_year": 1964,
       "type": "journal-article",
-      "doi": "10.1242/jeb.41.4.701",
-      "url": "https://doi.org/10.1242/jeb.41.4.701",
+      "doi": "10.1242/jeb.41.4.689",
+      "url": "https://doi.org/10.1242/jeb.41.4.689",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -397241,22 +397289,6 @@
       ],
       "published_year": 1963,
       "type": "journal-article",
-      "doi": "10.1242/jeb.40.1.215",
-      "url": "https://doi.org/10.1242/jeb.40.1.215",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Filter-Feeding of <i>Artemia</i>",
-      "authors": [
-        "M. R. Reeve"
-      ],
-      "published_year": 1963,
-      "type": "journal-article",
       "doi": "10.1242/jeb.40.1.195",
       "url": "https://doi.org/10.1242/jeb.40.1.195",
       "abstract": "",
@@ -397275,6 +397307,22 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.40.1.207",
       "url": "https://doi.org/10.1242/jeb.40.1.207",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Filter-Feeding of <i>Artemia</i>",
+      "authors": [
+        "M. R. Reeve"
+      ],
+      "published_year": 1963,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.40.1.215",
+      "url": "https://doi.org/10.1242/jeb.40.1.215",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -398335,8 +398383,8 @@
       ],
       "published_year": 1962,
       "type": "journal-article",
-      "doi": "10.1242/jeb.39.2.219",
-      "url": "https://doi.org/10.1242/jeb.39.2.219",
+      "doi": "10.1242/jeb.39.2.229",
+      "url": "https://doi.org/10.1242/jeb.39.2.229",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -398351,8 +398399,8 @@
       ],
       "published_year": 1962,
       "type": "journal-article",
-      "doi": "10.1242/jeb.39.2.229",
-      "url": "https://doi.org/10.1242/jeb.39.2.229",
+      "doi": "10.1242/jeb.39.2.219",
+      "url": "https://doi.org/10.1242/jeb.39.2.219",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400064,23 +400112,6 @@
     {
       "title": "The Shadow Reaction of <i>Diadema Antillarum</i> Philippi",
       "authors": [
-        "M. Yoshida",
-        "N. Millott"
-      ],
-      "published_year": 1960,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.37.2.390",
-      "url": "https://doi.org/10.1242/jeb.37.2.390",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Shadow Reaction of <i>Diadema Antillarum</i> Philippi",
-      "authors": [
         "N. Millott",
         "M. Yoshida"
       ],
@@ -400105,6 +400136,23 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.37.2.363",
       "url": "https://doi.org/10.1242/jeb.37.2.363",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Shadow Reaction of <i>Diadema Antillarum</i> Philippi",
+      "authors": [
+        "M. Yoshida",
+        "N. Millott"
+      ],
+      "published_year": 1960,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.37.2.390",
+      "url": "https://doi.org/10.1242/jeb.37.2.390",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400198,22 +400246,6 @@
     {
       "title": "The Nutrition of the Central Nervous System in the Cockroach <i>Periplaneta Americana</i> L",
       "authors": [
-        "J. E. Treherne"
-      ],
-      "published_year": 1960,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.37.3.513",
-      "url": "https://doi.org/10.1242/jeb.37.3.513",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/37/3/513/1337666/513.pdf"
-      }
-    },
-    {
-      "title": "The Nutrition of the Central Nervous System in the Cockroach <i>Periplaneta Americana</i> L",
-      "authors": [
         "V. B. Wigglesworth"
       ],
       "published_year": 1960,
@@ -400225,6 +400257,22 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/37/3/500/1337660/500.pdf"
+      }
+    },
+    {
+      "title": "The Nutrition of the Central Nervous System in the Cockroach <i>Periplaneta Americana</i> L",
+      "authors": [
+        "J. E. Treherne"
+      ],
+      "published_year": 1960,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.37.3.513",
+      "url": "https://doi.org/10.1242/jeb.37.3.513",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/37/3/513/1337666/513.pdf"
       }
     },
     {
@@ -400319,8 +400367,8 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.4.753",
-      "url": "https://doi.org/10.1242/jeb.37.4.753",
+      "doi": "10.1242/jeb.37.4.732",
+      "url": "https://doi.org/10.1242/jeb.37.4.732",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400335,8 +400383,8 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.4.732",
-      "url": "https://doi.org/10.1242/jeb.37.4.732",
+      "doi": "10.1242/jeb.37.4.753",
+      "url": "https://doi.org/10.1242/jeb.37.4.753",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400612,8 +400660,8 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.1.83",
-      "url": "https://doi.org/10.1242/jeb.37.1.83",
+      "doi": "10.1242/jeb.37.1.100",
+      "url": "https://doi.org/10.1242/jeb.37.1.100",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400644,8 +400692,8 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.1.100",
-      "url": "https://doi.org/10.1242/jeb.37.1.100",
+      "doi": "10.1242/jeb.37.1.83",
+      "url": "https://doi.org/10.1242/jeb.37.1.83",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400692,13 +400740,13 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.2.237",
-      "url": "https://doi.org/10.1242/jeb.37.2.237",
+      "doi": "10.1242/jeb.37.2.224",
+      "url": "https://doi.org/10.1242/jeb.37.2.224",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/37/2/224/1337725/224.pdf"
       }
     },
     {
@@ -400708,13 +400756,13 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.2.224",
-      "url": "https://doi.org/10.1242/jeb.37.2.224",
+      "doi": "10.1242/jeb.37.2.237",
+      "url": "https://doi.org/10.1242/jeb.37.2.237",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/37/2/224/1337725/224.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -400918,8 +400966,8 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.1.186",
-      "url": "https://doi.org/10.1242/jeb.37.1.186",
+      "doi": "10.1242/jeb.37.1.171",
+      "url": "https://doi.org/10.1242/jeb.37.1.171",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -400934,8 +400982,8 @@
       ],
       "published_year": 1960,
       "type": "journal-article",
-      "doi": "10.1242/jeb.37.1.171",
-      "url": "https://doi.org/10.1242/jeb.37.1.171",
+      "doi": "10.1242/jeb.37.1.186",
+      "url": "https://doi.org/10.1242/jeb.37.1.186",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -401423,13 +401471,13 @@
       ],
       "published_year": 1959,
       "type": "journal-article",
-      "doi": "10.1242/jeb.36.1.217",
-      "url": "https://doi.org/10.1242/jeb.36.1.217",
+      "doi": "10.1242/jeb.36.1.203",
+      "url": "https://doi.org/10.1242/jeb.36.1.203",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/36/1/217/1337702/217.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -401439,13 +401487,13 @@
       ],
       "published_year": 1959,
       "type": "journal-article",
-      "doi": "10.1242/jeb.36.1.203",
-      "url": "https://doi.org/10.1242/jeb.36.1.203",
+      "doi": "10.1242/jeb.36.1.217",
+      "url": "https://doi.org/10.1242/jeb.36.1.217",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/36/1/217/1337702/217.pdf"
       }
     },
     {
@@ -405201,6 +405249,22 @@
       ],
       "published_year": 1955,
       "type": "journal-article",
+      "doi": "10.1242/jeb.32.4.636",
+      "url": "https://doi.org/10.1242/jeb.32.4.636",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Nerves and Muscles of Medusae",
+      "authors": [
+        "G. A. Horridge"
+      ],
+      "published_year": 1955,
+      "type": "journal-article",
       "doi": "10.1242/jeb.32.3.555",
       "url": "https://doi.org/10.1242/jeb.32.3.555",
       "abstract": "",
@@ -405219,22 +405283,6 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.32.4.642",
       "url": "https://doi.org/10.1242/jeb.32.4.642",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Nerves and Muscles of Medusae",
-      "authors": [
-        "G. A. Horridge"
-      ],
-      "published_year": 1955,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.32.4.636",
-      "url": "https://doi.org/10.1242/jeb.32.4.636",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -406122,8 +406170,8 @@
       ],
       "published_year": 1954,
       "type": "journal-article",
-      "doi": "10.1242/jeb.31.1.68",
-      "url": "https://doi.org/10.1242/jeb.31.1.68",
+      "doi": "10.1242/jeb.31.1.76",
+      "url": "https://doi.org/10.1242/jeb.31.1.76",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -406138,8 +406186,8 @@
       ],
       "published_year": 1954,
       "type": "journal-article",
-      "doi": "10.1242/jeb.31.1.76",
-      "url": "https://doi.org/10.1242/jeb.31.1.76",
+      "doi": "10.1242/jeb.31.1.68",
+      "url": "https://doi.org/10.1242/jeb.31.1.68",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -406413,13 +406461,13 @@
       ],
       "published_year": 1954,
       "type": "journal-article",
-      "doi": "10.1242/jeb.31.2.188",
-      "url": "https://doi.org/10.1242/jeb.31.2.188",
+      "doi": "10.1242/jeb.31.2.165",
+      "url": "https://doi.org/10.1242/jeb.31.2.165",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/31/2/188/1336631/188.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -406429,13 +406477,13 @@
       ],
       "published_year": 1954,
       "type": "journal-article",
-      "doi": "10.1242/jeb.31.2.165",
-      "url": "https://doi.org/10.1242/jeb.31.2.165",
+      "doi": "10.1242/jeb.31.2.188",
+      "url": "https://doi.org/10.1242/jeb.31.2.188",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/31/2/188/1336631/188.pdf"
       }
     },
     {
@@ -407345,13 +407393,13 @@
       ],
       "published_year": 1953,
       "type": "journal-article",
-      "doi": "10.1242/jeb.30.3.318",
-      "url": "https://doi.org/10.1242/jeb.30.3.318",
+      "doi": "10.1242/jeb.30.3.297",
+      "url": "https://doi.org/10.1242/jeb.30.3.297",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/30/3/297/1336473/297.pdf"
       }
     },
     {
@@ -407361,13 +407409,13 @@
       ],
       "published_year": 1953,
       "type": "journal-article",
-      "doi": "10.1242/jeb.30.3.297",
-      "url": "https://doi.org/10.1242/jeb.30.3.297",
+      "doi": "10.1242/jeb.30.3.318",
+      "url": "https://doi.org/10.1242/jeb.30.3.318",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/30/3/297/1336473/297.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -407442,8 +407490,8 @@
       ],
       "published_year": 1953,
       "type": "journal-article",
-      "doi": "10.1242/jeb.30.4.502",
-      "url": "https://doi.org/10.1242/jeb.30.4.502",
+      "doi": "10.1242/jeb.30.4.492",
+      "url": "https://doi.org/10.1242/jeb.30.4.492",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -407458,8 +407506,8 @@
       ],
       "published_year": 1953,
       "type": "journal-article",
-      "doi": "10.1242/jeb.30.4.492",
-      "url": "https://doi.org/10.1242/jeb.30.4.492",
+      "doi": "10.1242/jeb.30.4.502",
+      "url": "https://doi.org/10.1242/jeb.30.4.502",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -407894,8 +407942,8 @@
       ],
       "published_year": 1952,
       "type": "journal-article",
-      "doi": "10.1242/jeb.29.3.416",
-      "url": "https://doi.org/10.1242/jeb.29.3.416",
+      "doi": "10.1242/jeb.29.2.285",
+      "url": "https://doi.org/10.1242/jeb.29.2.285",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -407911,8 +407959,8 @@
       ],
       "published_year": 1952,
       "type": "journal-article",
-      "doi": "10.1242/jeb.29.2.285",
-      "url": "https://doi.org/10.1242/jeb.29.2.285",
+      "doi": "10.1242/jeb.29.3.416",
+      "url": "https://doi.org/10.1242/jeb.29.3.416",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -408993,8 +409041,8 @@
       ],
       "published_year": 1951,
       "type": "journal-article",
-      "doi": "10.1242/jeb.28.4.417",
-      "url": "https://doi.org/10.1242/jeb.28.4.417",
+      "doi": "10.1242/jeb.28.4.434",
+      "url": "https://doi.org/10.1242/jeb.28.4.434",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -409009,8 +409057,8 @@
       ],
       "published_year": 1951,
       "type": "journal-article",
-      "doi": "10.1242/jeb.28.4.434",
-      "url": "https://doi.org/10.1242/jeb.28.4.434",
+      "doi": "10.1242/jeb.28.4.417",
+      "url": "https://doi.org/10.1242/jeb.28.4.417",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -409165,12 +409213,13 @@
       "title": "Fermentation in the Rumen of the Sheep",
       "authors": [
         "F. V. Gray",
-        "A. F. Pilgrim"
+        "A. F. Pilgrim",
+        "R. A. Weller"
       ],
       "published_year": 1951,
       "type": "journal-article",
-      "doi": "10.1242/jeb.28.1.83",
-      "url": "https://doi.org/10.1242/jeb.28.1.83",
+      "doi": "10.1242/jeb.28.1.74",
+      "url": "https://doi.org/10.1242/jeb.28.1.74",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -409182,13 +409231,12 @@
       "title": "Fermentation in the Rumen of the Sheep",
       "authors": [
         "F. V. Gray",
-        "A. F. Pilgrim",
-        "R. A. Weller"
+        "A. F. Pilgrim"
       ],
       "published_year": 1951,
       "type": "journal-article",
-      "doi": "10.1242/jeb.28.1.74",
-      "url": "https://doi.org/10.1242/jeb.28.1.74",
+      "doi": "10.1242/jeb.28.1.83",
+      "url": "https://doi.org/10.1242/jeb.28.1.83",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -409409,12 +409457,13 @@
     {
       "title": "The Physiology of Sea-Urchin Spermatozoa",
       "authors": [
-        "Lord Rothschild"
+        "Lord Rothschild",
+        "P. H. Tuft"
       ],
       "published_year": 1950,
       "type": "journal-article",
-      "doi": "10.1242/jeb.26.4.396",
-      "url": "https://doi.org/10.1242/jeb.26.4.396",
+      "doi": "10.1242/jeb.27.1.59",
+      "url": "https://doi.org/10.1242/jeb.27.1.59",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -409425,13 +409474,12 @@
     {
       "title": "The Physiology of Sea-Urchin Spermatozoa",
       "authors": [
-        "Lord Rothschild",
-        "P. H. Tuft"
+        "Lord Rothschild"
       ],
       "published_year": 1950,
       "type": "journal-article",
-      "doi": "10.1242/jeb.27.1.59",
-      "url": "https://doi.org/10.1242/jeb.27.1.59",
+      "doi": "10.1242/jeb.26.4.396",
+      "url": "https://doi.org/10.1242/jeb.26.4.396",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411369,23 +411417,6 @@
     {
       "title": "Studies on Sterility and Prenatal Mortality in Wild Rabbits",
       "authors": [
-        "F. W. Rogers Brambell",
-        "Ivor H. Mills"
-      ],
-      "published_year": 1947,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.23.3-4.332",
-      "url": "https://doi.org/10.1242/jeb.23.3-4.332",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Studies on Sterility and Prenatal Mortality in Wild Rabbits",
-      "authors": [
         "Patricia Allen",
         "F. W. Rogers Brambell",
         "Ivor H. Mills"
@@ -411402,15 +411433,15 @@
       }
     },
     {
-      "title": "Studies on Plastron Respiration",
+      "title": "Studies on Sterility and Prenatal Mortality in Wild Rabbits",
       "authors": [
-        "W. H. Thorpe",
-        "D. J. Crisp"
+        "F. W. Rogers Brambell",
+        "Ivor H. Mills"
       ],
       "published_year": 1947,
       "type": "journal-article",
-      "doi": "10.1242/jeb.24.3-4.270",
-      "url": "https://doi.org/10.1242/jeb.24.3-4.270",
+      "doi": "10.1242/jeb.23.3-4.332",
+      "url": "https://doi.org/10.1242/jeb.23.3-4.332",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411428,6 +411459,23 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.24.3-4.227",
       "url": "https://doi.org/10.1242/jeb.24.3-4.227",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Studies on Plastron Respiration",
+      "authors": [
+        "W. H. Thorpe",
+        "D. J. Crisp"
+      ],
+      "published_year": 1947,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.24.3-4.270",
+      "url": "https://doi.org/10.1242/jeb.24.3-4.270",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411602,8 +411650,8 @@
       "authors": [],
       "published_year": 1947,
       "type": "journal-article",
-      "doi": "10.1242/jeb.24.3-4.417",
-      "url": "https://doi.org/10.1242/jeb.24.3-4.417",
+      "doi": "10.1242/jeb.23.3-4.411",
+      "url": "https://doi.org/10.1242/jeb.23.3-4.411",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411616,22 +411664,8 @@
       "authors": [],
       "published_year": 1947,
       "type": "journal-article",
-      "doi": "10.1242/jeb.23.3-4.411",
-      "url": "https://doi.org/10.1242/jeb.23.3-4.411",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Index of Authors",
-      "authors": [],
-      "published_year": 1947,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.24.3-4.419",
-      "url": "https://doi.org/10.1242/jeb.24.3-4.419",
+      "doi": "10.1242/jeb.24.3-4.417",
+      "url": "https://doi.org/10.1242/jeb.24.3-4.417",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411646,6 +411680,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.23.3-4.413",
       "url": "https://doi.org/10.1242/jeb.23.3-4.413",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Index of Authors",
+      "authors": [],
+      "published_year": 1947,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.24.3-4.419",
+      "url": "https://doi.org/10.1242/jeb.24.3-4.419",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411810,8 +411858,8 @@
       ],
       "published_year": 1946,
       "type": "journal-article",
-      "doi": "10.1242/jeb.23.2.162",
-      "url": "https://doi.org/10.1242/jeb.23.2.162",
+      "doi": "10.1242/jeb.23.2.143",
+      "url": "https://doi.org/10.1242/jeb.23.2.143",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411826,8 +411874,8 @@
       ],
       "published_year": 1946,
       "type": "journal-article",
-      "doi": "10.1242/jeb.23.2.143",
-      "url": "https://doi.org/10.1242/jeb.23.2.143",
+      "doi": "10.1242/jeb.23.2.162",
+      "url": "https://doi.org/10.1242/jeb.23.2.162",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411907,8 +411955,8 @@
       ],
       "published_year": 1946,
       "type": "journal-article",
-      "doi": "10.1242/jeb.22.3-4.130",
-      "url": "https://doi.org/10.1242/jeb.22.3-4.130",
+      "doi": "10.1242/jeb.22.3-4.118",
+      "url": "https://doi.org/10.1242/jeb.22.3-4.118",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -411923,8 +411971,8 @@
       ],
       "published_year": 1946,
       "type": "journal-article",
-      "doi": "10.1242/jeb.22.3-4.118",
-      "url": "https://doi.org/10.1242/jeb.22.3-4.118",
+      "doi": "10.1242/jeb.22.3-4.130",
+      "url": "https://doi.org/10.1242/jeb.22.3-4.130",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -412643,8 +412691,8 @@
       ],
       "published_year": 1945,
       "type": "journal-article",
-      "doi": "10.1242/jeb.22.1-2.32",
-      "url": "https://doi.org/10.1242/jeb.22.1-2.32",
+      "doi": "10.1242/jeb.22.1-2.21",
+      "url": "https://doi.org/10.1242/jeb.22.1-2.21",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -412659,8 +412707,8 @@
       ],
       "published_year": 1945,
       "type": "journal-article",
-      "doi": "10.1242/jeb.22.1-2.21",
-      "url": "https://doi.org/10.1242/jeb.22.1-2.21",
+      "doi": "10.1242/jeb.22.1-2.32",
+      "url": "https://doi.org/10.1242/jeb.22.1-2.32",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -413006,8 +413054,8 @@
       ],
       "published_year": 1943,
       "type": "journal-article",
-      "doi": "10.1242/jeb.20.1.54",
-      "url": "https://doi.org/10.1242/jeb.20.1.54",
+      "doi": "10.1242/jeb.20.1.43",
+      "url": "https://doi.org/10.1242/jeb.20.1.43",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -413022,8 +413070,8 @@
       ],
       "published_year": 1943,
       "type": "journal-article",
-      "doi": "10.1242/jeb.20.1.43",
-      "url": "https://doi.org/10.1242/jeb.20.1.43",
+      "doi": "10.1242/jeb.20.1.54",
+      "url": "https://doi.org/10.1242/jeb.20.1.54",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -413785,22 +413833,6 @@
     {
       "title": "The Pigmentation of Cavernicolous Animals",
       "authors": [
-        "R. A. Beatty"
-      ],
-      "published_year": 1941,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.18.2.144",
-      "url": "https://doi.org/10.1242/jeb.18.2.144",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Pigmentation of Cavernicolous Animals",
-      "authors": [
         "Ernest Baldwin",
         "R. A. Beatty"
       ],
@@ -413813,6 +413845,22 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/18/2/136/1229740/136.pdf"
+      }
+    },
+    {
+      "title": "The Pigmentation of Cavernicolous Animals",
+      "authors": [
+        "R. A. Beatty"
+      ],
+      "published_year": 1941,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.18.2.144",
+      "url": "https://doi.org/10.1242/jeb.18.2.144",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -414146,22 +414194,6 @@
     {
       "title": "The Humidity Behaviour of the Mealworm Beetle, <i>Tenebrio Molitor</i> L",
       "authors": [
-        "D. P. Pielou"
-      ],
-      "published_year": 1940,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.17.3.295",
-      "url": "https://doi.org/10.1242/jeb.17.3.295",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/17/3/295/1229523/295.pdf"
-      }
-    },
-    {
-      "title": "The Humidity Behaviour of the Mealworm Beetle, <i>Tenebrio Molitor</i> L",
-      "authors": [
         "D. P. Pielou",
         "D. L. Gunn"
       ],
@@ -414174,6 +414206,22 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/17/3/286/1229519/286.pdf"
+      }
+    },
+    {
+      "title": "The Humidity Behaviour of the Mealworm Beetle, <i>Tenebrio Molitor</i> L",
+      "authors": [
+        "D. P. Pielou"
+      ],
+      "published_year": 1940,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.17.3.295",
+      "url": "https://doi.org/10.1242/jeb.17.3.295",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/17/3/295/1229523/295.pdf"
       }
     },
     {
@@ -415952,13 +416000,13 @@
       ],
       "published_year": 1938,
       "type": "journal-article",
-      "doi": "10.1242/jeb.15.4.474",
-      "url": "https://doi.org/10.1242/jeb.15.4.474",
+      "doi": "10.1242/jeb.15.4.492",
+      "url": "https://doi.org/10.1242/jeb.15.4.492",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/15/4/474/1227184/474.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/15/4/492/1227188/492.pdf"
       }
     },
     {
@@ -415968,13 +416016,13 @@
       ],
       "published_year": 1938,
       "type": "journal-article",
-      "doi": "10.1242/jeb.15.4.492",
-      "url": "https://doi.org/10.1242/jeb.15.4.492",
+      "doi": "10.1242/jeb.15.4.474",
+      "url": "https://doi.org/10.1242/jeb.15.4.474",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/15/4/492/1227188/492.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/15/4/474/1227184/474.pdf"
       }
     },
     {
@@ -416049,13 +416097,13 @@
       ],
       "published_year": 1938,
       "type": "journal-article",
-      "doi": "10.1242/jeb.15.1.114",
-      "url": "https://doi.org/10.1242/jeb.15.1.114",
+      "doi": "10.1242/jeb.15.1.101",
+      "url": "https://doi.org/10.1242/jeb.15.1.101",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/15/1/114/1226912/114.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/15/1/101/1226907/101.pdf"
       }
     },
     {
@@ -416065,13 +416113,13 @@
       ],
       "published_year": 1938,
       "type": "journal-article",
-      "doi": "10.1242/jeb.15.1.101",
-      "url": "https://doi.org/10.1242/jeb.15.1.101",
+      "doi": "10.1242/jeb.15.1.114",
+      "url": "https://doi.org/10.1242/jeb.15.1.114",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/15/1/101/1226907/101.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/15/1/114/1226912/114.pdf"
       }
     },
     {
@@ -417388,6 +417436,22 @@
     {
       "title": "The Biological Basis of Sexual Behaviour in Amphibia",
       "authors": [
+        "H. A. Shapiro"
+      ],
+      "published_year": 1936,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.13.1.48",
+      "url": "https://doi.org/10.1242/jeb.13.1.48",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/13/1/48/1225476/48.pdf"
+      }
+    },
+    {
+      "title": "The Biological Basis of Sexual Behaviour in Amphibia",
+      "authors": [
         "L. Berk",
         "R. W. S. Cheetham",
         "H. A. Shapiro"
@@ -417417,22 +417481,6 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/13/1/57/1225480/57.pdf"
-      }
-    },
-    {
-      "title": "The Biological Basis of Sexual Behaviour in Amphibia",
-      "authors": [
-        "H. A. Shapiro"
-      ],
-      "published_year": 1936,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.13.1.48",
-      "url": "https://doi.org/10.1242/jeb.13.1.48",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/13/1/48/1225476/48.pdf"
       }
     },
     {
@@ -417540,8 +417588,8 @@
       ],
       "published_year": 1936,
       "type": "journal-article",
-      "doi": "10.1242/jeb.13.2.170",
-      "url": "https://doi.org/10.1242/jeb.13.2.170",
+      "doi": "10.1242/jeb.13.2.192",
+      "url": "https://doi.org/10.1242/jeb.13.2.192",
       "abstract": "",
       "oa": {
         "is_oa": true,
@@ -417556,8 +417604,8 @@
       ],
       "published_year": 1936,
       "type": "journal-article",
-      "doi": "10.1242/jeb.13.2.192",
-      "url": "https://doi.org/10.1242/jeb.13.2.192",
+      "doi": "10.1242/jeb.13.2.170",
+      "url": "https://doi.org/10.1242/jeb.13.2.170",
       "abstract": "",
       "oa": {
         "is_oa": true,
@@ -417684,22 +417732,6 @@
     {
       "title": "Physics of the Hen’s Egg",
       "authors": [
-        "T. Moran"
-      ],
-      "published_year": 1936,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.13.1.41",
-      "url": "https://doi.org/10.1242/jeb.13.1.41",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/13/1/41/1225474/41.pdf"
-      }
-    },
-    {
-      "title": "Physics of the Hen’s Egg",
-      "authors": [
         "T. Moran",
         "H. P. Hale"
       ],
@@ -417712,6 +417744,22 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/13/1/35/1225456/35.pdf"
+      }
+    },
+    {
+      "title": "Physics of the Hen’s Egg",
+      "authors": [
+        "T. Moran"
+      ],
+      "published_year": 1936,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.13.1.41",
+      "url": "https://doi.org/10.1242/jeb.13.1.41",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/13/1/41/1225474/41.pdf"
       }
     },
     {
@@ -417728,22 +417776,6 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/13/3/298/1226195/298.pdf"
-      }
-    },
-    {
-      "title": "On the Excitation of Crustacean Muscle",
-      "authors": [
-        "C. F. A. Pantin"
-      ],
-      "published_year": 1936,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.13.1.111",
-      "url": "https://doi.org/10.1242/jeb.13.1.111",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/13/1/111/1225472/111.pdf"
       }
     },
     {
@@ -417776,6 +417808,22 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/13/2/148/1225326/148.pdf"
+      }
+    },
+    {
+      "title": "On the Excitation of Crustacean Muscle",
+      "authors": [
+        "C. F. A. Pantin"
+      ],
+      "published_year": 1936,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.13.1.111",
+      "url": "https://doi.org/10.1242/jeb.13.1.111",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/13/1/111/1225472/111.pdf"
       }
     },
     {
@@ -418043,13 +418091,13 @@
       ],
       "published_year": 1935,
       "type": "journal-article",
-      "doi": "10.1242/jeb.12.3.229",
-      "url": "https://doi.org/10.1242/jeb.12.3.229",
+      "doi": "10.1242/jeb.12.3.254",
+      "url": "https://doi.org/10.1242/jeb.12.3.254",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/12/3/229/1224348/229.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/12/3/254/1224366/254.pdf"
       }
     },
     {
@@ -418059,13 +418107,13 @@
       ],
       "published_year": 1935,
       "type": "journal-article",
-      "doi": "10.1242/jeb.12.3.254",
-      "url": "https://doi.org/10.1242/jeb.12.3.254",
+      "doi": "10.1242/jeb.12.3.229",
+      "url": "https://doi.org/10.1242/jeb.12.3.229",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/12/3/254/1224366/254.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/12/3/229/1224348/229.pdf"
       }
     },
     {
@@ -418125,13 +418173,13 @@
       ],
       "published_year": 1935,
       "type": "journal-article",
-      "doi": "10.1242/jeb.12.4.389",
-      "url": "https://doi.org/10.1242/jeb.12.4.389",
+      "doi": "10.1242/jeb.12.2.139",
+      "url": "https://doi.org/10.1242/jeb.12.2.139",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/12/4/389/1224512/389.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/12/2/139/1224429/139.pdf"
       }
     },
     {
@@ -418141,13 +418189,13 @@
       ],
       "published_year": 1935,
       "type": "journal-article",
-      "doi": "10.1242/jeb.12.2.139",
-      "url": "https://doi.org/10.1242/jeb.12.2.139",
+      "doi": "10.1242/jeb.12.4.389",
+      "url": "https://doi.org/10.1242/jeb.12.4.389",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/12/2/139/1224429/139.pdf"
+        "url": "https://journals.biologists.com/jeb/article-pdf/12/4/389/1224512/389.pdf"
       }
     },
     {
@@ -419173,23 +419221,6 @@
     {
       "title": "Observations on the Fatty Constituents of Marine Plankton",
       "authors": [
-        "J. C. Drummond",
-        "E. R. Gunther"
-      ],
-      "published_year": 1934,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.11.2.203",
-      "url": "https://doi.org/10.1242/jeb.11.2.203",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/11/2/203/1223578/203.pdf"
-      }
-    },
-    {
-      "title": "Observations on the Fatty Constituents of Marine Plankton",
-      "authors": [
         "G. Collin",
         "J. C. Drummond",
         "T. P. Hilditch",
@@ -419204,6 +419235,23 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/11/2/198/1223576/198.pdf"
+      }
+    },
+    {
+      "title": "Observations on the Fatty Constituents of Marine Plankton",
+      "authors": [
+        "J. C. Drummond",
+        "E. R. Gunther"
+      ],
+      "published_year": 1934,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.11.2.203",
+      "url": "https://doi.org/10.1242/jeb.11.2.203",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/11/2/203/1223578/203.pdf"
       }
     },
     {
@@ -419277,22 +419325,6 @@
     {
       "title": "Experiments on Embryonic Induction",
       "authors": [
-        "C.H Waddington"
-      ],
-      "published_year": 1934,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.11.3.218",
-      "url": "https://doi.org/10.1242/jeb.11.3.218",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/11/3/218/1223767/218.pdf"
-      }
-    },
-    {
-      "title": "Experiments on Embryonic Induction",
-      "authors": [
         "C. H. Waddington"
       ],
       "published_year": 1934,
@@ -419304,6 +419336,22 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/11/3/212/1223775/212.pdf"
+      }
+    },
+    {
+      "title": "Experiments on Embryonic Induction",
+      "authors": [
+        "C.H Waddington"
+      ],
+      "published_year": 1934,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.11.3.218",
+      "url": "https://doi.org/10.1242/jeb.11.3.218",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/11/3/218/1223767/218.pdf"
       }
     },
     {
@@ -419651,13 +419699,13 @@
       ],
       "published_year": 1933,
       "type": "journal-article",
-      "doi": "10.1242/jeb.10.4.391",
-      "url": "https://doi.org/10.1242/jeb.10.4.391",
+      "doi": "10.1242/jeb.10.1.88",
+      "url": "https://doi.org/10.1242/jeb.10.1.88",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "hybrid",
-        "url": "https://journals.biologists.com/jeb/article-pdf/15/4/506/2625801/jexbio_15_4_506.pdf"
+        "url": "https://doi.org/10.1242/jeb.15.4.506"
       }
     },
     {
@@ -419683,13 +419731,13 @@
       ],
       "published_year": 1933,
       "type": "journal-article",
-      "doi": "10.1242/jeb.10.1.88",
-      "url": "https://doi.org/10.1242/jeb.10.1.88",
+      "doi": "10.1242/jeb.10.4.391",
+      "url": "https://doi.org/10.1242/jeb.10.4.391",
       "abstract": "",
       "oa": {
         "is_oa": true,
         "status": "hybrid",
-        "url": "https://doi.org/10.1242/jeb.15.4.506"
+        "url": "https://journals.biologists.com/jeb/article-pdf/15/4/506/2625801/jexbio_15_4_506.pdf"
       }
     },
     {
@@ -419844,6 +419892,22 @@
     {
       "title": "Metabolic Changes Associated with Endocrine Activity and the Reproductive Cycle in <i>Xenopus Laevis</i>",
       "authors": [
+        "H. Zwarenstein"
+      ],
+      "published_year": 1933,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.10.3.201",
+      "url": "https://doi.org/10.1242/jeb.10.3.201",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/10/3/201/1223641/201.pdf"
+      }
+    },
+    {
+      "title": "Metabolic Changes Associated with Endocrine Activity and the Reproductive Cycle in <i>Xenopus Laevis</i>",
+      "authors": [
         "H. A. Shapiro",
         "H. Zwarenstein"
       ],
@@ -419856,22 +419920,6 @@
         "is_oa": true,
         "status": "bronze",
         "url": "https://journals.biologists.com/jeb/article-pdf/10/2/186/1223237/186.pdf"
-      }
-    },
-    {
-      "title": "Metabolic Changes Associated with Endocrine Activity and the Reproductive Cycle in <i>Xenopus Laevis</i>",
-      "authors": [
-        "H. Zwarenstein"
-      ],
-      "published_year": 1933,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.10.3.201",
-      "url": "https://doi.org/10.1242/jeb.10.3.201",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/10/3/201/1223641/201.pdf"
       }
     },
     {
@@ -419895,12 +419943,12 @@
       "title": "Light penetration into fresh water",
       "authors": [
         "W. H. Pearsall",
-        "T. Hewitt"
+        "P. Ullyott"
       ],
       "published_year": 1933,
       "type": "journal-article",
-      "doi": "10.1242/jeb.10.4.306",
-      "url": "https://doi.org/10.1242/jeb.10.4.306",
+      "doi": "10.1242/jeb.10.4.293",
+      "url": "https://doi.org/10.1242/jeb.10.4.293",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -419912,12 +419960,12 @@
       "title": "Light penetration into fresh water",
       "authors": [
         "W. H. Pearsall",
-        "P. Ullyott"
+        "T. Hewitt"
       ],
       "published_year": 1933,
       "type": "journal-article",
-      "doi": "10.1242/jeb.10.4.293",
-      "url": "https://doi.org/10.1242/jeb.10.4.293",
+      "doi": "10.1242/jeb.10.4.306",
+      "url": "https://doi.org/10.1242/jeb.10.4.306",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -420280,8 +420328,8 @@
       ],
       "published_year": 1932,
       "type": "journal-article",
-      "doi": "10.1242/jeb.9.4.366",
-      "url": "https://doi.org/10.1242/jeb.9.4.366",
+      "doi": "10.1242/jeb.9.2.128",
+      "url": "https://doi.org/10.1242/jeb.9.2.128",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -420312,8 +420360,8 @@
       ],
       "published_year": 1932,
       "type": "journal-article",
-      "doi": "10.1242/jeb.9.2.128",
-      "url": "https://doi.org/10.1242/jeb.9.2.128",
+      "doi": "10.1242/jeb.9.4.366",
+      "url": "https://doi.org/10.1242/jeb.9.4.366",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -420446,24 +420494,8 @@
       ],
       "published_year": 1932,
       "type": "journal-article",
-      "doi": "10.1242/jeb.9.3.264",
-      "url": "https://doi.org/10.1242/jeb.9.3.264",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "Iodine Compounds and Fertilisation",
-      "authors": [
-        "G. S. Carter"
-      ],
-      "published_year": 1932,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.9.3.253",
-      "url": "https://doi.org/10.1242/jeb.9.3.253",
+      "doi": "10.1242/jeb.9.4.378",
+      "url": "https://doi.org/10.1242/jeb.9.4.378",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -420494,8 +420526,24 @@
       ],
       "published_year": 1932,
       "type": "journal-article",
-      "doi": "10.1242/jeb.9.4.378",
-      "url": "https://doi.org/10.1242/jeb.9.4.378",
+      "doi": "10.1242/jeb.9.3.253",
+      "url": "https://doi.org/10.1242/jeb.9.3.253",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Iodine Compounds and Fertilisation",
+      "authors": [
+        "G. S. Carter"
+      ],
+      "published_year": 1932,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.9.3.264",
+      "url": "https://doi.org/10.1242/jeb.9.3.264",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -420733,38 +420781,6 @@
     {
       "title": "The Relations Between Yolk and White in the Hen’s Egg",
       "authors": [
-        "Michael Smith"
-      ],
-      "published_year": 1931,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.8.3.312",
-      "url": "https://doi.org/10.1242/jeb.8.3.312",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Relations Between Yolk and White in the Hen’s Egg",
-      "authors": [
-        "Joseph Needham"
-      ],
-      "published_year": 1931,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.8.3.330",
-      "url": "https://doi.org/10.1242/jeb.8.3.330",
-      "abstract": "",
-      "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
-      }
-    },
-    {
-      "title": "The Relations Between Yolk and White in the Hen’s Egg",
-      "authors": [
         "Michael Smith",
         "James Shepherd"
       ],
@@ -420798,6 +420814,38 @@
       }
     },
     {
+      "title": "The Relations Between Yolk and White in the Hen’s Egg",
+      "authors": [
+        "Michael Smith"
+      ],
+      "published_year": 1931,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.8.3.312",
+      "url": "https://doi.org/10.1242/jeb.8.3.312",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The Relations Between Yolk and White in the Hen’s Egg",
+      "authors": [
+        "Joseph Needham"
+      ],
+      "published_year": 1931,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.8.3.330",
+      "url": "https://doi.org/10.1242/jeb.8.3.330",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
       "title": "The Physiology of Excretion in a Blood-Sucking Insect, <i>Rhodnius Prolixus</i> (Hemiptera, Reduviidae)",
       "authors": [
         "V. B. Wigglesworth"
@@ -420820,8 +420868,8 @@
       ],
       "published_year": 1931,
       "type": "journal-article",
-      "doi": "10.1242/jeb.8.4.443",
-      "url": "https://doi.org/10.1242/jeb.8.4.443",
+      "doi": "10.1242/jeb.8.4.428",
+      "url": "https://doi.org/10.1242/jeb.8.4.428",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -420836,8 +420884,8 @@
       ],
       "published_year": 1931,
       "type": "journal-article",
-      "doi": "10.1242/jeb.8.4.428",
-      "url": "https://doi.org/10.1242/jeb.8.4.428",
+      "doi": "10.1242/jeb.8.4.443",
+      "url": "https://doi.org/10.1242/jeb.8.4.443",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -421049,13 +421097,13 @@
       ],
       "published_year": 1931,
       "type": "journal-article",
-      "doi": "10.1242/jeb.8.3.258",
-      "url": "https://doi.org/10.1242/jeb.8.3.258",
+      "doi": "10.1242/jeb.8.3.263",
+      "url": "https://doi.org/10.1242/jeb.8.3.263",
       "abstract": "",
       "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/8/3/258/1343901/258.pdf"
+        "is_oa": false,
+        "status": "closed",
+        "url": null
       }
     },
     {
@@ -421065,13 +421113,13 @@
       ],
       "published_year": 1931,
       "type": "journal-article",
-      "doi": "10.1242/jeb.8.3.263",
-      "url": "https://doi.org/10.1242/jeb.8.3.263",
+      "doi": "10.1242/jeb.8.3.258",
+      "url": "https://doi.org/10.1242/jeb.8.3.258",
       "abstract": "",
       "oa": {
-        "is_oa": false,
-        "status": "closed",
-        "url": null
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/8/3/258/1343901/258.pdf"
       }
     },
     {
@@ -421275,13 +421323,12 @@
     {
       "title": "A Study of the Function of the Epididymis",
       "authors": [
-        "Fiorindo A. Simeone",
         "William C. Young"
       ],
       "published_year": 1931,
       "type": "journal-article",
-      "doi": "10.1242/jeb.8.2.163",
-      "url": "https://doi.org/10.1242/jeb.8.2.163",
+      "doi": "10.1242/jeb.8.2.151",
+      "url": "https://doi.org/10.1242/jeb.8.2.151",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -421292,12 +421339,13 @@
     {
       "title": "A Study of the Function of the Epididymis",
       "authors": [
+        "Fiorindo A. Simeone",
         "William C. Young"
       ],
       "published_year": 1931,
       "type": "journal-article",
-      "doi": "10.1242/jeb.8.2.151",
-      "url": "https://doi.org/10.1242/jeb.8.2.151",
+      "doi": "10.1242/jeb.8.2.163",
+      "url": "https://doi.org/10.1242/jeb.8.2.163",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -421572,8 +421620,8 @@
       ],
       "published_year": 1930,
       "type": "journal-article",
-      "doi": "10.1242/jeb.7.4.385",
-      "url": "https://doi.org/10.1242/jeb.7.4.385",
+      "doi": "10.1242/jeb.7.4.373",
+      "url": "https://doi.org/10.1242/jeb.7.4.373",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -421588,8 +421636,8 @@
       ],
       "published_year": 1930,
       "type": "journal-article",
-      "doi": "10.1242/jeb.7.4.373",
-      "url": "https://doi.org/10.1242/jeb.7.4.373",
+      "doi": "10.1242/jeb.7.4.385",
+      "url": "https://doi.org/10.1242/jeb.7.4.385",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -422057,12 +422105,12 @@
     {
       "title": "On the Nature of Hereditary Size Limitation",
       "authors": [
-        "R. Cumming Robb"
+        "Robert Cumming Robb"
       ],
       "published_year": 1929,
       "type": "journal-article",
-      "doi": "10.1242/jeb.6.4.311",
-      "url": "https://doi.org/10.1242/jeb.6.4.311",
+      "doi": "10.1242/jeb.6.3.293",
+      "url": "https://doi.org/10.1242/jeb.6.3.293",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -422073,12 +422121,12 @@
     {
       "title": "On the Nature of Hereditary Size Limitation",
       "authors": [
-        "Robert Cumming Robb"
+        "R. Cumming Robb"
       ],
       "published_year": 1929,
       "type": "journal-article",
-      "doi": "10.1242/jeb.6.3.293",
-      "url": "https://doi.org/10.1242/jeb.6.3.293",
+      "doi": "10.1242/jeb.6.4.311",
+      "url": "https://doi.org/10.1242/jeb.6.4.311",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -422451,8 +422499,8 @@
       ],
       "published_year": 1928,
       "type": "journal-article",
-      "doi": "10.1242/jeb.5.3.233",
-      "url": "https://doi.org/10.1242/jeb.5.3.233",
+      "doi": "10.1242/jeb.5.3.242",
+      "url": "https://doi.org/10.1242/jeb.5.3.242",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -422467,8 +422515,8 @@
       ],
       "published_year": 1928,
       "type": "journal-article",
-      "doi": "10.1242/jeb.5.3.242",
-      "url": "https://doi.org/10.1242/jeb.5.3.242",
+      "doi": "10.1242/jeb.5.3.233",
+      "url": "https://doi.org/10.1242/jeb.5.3.233",
       "abstract": "",
       "oa": {
         "is_oa": false,
@@ -422920,6 +422968,22 @@
       ],
       "published_year": 1927,
       "type": "journal-article",
+      "doi": "10.1242/jeb.5.1.27",
+      "url": "https://doi.org/10.1242/jeb.5.1.27",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "bronze",
+        "url": "https://journals.biologists.com/jeb/article-pdf/10/1/79/1223290/79.pdf"
+      }
+    },
+    {
+      "title": "The Energy-Sources in Ontogenesis",
+      "authors": [
+        "Joseph Needham"
+      ],
+      "published_year": 1927,
+      "type": "journal-article",
       "doi": "10.1242/jeb.5.1.6",
       "url": "https://doi.org/10.1242/jeb.5.1.6",
       "abstract": "",
@@ -422938,22 +423002,6 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.4.3.258",
       "url": "https://doi.org/10.1242/jeb.4.3.258",
-      "abstract": "",
-      "oa": {
-        "is_oa": true,
-        "status": "bronze",
-        "url": "https://journals.biologists.com/jeb/article-pdf/10/1/79/1223290/79.pdf"
-      }
-    },
-    {
-      "title": "The Energy-Sources in Ontogenesis",
-      "authors": [
-        "Joseph Needham"
-      ],
-      "published_year": 1927,
-      "type": "journal-article",
-      "doi": "10.1242/jeb.5.1.27",
-      "url": "https://doi.org/10.1242/jeb.5.1.27",
       "abstract": "",
       "oa": {
         "is_oa": true,
@@ -423467,8 +423515,8 @@
       ],
       "published_year": 1926,
       "type": "journal-article",
-      "doi": "10.1242/jeb.4.2.145",
-      "url": "https://doi.org/10.1242/jeb.4.2.145",
+      "doi": "10.1242/jeb.3.3.189",
+      "url": "https://doi.org/10.1242/jeb.3.3.189",
       "abstract": "",
       "oa": {
         "is_oa": true,
@@ -423483,8 +423531,8 @@
       ],
       "published_year": 1926,
       "type": "journal-article",
-      "doi": "10.1242/jeb.3.3.189",
-      "url": "https://doi.org/10.1242/jeb.3.3.189",
+      "doi": "10.1242/jeb.4.2.145",
+      "url": "https://doi.org/10.1242/jeb.4.2.145",
       "abstract": "",
       "oa": {
         "is_oa": true,
