@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T05:52:24.287348+00:00",
+  "last_updated": "2026-08-27T16:34:22.660242+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -1854,7 +1854,7 @@
       }
     },
     {
-      "title": "Salinity-induced metabolic reorganization in a long-lived marine osmoconformer\n                    <i>Arctica islandica</i>\n                    : Insights from contrasting arctic environments",
+      "title": "Salinity-induced metabolic reorganization in a long-lived marine osmoconformer,\n                    <i>Arctica islandica</i>\n                    : insights from contrasting Arctic environments",
       "authors": [
         "Larisa Basova",
         "Stefan Timm",
@@ -3552,6 +3552,29 @@
       }
     },
     {
+      "title": "Impact of light pollution spectra and intensity on the development and mortality of tiger mosquito (\n                    <i>Aedes albopictus</i>\n                    ) larvae",
+      "authors": [
+        "Lauren E. Johnson",
+        "Emma R. Uder",
+        "Kathleen G. Dobbs",
+        "Elena Powell",
+        "Laura L. Tayon",
+        "Tom Radomski",
+        "Kim A. Medley",
+        "Katie M. Westby"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252361",
+      "url": "https://doi.org/10.1242/jeb.252361",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Immunity genes tell some black desert ants to come to the rescue",
       "authors": [
         "Jarren Kay"
@@ -4015,6 +4038,25 @@
       }
     },
     {
+      "title": "Greenland sharks conform to expectations of neutral buoyancy but exhibit inter-individual variation",
+      "authors": [
+        "Eric Ste-Marie",
+        "Yuuki Y. Watanabe",
+        "Marianne Marcoux",
+        "Nigel E. Hussey"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252246",
+      "url": "https://doi.org/10.1242/jeb.252246",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Great hammerhead sharks outperform the curve",
       "authors": [
         "Jarren Kay"
@@ -4028,6 +4070,24 @@
         "is_oa": null,
         "status": null,
         "url": null
+      }
+    },
+    {
+      "title": "Gills are not the primary site of gas exchange in the suspension-feeding hemichordate\n                    <i>Protoglossus graveolens</i>",
+      "authors": [
+        "Michael A. Sackville",
+        "Christopher B. Cameron",
+        "Colin J. Brauner"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253087",
+      "url": "https://doi.org/10.1242/jeb.253087",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "hybrid",
+        "url": "https://doi.org/10.1242/jeb.253087"
       }
     },
     {
@@ -5105,6 +5165,20 @@
       "oa": {
         "is_oa": null,
         "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Yakun Cao",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253153",
+      "url": "https://doi.org/10.1242/jeb.253153",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
         "url": null
       }
     },
