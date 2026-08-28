@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T16:34:22.660242+00:00",
+  "last_updated": "2026-08-28T17:28:45.866696+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -153,6 +153,22 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252635",
       "url": "https://doi.org/10.1242/jeb.252635",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Wide steps keep unbalanced walkers efficient",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253261",
+      "url": "https://doi.org/10.1242/jeb.253261",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -3889,6 +3905,22 @@
       }
     },
     {
+      "title": "High-altitude excursions cost migrating great snipe next to nothing",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253266",
+      "url": "https://doi.org/10.1242/jeb.253266",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Heuristic rules for cooperative transport in wood ant nest maintenance",
       "authors": [
         "Natalie Arscott",
@@ -4670,6 +4702,25 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252506",
       "url": "https://doi.org/10.1242/jeb.252506",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Exercise training induces muscle remodeling independent of estrogen-related receptor (ERR) expression in adult zebrafish",
+      "authors": [
+        "Riley K. Mantulak",
+        "Simer K. Gill",
+        "Giulia S. Rossi",
+        "Alexander G. Little"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252349",
+      "url": "https://doi.org/10.1242/jeb.252349",
       "abstract": "",
       "oa": {
         "is_oa": null,
