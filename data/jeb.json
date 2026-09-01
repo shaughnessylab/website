@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T11:38:38.292814+00:00",
+  "last_updated": "2026-09-01T10:11:25.845912+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -926,6 +926,24 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "The motor pattern of rolling escape locomotion in\n                    <i>Drosophila</i>\n                    larvae",
+      "authors": [
+        "Liping He",
+        "Lydia J. Borjon",
+        "W. Daniel Tracey"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252063",
+      "url": "https://doi.org/10.1242/jeb.252063",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
@@ -2650,6 +2668,23 @@
       }
     },
     {
+      "title": "Navigational behaviour of\n                    <i>Hermissenda crassicornis</i>\n                    in natural wave-affected flow conditions",
+      "authors": [
+        "Alexandra Reinhardt",
+        "Russell C. Wyeth"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252174",
+      "url": "https://doi.org/10.1242/jeb.252174",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Muscle diffraction at the life science X-ray scattering beamline",
       "authors": [
         "Khoi D. Nguyen",
@@ -4244,6 +4279,27 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "From opsin gene expression to visual performance: an investigation into the multiple spectral sensitivities of boxfishes (\n                    <i>Ostracion spp.</i>\n                    )",
+      "authors": [
+        "Abigail Shaughnessy",
+        "Martin Luehrmann",
+        "Fanny de Busserolles",
+        "N. Justin Marshall",
+        "Fabio Cortesi",
+        "Karen L. Cheney"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252538",
+      "url": "https://doi.org/10.1242/jeb.252538",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
