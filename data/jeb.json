@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T10:11:25.845912+00:00",
+  "last_updated": "2026-09-02T09:41:39.504679+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -4674,7 +4674,7 @@
       }
     },
     {
-      "title": "Exploring the role of barbule density on feather water repellency: Insights from 3D modeling and a comparative analysis",
+      "title": "Exploring the role of barbule density in feather water repellency: insights from 3D modeling and a comparative analysis",
       "authors": [
         "Frank M. S. Muzio",
         "Metehan Çam",
@@ -6080,6 +6080,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251908",
       "url": "https://doi.org/10.1242/jeb.251908",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Frank Muzio",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253301",
+      "url": "https://doi.org/10.1242/jeb.253301",
       "abstract": "",
       "oa": {
         "is_oa": null,
