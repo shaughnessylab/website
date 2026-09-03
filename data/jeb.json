@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T09:41:39.504679+00:00",
+  "last_updated": "2026-09-03T09:54:58.741017+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -1992,12 +1992,33 @@
       }
     },
     {
-      "title": "RNAseK is vital for epithelial function in Drosophila melanogaster",
+      "title": "Repeated competition influences neural response, but not neurogenesis or physiology, in the fighting fish\n                    <i>Betta splendens</i>",
       "authors": [
-        "C. Maurya",
-        "A. D. Gillen",
-        "S. Keenan",
-        "J. A. T. Dow"
+        "Jeremy A. Spool",
+        "Alexander J. A. Heywood",
+        "Ruth E. W. Berganross",
+        "Elaine A. Aquino",
+        "Temidayo D. Bambe",
+        "Kelly J. Wallace"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252766",
+      "url": "https://doi.org/10.1242/jeb.252766",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "RNAseK is vital for epithelial function in\n                    <i>Drosophila melanogaster</i>",
+      "authors": [
+        "Chandan Maurya",
+        "Andrew D. Gillen",
+        "Shannon Keenan",
+        "Julian A. T. Dow"
       ],
       "published_year": 2026,
       "type": "journal-article",
@@ -5032,6 +5053,31 @@
       }
     },
     {
+      "title": "Elevated hemolymph protein and branched-chain amino acids are associated with fungal Metarhizium growth and host mortality in the desert locust, Schistocerca gregaria",
+      "authors": [
+        "Syeda Mehreen Tahir",
+        "Tamir Lichaa",
+        "Thy Nguyen",
+        "Stephanie Nunez",
+        "Nicholas Rolig",
+        "Stefan Jaronski",
+        "Brian Cherry",
+        "Syed Muaaz",
+        "Arianne J. Cease",
+        "Jon F. Harrison"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253238",
+      "url": "https://doi.org/10.1242/jeb.253238",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Effects of wingbeat kinematics and muscle size on maximum flight speed in hummingbirds",
       "authors": [
         "Nadje A. Najar",
@@ -6332,6 +6378,20 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252990",
       "url": "https://doi.org/10.1242/jeb.252990",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Chandan Maurya",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253200",
+      "url": "https://doi.org/10.1242/jeb.253200",
       "abstract": "",
       "oa": {
         "is_oa": null,
