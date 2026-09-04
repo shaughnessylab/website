@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T09:54:58.741017+00:00",
+  "last_updated": "2026-09-04T09:43:03.548821+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -1869,7 +1869,7 @@
       }
     },
     {
-      "title": "Seasonal variation in resting metabolic rate, thyroid hormones, and cortisol in the bottlenose dolphin (\n                    <i>Tursiops truncatus</i>\n                    )",
+      "title": "Seasonal variation in resting metabolic rate, thyroid hormones and cortisol in the bottlenose dolphin (\n                    <i>Tursiops truncatus</i>\n                    )",
       "authors": [
         "Angelo J. Incitti",
         "Cassondra L. Williams",
@@ -6508,6 +6508,20 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Angelo Incitti",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253268",
+      "url": "https://doi.org/10.1242/jeb.253268",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
