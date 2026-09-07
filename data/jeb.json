@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T09:29:12.559775+00:00",
+  "last_updated": "2026-09-07T10:26:42.744166+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -1186,6 +1186,24 @@
       }
     },
     {
+      "title": "Testing the gearbox hypothesis for insect flight control",
+      "authors": [
+        "Abin Ghosh",
+        "Girish Kumar G. S.",
+        "Sanjay P. Sane"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.250768",
+      "url": "https://doi.org/10.1242/jeb.250768",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "Terrestrial emergence reflects lower thermal preferences in the mangrove rivulus (\n                    <i>Kryptolebias marmoratus</i>\n                    )",
       "authors": [
         "Katlyn E. Dundas",
@@ -1400,6 +1418,25 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252949",
       "url": "https://doi.org/10.1242/jeb.252949",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Stroke rate detection from accelerometer data on marine mammals",
+      "authors": [
+        "Frederik H. Jensen",
+        "Outi M. Tervo",
+        "Mads Peter Heide-Jørgensen",
+        "Susanne Ditlevsen"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252217",
+      "url": "https://doi.org/10.1242/jeb.252217",
       "abstract": "",
       "oa": {
         "is_oa": null,
@@ -6134,6 +6171,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Frederik Jensen",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253247",
+      "url": "https://doi.org/10.1242/jeb.253247",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Frank Muzio",
       "authors": [],
       "published_year": 2026,
@@ -8225,6 +8276,27 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.251335",
       "url": "https://doi.org/10.1242/jeb.251335",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "A quantitative muscle color metric provides a standardized measure of muscle functional state during breakdown in Gryllus lineaticeps",
+      "authors": [
+        "Meghan Laturney",
+        "Lourenço M. A. Martins",
+        "Tomás Diaz",
+        "Evan Lo",
+        "Nio Uen",
+        "Caroline M. Williams"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252437",
+      "url": "https://doi.org/10.1242/jeb.252437",
       "abstract": "",
       "oa": {
         "is_oa": null,
