@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T10:26:42.744166+00:00",
+  "last_updated": "2026-09-08T09:46:42.002724+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -35,6 +35,27 @@
         "is_oa": true,
         "status": "hybrid",
         "url": "https://journals.biologists.com/jeb/article-pdf/doi/10.1242/jeb.251003/3672938/jeb251003.pdf"
+      }
+    },
+    {
+      "title": "Zinc induces cooperative group formation in sperm from the deer mouse,\n                    <i>Peromyscus maniculatus</i>",
+      "authors": [
+        "Rachel E. Bainbridge",
+        "Joel C. Rosenbaum",
+        "Kayla M. Komondor",
+        "Karen Peralta Martínez",
+        "Kevin D. Kohl",
+        "Anne E. Carlson"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252740",
+      "url": "https://doi.org/10.1242/jeb.252740",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
       }
     },
     {
@@ -242,6 +263,23 @@
       "oa": {
         "is_oa": false,
         "status": "closed",
+        "url": null
+      }
+    },
+    {
+      "title": "Walking in circles: Linking high- and low-level parameter scaling of visually guided and spontaneous turning behaviour",
+      "authors": [
+        "Merit Meschenmoser",
+        "Volker Dürr"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252608",
+      "url": "https://doi.org/10.1242/jeb.252608",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
         "url": null
       }
     },
@@ -2996,6 +3034,22 @@
       "oa": {
         "is_oa": null,
         "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Memory of conflict location fine-tunes desert ant navigation",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253326",
+      "url": "https://doi.org/10.1242/jeb.253326",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
         "url": null
       }
     },
@@ -6535,6 +6589,20 @@
       }
     },
     {
+      "title": "ECR Spotlight – Antonio Bollig",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253259",
+      "url": "https://doi.org/10.1242/jeb.253259",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
+        "url": null
+      }
+    },
+    {
       "title": "ECR Spotlight – Anneline Mattens",
       "authors": [],
       "published_year": 2026,
@@ -7975,6 +8043,26 @@
         "is_oa": false,
         "status": "closed",
         "url": null
+      }
+    },
+    {
+      "title": "Aggressive conflict used as landmark information in homing desert ants",
+      "authors": [
+        "Antonio Bollig",
+        "Marília Freire",
+        "Konrad Bücking",
+        "Jana Kühnapfel",
+        "Markus Knaden"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.252859",
+      "url": "https://doi.org/10.1242/jeb.252859",
+      "abstract": "",
+      "oa": {
+        "is_oa": true,
+        "status": "hybrid",
+        "url": "https://doi.org/10.1242/jeb.252859"
       }
     },
     {
