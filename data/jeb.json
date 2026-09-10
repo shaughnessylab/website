@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T09:51:04.784785+00:00",
+  "last_updated": "2026-09-10T09:49:58.587777+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -6025,6 +6025,20 @@
       "oa": {
         "is_oa": null,
         "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "ECR Spotlight – Khalil Russell",
+      "authors": [],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253202",
+      "url": "https://doi.org/10.1242/jeb.253202",
+      "abstract": "",
+      "oa": {
+        "is_oa": false,
+        "status": "closed",
         "url": null
       }
     },
