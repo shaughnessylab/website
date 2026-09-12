@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:48:24.058879+00:00",
+  "last_updated": "2026-09-12T09:26:01.243095+00:00",
   "items": [
     {
       "title": "‘Why is publishing so expensive?’",
@@ -4244,6 +4244,22 @@
       "type": "journal-article",
       "doi": "10.1242/jeb.252569",
       "url": "https://doi.org/10.1242/jeb.252569",
+      "abstract": "",
+      "oa": {
+        "is_oa": null,
+        "status": null,
+        "url": null
+      }
+    },
+    {
+      "title": "Gills evolved the ability to absorb oxygen later on the tree of life",
+      "authors": [
+        "Kathryn Knight"
+      ],
+      "published_year": 2026,
+      "type": "journal-article",
+      "doi": "10.1242/jeb.253419",
+      "url": "https://doi.org/10.1242/jeb.253419",
       "abstract": "",
       "oa": {
         "is_oa": null,
